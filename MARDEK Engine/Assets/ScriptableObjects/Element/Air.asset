@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b112895aff932dc45a6662e3c917d84f, type: 3}
+  m_Name: Air
+  m_EditorClassIdentifier: 
+  _thinSprite: {fileID: 3286163911610860551, guid: b10aec20871dcce439a537e6a4ccddd9, type: 3}
+  _thickSprite: {fileID: 3286163911610860551, guid: 3d91f052d4bb22748a98914fad3ccc8a, type: 3}
+  _textColor: {r: 1, g: 0.84705883, b: 0.39215687, a: 1}
