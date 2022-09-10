@@ -6,7 +6,8 @@ using FullSerializer;
 
 namespace MARDEK.Core
 {
-    //[fsObject(Converter = typeof(GuidReferenceConverter))]
+    // Comment the following line  to make JSONReader.cs work:
+    [fsObject(Converter = typeof(GuidReferenceConverter))]
     public abstract class AddressableScriptableObject : ScriptableObject, IAddressableGuid
     {
         public Guid GetGuid()

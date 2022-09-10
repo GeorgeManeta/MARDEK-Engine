@@ -8,6 +8,9 @@ using System.Collections.Generic;
 
 namespace MARDEK.Inventory
 {
+    // To make this work:
+    // 1. Comment the denoted line (currently line 10) in AddressableScriptableObject.cs
+    // 2. Uncomment the setter for Element and the ElementValue attributes in Item.cs
     public class JSONReader : MonoBehaviour
     {
         // All possible elements should be placed here in the editor for access.
