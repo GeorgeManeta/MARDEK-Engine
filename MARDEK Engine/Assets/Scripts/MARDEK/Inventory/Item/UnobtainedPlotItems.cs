@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MURP.InventorySystem{
+namespace MARDEK.Inventory{
     [System.Serializable]
     public class UnobtainedPlotItems
     {
