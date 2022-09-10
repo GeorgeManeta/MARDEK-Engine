@@ -6,7 +6,7 @@ using FullSerializer;
 
 namespace MARDEK.Core
 {
-    [fsObject(Converter = typeof(GuidReferenceConverter))]
+    //[fsObject(Converter = typeof(GuidReferenceConverter))]
     public abstract class AddressableScriptableObject : ScriptableObject, IAddressableGuid
     {
         public Guid GetGuid()
