@@ -11,6 +11,8 @@ namespace MARDEK.Inventory
     {
         [SerializeField] string _displayName;
         public string displayName { get { return _displayName; } set { _displayName = value;} }
+        [SerializeField] string _elementText;
+        public string elementText { get { return _elementText; } set { _elementText = value;} }
         [SerializeField] string _description;
         public string description { get { return CreateFullDescription(_description); } set { _description = value;} }
         [SerializeField] Sprite _sprite;
