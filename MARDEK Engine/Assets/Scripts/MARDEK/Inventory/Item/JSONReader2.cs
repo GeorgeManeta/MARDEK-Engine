@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEditor;
 using FullSerializer;
 using MARDEK.Core;
 using MARDEK.Stats;
@@ -16,11 +17,13 @@ namespace MARDEK.Inventory
         {
             DeserializeItems();
         }
+
         [ContextMenu("Deserialize")]
         void DeserializeItems()
         {
-            Dictionary<string,Element> elemDict = new Dictionary<string,Element>();
-            foreach(Element elem in elements){
+            Dictionary<string, Element> elemDict = new Dictionary<string, Element>();
+            foreach (Element elem in elements)
+            {
                 elemDict[elem.name] = elem;
                 Debug.Log(elem.name);
             }
@@ -28,13 +31,24 @@ namespace MARDEK.Inventory
             fsSerializer serializer = new fsSerializer();
             fsJsonParser.Parse(jsonFile.text, out fsData data);
             serializer.TryDeserialize(data, ref list);
-            foreach(UnobtainedPlotItem item in list.items){
+            foreach (UnobtainedPlotItem item in list.items)
+            {
                 Debug.Log(item.displayName);
                 Debug.Log(item.price);
                 Debug.Log(item.description);
-                if(item.elementText != ""){
-                    Debug.Log(elemDict[item.elementText].name);
+                if (item.elementText != "")
+                {
+                    item.element = elemDict[item.elementText];
+                    Debug.Log(item.element.name);
                 }
+
+                AssetDatabase.CreateAsset(
+                    item,
+                    "Assets/ScriptableObjects/Item/PlotItems/" + item.displayName + ".asset"
+                );
+
+                // Print the path of the created asset
+                Debug.Log(AssetDatabase.GetAssetPath(item));
             }
         }
     }
