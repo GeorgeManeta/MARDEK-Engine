@@ -1,0 +1,92 @@
+{"items":[
+  {
+    "_displayName": "Wing Shield",
+    "_price": 4000,
+    "_elementType": "",
+    "_description": "A type of shield made in Aeropolis, with a sort of 'feather rune' motif. It increases agility, and protects against AIR and EARTH.",
+    "_DEF": 4,
+    "_MDEF": 0,
+    "_EVA": 30
+  },
+  {
+    "_displayName": "Glyph Shield",
+    "_price": 8000,
+    "_elementType": "Earth",
+    "_description": "This shield is decorated with an enchanted glyph which protects against the natural elements, and magic in general.",
+    "_DEF": 1,
+    "_MDEF": 6,
+    "_EVA": 15
+  },
+  {
+    "_displayName": "Shield of Light",
+    "_price": 5000,
+    "_elementType": "Light",
+    "_description": "A shield elementally attuned to the power of Light.",
+    "_DEF": 3,
+    "_MDEF": 3,
+    "_EVA": 15
+  },
+  {
+    "_displayName": "Shield of Darkness",
+    "_price": 5000,
+    "_elementType": "Dark",
+    "_description": "A shield elementally attuned to the power of Darkness.",
+    "_DEF": 3,
+    "_MDEF": 3,
+    "_EVA": 15
+  },
+  {
+    "_displayName": "Gold Shield",
+    "_price": 8000,
+    "_elementType": "",
+    "_description": "This shield ISN'T made of solid gold, because it'd be ludicrously expensive and rather soft and useless if it was. Instead, it's merely gold-plated.",
+    "_DEF": 4,
+    "_MDEF": 0,
+    "_EVA": 15
+  },
+  {
+    "_displayName": "Rune Shield +",
+    "_price": 16000,
+    "_elementType": "Thauma",
+    "_description": "An improved version of the Rune Shield. It offers greater protection against magic.",
+    "_DEF": 1,
+    "_MDEF": 10,
+    "_EVA": 10
+  },
+  {
+    "_displayName": "Rune Shield",
+    "_price": 5000,
+    "_elementType": "Thauma",
+    "_description": "A wooden shield engraved with magical runes. It's not too useful against physical strikes, but it wards magic quite well.",
+    "_DEF": 1,
+    "_MDEF": 5,
+    "_EVA": 10
+  },
+  {
+    "_displayName": "Kite Shield",
+    "_price": 2000,
+    "_elementType": "",
+    "_description": "An iron shield fashioned in a kite shape for some reason. These are often used by knights.",
+    "_DEF": 3,
+    "_MDEF": 0,
+    "_EVA": 10
+  },
+  {
+    "_displayName": "Bronze Shield",
+    "_price": 250,
+    "_elementType": "",
+    "_description": "A shield made of bronze.",
+    "_DEF": 2,
+    "_MDEF": 0,
+    "_EVA": 7
+  },
+  {
+    "_displayName": "Wooden Shield",
+    "_price": 20,
+    "_elementType": "",
+    "_description": "A round shield made of wood. Pretty light, but offers only some small protection. Good for poor people!",
+    "_DEF": 1,
+    "_MDEF": 0,
+    "_EVA": 5
+  }
+]}

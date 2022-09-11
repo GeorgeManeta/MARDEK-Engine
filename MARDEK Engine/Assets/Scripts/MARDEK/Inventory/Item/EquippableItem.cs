@@ -12,9 +12,28 @@ namespace MARDEK.Inventory
         // TODO Skills
         // TODO Status effects
 
-        public EquipmentCategory category { get { return _category; } }
+        [SerializeField] int _ATK;
+        public int ATK { get { return _ATK; } }
+        [SerializeField] int _DEF;
+        public int DEF { get { return _DEF; } }
+        [SerializeField] int _EVA;
+        public int EVA { get { return _EVA; } }
+        [SerializeField] int _MDEF;
+        public int MDEF { get { return _MDEF; } }
+        [SerializeField] int _SPR;
+        public int SPR { get { return _SPR; } }
+        [SerializeField] int _STR;
+        public int STR { get { return _STR; } }
+        [SerializeField] int _VIT;
+        public int VIT { get { return _VIT; } }
 
-        public StatsSet statBoosts { get { return _statsSet; } }
+        public EquipmentCategory category { get { return _category; } set{_category=value;} }
+
+        public StatsSet statBoosts { get { return _statsSet; } set{_statsSet = value;} }
+
+        public EquippableItem(){
+            statBoosts = new StatsSet();
+        }
 
         public override bool CanStack()
         {
@@ -26,20 +45,22 @@ namespace MARDEK.Inventory
             string result = "";
             foreach (string importantStatName in names)
             {
-                foreach (var candidateStat in this.statBoosts.intStats)
-                {
-                    if (candidateStat.statusEnum.name.Equals(importantStatName))
+                //if(this.statBoosts != null){
+                    foreach (var candidateStat in this.statBoosts.intStats)
                     {
-                        result += importantStatName + ": " + candidateStat.Value + "\n";
+                        if (candidateStat.statusEnum.name.Equals(importantStatName))
+                        {
+                            result += importantStatName + ": " + candidateStat.Value + "\n";
+                        }
                     }
-                }
-                foreach (var candidateStat in this.statBoosts.floatStats)
-                {
-                    if (candidateStat.statusEnum.name.Equals(importantStatName))
+                    foreach (var candidateStat in this.statBoosts.floatStats)
                     {
-                        result += importantStatName + ": " + candidateStat.Value + "\n";
+                        if (candidateStat.statusEnum.name.Equals(importantStatName))
+                        {
+                            result += importantStatName + ": " + candidateStat.Value + "\n";
+                        }
                     }
-                }
+                //}
             }
             return result;
         }
@@ -57,7 +78,7 @@ namespace MARDEK.Inventory
             result += CreateStatsString(new string[]{"AGL", "SPR", "STR", "VIT"});
             result += CreateStatsString(new string[]{"MaxHP", "MaxMP"});
             result += CreateStatsString(new string[]{"FireResistance"}); // TODO Other resistances
-            // TODO Automatic status effects
+        // TODO Automatic status effects
             return result;
         }
     }
