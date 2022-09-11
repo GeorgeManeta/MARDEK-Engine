@@ -73,8 +73,10 @@ namespace MARDEK.Inventory
                 {
                     //item.statBoosts = new StatsSet();
                     setIntStat(item.ATK, statDict["ATK"], item);
+                    setIntStat(item.CRITICAL, statDict["CRIT"], item);
                     setIntStat(item.DEF, statDict["DEF"], item);
                     setIntStat(item.EVA, statDict["EVA"], item);
+                    setIntStat(item.HIT, statDict["HIT"], item);
                     setIntStat(item.MDEF, statDict["MDEF"], item);
                     setIntStat(item.SPR, statDict["SPR"], item);
                     setIntStat(item.STR, statDict["STR"], item);
@@ -82,7 +84,6 @@ namespace MARDEK.Inventory
                     Debug.Log(item.statBoosts.intStats[0].Value);
                 }
                 Debug.Log(item.displayName);
-                Debug.Log(item.price);
                 Debug.Log(item.description);
                 // Reactivate ElementText before uncommenting to use this script
                 if (item.elementText != "" && item.elementText != null)
@@ -93,7 +94,8 @@ namespace MARDEK.Inventory
 
                 AssetDatabase.CreateAsset(
                     item,
-                    "Assets/ScriptableObjects/Item/Armour/Shield/" + item.displayName + ".asset"
+                    // Make sure this is pointed at the right directory for what you're importing
+                    "Assets/ScriptableObjects/Item/Armour/Hat/" + item.displayName + ".asset"
                 );
 
                 // Print the path of the created asset

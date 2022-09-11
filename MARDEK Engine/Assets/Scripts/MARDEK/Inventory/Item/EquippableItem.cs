@@ -1,5 +1,6 @@
 using UnityEngine;
 using MARDEK.Stats;
+using System.Collections.Generic;
 
 namespace MARDEK.Inventory
 {
@@ -14,10 +15,14 @@ namespace MARDEK.Inventory
 
         [SerializeField] int _ATK;
         public int ATK { get { return _ATK; } }
+        [SerializeField] int _CRITICAL;
+        public int CRITICAL { get { return _CRITICAL; } }
         [SerializeField] int _DEF;
         public int DEF { get { return _DEF; } }
         [SerializeField] int _EVA;
         public int EVA { get { return _EVA; } }
+        [SerializeField] int _HIT;
+        public int HIT { get { return _HIT; } }
         [SerializeField] int _MDEF;
         public int MDEF { get { return _MDEF; } }
         [SerializeField] int _SPR;
@@ -26,6 +31,9 @@ namespace MARDEK.Inventory
         public int STR { get { return _STR; } }
         [SerializeField] int _VIT;
         public int VIT { get { return _VIT; } }
+
+        //public CharacterInfo[] onlyUsers { get { return _onlyUsers; } set{_onlyUsers=value;} }
+        [field: SerializeField] public List<Skill.Skill> OnlyUsers { get; private set; }
 
         public EquipmentCategory category { get { return _category; } set{_category=value;} }
 
@@ -45,22 +53,20 @@ namespace MARDEK.Inventory
             string result = "";
             foreach (string importantStatName in names)
             {
-                //if(this.statBoosts != null){
-                    foreach (var candidateStat in this.statBoosts.intStats)
+                foreach (var candidateStat in this.statBoosts.intStats)
+                {
+                    if (candidateStat.statusEnum.name.Equals(importantStatName))
                     {
-                        if (candidateStat.statusEnum.name.Equals(importantStatName))
-                        {
-                            result += importantStatName + ": " + candidateStat.Value + "\n";
-                        }
+                        result += importantStatName + ": " + candidateStat.Value + "\n";
                     }
-                    foreach (var candidateStat in this.statBoosts.floatStats)
+                }
+                foreach (var candidateStat in this.statBoosts.floatStats)
+                {
+                    if (candidateStat.statusEnum.name.Equals(importantStatName))
                     {
-                        if (candidateStat.statusEnum.name.Equals(importantStatName))
-                        {
-                            result += importantStatName + ": " + candidateStat.Value + "\n";
-                        }
+                        result += importantStatName + ": " + candidateStat.Value + "\n";
                     }
-                //}
+                }
             }
             return result;
         }

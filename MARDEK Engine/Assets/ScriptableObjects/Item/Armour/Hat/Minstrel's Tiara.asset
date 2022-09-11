@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Minstrel's Tiara
+  m_EditorClassIdentifier: 
+  _displayName: Minstrel's Tiara
+  _elementText: 
+  _description: A special magical tiara worn by musical performers in battle. It
+    causes even monsters to be enamoured by the performer's music, such that there's
+    a chance that they'll neglect to attack them, leaving the performer to continue
+    their playing.
+  _sprite: {fileID: 0}
+  _element: {fileID: 0}
+  _price: 20000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 679b1c6c225d8c244bf083d50292d4a3, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      _value: 2
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
+      _value: 5
+    floatStats: []
+  _ATK: 0
+  _CRITICAL: 0
+  _DEF: 2
+  _EVA: 0
+  _HIT: 0
+  _MDEF: 5
+  _SPR: 0
+  _STR: 0
+  _VIT: 0
+  <OnlyUsers>k__BackingField: []
