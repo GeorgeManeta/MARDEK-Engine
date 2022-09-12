@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Tunic
+  m_EditorClassIdentifier: 
+  _displayName: Tunic
+  _elementText: 
+  _description: A 'stylish', vomit-green Commoner Tunic. Worn by Commoners.
+  _sprite: {fileID: 0}
+  _element: {fileID: 0}
+  _price: 1
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: b56b5732550b72345975167f4f34f9ba, type: 2}
+  _statsSet:
+    intStats: []
+    floatStats: []
+  _ATK: 0
+  _CRITICAL: 0
+  _DEF: 0
+  _EVA: 0
+  _HIT: 0
+  _MDEF: 0
+  _SPR: 0
+  _STR: 0
+  _VIT: 0
+  _categoryText: Clothing
+  <OnlyUsers>k__BackingField: []

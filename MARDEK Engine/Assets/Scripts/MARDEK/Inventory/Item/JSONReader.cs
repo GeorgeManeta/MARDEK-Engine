@@ -16,6 +16,7 @@ namespace MARDEK.Inventory
         // All possible elements should be placed here in the editor for access.
         public Element[] elements;
         public StatOfType<int>[] intStats;
+        public EquipmentCategory[] categories;
 
         //public StatOfType<float>[] floatStats;
         // The JSON should be formatted as follows:
@@ -25,7 +26,6 @@ namespace MARDEK.Inventory
         // All field names should have an _ at the start of them
         // The JSON file must start with { items: and end with }, with an array of Items between them.
         public TextAsset jsonFile;
-        public EquipmentCategory category;
 
         void Start()
         {
@@ -59,21 +59,26 @@ namespace MARDEK.Inventory
             {
                 statDict[stat.name] = stat;
             }
+            Dictionary<string, EquipmentCategory> categoryDict =
+                new Dictionary<string, EquipmentCategory>();
+            foreach (EquipmentCategory cat in categories)
+            {
+                categoryDict[cat.name] = cat;
+            }
             ImportItems list = new ImportItems();
             fsSerializer serializer = new fsSerializer();
             fsJsonParser.Parse(jsonFile.text, out fsData data);
             serializer.TryDeserialize(data, ref list);
             foreach (EquippableItem item in list.items)
             {
-                if (category != null)
-                {
-                    item.category = category;
-                }
                 if (item is EquippableItem)
                 {
+                    //Debug.Log(item.categoryText);
+                    item.category = categoryDict[item.categoryText];
+                    //Debug.Log(item.category);
                     //item.statBoosts = new StatsSet();
                     setIntStat(item.ATK, statDict["ATK"], item);
-                    setIntStat(item.CRITICAL, statDict["CRIT"], item);
+                    setIntStat(item.CRIT, statDict["CRIT"], item);
                     setIntStat(item.DEF, statDict["DEF"], item);
                     setIntStat(item.EVA, statDict["EVA"], item);
                     setIntStat(item.HIT, statDict["HIT"], item);
@@ -81,10 +86,10 @@ namespace MARDEK.Inventory
                     setIntStat(item.SPR, statDict["SPR"], item);
                     setIntStat(item.STR, statDict["STR"], item);
                     setIntStat(item.VIT, statDict["VIT"], item);
-                    Debug.Log(item.statBoosts.intStats[0].Value);
+                    //Debug.Log(item.statBoosts.intStats[0].Value);
                 }
                 Debug.Log(item.displayName);
-                Debug.Log(item.description);
+                //Debug.Log(item.description);
                 // Reactivate ElementText before uncommenting to use this script
                 if (item.elementText != "" && item.elementText != null)
                 {
@@ -95,7 +100,7 @@ namespace MARDEK.Inventory
                 AssetDatabase.CreateAsset(
                     item,
                     // Make sure this is pointed at the right directory for what you're importing
-                    "Assets/ScriptableObjects/Item/Armour/Hat/" + item.displayName + ".asset"
+                    "Assets/ScriptableObjects/Item/Weapon/"+ item.categoryText + "/" + item.displayName + ".asset"
                 );
 
                 // Print the path of the created asset

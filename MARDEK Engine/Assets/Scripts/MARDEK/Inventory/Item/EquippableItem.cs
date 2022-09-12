@@ -13,10 +13,15 @@ namespace MARDEK.Inventory
         // TODO Skills
         // TODO Status effects
 
+        // Temporary field until SFX are implemented to mark which ones belong to which weapons. Remove for final build.
+        [SerializeField] int _hitSFX;
+        public int hitSFX { get { return _hitSFX; } }
+
+        // Temporary fields only for use during import
         [SerializeField] int _ATK;
         public int ATK { get { return _ATK; } }
-        [SerializeField] int _CRITICAL;
-        public int CRITICAL { get { return _CRITICAL; } }
+        [SerializeField] int _CRIT;
+        public int CRIT { get { return _CRIT; } }
         [SerializeField] int _DEF;
         public int DEF { get { return _DEF; } }
         [SerializeField] int _EVA;
@@ -31,6 +36,8 @@ namespace MARDEK.Inventory
         public int STR { get { return _STR; } }
         [SerializeField] int _VIT;
         public int VIT { get { return _VIT; } }
+        [SerializeField] string _categoryText;
+        public string categoryText { get { return _categoryText; } }
 
         //public CharacterInfo[] onlyUsers { get { return _onlyUsers; } set{_onlyUsers=value;} }
         [field: SerializeField] public List<Skill.Skill> OnlyUsers { get; private set; }

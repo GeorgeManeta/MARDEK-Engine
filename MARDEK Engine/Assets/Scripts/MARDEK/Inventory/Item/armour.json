@@ -1,0 +1,434 @@
+{"items":[
+  {
+    "_displayName": "Yalortian Robe",
+    "_price": 22000,
+    "_elementText": "",
+    "_description": "A black robe worn by Yalortian priests. It has a green Eye of YALORT symbol emlazoned upon the chest area.",
+    "_categoryText": "Robe",
+    "_DEF": 4,
+    "_MDEF": 2
+  },
+  {
+    "_displayName": "Inventing Coat",
+    "_price": 10000,
+    "_elementText": "",
+    "_description": "A sturdy longcoat made from leather, perfect for use in a laboratory but also adequate as protection in battle too.",
+    "_categoryText": "Robe",
+    "_DEF": 5,
+    "_MDEF": 2
+  },
+  {
+    "_displayName": "Shaman's Vestment",
+    "_price": 10000,
+    "_elementText": "Earth",
+    "_description": "A long robe worn by shamans. It's probably made of the skins of animals that were ritually sacrificed or something.",
+    "_categoryText": "Robe",
+    "_DEF": 3,
+    "_MDEF": 5
+  },
+  {
+    "_displayName": "Dark Robe",
+    "_price": 30000,
+    "_elementText": "",
+    "_description": "A black robe, woven with eldritch magicks of darkness and all that sort of stuff. It protects against the Dark element and Blindness status effects. Some mages can also use it to avoid spells entirely.",
+    "_categoryText": "Robe",
+    "_DEF": 3,
+    "_MDEF": 6
+  },
+  {
+    "_displayName": "Jasper Robe",
+    "_price": 3000,
+    "_elementText": "",
+    "_description": "A mage's robe, adorned with jaspers.",
+    "_categoryText": "Robe",
+    "_DEF": 1,
+    "_MDEF": 5
+  },
+  {
+    "_displayName": "Green Robe",
+    "_price": 4000,
+    "_elementText": "",
+    "_description": "A green mage's robe. It allows its wearer to resist Earth damage.",
+    "_categoryText": "Robe",
+    "_DEF": 0,
+    "_MDEF": 6
+  },
+  {
+    "_displayName": "Hempen Robe",
+    "_price": 400,
+    "_elementText": "",
+    "_description": "A mage's robe made from 'hemp'. It has 'mind enhancing effects'.",
+    "_categoryText": "Robe",
+    "_DEF": 0,
+    "_MDEF": 4
+  },
+  {
+    "_displayName": "Mage Robe",
+    "_price": 100,
+    "_elementText": "",
+    "_description": "A simple blue robe worn by mages. It works as defence against magical rather than physical attacks.",
+    "_categoryText": "Robe",
+    "_DEF": 0,
+    "_MDEF": 2
+  },
+  {
+    "_displayName": "Mythril Platemail",
+    "_price": 100000,
+    "_elementText": "Light",
+    "_description": "Heavy armour forged from the extremely rare metal called mythril. It's lightweight and incredibly durable.",
+    "_categoryText": "HeavyArmour",
+    "_DEF": 15,
+    "_MDEF": 5
+  },
+  {
+    "_displayName": "Turquoise Armour",
+    "_price": 90000,
+    "_elementText": "Aether",
+    "_description": "A shimmering suit of platemail that seems to be made from an almost immaterial substance, which gives an impression of flowing water even though it's not actually, y'know, flowing. Or water.",
+    "_categoryText": "HeavyArmour",
+    "_DEF": 10,
+    "_MDEF": 5
+  },
+  {
+    "_displayName": "Righteous Honour",
+    "_price": 20000,
+    "_elementText": "Light",
+    "_description": "A suit of heavy armour, forged for and worn by a legendary Paladin of YALORT. It's meant to represent the rigidity and... protection of the Paladin Code or something?",
+    "_categoryText": "HeavyArmour",
+    "_DEF": 8,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Solakian Platemail",
+    "_price": 44000,
+    "_elementText": "Light",
+    "_description": "A suit of golden armour blessed by the Sun God, SOLAK. You can feel the holiness just radiating off it, like a warm sandwich.",
+    "_categoryText": "HeavyArmour",
+    "_DEF": 9,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Iron Armour",
+    "_price": 8000,
+    "_elementText": "",
+    "_description": "A full suit of armour, made of iron.",
+    "_categoryText": "HeavyArmour",
+    "_DEF": 8,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Bronze Armour",
+    "_price": 4000,
+    "_elementText": "",
+    "_description": "A full suit of armour, made of bronze.",
+    "_categoryText": "HeavyArmour",
+    "_DEF": 6,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Rusty Armour",
+    "_price": 1000,
+    "_elementText": "",
+    "_description": "A full suit of armour, made of bronze. It's rusted though from overuse, and isn't as durable as it once was.",
+    "_categoryText": "HeavyArmour",
+    "_DEF": 4,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Hero's Armour",
+    "_price": 1,
+    "_elementText": "",
+    "_description": "Armour made of the strongest and most lustrous of metals, worn by a mighty hero.",
+    "_categoryText": "HeavyArmour",
+    "_DEF": 50,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Flamemail",
+    "_price": 15000,
+    "_elementText": "Fire",
+    "_description": "Armour interlaced with magical runes, attuned to the element of fire. It constantly feels warm, and as such is rather cosy to wear!",
+    "_categoryText": "MediumArmour",
+    "_DEF": 7,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Breastplate",
+    "_price": 1000,
+    "_elementText": "",
+    "_description": "A simple iron breastplate often worn by soldiers.",
+    "_categoryText": "MediumArmour",
+    "_DEF": 4,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Trilobite Armour",
+    "_price": 5000,
+    "_elementText": "Water",
+    "_description": "A suit of medium armour made from Trilobite... scales...? It absorbs water damage as HP, and boosts the wearer's max hp, too!",
+    "_categoryText": "MediumArmour",
+    "_DEF": 5,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Bonemail",
+    "_price": 2500,
+    "_elementText": "Dark",
+    "_description": "A suit of armour made from the bones of dead warriors. It protects from blindness and curses, but makes the wearer vulnerable to the Light element.",
+    "_categoryText": "MediumArmour",
+    "_DEF": 4,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Copper Breastplate",
+    "_price": 400,
+    "_elementText": "",
+    "_description": "A simple copper breastplate often worn by soldiers.",
+    "_categoryText": "MediumArmour",
+    "_DEF": 3,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Green Chainmail",
+    "_price": 500,
+    "_elementText": "",
+    "_description": "Vehrn's custom-made armour. It's essentially just painted chainmail with some minor magical enchantments, such as small protection against Light-elemental damage.",
+    "_categoryText": "MediumArmour",
+    "_DEF": 3,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Chainmail",
+    "_price": 250,
+    "_elementText": "",
+    "_description": "A simple suit of armour made of interlocking metal chains. Worn by soldiers.",
+    "_categoryText": "MediumArmour",
+    "_DEF": 2,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Astral Wanderer's Garb",
+    "_price": 26000,
+    "_elementText": "Aether",
+    "_description": "Light armour worn by those who walk in the realm of spirits. It protects against the aether element.",
+    "_categoryText": "LightArmour",
+    "_DEF": 6,
+    "_MDEF": 6
+  },
+  {
+    "_displayName": "Snakemail",
+    "_price": 21000,
+    "_elementText": "Earth",
+    "_description": "Armour made from the scales of a large, desert-dwelling snake. It protects against poison.",
+    "_categoryText": "LightArmour",
+    "_DEF": 6,
+    "_MDEF": 2
+  },
+  {
+    "_displayName": "Bandit Leather +5",
+    "_price": 18000,
+    "_elementText": "Air",
+    "_description": "A suit of armour made of leather, often worn by bandit leaders. It is infused with the power of air, giving a bonus to agility, air resistance, and resistance to paralysis. \\nThis variation has enhanced enchantments.",
+    "_categoryText": "LightArmour",
+    "_DEF": 7,
+    "_MDEF": 7
+  },
+  {
+    "_displayName": "Reinforced Leather",
+    "_price": 5000,
+    "_elementText": "",
+    "_description": "A suit of leather armour with metal plates underneath for added protection, or something.",
+    "_categoryText": "LightArmour",
+    "_DEF": 4,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Night Jacket",
+    "_price": 10000,
+    "_elementText": "",
+    "_description": "A dark purple iridescent jacket that seems to emanate a feeling of unease. It protects against the elements, dark particularly.",
+    "_categoryText": "LightArmour",
+    "_DEF": 0,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Geojacket",
+    "_price": 10000,
+    "_elementText": "",
+    "_description": "An earthy green jacket, imbued with the powers of nature. Though it offers nothing in the way of physical or magical defence, it allows the wearer to absorb a percentage of any Earth damage inflicted on them as HP. It increases max HP as a bonus, too!",
+    "_categoryText": "LightArmour",
+    "_DEF": 0,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Spiked Hide Armour",
+    "_price": 400,
+    "_elementText": "",
+    "_description": "A tough, durable suit of light armour made from the hide of some large, hardy beast. The spikes give it a rather barbaric look.",
+    "_categoryText": "LightArmour",
+    "_DEF": 3,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Bandit Leather",
+    "_price": 1000,
+    "_elementText": "Air",
+    "_description": "A suit of armour made of leather, often worn by bandit leaders. It is infused with the power of air, giving a bonus to agility, air resistance, and resistance to paralysis.",
+    "_categoryText": "LightArmour",
+    "_DEF": 2,
+    "_MDEF": 2
+  },
+  {
+    "_displayName": "Leather Armour",
+    "_price": 100,
+    "_elementText": "",
+    "_description": "A suit of armour made of leather. More protective than clothing, but still pretty weak.",
+    "_categoryText": "LightArmour",
+    "_DEF": 1,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Hero's Coat",
+    "_price": 1,
+    "_elementText": "",
+    "_description": "An emerald-green greatcoat, worn by a mighty hero.",
+    "_categoryText": "LightArmour",
+    "_DEF": 45,
+    "_MDEF": 80
+  },
+  {
+    "_displayName": "Expensive Suit",
+    "_price": 20000,
+    "_elementText": "",
+    "_description": "Though it's no good for combat, this snazzy suit IS, as its name implies, exorbitantly expensive! People will think that you're classy indeed if you wear it, surely.",
+    "_categoryText": "Clothing",
+    "_DEF": 0,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "LesserRainbowShirt",
+    "_price": 10000,
+    "_elementText": "",
+    "_description": "A rather psychadelically-fabulous-looking garment, worn more for its protection against all manner of elements than for its looks.",
+    "_categoryText": "Clothing",
+    "_DEF": 6,
+    "_MDEF": 3
+  },
+  {
+    "_displayName": "Magic Shirt",
+    "_price": 10000,
+    "_elementText": "",
+    "_description": "An enchanted shirt, usually worn by nobles who want the protection of armour without the unsightly bulk of it.",
+    "_categoryText": "Clothing",
+    "_DEF": 5,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Magic Blouse",
+    "_price": 1000,
+    "_elementText": "",
+    "_description": "This piece of everyday clothing is magically enchanted to provide enhanced defence. But why?!?",
+    "_categoryText": "Clothing",
+    "_DEF": 2,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Tunic",
+    "_price": 1,
+    "_elementText": "",
+    "_description": "A 'stylish', vomit-green Commoner Tunic. Worn by Commoners.",
+    "_categoryText": "Clothing",
+    "_DEF": 0,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Steel Stole",
+    "_price": 20000,
+    "_elementText": "",
+    "_description": "A stole made of a sort of metal so thin and flexible it's almost like cloth, only several hundred times stronger and more protective. It increases DEF a lot, and also protects against non-elemental attacks.",
+    "_categoryText": "Stole",
+    "_DEF": 10,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Scarlet Stole +6",
+    "_price": 68000,
+    "_elementText": "",
+    "_description": "It's a red stole. You know... a stole.\\nThis type enhances strength.",
+    "_categoryText": "Stole",
+    "_DEF": 6,
+    "_MDEF": 6
+  },
+  {
+    "_displayName": "Scarlet Stole +4",
+    "_price": 34000,
+    "_elementText": "",
+    "_description": "It's a red stole. You know... a stole.\\nThis type enhances strength.",
+    "_categoryText": "Stole",
+    "_DEF": 4,
+    "_MDEF": 4
+  },
+  {
+    "_displayName": "Scarlet Stole +2",
+    "_price": 17800,
+    "_elementText": "",
+    "_description": "It's a red stole. You know... a stole.\\nThis type enhances strength.",
+    "_categoryText": "Stole",
+    "_DEF": 2,
+    "_MDEF": 2
+  },
+  {
+    "_displayName": "Green Stole +6",
+    "_price": 68000,
+    "_elementText": "",
+    "_description": "It's a green stole. You know... a stole.\\nThis type enhances health.",
+    "_categoryText": "Stole",
+    "_DEF": 6,
+    "_MDEF": 6
+  },
+  {
+    "_displayName": "Green Stole +4",
+    "_price": 34000,
+    "_elementText": "",
+    "_description": "It's a green stole. You know... a stole.\\nThis type enhances health.",
+    "_categoryText": "Stole",
+    "_DEF": 4,
+    "_MDEF": 4
+  },
+  {
+    "_displayName": "Green Stole +2",
+    "_price": 17800,
+    "_elementText": "",
+    "_description": "It's a green stole. You know... a stole.\\nThis type enhances health.",
+    "_categoryText": "Stole",
+    "_DEF": 2,
+    "_MDEF": 2
+  },
+  {
+    "_displayName": "Azure Stole +6",
+    "_price": 68000,
+    "_elementText": "",
+    "_description": "It's a blue stole. You know... a stole.\\nThis type enhances magical abilities.",
+    "_categoryText": "Stole",
+    "_DEF": 6,
+    "_MDEF": 6
+  },
+  {
+    "_displayName": "Azure Stole +4",
+    "_price": 34000,
+    "_elementText": "",
+    "_description": "It's a blue stole. You know... a stole.\\nThis type enhances magical abilities.",
+    "_categoryText": "Stole",
+    "_DEF": 4,
+    "_MDEF": 4
+  },
+  {
+    "_displayName": "Azure Stole +2",
+    "_price": 17800,
+    "_elementText": "",
+    "_description": "It's a blue stole. You know... a stole.\\nThis type enhances magical abilities.",
+    "_categoryText": "Stole",
+    "_DEF": 2,
+    "_MDEF": 2
+  }
+]}
