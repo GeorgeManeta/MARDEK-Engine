@@ -16,7 +16,7 @@ MonoBehaviour:
   _elementText: 
   _description: A round shield made of wood. Pretty light, but offers only some small
     protection. Good for poor people!
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 97263196ef752114eb166ca391c5fe89, type: 3}
   _element: {fileID: 0}
   _price: 20
   <SkillsToEquip>k__BackingField: []
@@ -29,9 +29,12 @@ MonoBehaviour:
       _value: 5
     floatStats: []
   _ATK: 0
+  _CRITICAL: 0
   _DEF: 1
   _EVA: 5
+  _HIT: 0
   _MDEF: 0
   _SPR: 0
   _STR: 0
   _VIT: 0
+  <OnlyUsers>k__BackingField: []

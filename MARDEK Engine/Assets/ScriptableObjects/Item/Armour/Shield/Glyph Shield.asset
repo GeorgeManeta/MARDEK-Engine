@@ -16,8 +16,8 @@ MonoBehaviour:
   _elementText: 
   _description: This shield is decorated with an enchanted glyph which protects against
     the natural elements, and magic in general.
-  _sprite: {fileID: 0}
-  _element: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: c6c47c0c82eb6ef49a56ebf7e36bca91, type: 3}
+  _element: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
   _price: 8000
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: dd92070e9d759fd49808966d2083db5a, type: 2}
@@ -31,9 +31,12 @@ MonoBehaviour:
       _value: 6
     floatStats: []
   _ATK: 0
+  _CRITICAL: 0
   _DEF: 1
   _EVA: 15
+  _HIT: 0
   _MDEF: 6
   _SPR: 0
   _STR: 0
   _VIT: 0
+  <OnlyUsers>k__BackingField: []
