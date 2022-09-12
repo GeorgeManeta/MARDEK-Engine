@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
-  m_Name: Golden M Helm 1
+  m_Name: Golden M Helm
   m_EditorClassIdentifier: 
   _displayName: Golden M Helm
   _elementText: 
@@ -18,7 +18,7 @@ MonoBehaviour:
     visor looks sort of silly, but Mardek insists on it because he doesn''t take
     life too seriously anyway and thinks it''s rather fitting. ON HIS HEAD!!! ...Get
     it?!?1 Never mind. '
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 502dd91d92f347341aa48f18e2ffd83c, type: 3}
   _element: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
   _price: 20000
   <SkillsToEquip>k__BackingField: []

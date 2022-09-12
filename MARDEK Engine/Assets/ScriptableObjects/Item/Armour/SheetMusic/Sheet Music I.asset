@@ -16,7 +16,7 @@ MonoBehaviour:
   _elementText: 
   _description: Sheet music for a piece titled 'Spirit Song', which boosts the magic
     power of all allies while it plays.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 88d5441ca10b6ea4ab5dd558d3aa6065, type: 3}
   _element: {fileID: 0}
   _price: 10000
   <SkillsToEquip>k__BackingField: []
@@ -24,3 +24,13 @@ MonoBehaviour:
   _statsSet:
     intStats: []
     floatStats: []
+  _ATK: 0
+  _CRITICAL: 0
+  _DEF: 0
+  _EVA: 0
+  _HIT: 0
+  _MDEF: 0
+  _SPR: 0
+  _STR: 0
+  _VIT: 0
+  <OnlyUsers>k__BackingField: []

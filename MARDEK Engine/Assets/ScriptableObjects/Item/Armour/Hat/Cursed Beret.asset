@@ -17,7 +17,7 @@ MonoBehaviour:
   _description: A cursed item. Though wearing it will grant you a physical and magical
     shield throughout battle, it'll also render you uncurably cursed until you take
     it off, meaning that you won't be able to use any skills.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 23660e949e464f143a65ab3858bda8f5, type: 3}
   _element: {fileID: 11400000, guid: b58053569349d314892770b43156bfd2, type: 2}
   _price: 12000
   <SkillsToEquip>k__BackingField: []
