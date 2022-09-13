@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858e30d3888cc6e4ba8ef0b97c869e8e, type: 3}
+  m_Name: Emerald
+  m_EditorClassIdentifier: 
+  _displayName: Emerald
+  _elementText: Earth
+  _description: Emeralds are rather valuable green gemstones, a variety of the mineral
+    beryl. They're mystically associated with vitality, constitution, health, earth.
+  _sprite: {fileID: 0}
+  _element: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
+  _price: 16000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 0}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
+      _value: 2
+    floatStats: []
+  _hitSFX: 0
+  _ATK: 0
+  _CRIT: 0
+  _DEF: 0
+  _EVA: 0
+  _HIT: 0
+  _MDEF: 0
+  _SPR: 0
+  _STR: 0
+  _VIT: 2
+  _MaxMP: 0
+  _MaxHP: 0
+  _categoryText: 
+  <OnlyUsers>k__BackingField: []
+  _pfx: _emerald
+  _spellDMG: 60
+  _STFX: 
+  _STFXStrength: 0

@@ -10,7 +10,7 @@ namespace MARDEK.Inventory
 {
     // To make this work:
     // 1. Comment the denoted line (currently line 10) in AddressableScriptableObject.cs
-    // 2. Uncomment the setter for Element and the ElementValue attributes in Item.cs
+    // 2. Uncomment the setter for listed attributes and setters in Item.cs
     public class JSONReader : MonoBehaviour
     {
         // All possible elements should be placed here in the editor for access.
@@ -69,9 +69,9 @@ namespace MARDEK.Inventory
             fsSerializer serializer = new fsSerializer();
             fsJsonParser.Parse(jsonFile.text, out fsData data);
             serializer.TryDeserialize(data, ref list);
-            foreach (EquippableItem item in list.items)
+            foreach (Gemstone item in list.items)
             {
-                if (item is EquippableItem)
+                /*if (item is EquippableItem)
                 {
                     //Debug.Log(item.categoryText);
                     if(item.categoryText!=null){
@@ -88,8 +88,10 @@ namespace MARDEK.Inventory
                     setIntStat(item.SPR, statDict["SPR"], item);
                     setIntStat(item.STR, statDict["STR"], item);
                     setIntStat(item.VIT, statDict["VIT"], item);
+                    setIntStat(item.MaxHP, statDict["MaxHP"], item);
+                    setIntStat(item.MaxMP, statDict["MaxMP"], item);
                     //Debug.Log(item.statBoosts.intStats[0].Value);
-                }
+                }*/
                 Debug.Log(item.displayName);
                 //Debug.Log(item.description);
                 // Reactivate ElementText before uncommenting to use this script
@@ -102,7 +104,7 @@ namespace MARDEK.Inventory
                 AssetDatabase.CreateAsset(
                     item,
                     // Make sure this is pointed at the right directory for what you're importing
-                    "Assets/ScriptableObjects/Item/Weapon/"+ /*item.categoryText*/ "Invention" + "/" + item.displayName + ".asset"
+                    "Assets/ScriptableObjects/Item/Accessory/"+ /*item.categoryText*/ "Gems" + "/" + item.displayName + ".asset"
                 );
 
                 // Print the path of the created asset

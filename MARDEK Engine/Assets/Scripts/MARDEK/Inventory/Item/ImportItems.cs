@@ -5,6 +5,6 @@ namespace MARDEK.Inventory{
     public class ImportItems
     {
         //items is case sensitive and must match the string "items" in the JSON.
-        public EquippableItem[] items;
+        public Gemstone[] items;
     }
 }

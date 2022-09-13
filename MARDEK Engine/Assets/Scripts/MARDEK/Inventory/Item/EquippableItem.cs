@@ -14,11 +14,11 @@ namespace MARDEK.Inventory
         // TODO Status effects
 
         // Temporary field until SFX are implemented to mark which ones belong to which weapons. Remove for final build.
-        [SerializeField] int _hitSFX;
-        public int hitSFX { get { return _hitSFX; } }
+        [SerializeField] string _hitSFX;
+        public string hitSFX { get { return _hitSFX; } }
 
         // Temporary fields only for use during import
-        [SerializeField] int _ATK;
+        /*[SerializeField] int _ATK;
         public int ATK { get { return _ATK; } }
         [SerializeField] int _CRIT;
         public int CRIT { get { return _CRIT; } }
@@ -36,8 +36,12 @@ namespace MARDEK.Inventory
         public int STR { get { return _STR; } }
         [SerializeField] int _VIT;
         public int VIT { get { return _VIT; } }
+        [SerializeField] int _MaxMP;
+        public int MaxMP { get { return _MaxMP; } }
+        [SerializeField] int _MaxHP;
+        public int MaxHP { get { return _MaxHP; } }
         [SerializeField] string _categoryText;
-        public string categoryText { get { return _categoryText; } }
+        public string categoryText { get { return _categoryText; } }*/
 
         //public CharacterInfo[] onlyUsers { get { return _onlyUsers; } set{_onlyUsers=value;} }
         [field: SerializeField] public List<Skill.Skill> OnlyUsers { get; private set; }
@@ -86,11 +90,21 @@ namespace MARDEK.Inventory
         protected override string CreateProperties()
         {
             string result = "";
+            // TODO Evasion and Hit
             result += CreateStatsString(new string[]{"ATK", "CRIT", "DEF", "MDEF"});
             if (!this.element.name.Equals("Normal")) result += this.element.name.ToUpper() + " Elemental\n";
             result += CreateStatsString(new string[]{"AGL", "SPR", "STR", "VIT"});
             result += CreateStatsString(new string[]{"MaxHP", "MaxMP"});
-            result += CreateStatsString(new string[]{"FireResistance"}); // TODO Other resistances
+            result += CreateStatsString(new string[]{"FireResistance"}); 
+            result += CreateStatsString(new string[]{"WaterResistance"}); 
+            result += CreateStatsString(new string[]{"EarthResistance"}); 
+            result += CreateStatsString(new string[]{"AirResistance"}); 
+            result += CreateStatsString(new string[]{"LightResistance"}); 
+            result += CreateStatsString(new string[]{"DarkResistance"}); 
+            result += CreateStatsString(new string[]{"AetherResistance"}); 
+            result += CreateStatsString(new string[]{"FigResistance"});  
+            result += CreateStatsString(new string[]{"PhysicalResistance"});  
+            result += CreateStatsString(new string[]{"ThaumaResistance"}); 
         // TODO Automatic status effects
             return result;
         }
