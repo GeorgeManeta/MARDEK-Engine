@@ -10,33 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
-  m_Name: Flamemail
+  m_Name: Flamethrower
   m_EditorClassIdentifier: 
-  _displayName: Flamemail
+  _displayName: Flamethrower
   _elementText: Fire
-  _description: Armour interlaced with magical runes, attuned to the element of fire.
-    It constantly feels warm, and as such is rather cosy to wear!
-  _sprite: {fileID: 21300000, guid: 18cf417d4c23473459fa9b9950f823e1, type: 3}
+  _description: An Invention for use by an Inventor. It belches flames like a dragon,
+    inflicting fire damage on all foes.
+  _sprite: {fileID: 21300000, guid: fdb0f479d2615f34aa942c2e75109083, type: 3}
   _element: {fileID: 11400000, guid: e179fa6b43e015742b42814e32864e49, type: 2}
-  _price: 15000
+  _price: 1000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 11400000, guid: d86f2f702e3a3ec49b9c95d50bafda11, type: 2}
+  _category: {fileID: 0}
   _statsSet:
-    intStats:
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
-      _value: 7
+    intStats: []
     floatStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: f68c8ec8816407b42ab3609b22036c52, type: 2}
-      _value: 110
+      _value: 75
   _hitSFX: 0
   _ATK: 0
   _CRIT: 0
-  _DEF: 7
+  _DEF: 0
   _EVA: 0
   _HIT: 0
   _MDEF: 0
   _SPR: 0
   _STR: 0
   _VIT: 0
-  _categoryText: MediumArmour
+  _categoryText: 
   <OnlyUsers>k__BackingField: []

@@ -1,0 +1,67 @@
+{"items":[
+  {
+    "_displayName": "Potion Spray",
+    "_price": 1000,
+    "_elementText": "Water",
+    "_description": "An Invention for use by an Inventor. It's a device that turns potion liquid into vapour, which is then sprayed at the entire party, restoring their HP.",
+    "_DEF": 0,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Sleep-O-Matic",
+    "_price": 1000,
+    "_elementText": "Air",
+    "_description": "An Invention for use by an Inventor. It sprays out a thick gas which puts all foes to sleep.",
+    "_DEF": 0,
+    "_MDEF": 2
+  },
+  {
+    "_displayName": "Drill-O-Matic",
+    "_price": 1000,
+    "_elementText": "",
+    "_description": "An Invention for use by an Inventor. It's a drill mounted on a spear, which can be used to inflict defence-ignoring non-elemental damage on a single foe.",
+    "_DEF": 2,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Flamethrower",
+    "_price": 1000,
+    "_elementText": "Fire",
+    "_description": "An Invention for use by an Inventor. It belches flames like a dragon, inflicting fire damage on all foes.",
+    "_DEF": 0,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Gas-O-Matic",
+    "_price": 1000,
+    "_elementText": "Earth",
+    "_description": "An Invention for use by an Inventor. It sprays out a noxious gas which inflicts poison on all foes.",
+    "_DEF": 0,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Golden Mirror",
+    "_price": 1000,
+    "_elementText": "Light",
+    "_description": "An Invention for use by an Inventor. It's a mirror made from magical crystal, which can be used to give the entire party the Magical Shield status.",
+    "_DEF": 0,
+    "_MDEF": 5
+  },
+  {
+    "_displayName": "Silver Mirror",
+    "_price": 1000,
+    "_elementText": "Light",
+    "_description": "An Invention for use by an Inventor. It's a mirror made from magical crystal, which can be used to give the entire party the Physical Shield status.",
+    "_DEF": 5,
+    "_MDEF": 0
+  },
+  {
+    "_displayName": "Thermal Spanner",
+    "_price": 1000,
+    "_elementText": "Fire",
+    "_description": "An Invention for use by an Inventor. It's a large spanner, the end of which is kept super-heated by some kind of special gizmobob, or something. It can be used as a fire-elemental physical attack on a single foe, which lowers defence. It also sometimes causes Numbness.",
+    "_DEF": 0,
+    "_MDEF": 0
+  }
+]
+}

@@ -10,36 +10,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
-  m_Name: HeartStaff
+  m_Name: Golden Mirror
   m_EditorClassIdentifier: 
-  _displayName: HeartStaff
+  _displayName: Golden Mirror
   _elementText: Light
-  _description: It has a love heart on the end!
-  _sprite: {fileID: 21300000, guid: 33c3bc98332d9794bb35bca217931199, type: 3}
+  _description: An Invention for use by an Inventor. It's a mirror made from magical
+    crystal, which can be used to give the entire party the Magical Shield status.
+  _sprite: {fileID: 21300000, guid: 40c263a386853f149bf79400836267f5, type: 3}
   _element: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
-  _price: 100
+  _price: 1000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 11400000, guid: 2018507fa1603884894cdb1ed334fe8f, type: 2}
+  _category: {fileID: 0}
   _statsSet:
     intStats:
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
-      _value: 10
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 4f2c3d936438bae4ab846e1a1fa6d660, type: 2}
-      _value: 1
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 77120450b1dbcbb439277ad129dd1bf4, type: 2}
-      _value: 80
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
+      _value: 5
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
-      _value: 1
+      _value: 2
     floatStats: []
   _hitSFX: 0
-  _ATK: 10
-  _CRIT: 1
+  _ATK: 0
+  _CRIT: 0
   _DEF: 0
   _EVA: 0
-  _HIT: 80
-  _MDEF: 0
+  _HIT: 0
+  _MDEF: 5
   _SPR: 0
   _STR: 0
   _VIT: 0
-  _categoryText: Staff
+  _categoryText: 
   <OnlyUsers>k__BackingField: []

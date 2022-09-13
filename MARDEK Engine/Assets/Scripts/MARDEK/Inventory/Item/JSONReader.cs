@@ -74,7 +74,9 @@ namespace MARDEK.Inventory
                 if (item is EquippableItem)
                 {
                     //Debug.Log(item.categoryText);
-                    item.category = categoryDict[item.categoryText];
+                    if(item.categoryText!=null){
+                        item.category = categoryDict[item.categoryText];
+                    }
                     //Debug.Log(item.category);
                     //item.statBoosts = new StatsSet();
                     setIntStat(item.ATK, statDict["ATK"], item);
@@ -100,7 +102,7 @@ namespace MARDEK.Inventory
                 AssetDatabase.CreateAsset(
                     item,
                     // Make sure this is pointed at the right directory for what you're importing
-                    "Assets/ScriptableObjects/Item/Weapon/"+ item.categoryText + "/" + item.displayName + ".asset"
+                    "Assets/ScriptableObjects/Item/Weapon/"+ /*item.categoryText*/ "Invention" + "/" + item.displayName + ".asset"
                 );
 
                 // Print the path of the created asset

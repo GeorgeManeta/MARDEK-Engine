@@ -27,7 +27,9 @@ MonoBehaviour:
       _value: 5
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
       _value: 20
-    floatStats: []
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 2df2b0e1cb34dd34dbd7e87faf48867a, type: 2}
+      _value: 110
   _hitSFX: 0
   _ATK: 0
   _CRIT: 0
