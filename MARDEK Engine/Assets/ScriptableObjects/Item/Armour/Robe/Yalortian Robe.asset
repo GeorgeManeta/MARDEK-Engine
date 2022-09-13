@@ -16,7 +16,7 @@ MonoBehaviour:
   _elementText: 
   _description: A black robe worn by Yalortian priests. It has a green Eye of YALORT
     symbol emlazoned upon the chest area.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 548db2202c83c5b47a5308cf83a45408, type: 3}
   _element: {fileID: 0}
   _price: 22000
   <SkillsToEquip>k__BackingField: []
@@ -27,9 +27,18 @@ MonoBehaviour:
       _value: 4
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
       _value: 2
-    floatStats: []
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 2
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
+      _value: 100
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 009d5e1e1dc5de643afc1dd3a6e4a45a, type: 2}
+      _value: 50
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7c1ecc82623faf94d849ddff66d483f3, type: 2}
+      _value: 50
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 4
   _EVA: 0
   _HIT: 0

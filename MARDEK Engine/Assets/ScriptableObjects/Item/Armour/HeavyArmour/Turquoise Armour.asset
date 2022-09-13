@@ -17,7 +17,7 @@ MonoBehaviour:
   _description: A shimmering suit of platemail that seems to be made from an almost
     immaterial substance, which gives an impression of flowing water even though
     it's not actually, y'know, flowing. Or water.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 2aad383244828974b899375a99674553, type: 3}
   _element: {fileID: 11400000, guid: 1193b067027c3e54a9681752489c5b96, type: 2}
   _price: 90000
   <SkillsToEquip>k__BackingField: []
@@ -28,9 +28,18 @@ MonoBehaviour:
       _value: 10
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
       _value: 5
-    floatStats: []
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9cff1bd1d17a7344a93771942f908064, type: 2}
+      _value: 40
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 3
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: b126ec105431be84db0d5e0d2a1d55cc, type: 2}
+      _value: 1
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: e4477c56bd8c17d46a91ae6c1e9233fc, type: 2}
+      _value: 20
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 10
   _EVA: 0
   _HIT: 0

@@ -15,7 +15,7 @@ MonoBehaviour:
   _displayName: Scarlet Stole +2
   _elementText: 
   _description: It's a red stole. You know... a stole.\nThis type enhances strength.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: bd2d5309a37fb914e840caf0e485402b, type: 3}
   _element: {fileID: 0}
   _price: 17800
   <SkillsToEquip>k__BackingField: []
@@ -26,9 +26,12 @@ MonoBehaviour:
       _value: 2
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
       _value: 2
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: b126ec105431be84db0d5e0d2a1d55cc, type: 2}
+      _value: 2
     floatStats: []
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 2
   _EVA: 0
   _HIT: 0

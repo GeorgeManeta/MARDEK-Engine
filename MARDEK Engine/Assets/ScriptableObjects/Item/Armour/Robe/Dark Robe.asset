@@ -17,7 +17,7 @@ MonoBehaviour:
   _description: A black robe, woven with eldritch magicks of darkness and all that
     sort of stuff. It protects against the Dark element and Blindness status effects.
     Some mages can also use it to avoid spells entirely.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 7f18d02f72ca3274caba3cd7b4fb1072, type: 3}
   _element: {fileID: 0}
   _price: 30000
   <SkillsToEquip>k__BackingField: []
@@ -28,9 +28,18 @@ MonoBehaviour:
       _value: 3
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
       _value: 6
-    floatStats: []
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9cff1bd1d17a7344a93771942f908064, type: 2}
+      _value: 20
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 2
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: ecd5815681d0fcc40b07970bed37aaae, type: 2}
+      _value: 100
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7c1ecc82623faf94d849ddff66d483f3, type: 2}
+      _value: 50
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 3
   _EVA: 0
   _HIT: 0

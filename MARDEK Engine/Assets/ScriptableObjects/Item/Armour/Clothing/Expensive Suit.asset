@@ -17,7 +17,7 @@ MonoBehaviour:
   _description: Though it's no good for combat, this snazzy suit IS, as its name
     implies, exorbitantly expensive! People will think that you're classy indeed
     if you wear it, surely.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 0270c96f2e262204d956f8d12ed97866, type: 3}
   _element: {fileID: 0}
   _price: 20000
   <SkillsToEquip>k__BackingField: []
@@ -25,8 +25,9 @@ MonoBehaviour:
   _statsSet:
     intStats: []
     floatStats: []
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 0
   _EVA: 0
   _HIT: 0

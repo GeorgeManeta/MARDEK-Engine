@@ -18,7 +18,7 @@ MonoBehaviour:
     it is afflicted with the Curse status effect, but so are any enemies that it
     strikes. It also drains the energy of its victims, but causes its wielder to
     bleed constantly.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: ad9f61e687c9d85478bfb5982037d196, type: 3}
   _element: {fileID: 11400000, guid: b58053569349d314892770b43156bfd2, type: 2}
   _price: 3000
   <SkillsToEquip>k__BackingField: []

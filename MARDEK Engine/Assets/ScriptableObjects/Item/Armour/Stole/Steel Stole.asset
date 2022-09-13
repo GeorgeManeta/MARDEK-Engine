@@ -17,7 +17,7 @@ MonoBehaviour:
   _description: A stole made of a sort of metal so thin and flexible it's almost
     like cloth, only several hundred times stronger and more protective. It increases
     DEF a lot, and also protects against non-elemental attacks.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: c67cd98233a684f4db29eaba4153d8f2, type: 3}
   _element: {fileID: 0}
   _price: 20000
   <SkillsToEquip>k__BackingField: []
@@ -27,8 +27,9 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
       _value: 10
     floatStats: []
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 10
   _EVA: 0
   _HIT: 0

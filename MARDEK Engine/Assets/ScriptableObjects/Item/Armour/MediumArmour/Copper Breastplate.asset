@@ -15,7 +15,7 @@ MonoBehaviour:
   _displayName: Copper Breastplate
   _elementText: 
   _description: A simple copper breastplate often worn by soldiers.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: a71fb509953784e4e98f4cad01937ca1, type: 3}
   _element: {fileID: 0}
   _price: 400
   <SkillsToEquip>k__BackingField: []
@@ -25,8 +25,9 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
       _value: 3
     floatStats: []
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 3
   _EVA: 0
   _HIT: 0

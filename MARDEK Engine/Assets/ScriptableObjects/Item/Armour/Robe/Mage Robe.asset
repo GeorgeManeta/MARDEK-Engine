@@ -16,7 +16,7 @@ MonoBehaviour:
   _elementText: 
   _description: A simple blue robe worn by mages. It works as defence against magical
     rather than physical attacks.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 12175c6390189b14fae1b57dca9b002c, type: 3}
   _element: {fileID: 0}
   _price: 100
   <SkillsToEquip>k__BackingField: []
@@ -26,8 +26,9 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
       _value: 2
     floatStats: []
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 0
   _EVA: 0
   _HIT: 0

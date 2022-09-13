@@ -27,9 +27,16 @@ MonoBehaviour:
       _value: 1
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
       _value: 1
-    floatStats: []
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
+      _value: 1
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9daa62ec1890c3543b1b68b27efc8f22, type: 2}
+      _value: 100
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: ecd5815681d0fcc40b07970bed37aaae, type: 2}
+      _value: 100
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 1
   _EVA: 0
   _HIT: 0
@@ -37,4 +44,5 @@ MonoBehaviour:
   _SPR: 0
   _STR: 0
   _VIT: 0
+  _categoryText: 
   <OnlyUsers>k__BackingField: []

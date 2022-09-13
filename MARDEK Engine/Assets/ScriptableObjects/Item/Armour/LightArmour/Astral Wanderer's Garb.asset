@@ -16,7 +16,7 @@ MonoBehaviour:
   _elementText: Aether
   _description: Light armour worn by those who walk in the realm of spirits. It protects
     against the aether element.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 007af2bd320cd7046a197637dd42176d, type: 3}
   _element: {fileID: 11400000, guid: 1193b067027c3e54a9681752489c5b96, type: 2}
   _price: 26000
   <SkillsToEquip>k__BackingField: []
@@ -28,8 +28,9 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
       _value: 6
     floatStats: []
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 6
   _EVA: 0
   _HIT: 0

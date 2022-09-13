@@ -16,7 +16,7 @@ MonoBehaviour:
   _elementText: Light
   _description: Heavy armour forged from the extremely rare metal called mythril.
     It's lightweight and incredibly durable.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: ea02b6e2fbb754a40b4f6721ae7e8637, type: 3}
   _element: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
   _price: 100000
   <SkillsToEquip>k__BackingField: []
@@ -27,9 +27,20 @@ MonoBehaviour:
       _value: 15
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
       _value: 5
-    floatStats: []
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9cff1bd1d17a7344a93771942f908064, type: 2}
+      _value: 80
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 2
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: b126ec105431be84db0d5e0d2a1d55cc, type: 2}
+      _value: 2
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 009d5e1e1dc5de643afc1dd3a6e4a45a, type: 2}
+      _value: 20
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: e4477c56bd8c17d46a91ae6c1e9233fc, type: 2}
+      _value: 20
+  _hitSFX: 0
   _ATK: 0
-  _CRITICAL: 0
+  _CRIT: 0
   _DEF: 15
   _EVA: 0
   _HIT: 0
