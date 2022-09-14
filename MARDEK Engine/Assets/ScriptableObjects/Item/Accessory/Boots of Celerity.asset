@@ -16,25 +16,14 @@ MonoBehaviour:
   _elementText: Air
   _description: A pair of finely-crafted golden boots, which make the wearer's feet
     far more nimble than usual.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 3d3dc838f9d41454b88bbc0b124e7ac0, type: 3}
   _element: {fileID: 11400000, guid: 3b3d471c2fd4e964bad27afb63ea5346, type: 2}
   _price: 10000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
   _statsSet:
-    intStats: []
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
+      _value: 10
     floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _MaxMP: 0
-  _MaxHP: 0
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []
+  _hitSFX: 

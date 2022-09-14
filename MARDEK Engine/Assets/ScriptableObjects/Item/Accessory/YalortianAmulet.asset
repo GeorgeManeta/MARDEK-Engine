@@ -15,11 +15,11 @@ MonoBehaviour:
   _displayName: YalortianAmulet
   _elementText: Dark
   _description: An amulet shaped like the Eye of YALORT. Increases Spirit.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 52adfcdb1bfe6a044a0d529ae4544cf7, type: 3}
   _element: {fileID: 11400000, guid: b58053569349d314892770b43156bfd2, type: 2}
   _price: 5000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
   _statsSet:
     intStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
@@ -28,18 +28,7 @@ MonoBehaviour:
       _value: 2
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
       _value: 2
-    floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 1
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 2
-  _SPR: 2
-  _STR: 0
-  _VIT: 0
-  _MaxMP: 0
-  _MaxHP: 0
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7c1ecc82623faf94d849ddff66d483f3, type: 2}
+      _value: 10
+  _hitSFX: 

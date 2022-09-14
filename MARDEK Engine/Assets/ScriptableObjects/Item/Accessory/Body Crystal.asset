@@ -17,11 +17,11 @@ MonoBehaviour:
   _description: A green crystal which is attuned to the physical wavelengths and
     body chakras such that it enhances the potential of the body of its wearer. Or
     something like that.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 5db6bfb653f21984789f65591517b0c8, type: 3}
   _element: {fileID: 0}
   _price: 1000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
   _statsSet:
     intStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
@@ -30,18 +30,13 @@ MonoBehaviour:
       _value: 1
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
       _value: 10
-    floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 1
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 1
-  _MaxMP: 0
-  _MaxHP: 10
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: ec557c6e575f0964aa9366e873e77086, type: 2}
+      _value: 20
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9357b43d55c3e5e40925ef71765aa027, type: 2}
+      _value: 20
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: c016fa0b29d573147a3ec32d3eb2ee51, type: 2}
+      _value: 20
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 948c3dab7b38aa746b591ea32313da6f, type: 2}
+      _value: 20
+  _hitSFX: 

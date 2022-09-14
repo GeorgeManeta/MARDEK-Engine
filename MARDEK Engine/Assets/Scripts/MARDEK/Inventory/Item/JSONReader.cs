@@ -69,11 +69,12 @@ namespace MARDEK.Inventory
             fsSerializer serializer = new fsSerializer();
             fsJsonParser.Parse(jsonFile.text, out fsData data);
             serializer.TryDeserialize(data, ref list);
-            foreach (Gemstone item in list.items)
+            foreach (Item item in list.items)
             {
                 /*if (item is EquippableItem)
                 {
                     //Debug.Log(item.categoryText);
+                    item.categoryText = "Gemstone";
                     if(item.categoryText!=null){
                         item.category = categoryDict[item.categoryText];
                     }
@@ -104,7 +105,7 @@ namespace MARDEK.Inventory
                 AssetDatabase.CreateAsset(
                     item,
                     // Make sure this is pointed at the right directory for what you're importing
-                    "Assets/ScriptableObjects/Item/Accessory/"+ /*item.categoryText*/ "Gems" + "/" + item.displayName + ".asset"
+                    "Assets/ScriptableObjects/Item/Miscellaneous/"+ /*item.categoryText*/ "" + "" + item.displayName + ".asset"
                 );
 
                 // Print the path of the created asset

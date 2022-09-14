@@ -1,6 +1,7 @@
 using UnityEngine;
 using MARDEK.Stats;
 using System.Collections.Generic;
+//using MARDEK.CharacterSystem;
 
 namespace MARDEK.Inventory
 {
@@ -9,6 +10,7 @@ namespace MARDEK.Inventory
     {
         [SerializeField] EquipmentCategory _category;
         [SerializeField] StatsSet _statsSet;
+        [SerializeField] CharacterInfo[] _onlyUsers;
 
         // TODO Skills
         // TODO Status effects
@@ -41,10 +43,11 @@ namespace MARDEK.Inventory
         [SerializeField] int _MaxHP;
         public int MaxHP { get { return _MaxHP; } }
         [SerializeField] string _categoryText;
-        public string categoryText { get { return _categoryText; } }*/
+        public string categoryText { get { return _categoryText; } set{_categoryText = value;}}*/
 
-        //public CharacterInfo[] onlyUsers { get { return _onlyUsers; } set{_onlyUsers=value;} }
-        [field: SerializeField] public List<Skill.Skill> OnlyUsers { get; private set; }
+
+        [field: SerializeField] public List<CharacterInfo> OnlyUsers { get; private set; }
+        //public CharacterInfo[] OnlyUsers { get { return _onlyUsers; } set{_onlyUsers=value;} }
 
         public EquipmentCategory category { get { return _category; } set{_category=value;} }
 

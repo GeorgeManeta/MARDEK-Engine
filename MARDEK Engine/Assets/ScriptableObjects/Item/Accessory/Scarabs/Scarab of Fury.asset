@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Scarab of Fury
+  m_EditorClassIdentifier: 
+  _displayName: Scarab of Fury
+  _elementText: Fire
+  _description: A legendary artefact with amazing power. It turns the wearer into
+    a raging warrior, who attacks with speed and power, but without thought or control.
+  _sprite: {fileID: 21300000, guid: 900ae1b8ecfc5bc4e847c2f03ac2225d, type: 3}
+  _element: {fileID: 11400000, guid: e179fa6b43e015742b42814e32864e49, type: 2}
+  _price: 130000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      _value: 5
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
+      _value: 5
+    floatStats: []
+  _hitSFX: 
+  <OnlyUsers>k__BackingField: []

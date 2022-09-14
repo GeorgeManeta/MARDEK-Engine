@@ -16,29 +16,17 @@ MonoBehaviour:
   _elementText: Earth
   _description: Emeralds are rather valuable green gemstones, a variety of the mineral
     beryl. They're mystically associated with vitality, constitution, health, earth.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 6cf5c1758f331a142a7c5a75dff9e0ac, type: 3}
   _element: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
   _price: 16000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: 05877571ee16f9648838210e2d4696c4, type: 2}
   _statsSet:
     intStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
       _value: 2
     floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 2
-  _MaxMP: 0
-  _MaxHP: 0
-  _categoryText: 
+  _hitSFX: 
   <OnlyUsers>k__BackingField: []
   _pfx: _emerald
   _spellDMG: 60

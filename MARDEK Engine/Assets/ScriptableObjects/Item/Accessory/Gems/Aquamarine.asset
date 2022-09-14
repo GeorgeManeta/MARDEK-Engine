@@ -17,27 +17,15 @@ MonoBehaviour:
   _description: Being a form of beryl, aquamarine is related to emeralds. However,
     whereas emeralds contain earth-elemental essence, aquamarine is brimming with
     the essence of the water element. It feels somehow wet...
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 8a806b71bfc1a5b46ac4d8364efc853b, type: 3}
   _element: {fileID: 11400000, guid: ef2aacb5c0629b644a8e1df0f9abf2fc, type: 2}
   _price: 800
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: 05877571ee16f9648838210e2d4696c4, type: 2}
   _statsSet:
     intStats: []
     floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _MaxMP: 0
-  _MaxHP: 0
-  _categoryText: 
+  _hitSFX: 
   <OnlyUsers>k__BackingField: []
   _pfx: _turquoise
   _spellDMG: 30

@@ -16,11 +16,11 @@ MonoBehaviour:
   _elementText: Fire
   _description: A powerful amulet shaped like a dragon. It protects against fire
     and boosts bodily energy output.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 299322c8d2d47df44aa44309de8a031a, type: 3}
   _element: {fileID: 11400000, guid: e179fa6b43e015742b42814e32864e49, type: 2}
   _price: 100
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
   _statsSet:
     intStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
@@ -31,18 +31,9 @@ MonoBehaviour:
       _value: 1
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
       _value: 1
-    floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 10
-  _SPR: 1
-  _STR: 1
-  _VIT: 1
-  _MaxMP: 0
-  _MaxHP: 0
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
+      _value: 1
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: f68c8ec8816407b42ab3609b22036c52, type: 2}
+      _value: 50
+  _hitSFX: 

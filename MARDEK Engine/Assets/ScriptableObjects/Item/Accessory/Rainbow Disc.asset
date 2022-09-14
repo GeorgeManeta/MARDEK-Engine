@@ -16,25 +16,12 @@ MonoBehaviour:
   _elementText: Light
   _description: An ancient, golden plate with a rainbow motif. It offers significant
     protection against all of the elements.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: b9a75f71678524b4db2614cced7a6337, type: 3}
   _element: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
   _price: 48000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
   _statsSet:
     intStats: []
     floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _MaxMP: 0
-  _MaxHP: 0
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []
+  _hitSFX: 

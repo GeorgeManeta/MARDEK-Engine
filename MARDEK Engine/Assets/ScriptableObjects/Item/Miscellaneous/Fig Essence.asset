@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28426c7252aa3c842b45f00132e5ee91, type: 3}
+  m_Name: Fig Essence
+  m_EditorClassIdentifier: 
+  _displayName: Fig Essence
+  _elementText: Fig
+  _description: A glowing, syrup-like substance made from partially crystalised elemental
+    energy. It's generally used as a reagent in spells and concoctions.
+  _sprite: {fileID: 21300000, guid: 9e21620d91823644aaabae4ec64579e0, type: 3}
+  _element: {fileID: 11400000, guid: 73116f9445d191d46903b4c88adf9ac7, type: 2}
+  _price: 2000
+  <SkillsToEquip>k__BackingField: []

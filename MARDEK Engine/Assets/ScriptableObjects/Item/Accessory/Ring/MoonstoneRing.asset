@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: MoonstoneRing
+  m_EditorClassIdentifier: 
+  _displayName: MoonstoneRing
+  _elementText: Light
+  _description: A ring set with a moonstone. It channels the power of light, protecting
+    its wearer from offensive light-elemental spells, and the status effect Sleep,
+    for some reason.
+  _sprite: {fileID: 21300000, guid: 9bc408d05fa48cb4ea90925789af4a81, type: 3}
+  _element: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
+  _price: 800
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
+      _value: 3
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9357b43d55c3e5e40925ef71765aa027, type: 2}
+      _value: 100
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 009d5e1e1dc5de643afc1dd3a6e4a45a, type: 2}
+      _value: 50
+  _hitSFX: 
+  <OnlyUsers>k__BackingField: []

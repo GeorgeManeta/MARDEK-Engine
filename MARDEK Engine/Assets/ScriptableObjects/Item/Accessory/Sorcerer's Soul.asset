@@ -19,11 +19,11 @@ MonoBehaviour:
     over him. In seeking immortality, he managed to magically remove his soul and
     preserve it in this state (it feels sort of like a ball of cotton). He grants
     a fraction of his spiritual power to whoever equips him.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: da4d7aa2df9c43b4e9d8829b1a0af93d, type: 3}
   _element: {fileID: 0}
   _price: 50000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
   _statsSet:
     intStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
@@ -31,17 +31,4 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9cff1bd1d17a7344a93771942f908064, type: 2}
       _value: 100
     floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 8
-  _STR: 0
-  _VIT: 0
-  _MaxMP: 100
-  _MaxHP: 0
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []
+  _hitSFX: 

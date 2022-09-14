@@ -17,25 +17,12 @@ MonoBehaviour:
   _description: A coin that supposedly lands more often on its heads side than its
     tails side when flipped, which is rather superstitiously said to grant its holder
     improved luck.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 4ad4e48b3620eb34382bf3e4f6975055, type: 3}
   _element: {fileID: 0}
   _price: 5000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
   _statsSet:
     intStats: []
     floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _MaxMP: 0
-  _MaxHP: 0
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []
+  _hitSFX: 

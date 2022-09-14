@@ -16,11 +16,11 @@ MonoBehaviour:
   _elementText: Earth
   _description: A finely-crafted bangle set with a valuable, magically enchanted
     Emerald. Boosts vitality.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: e1f492942cb2a934ca4d8a1d8d1e57a0, type: 3}
   _element: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
   _price: 25000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
   _statsSet:
     intStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
@@ -31,18 +31,7 @@ MonoBehaviour:
       _value: 3
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
       _value: 30
-    floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 3
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 3
-  _SPR: 0
-  _STR: 0
-  _VIT: 3
-  _MaxMP: 0
-  _MaxHP: 30
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 85468a50c61d3b748a2d8bf4d6988f7e, type: 2}
+      _value: 50
+  _hitSFX: 

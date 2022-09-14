@@ -17,11 +17,11 @@ MonoBehaviour:
   _description: Candriathope is basically will in physical form. Whenever sentient
     beings show great devotion to a cause, or great mental discipline, candriathope
     crystallises somewhere in far-off mountains.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 656a1ece37bee7848acebf2fba63dd47, type: 3}
   _element: {fileID: 11400000, guid: 73116f9445d191d46903b4c88adf9ac7, type: 2}
   _price: 12000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: 05877571ee16f9648838210e2d4696c4, type: 2}
   _statsSet:
     intStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
@@ -34,21 +34,10 @@ MonoBehaviour:
       _value: 1
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
       _value: 1
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
+      _value: 1
     floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 1
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 1
-  _SPR: 1
-  _STR: 1
-  _VIT: 1
-  _MaxMP: 0
-  _MaxHP: 0
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []
+  _hitSFX: 
   _pfx: _amethyst
   _spellDMG: 70
   _STFX: 

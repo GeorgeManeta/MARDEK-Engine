@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28426c7252aa3c842b45f00132e5ee91, type: 3}
+  m_Name: Purple Conch
+  m_EditorClassIdentifier: 
+  _displayName: Purple Conch
+  _elementText: Water
+  _description: This shell is from the same type of creature that possesses the popular
+    Golden Conch, but a much younger specimen. As the creature grows older, its shell
+    changes from purple to gold.
+  _sprite: {fileID: 21300000, guid: 9faf676fd2d1f754c85db97bc3aa23cc, type: 3}
+  _element: {fileID: 11400000, guid: ef2aacb5c0629b644a8e1df0f9abf2fc, type: 2}
+  _price: 4000
+  <SkillsToEquip>k__BackingField: []

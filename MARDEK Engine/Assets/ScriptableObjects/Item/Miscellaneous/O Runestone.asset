@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28426c7252aa3c842b45f00132e5ee91, type: 3}
+  m_Name: O Runestone
+  m_EditorClassIdentifier: 
+  _displayName: O Runestone
+  _elementText: Divine
+  _description: A brown rock, with the symbol for 'god' carved into it. It contains
+    immense power, and was likely carved personally by a deity.
+  _sprite: {fileID: 21300000, guid: f9c72a4eb985fb0408d73ba50670ac0a, type: 3}
+  _element: {fileID: 11400000, guid: c685eba234572d74fb6d35b06d8e32b2, type: 2}
+  _price: 60000
+  <SkillsToEquip>k__BackingField: []

@@ -16,27 +16,15 @@ MonoBehaviour:
   _elementText: Aether
   _description: This sliver of a gem is very light, almost without substance. It
     seems to be made from crystallised ectoplasm.
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: cf6391bc7ac60c240bd8f80c6f7d7f53, type: 3}
   _element: {fileID: 11400000, guid: 1193b067027c3e54a9681752489c5b96, type: 2}
   _price: 5000
   <SkillsToEquip>k__BackingField: []
-  _category: {fileID: 0}
+  _category: {fileID: 11400000, guid: 05877571ee16f9648838210e2d4696c4, type: 2}
   _statsSet:
     intStats: []
     floatStats: []
-  _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _MaxMP: 0
-  _MaxHP: 0
-  _categoryText: 
+  _hitSFX: 
   <OnlyUsers>k__BackingField: []
   _pfx: _turquoise
   _spellDMG: 30
