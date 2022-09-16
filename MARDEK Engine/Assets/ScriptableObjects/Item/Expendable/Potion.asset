@@ -10,23 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6535e70ab9379f549ba89d16ecdce68d, type: 3}
-  m_Name: Elixir
+  m_Name: Potion
   m_EditorClassIdentifier: 
-  _displayName: Elixir
+  _displayName: Potion
   _elementText: 
-  _description: An amazing brew made from the tears of a goddess, or something astounding
-    like that. It restores all HP and MP.
-  _sprite: {fileID: 21300000, guid: f6fc356502bdb4846afebff28719c7fd, type: 3}
+  _description: A concoction made from bleach, vinegar, urine, and a pinch of brown
+    sugar. Its aroma alone can melt steel, but fortunately for you, all it does in
+    this game is restore 100HP.
+  _sprite: {fileID: 21300000, guid: 21b7fce786808fb40b4d11a8382816c1, type: 3}
   _element: {fileID: 0}
-  _price: 9999
+  _price: 30
   <SkillsToEquip>k__BackingField: []
-  _percentHealthRestore: 100
-  _percentManaRestore: 100
-  _colorHexCode: 14DCFF
-  _pfx: potion5
+  _percentHealthRestore: 0
+  _percentManaRestore: 0
+  _colorHexCode: DCA064
+  _pfx: potion
   _canResurrect: 0
   _canPotionSpray: 0
   _grantUnderwaterBreathing: 0
   _statsSet:
-    intStats: []
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 09d38a9ba80723242aff585ba0915607, type: 2}
+      _value: 100
     floatStats: []

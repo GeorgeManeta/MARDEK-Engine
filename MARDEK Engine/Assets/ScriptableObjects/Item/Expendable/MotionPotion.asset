@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6535e70ab9379f549ba89d16ecdce68d, type: 3}
-  m_Name: Elixir
+  m_Name: MotionPotion
   m_EditorClassIdentifier: 
-  _displayName: Elixir
+  _displayName: MotionPotion
   _elementText: 
-  _description: An amazing brew made from the tears of a goddess, or something astounding
-    like that. It restores all HP and MP.
-  _sprite: {fileID: 21300000, guid: f6fc356502bdb4846afebff28719c7fd, type: 3}
+  _description: This type of potion cures Paralysis. They're also useful for cheating
+    at sport, perhaps?!
+  _sprite: {fileID: 21300000, guid: 1921f5bbea37cb2459006a48db3da520, type: 3}
   _element: {fileID: 0}
-  _price: 9999
+  _price: 20
   <SkillsToEquip>k__BackingField: []
-  _percentHealthRestore: 100
-  _percentManaRestore: 100
-  _colorHexCode: 14DCFF
-  _pfx: potion5
+  _percentHealthRestore: 0
+  _percentManaRestore: 0
+  _colorHexCode: 64FFFF
+  _pfx: cleanse
   _canResurrect: 0
   _canPotionSpray: 0
   _grantUnderwaterBreathing: 0

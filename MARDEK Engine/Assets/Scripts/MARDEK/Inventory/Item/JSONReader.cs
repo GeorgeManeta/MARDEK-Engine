@@ -43,6 +43,17 @@ namespace MARDEK.Inventory
             statATK.Value = value;
             item.statBoosts.intStats.Add(statATK);
         }
+        [ContextMenu("Deserialize")]
+        void setIntStatExp(int value, StatOfType<int> stat, ExpendableItem item)
+        {
+            if (value == 0)
+            {
+                return;
+            }
+            StatHolder<int, StatOfType<int>> statATK = new StatHolder<int, StatOfType<int>>(stat);
+            statATK.Value = value;
+            item.statsSet.intStats.Add(statATK);
+        }
 
         void DeserializeItems()
         {
@@ -69,8 +80,16 @@ namespace MARDEK.Inventory
             fsSerializer serializer = new fsSerializer();
             fsJsonParser.Parse(jsonFile.text, out fsData data);
             serializer.TryDeserialize(data, ref list);
-            foreach (Item item in list.items)
+            foreach (ExpendableItem item in list.items)
             {
+                /*if (item is ExpendableItem)
+                {
+                    setIntStatExp(item.HP, statDict["CurrentHP"], item);
+                    setIntStatExp(item.MP, statDict["CurrentMP"], item);
+                    setIntStatExp(item.STR, statDict["STR"], item);
+                    setIntStatExp(item.SPR, statDict["SPR"], item);
+                    setIntStatExp(item.POW, statDict["POW"], item);
+                }*/
                 /*if (item is EquippableItem)
                 {
                     //Debug.Log(item.categoryText);
@@ -96,16 +115,16 @@ namespace MARDEK.Inventory
                 Debug.Log(item.displayName);
                 //Debug.Log(item.description);
                 // Reactivate ElementText before uncommenting to use this script
-                if (item.elementText != "" && item.elementText != null)
+                /*if (item.elementText != "" && item.elementText != null)
                 {
                     item.element = elemDict[item.elementText];
                     Debug.Log(item.element.name);
-                }
+                }*/
 
                 AssetDatabase.CreateAsset(
                     item,
                     // Make sure this is pointed at the right directory for what you're importing
-                    "Assets/ScriptableObjects/Item/Miscellaneous/"+ /*item.categoryText*/ "" + "" + item.displayName + ".asset"
+                    "Assets/ScriptableObjects/Item/Expendable/"+ /*item.categoryText*/ "" + "" + item.displayName + ".asset"
                 );
 
                 // Print the path of the created asset

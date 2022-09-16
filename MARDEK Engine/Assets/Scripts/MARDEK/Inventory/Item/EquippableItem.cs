@@ -45,13 +45,9 @@ namespace MARDEK.Inventory
         [SerializeField] string _categoryText;
         public string categoryText { get { return _categoryText; } set{_categoryText = value;}}*/
 
-
-        [field: SerializeField] public List<CharacterInfo> OnlyUsers { get; private set; }
-        //public CharacterInfo[] OnlyUsers { get { return _onlyUsers; } set{_onlyUsers=value;} }
-
         public EquipmentCategory category { get { return _category; } set{_category=value;} }
 
-        public StatsSet statBoosts { get { return _statsSet; } set{_statsSet = value;} }
+        public StatsSet statBoosts { get { return _statsSet; } private set{_statsSet = value;} }
 
         public EquippableItem(){
             statBoosts = new StatsSet();

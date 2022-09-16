@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6535e70ab9379f549ba89d16ecdce68d, type: 3}
+  m_Name: Rainbow Juice
+  m_EditorClassIdentifier: 
+  _displayName: Rainbow Juice
+  _elementText: Light
+  _description: A special shaman's brew, which grants protection from a single attack
+    of all eight elements.
+  _sprite: {fileID: 21300000, guid: fe3fa38ea826cea499256955b449bd2e, type: 3}
+  _element: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
+  _price: 10000
+  <SkillsToEquip>k__BackingField: []
+  _percentHealthRestore: 0
+  _percentManaRestore: 0
+  _colorHexCode: 14FFB4
+  _pfx: rainbow
+  _canResurrect: 0
+  _canPotionSpray: 0
+  _grantUnderwaterBreathing: 0
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 15
+    floatStats: []
