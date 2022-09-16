@@ -10,8 +10,7 @@ namespace MARDEK.Inventory
     {
         [SerializeField] EquipmentCategory _category;
         [SerializeField] StatsSet _statsSet;
-        [SerializeField] CharacterInfo[] _onlyUsers;
-
+        
         // TODO Skills
         // TODO Status effects
 
