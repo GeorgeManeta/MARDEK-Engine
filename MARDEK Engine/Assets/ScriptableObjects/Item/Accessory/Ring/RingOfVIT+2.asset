@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: RingOfVIT+2
   m_EditorClassIdentifier: 
   _displayName: RingOfVIT+2
-  _elementText: 
   _description: This little ring, set with a green gem, magically enhances its wearer's
     physical endurance.
   _sprite: {fileID: 21300000, guid: 871666a9e05833b45846078492245d84, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 400
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
@@ -29,4 +28,3 @@ MonoBehaviour:
       _value: 20
     floatStats: []
   _hitSFX: 
-  <OnlyUsers>k__BackingField: []

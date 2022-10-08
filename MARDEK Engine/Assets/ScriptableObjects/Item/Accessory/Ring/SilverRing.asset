@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: SilverRing
   m_EditorClassIdentifier: 
   _displayName: SilverRing
-  _elementText: 
   _description: This tiny ring somehow raises Defence by a whole two points.
   _sprite: {fileID: 21300000, guid: e8d894cb8f9cf5e48acff929c135d3e7, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 600
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
@@ -26,4 +25,3 @@ MonoBehaviour:
       _value: 2
     floatStats: []
   _hitSFX: 
-  <OnlyUsers>k__BackingField: []

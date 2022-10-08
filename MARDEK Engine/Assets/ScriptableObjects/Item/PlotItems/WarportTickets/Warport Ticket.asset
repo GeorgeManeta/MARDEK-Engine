@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Warport Ticket
   m_EditorClassIdentifier: 
   _displayName: Warport Ticket
-  _elementText: 
   _description: A ticket for the Warport portal, to travel across the continents.
     Good for only one use, but it is valid for the whole party and not just an individual.
   _sprite: {fileID: 21300000, guid: 471bffbc8e1bbbd4a94b15037cead42b, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 100
   <SkillsToEquip>k__BackingField: []

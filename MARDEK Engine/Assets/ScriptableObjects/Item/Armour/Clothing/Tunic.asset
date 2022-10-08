@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Tunic
   m_EditorClassIdentifier: 
   _displayName: Tunic
-  _elementText: 
   _description: A 'stylish', vomit-green Commoner Tunic. Worn by Commoners.
   _sprite: {fileID: 21300000, guid: d593f2caa3dbc144495640077af45248, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 1
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: b56b5732550b72345975167f4f34f9ba, type: 2}
@@ -24,14 +23,3 @@ MonoBehaviour:
     intStats: []
     floatStats: []
   _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Clothing
-  <OnlyUsers>k__BackingField: []

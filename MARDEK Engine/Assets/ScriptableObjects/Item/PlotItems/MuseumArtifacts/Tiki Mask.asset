@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Tiki Mask
   m_EditorClassIdentifier: 
   _displayName: Tiki Mask
-  _elementText: 
   _description: An ANCIENT ARTEFACT.\nIt appears to be a sort of stone mask, probably
     worn by some ancient long-gone tribe. It's likely worth quite a bit to a collector
     of such things.
   _sprite: {fileID: 21300000, guid: f50c7e7a35794794f89ab1ac128a9447, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: -1
   <SkillsToEquip>k__BackingField: []

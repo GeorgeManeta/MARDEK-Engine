@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Greataxe
   m_EditorClassIdentifier: 
   _displayName: Greataxe
-  _elementText: 
   _description: A basic greataxe.
   _sprite: {fileID: 21300000, guid: 3bcf7734c935f5743959b22acb8026a4, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 500
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 5bc6f4e4bd1702946b2f4e7c3ec017ca, type: 2}
@@ -30,14 +29,3 @@ MonoBehaviour:
       _value: 95
     floatStats: []
   _hitSFX: 0
-  _ATK: 34
-  _CRIT: 4
-  _DEF: 0
-  _EVA: 0
-  _HIT: 95
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Greataxe
-  <OnlyUsers>k__BackingField: []

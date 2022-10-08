@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: Steel Stole
   m_EditorClassIdentifier: 
   _displayName: Steel Stole
-  _elementText: 
   _description: A stole made of a sort of metal so thin and flexible it's almost
     like cloth, only several hundred times stronger and more protective. It increases
     DEF a lot, and also protects against non-elemental attacks.
   _sprite: {fileID: 21300000, guid: c67cd98233a684f4db29eaba4153d8f2, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 20000
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: bc10fd4867353284994526f65fd02a1a, type: 2}
@@ -30,14 +29,3 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 4d25408ca10874848a5e7f9f090e503d, type: 2}
       _value: 50
   _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 10
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Stole
-  <OnlyUsers>k__BackingField: []

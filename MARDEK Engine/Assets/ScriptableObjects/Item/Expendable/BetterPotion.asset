@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: BetterPotion
   m_EditorClassIdentifier: 
   _displayName: BetterPotion
-  _elementText: 
   _description: It's better than a normal potion because it restores 200HP, and has
     more friends, listens to trendier music, and gets invited to more parties. As
     well as more sex. Ohyes.
   _sprite: {fileID: 21300000, guid: 7ce232b8445dc954280590a008e2f2bb, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 120
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0

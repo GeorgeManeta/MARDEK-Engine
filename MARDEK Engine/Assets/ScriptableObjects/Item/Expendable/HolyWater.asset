@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: HolyWater
   m_EditorClassIdentifier: 
   _displayName: HolyWater
-  _elementText: 
   _description: Holy water blessed by YALORT, used to cure curses and zombification.
     Being blessed by YALORT as it is, it burns the mouth of pretty much anyone when
     they drink it. It burns skin even if you just rub it on, too.
   _sprite: {fileID: 21300000, guid: ac1090f259e206a4f82c97c8ba1798b7, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 20
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0

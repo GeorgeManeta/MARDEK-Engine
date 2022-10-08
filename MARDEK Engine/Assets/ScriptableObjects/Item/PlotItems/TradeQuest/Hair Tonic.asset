@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Hair Tonic
   m_EditorClassIdentifier: 
   _displayName: Hair Tonic
-  _elementText: 
   _description: This hair tonic is designed to make already long hair shiny any beautiful;
     it can do nothing about growing new hair!
   _sprite: {fileID: 21300000, guid: f453ef61d3ce561409f071ddb1de01c1, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: -1
   <SkillsToEquip>k__BackingField: []

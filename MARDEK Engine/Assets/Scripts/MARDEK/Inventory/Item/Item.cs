@@ -9,6 +9,11 @@ namespace MARDEK.Inventory
     [CreateAssetMenu(menuName = "MARDEK/Inventory/Item")]
     public class Item : AddressableScriptableObject
     {
+        public void OnValidate(){
+            if(element == null){
+                Debug.LogError("ELEMENT IS MISSING IN " + this.displayName);
+            }
+        }
         [SerializeField] string _displayName;
         public string displayName { get { return _displayName; } }
         // Added only to fascilitate mass inputs. Should not be active unless you are attempting to create items via JSONReader.cs

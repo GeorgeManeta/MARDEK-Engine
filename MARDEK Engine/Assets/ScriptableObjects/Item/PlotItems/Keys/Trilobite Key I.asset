@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Trilobite Key I
   m_EditorClassIdentifier: 
   _displayName: Trilobite Key I
-  _elementText: 
   _description: A key shaped like... a trilobite?
   _sprite: {fileID: 21300000, guid: ea5750e2f877a864b9c3589eb8361db0, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 1000
   <SkillsToEquip>k__BackingField: []

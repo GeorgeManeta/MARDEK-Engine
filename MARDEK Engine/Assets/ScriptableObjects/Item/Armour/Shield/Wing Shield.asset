@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Wing Shield
   m_EditorClassIdentifier: 
   _displayName: Wing Shield
-  _elementText: 
   _description: A type of shield made in Aeropolis, with a sort of 'feather rune'
     motif. It increases agility, and protects against AIR and EARTH.
   _sprite: {fileID: 21300000, guid: c887d98e6d6ab1948b6ccf276333213f, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 4000
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: dd92070e9d759fd49808966d2083db5a, type: 2}
@@ -28,13 +27,4 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 70d794e8afaa3384c876f4eae5046a57, type: 2}
       _value: 30
     floatStats: []
-  _ATK: 0
-  _CRITICAL: 0
-  _DEF: 4
-  _EVA: 30
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  <OnlyUsers>k__BackingField: []
+  _hitSFX: 

@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Gold Warport Pass
   m_EditorClassIdentifier: 
   _displayName: Gold Warport Pass
-  _elementText: 
   _description: A special golden-coloured Warport Pass, which you earned due to your
     Frequent Warping. It allows you to pass through without the bother of buying
     a ticket or talking to security.
   _sprite: {fileID: 21300000, guid: 064d99c8b3608ba428f926e871630e2d, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: -1
   <SkillsToEquip>k__BackingField: []

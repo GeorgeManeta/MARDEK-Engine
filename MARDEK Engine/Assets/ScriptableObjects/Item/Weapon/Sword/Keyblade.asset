@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Keyblade
   m_EditorClassIdentifier: 
   _displayName: Keyblade
-  _elementText: 
   _description: No, this doesn't have anything to do with Kingdom Hearts. Nothing
     at all. It's not even a reference to it or anything.
   _sprite: {fileID: 21300000, guid: d32d27bde5306bb41b20460c5c8257ff, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 2000
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 1078b8d8773998a4cb1043d7bc7975bc, type: 2}
@@ -31,14 +30,3 @@ MonoBehaviour:
       _value: 97
     floatStats: []
   _hitSFX: 0
-  _ATK: 26
-  _CRIT: 4
-  _DEF: 0
-  _EVA: 0
-  _HIT: 97
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Sword
-  <OnlyUsers>k__BackingField: []

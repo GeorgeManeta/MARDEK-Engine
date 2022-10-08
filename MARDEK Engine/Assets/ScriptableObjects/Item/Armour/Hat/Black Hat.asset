@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Black Hat
   m_EditorClassIdentifier: 
   _displayName: Black Hat
-  _elementText: 
   _description: It's a stylish black hat that protects against the Dark element somewhat.
   _sprite: {fileID: 21300000, guid: 6fa6b770fa193bc41a617bbf8fa56b59, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 900
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 679b1c6c225d8c244bf083d50292d4a3, type: 2}
@@ -28,14 +27,3 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7c1ecc82623faf94d849ddff66d483f3, type: 2}
       _value: 50
   _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 1
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []

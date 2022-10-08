@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: CatacombsKey
   m_EditorClassIdentifier: 
   _displayName: CatacombsKey
-  _elementText: 
   _description: A dark, heavy key shaped like a skull. It opens a door in the catacombs.
   _sprite: {fileID: 21300000, guid: 7ee48a7c1caf5b243af05a9ced060861, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: -1
   <SkillsToEquip>k__BackingField: []

@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Sage's Wand
   m_EditorClassIdentifier: 
   _displayName: Sage's Wand
-  _elementText: 
   _description: A magical rod that was once used by some great sage or something.
     It boosts the power of the four natural elements slightly.
   _sprite: {fileID: 21300000, guid: 4f1464614e3d45a4a99645d4647a8bf0, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 800
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 39bd0a665982968408ab10da862aa93d, type: 2}
@@ -33,14 +32,3 @@ MonoBehaviour:
       _value: 2
     floatStats: []
   _hitSFX: 0
-  _ATK: 10
-  _CRIT: 5
-  _DEF: 0
-  _EVA: 0
-  _HIT: 80
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Rod
-  <OnlyUsers>k__BackingField: []

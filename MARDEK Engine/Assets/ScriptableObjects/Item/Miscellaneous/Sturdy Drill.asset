@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Sturdy Drill
   m_EditorClassIdentifier: 
   _displayName: Sturdy Drill
-  _elementText: 
   _description: This shiny metal drill was once stuck to the nose of a Drillhound.
     It's amazing what can evolve naturally, don't you think?
   _sprite: {fileID: 21300000, guid: bf8510eec14eb484490e36d3739f13ec, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 600
   <SkillsToEquip>k__BackingField: []

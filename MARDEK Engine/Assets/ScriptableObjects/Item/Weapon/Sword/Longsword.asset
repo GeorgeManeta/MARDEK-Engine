@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Longsword
   m_EditorClassIdentifier: 
   _displayName: Longsword
-  _elementText: 
   _description: A basic iron sword.
   _sprite: {fileID: 21300000, guid: bfa2bc6ef57a3764b8207b32192f24b3, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 50
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 1078b8d8773998a4cb1043d7bc7975bc, type: 2}
@@ -30,14 +29,3 @@ MonoBehaviour:
       _value: 97
     floatStats: []
   _hitSFX: 0
-  _ATK: 10
-  _CRIT: 4
-  _DEF: 0
-  _EVA: 0
-  _HIT: 97
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Sword
-  <OnlyUsers>k__BackingField: []

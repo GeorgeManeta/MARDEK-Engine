@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: Remedy
   m_EditorClassIdentifier: 
   _displayName: Remedy
-  _elementText: 
   _description: This potent potion can remove any and all status effects. Probably
     because it's orange. It's not made of oranges though, unfortunately. Does that
     make you cry? I bet it does.
   _sprite: {fileID: 21300000, guid: a98901959167b9b4192355fd7859ceb2, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 500
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0

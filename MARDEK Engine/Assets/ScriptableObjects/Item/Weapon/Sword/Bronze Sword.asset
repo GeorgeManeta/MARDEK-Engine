@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Bronze Sword
   m_EditorClassIdentifier: 
   _displayName: Bronze Sword
-  _elementText: 
   _description: A sturdy longsword made of bronze.
   _sprite: {fileID: 21300000, guid: 69b65e90155afbe4fbe73f7f3a4baa17, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 350
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 1078b8d8773998a4cb1043d7bc7975bc, type: 2}
@@ -30,14 +29,3 @@ MonoBehaviour:
       _value: 97
     floatStats: []
   _hitSFX: 0
-  _ATK: 14
-  _CRIT: 4
-  _DEF: 0
-  _EVA: 0
-  _HIT: 97
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Sword
-  <OnlyUsers>k__BackingField: []

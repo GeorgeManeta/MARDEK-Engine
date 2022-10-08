@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Ether of Kings
   m_EditorClassIdentifier: 
   _displayName: Ether of Kings
-  _elementText: 
   _description: The highest quality ether, infused with the urine of some great King
     of olden times, or something like that. It restores 1000MP.
   _sprite: {fileID: 21300000, guid: f612478da993f854fa91367d1b9b2009, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 6000
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0

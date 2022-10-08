@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: SewerKey
   m_EditorClassIdentifier: 
   _displayName: SewerKey
-  _elementText: 
   _description: A large, rusty key. It opens a door in the sewers.
   _sprite: {fileID: 21300000, guid: dec637ef69a7e74498b060ac94ea4887, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: -1
   <SkillsToEquip>k__BackingField: []

@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: FigJuice
   m_EditorClassIdentifier: 
   _displayName: FigJuice
-  _elementText: 
   _description: A thick, gloopy, purple concoction made of figs. No, not THOSE kind
     of figs! You and your dirty mind! Behave!\nIt restores 2000 HP, and causes acute
     feelings of distaste towards women. Yes, even for women; the self-loathing makes
     it worse for them.
   _sprite: {fileID: 21300000, guid: 940809548ea67b1449560695ee52d674, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 1000
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0

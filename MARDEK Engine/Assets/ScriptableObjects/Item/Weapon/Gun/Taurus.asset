@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Taurus
   m_EditorClassIdentifier: 
   _displayName: Taurus
-  _elementText: 
   _description: A simple but powerful gun.
   _sprite: {fileID: 21300000, guid: 3df02a142b0cc7746b25f8f881ee4e64, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 0
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: c05b1f073a8f91c4595f10ee14b70f7d, type: 2}
@@ -28,14 +27,3 @@ MonoBehaviour:
       _value: 999
     floatStats: []
   _hitSFX: 0
-  _ATK: 60
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 999
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Gun
-  <OnlyUsers>k__BackingField: []

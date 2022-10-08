@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Reptoid Spearhead
   m_EditorClassIdentifier: 
   _displayName: Reptoid Spearhead
-  _elementText: 
   _description: An ANCIENT ARTEFACT.\nIt's primitive and made of flint, dating back
     to when the reptoids were still barbaric savages, living like hunter-gatherers.
     A collector would pay a high price for it.
   _sprite: {fileID: 21300000, guid: 44deea63ad42869459c65894a2634fcd, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: -1
   <SkillsToEquip>k__BackingField: []

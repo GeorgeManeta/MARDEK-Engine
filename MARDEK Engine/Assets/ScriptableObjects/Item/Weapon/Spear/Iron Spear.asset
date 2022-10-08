@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Iron Spear
   m_EditorClassIdentifier: 
   _displayName: Iron Spear
-  _elementText: 
   _description: A simple metal spear with no magical enchantments whatsoever.
   _sprite: {fileID: 21300000, guid: 175dadf34d3c2104090f0ae8a88f3e3f, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 500
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 0fc6862b2872fe34b97c8f98c94157eb, type: 2}
@@ -30,14 +29,3 @@ MonoBehaviour:
       _value: 94
     floatStats: []
   _hitSFX: 0
-  _ATK: 28
-  _CRIT: 2
-  _DEF: 0
-  _EVA: 0
-  _HIT: 94
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Spear
-  <OnlyUsers>k__BackingField: []

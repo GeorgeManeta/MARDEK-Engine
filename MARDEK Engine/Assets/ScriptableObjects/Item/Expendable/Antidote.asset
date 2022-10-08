@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Antidote
   m_EditorClassIdentifier: 
   _displayName: Antidote
-  _elementText: 
   _description: This tiny vial of green liquid can cure most poisons when imbibed.
     Unfortunately though, it also tastes like poison itself. Oh well.
   _sprite: {fileID: 21300000, guid: 9a46b01d4893aa548abe0e9ef46736fa, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 20
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0

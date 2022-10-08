@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Buzzsaw Arm
   m_EditorClassIdentifier: 
   _displayName: Buzzsaw Arm
-  _elementText: 
   _description: Mechanical arms, fashioned into whirring buzzsaws to slice into foes.
   _sprite: {fileID: 21300000, guid: 675f8a8a11695f948b48eb0568f40b35, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 500
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 2ae9a698e86be944cb3c5ef094417423, type: 2}
@@ -34,14 +33,3 @@ MonoBehaviour:
       _value: 4
     floatStats: []
   _hitSFX: 0
-  _ATK: 50
-  _CRIT: 5
-  _DEF: 0
-  _EVA: 0
-  _HIT: 100
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: RobotArm
-  <OnlyUsers>k__BackingField: []

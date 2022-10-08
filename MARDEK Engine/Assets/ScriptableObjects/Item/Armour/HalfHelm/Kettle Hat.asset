@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Kettle Hat
   m_EditorClassIdentifier: 
   _displayName: Kettle Hat
-  _elementText: 
   _description: 'A wide-brimmed metal helm-hat thing. Trendy! '
   _sprite: {fileID: 21300000, guid: 4a874a6d0c57a424c9a11076c828807d, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 200
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: dae8caefbcf26a44a954801b232fb279, type: 2}
@@ -25,13 +24,4 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
       _value: 2
     floatStats: []
-  _ATK: 0
-  _CRITICAL: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  <OnlyUsers>k__BackingField: []
+  _hitSFX: 

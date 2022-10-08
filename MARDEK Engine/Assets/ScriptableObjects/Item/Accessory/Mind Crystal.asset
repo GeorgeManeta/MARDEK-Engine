@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: Mind Crystal
   m_EditorClassIdentifier: 
   _displayName: Mind Crystal
-  _elementText: 
   _description: A blue crystal which is attuned to the mental wavelengths and mind
     chakras such that it enhances the potential of the mind of its wearer. Or something
     like that.
   _sprite: {fileID: 21300000, guid: 19637a5dee20fce4784b250aa85a840b, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 1000
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}

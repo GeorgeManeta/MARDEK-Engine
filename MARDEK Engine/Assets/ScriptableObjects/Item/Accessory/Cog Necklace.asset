@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Cog Necklace
   m_EditorClassIdentifier: 
   _displayName: Cog Necklace
-  _elementText: 
   _description: A necklace, with a simple gear attached. It was enchanted by Meraeador
     to protect the wearer from being put to sleep.
   _sprite: {fileID: 21300000, guid: 4de7faa1669ad5e4ca676b5b13f5b572, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 100
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}

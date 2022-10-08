@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Gauntlet
   m_EditorClassIdentifier: 
   _displayName: Gauntlet
-  _elementText: 
   _description: A metal glove-type thing that increases strength and defence.
   _sprite: {fileID: 21300000, guid: 7babf510505c5444c8167f7e0e3624f7, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 500
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}

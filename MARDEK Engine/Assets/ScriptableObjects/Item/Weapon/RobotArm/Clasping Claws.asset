@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Clasping Claws
   m_EditorClassIdentifier: 
   _displayName: Clasping Claws
-  _elementText: 
   _description: Mechanical arms, designed for picking things up, but also very useful
     for causing harm to things in combat.
   _sprite: {fileID: 21300000, guid: e682f8ac04beb0949a3c84602bd80155, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 500
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 2ae9a698e86be944cb3c5ef094417423, type: 2}
@@ -31,14 +30,3 @@ MonoBehaviour:
       _value: 100
     floatStats: []
   _hitSFX: 0
-  _ATK: 30
-  _CRIT: 2
-  _DEF: 0
-  _EVA: 0
-  _HIT: 100
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: RobotArm
-  <OnlyUsers>k__BackingField: []

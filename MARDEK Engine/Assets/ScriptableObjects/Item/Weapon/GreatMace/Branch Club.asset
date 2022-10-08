@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Branch Club
   m_EditorClassIdentifier: 
   _displayName: Branch Club
-  _elementText: 
   _description: A large branch, used as a club.
   _sprite: {fileID: 21300000, guid: bc147df3f1860f84d8af782dd4576d94, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 0
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 0ec24d76c3ca5c0429bb9f36a131b31c, type: 2}
@@ -30,14 +29,3 @@ MonoBehaviour:
       _value: 90
     floatStats: []
   _hitSFX: 0
-  _ATK: 4
-  _CRIT: 1
-  _DEF: 0
-  _EVA: 0
-  _HIT: 90
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Greatmace
-  <OnlyUsers>k__BackingField: []

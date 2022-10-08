@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Little Wooden Key
   m_EditorClassIdentifier: 
   _displayName: Little Wooden Key
-  _elementText: 
   _description: A small key, made of wood. Its design is crude, and it looks like
     it's seen many years.
   _sprite: {fileID: 21300000, guid: 3d320dc07ad27c0469f49e98ba70688b, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: -1
   <SkillsToEquip>k__BackingField: []

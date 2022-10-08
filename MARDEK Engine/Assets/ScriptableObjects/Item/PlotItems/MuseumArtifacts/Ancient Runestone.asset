@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Ancient Runestone
   m_EditorClassIdentifier: 
   _displayName: Ancient Runestone
-  _elementText: 
   _description: An ANCIENT ARTEFACT.\nIt's a particularly rare example of an etched
     runestone. It's lost all of its magical power, but it might be of interest to
     a collector of ancient relics.
   _sprite: {fileID: 21300000, guid: 0637c8b883d35b84ab093e483ddbdbc1, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: -1
   <SkillsToEquip>k__BackingField: []

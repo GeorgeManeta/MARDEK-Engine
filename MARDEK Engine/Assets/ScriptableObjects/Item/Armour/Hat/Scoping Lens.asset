@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Scoping Lens
   m_EditorClassIdentifier: 
   _displayName: Scoping Lens
-  _elementText: 
   _description: An elaborate yet delicate headset made by Meraeador for examining
     his inventions closely. It can be used to increase his accuracy in battle.
   _sprite: {fileID: 21300000, guid: dcbb505f821b9ef47b49e16aac590107, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 6000
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 679b1c6c225d8c244bf083d50292d4a3, type: 2}
@@ -35,14 +34,3 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: ecd5815681d0fcc40b07970bed37aaae, type: 2}
       _value: 100
   _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 1
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 1
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []

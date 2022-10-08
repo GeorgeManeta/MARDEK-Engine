@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: WalkingStick
   m_EditorClassIdentifier: 
   _displayName: WalkingStick
-  _elementText: 
   _description: A stick to assist the elderly in walking.
   _sprite: {fileID: 21300000, guid: 0bf32da675335ed4cb7c66506ab3bc4b, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 100
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: e65b2218ebe055f4ca2d2961efd2fac5, type: 2}
@@ -30,14 +29,3 @@ MonoBehaviour:
       _value: 1
     floatStats: []
   _hitSFX: 0
-  _ATK: 8
-  _CRIT: 0
-  _DEF: 0
-  _EVA: 0
-  _HIT: 80
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: WalkingStick
-  <OnlyUsers>k__BackingField: []

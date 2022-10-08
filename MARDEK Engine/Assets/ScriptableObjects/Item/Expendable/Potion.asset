@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: Potion
   m_EditorClassIdentifier: 
   _displayName: Potion
-  _elementText: 
   _description: A concoction made from bleach, vinegar, urine, and a pinch of brown
     sugar. Its aroma alone can melt steel, but fortunately for you, all it does in
     this game is restore 100HP.
   _sprite: {fileID: 21300000, guid: 21b7fce786808fb40b4d11a8382816c1, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 30
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0

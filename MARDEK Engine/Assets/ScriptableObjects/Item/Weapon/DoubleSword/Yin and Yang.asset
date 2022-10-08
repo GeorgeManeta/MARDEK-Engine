@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Yin and Yang
   m_EditorClassIdentifier: 
   _displayName: Yin and Yang
-  _elementText: 
   _description: A powerful doublesword which inflicts bonus damage against Moral
     elemental opponents.
   _sprite: {fileID: 21300000, guid: 1b63525d056f2c942bd4c824c69f7849, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 20000
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: ddd9f69d8ab580e42b10f72010d75f09, type: 2}
@@ -33,14 +32,3 @@ MonoBehaviour:
       _value: 2
     floatStats: []
   _hitSFX: 0
-  _ATK: 46
-  _CRIT: 7
-  _DEF: 0
-  _EVA: 0
-  _HIT: 97
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Doublesword
-  <OnlyUsers>k__BackingField: []

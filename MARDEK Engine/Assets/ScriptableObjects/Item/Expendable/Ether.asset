@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: Ether
   m_EditorClassIdentifier: 
   _displayName: Ether
-  _elementText: 
   _description: This magical draught restores 100 MP, and is probably made from liquefied
     fairies, or something. Who knows? But does it MATTER? You'll drink it anyway,
     even if you just found it lying around in some manky cave.
   _sprite: {fileID: 21300000, guid: 950f82f068a39af40bd1106772efe00e, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 600
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0

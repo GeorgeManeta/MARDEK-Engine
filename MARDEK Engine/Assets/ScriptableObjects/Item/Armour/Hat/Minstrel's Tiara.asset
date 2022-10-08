@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: Minstrel's Tiara
   m_EditorClassIdentifier: 
   _displayName: Minstrel's Tiara
-  _elementText: 
   _description: A special magical tiara worn by musical performers in battle. It
     causes even monsters to be enamoured by the performer's music, such that there's
     a chance that they'll neglect to attack them, leaving the performer to continue
     their playing.
   _sprite: {fileID: 21300000, guid: 41df5accf67000e4199ba26e9dadeb44, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 20000
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 679b1c6c225d8c244bf083d50292d4a3, type: 2}
@@ -31,14 +30,3 @@ MonoBehaviour:
       _value: 5
     floatStats: []
   _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 2
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 5
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: 
-  <OnlyUsers>k__BackingField: []

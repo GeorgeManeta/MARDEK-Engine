@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: Manaberry
   m_EditorClassIdentifier: 
   _displayName: Manaberry
-  _elementText: 
   _description: When consumed, this plump, succulent, juicy, glowing cyan berry instantly
     restores 50 of your precious Mana Points. Or Magic Points, if you think they're
     called that. They also cause severe diarrhoea, nausea, hallucinations, and malignant
     tumours, but that's not relevant.
   _sprite: {fileID: 21300000, guid: 724d9762c84ee29468ba81dd69a1a9c0, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 200
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0

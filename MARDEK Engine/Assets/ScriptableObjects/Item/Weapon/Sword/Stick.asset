@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: Stick
   m_EditorClassIdentifier: 
   _displayName: Stick
-  _elementText: 
   _description: A large, sturdy stick, found on the gr- no! It's a Mighty Hero's
     Magic Sword, of course! It's short and light enough to wield in one hand like
     a sword.
   _sprite: {fileID: 21300000, guid: e6dc3751c859b6a40a5ee31dda9eacbf, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 0
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 1078b8d8773998a4cb1043d7bc7975bc, type: 2}
@@ -32,14 +31,3 @@ MonoBehaviour:
       _value: 90
     floatStats: []
   _hitSFX: 0
-  _ATK: 3
-  _CRIT: 1
-  _DEF: 0
-  _EVA: 0
-  _HIT: 90
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Sword
-  <OnlyUsers>k__BackingField: []

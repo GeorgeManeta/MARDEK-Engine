@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Rusty Armour
   m_EditorClassIdentifier: 
   _displayName: Rusty Armour
-  _elementText: 
   _description: A full suit of armour, made of bronze. It's rusted though from overuse,
     and isn't as durable as it once was.
   _sprite: {fileID: 21300000, guid: 993fe7668ea46674f833e22ede26069b, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 1000
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 39eee71154b7dd748882f788cc0c5fb3, type: 2}
@@ -27,14 +26,3 @@ MonoBehaviour:
       _value: 4
     floatStats: []
   _hitSFX: 0
-  _ATK: 0
-  _CRIT: 0
-  _DEF: 4
-  _EVA: 0
-  _HIT: 0
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: HeavyArmour
-  <OnlyUsers>k__BackingField: []

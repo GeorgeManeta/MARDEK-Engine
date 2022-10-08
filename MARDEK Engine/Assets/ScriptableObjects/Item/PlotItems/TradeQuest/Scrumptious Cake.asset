@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Scrumptious Cake
   m_EditorClassIdentifier: 
   _displayName: Scrumptious Cake
-  _elementText: 
   _description: A lovely chocolate cake, whatever one of those is. It looks very
     delicious... probably.
   _sprite: {fileID: 21300000, guid: 52e87a68d8717ab49aa5162d3a52bda3, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: -1
   <SkillsToEquip>k__BackingField: []

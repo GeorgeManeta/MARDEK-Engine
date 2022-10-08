@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Warp Stone
   m_EditorClassIdentifier: 
   _displayName: Warp Stone
-  _elementText: 
   _description: A type of magical stone that can somehow allow a person to travel
     as if casting the Warp spell. You can't use it, though. Why? Because. Shut up.
   _sprite: {fileID: 21300000, guid: 0b53999d0ec35eb45a26b5b2ad5e68c2, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 100
   <SkillsToEquip>k__BackingField: []

@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: Mythril Sword
   m_EditorClassIdentifier: 
   _displayName: Mythril Sword
-  _elementText: 
   _description: A sword forged from the highly unique-to-this-setting metal called
     'mythril'. It's not an especially exciting sword. Its favourite colour is probably
     grey.
   _sprite: {fileID: 21300000, guid: 97e5d1586c5f1584986cb2dd4d9f14e0, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 2000
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 1078b8d8773998a4cb1043d7bc7975bc, type: 2}
@@ -32,14 +31,3 @@ MonoBehaviour:
       _value: 97
     floatStats: []
   _hitSFX: 0
-  _ATK: 26
-  _CRIT: 4
-  _DEF: 0
-  _EVA: 0
-  _HIT: 97
-  _MDEF: 0
-  _SPR: 0
-  _STR: 0
-  _VIT: 0
-  _categoryText: Sword
-  <OnlyUsers>k__BackingField: []

@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: God Piss
   m_EditorClassIdentifier: 
   _displayName: God Piss
-  _elementText: 
   _description: This exciting potion restores 600HP and 60MP. The name is misleading,
     you'll be glad to know; it's never been anywhere NEAR a REAL god.
   _sprite: {fileID: 21300000, guid: 6847b61b7c804f04ab6a29ea700ea237, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 600
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0
