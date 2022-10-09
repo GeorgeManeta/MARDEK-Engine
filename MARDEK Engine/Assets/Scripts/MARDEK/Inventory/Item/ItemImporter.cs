@@ -11,7 +11,7 @@ namespace MARDEK.Inventory
     // To make this work:
     // 1. Comment the denoted line (currently line 10) in AddressableScriptableObject.cs
     // 2. Uncomment the setter for listed attributes and setters in Item.cs
-    public class JSONReader : MonoBehaviour
+    public class ItemImporter : MonoBehaviour
     {
         // All possible elements should be placed here in the editor for access.
         public Element[] elements;

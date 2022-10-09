@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: MotionPotion
   m_EditorClassIdentifier: 
   _displayName: MotionPotion
-  _elementText: 
   _description: This type of potion cures Paralysis. They're also useful for cheating
     at sport, perhaps?!
   _sprite: {fileID: 21300000, guid: 1921f5bbea37cb2459006a48db3da520, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 20
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0
