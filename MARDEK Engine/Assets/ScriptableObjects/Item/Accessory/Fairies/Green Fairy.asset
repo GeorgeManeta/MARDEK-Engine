@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Green Fairy
+  m_EditorClassIdentifier: 
+  _displayName: Green Fairy
+  _elementText: Earth
+  _description: A small magical fairy, bound immobile by a powerful spell. Its magic
+    can be used to grant the user Auto-Regen, but it's highly unethical as the fairy
+    is still alive...
+  _sprite: {fileID: 21300000, guid: 4aa7ae02f24e31d419f5af82fc83315a, type: 3}
+  _element: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
+  _price: 40000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
+  _statsSet:
+    intStats: []
+    floatStats: []
+  _hitSFX: 
+  <OnlyUsers>k__BackingField: []

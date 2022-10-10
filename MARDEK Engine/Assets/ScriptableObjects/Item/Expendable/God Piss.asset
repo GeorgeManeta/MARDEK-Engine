@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6535e70ab9379f549ba89d16ecdce68d, type: 3}
+  m_Name: God Piss
+  m_EditorClassIdentifier: 
+  _displayName: God Piss
+  _description: This exciting potion restores 600HP and 60MP. The name is misleading,
+    you'll be glad to know; it's never been anywhere NEAR a REAL god.
+  _sprite: {fileID: 21300000, guid: 6847b61b7c804f04ab6a29ea700ea237, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 600
+  <SkillsToEquip>k__BackingField: []
+  _percentHealthRestore: 0
+  _percentManaRestore: 0
+  _colorHexCode: 14DCFF
+  _pfx: potion5
+  _canResurrect: 0
+  _canPotionSpray: 0
+  _grantUnderwaterBreathing: 0
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 09d38a9ba80723242aff585ba0915607, type: 2}
+      _value: 600
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 04792f66b3d45e34caef63f646b39b6d, type: 2}
+      _value: 60
+    floatStats: []

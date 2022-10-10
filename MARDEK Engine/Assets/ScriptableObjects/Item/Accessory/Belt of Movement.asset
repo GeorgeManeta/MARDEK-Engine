@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Belt of Movement
+  m_EditorClassIdentifier: 
+  _displayName: Belt of Movement
+  _elementText: Air
+  _description: This belt protects against paralysis and boosts agility.
+  _sprite: {fileID: 21300000, guid: e76ba5409193ed447b2d2b68f76d8dec, type: 3}
+  _element: {fileID: 11400000, guid: 3b3d471c2fd4e964bad27afb63ea5346, type: 2}
+  _price: 5000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      _value: 2
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
+      _value: 3
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: ec557c6e575f0964aa9366e873e77086, type: 2}
+      _value: 100
+  _hitSFX: 

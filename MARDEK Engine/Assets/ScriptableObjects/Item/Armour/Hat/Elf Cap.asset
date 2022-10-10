@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Elf Cap
+  m_EditorClassIdentifier: 
+  _displayName: Elf Cap
+  _elementText: Earth
+  _description: A lovely green cap thing worn by lovely elves, and sometimes by young
+    heroes out to save their worlds from evil pig men.
+  _sprite: {fileID: 21300000, guid: c66f9857d04f03a4ba25dfc9ac8bc2cf, type: 3}
+  _element: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
+  _price: 6000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 679b1c6c225d8c244bf083d50292d4a3, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      _value: 3
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
+      _value: 3
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 85468a50c61d3b748a2d8bf4d6988f7e, type: 2}
+      _value: 20
+  _hitSFX: 0
+  _ATK: 0
+  _CRIT: 0
+  _DEF: 3
+  _EVA: 0
+  _HIT: 0
+  _MDEF: 3
+  _SPR: 0
+  _STR: 0
+  _VIT: 0
+  _categoryText: 
+  <OnlyUsers>k__BackingField: []

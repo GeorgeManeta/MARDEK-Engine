@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Steel Stole
+  m_EditorClassIdentifier: 
+  _displayName: Steel Stole
+  _description: A stole made of a sort of metal so thin and flexible it's almost
+    like cloth, only several hundred times stronger and more protective. It increases
+    DEF a lot, and also protects against non-elemental attacks.
+  _sprite: {fileID: 21300000, guid: c67cd98233a684f4db29eaba4153d8f2, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 20000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: bc10fd4867353284994526f65fd02a1a, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      _value: 10
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 4d25408ca10874848a5e7f9f090e503d, type: 2}
+      _value: 50
+  _hitSFX: 0

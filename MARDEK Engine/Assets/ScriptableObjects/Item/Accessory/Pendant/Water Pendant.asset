@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Water Pendant
+  m_EditorClassIdentifier: 
+  _displayName: WaterPendant
+  _elementText: Water
+  _description: An amulet imbued with the Water element. It reduces all water damage
+    inflicted on its wearer by half.
+  _sprite: {fileID: 21300000, guid: 6c21643050745cc43aa33be5fde0d272, type: 3}
+  _element: {fileID: 11400000, guid: ef2aacb5c0629b644a8e1df0f9abf2fc, type: 2}
+  _price: 300
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
+      _value: 2
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 85468a50c61d3b748a2d8bf4d6988f7e, type: 2}
+      _value: -50
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 2df2b0e1cb34dd34dbd7e87faf48867a, type: 2}
+      _value: 50
+  _hitSFX: 
+  <OnlyUsers>k__BackingField: []

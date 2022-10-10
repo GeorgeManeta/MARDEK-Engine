@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Iron Spear
+  m_EditorClassIdentifier: 
+  _displayName: Iron Spear
+  _description: A simple metal spear with no magical enchantments whatsoever.
+  _sprite: {fileID: 21300000, guid: 175dadf34d3c2104090f0ae8a88f3e3f, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 500
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 0fc6862b2872fe34b97c8f98c94157eb, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
+      _value: 28
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 4f2c3d936438bae4ab846e1a1fa6d660, type: 2}
+      _value: 2
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 77120450b1dbcbb439277ad129dd1bf4, type: 2}
+      _value: 94
+    floatStats: []
+  _hitSFX: 0

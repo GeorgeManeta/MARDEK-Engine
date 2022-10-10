@@ -15,8 +15,8 @@ MonoBehaviour:
   _displayName: Hero's Shield
   _description: A silver shield used by a mighty hero.
   _sprite: {fileID: 21300000, guid: d37fba9afb3ade24f8ce37b5002dcd69, type: 3}
-  _element: {fileID: 11400000, guid: dc4a9edd1549b5f488f18fb184119adf, type: 2}
-  _price: 0
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 1
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: dd92070e9d759fd49808966d2083db5a, type: 2}
   _statsSet:
@@ -26,3 +26,4 @@ MonoBehaviour:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
       _value: 50
     floatStats: []
+  _hitSFX: 

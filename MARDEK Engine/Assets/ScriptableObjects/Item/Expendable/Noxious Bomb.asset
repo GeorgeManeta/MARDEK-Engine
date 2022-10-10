@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6535e70ab9379f549ba89d16ecdce68d, type: 3}
+  m_Name: Noxious Bomb
+  m_EditorClassIdentifier: 
+  _displayName: Noxious Bomb
+  _elementText: Dark
+  _description: A bomb filled with powdered chemicals, which explodes on impact.
+    The resulting smoke induces drowsiness, confusion, blindness and poison.
+  _sprite: {fileID: 21300000, guid: dfdb4c24650ffb24992da01ae494cd80, type: 3}
+  _element: {fileID: 11400000, guid: b58053569349d314892770b43156bfd2, type: 2}
+  _price: 1000
+  <SkillsToEquip>k__BackingField: []
+  _percentHealthRestore: 0
+  _percentManaRestore: 0
+  _colorHexCode: 288CA0
+  _pfx: smoke_vile
+  _canResurrect: 0
+  _canPotionSpray: 0
+  _grantUnderwaterBreathing: 0
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 20
+    floatStats: []

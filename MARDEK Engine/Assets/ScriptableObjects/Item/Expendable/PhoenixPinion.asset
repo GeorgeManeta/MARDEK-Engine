@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6535e70ab9379f549ba89d16ecdce68d, type: 3}
+  m_Name: PhoenixPinion
+  m_EditorClassIdentifier: 
+  _displayName: PhoenixPinion
+  _description: A large, warm feather from the wing of a phoenix. It glows with a
+    pleasant orange light. Pressing it to the forehead of a KO'd ally will cause
+    them to be revived with full HP.
+  _sprite: {fileID: 21300000, guid: 71b56a4069c3ca14f956ffbe1687f8a9, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 9999
+  <SkillsToEquip>k__BackingField: []
+  _percentHealthRestore: 100
+  _percentManaRestore: 0
+  _colorHexCode: 80E9FF
+  _pfx: phoenixdown
+  _canResurrect: 0
+  _canPotionSpray: 0
+  _grantUnderwaterBreathing: 0
+  _statsSet:
+    intStats: []
+    floatStats: []

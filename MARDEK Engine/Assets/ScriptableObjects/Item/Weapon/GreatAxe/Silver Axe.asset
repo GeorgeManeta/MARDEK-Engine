@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Silver Axe
+  m_EditorClassIdentifier: 
+  _displayName: Silver Axe
+  _elementText: Light
+  _description: A delicately ornate axe forged from the shiniest silver. Like all
+    silver weapons, it's effective against undead.
+  _sprite: {fileID: 21300000, guid: 3dc5d62fa9511fe4ebb4c38bf9bdce70, type: 3}
+  _element: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
+  _price: 12000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 5bc6f4e4bd1702946b2f4e7c3ec017ca, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
+      _value: 46
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 4f2c3d936438bae4ab846e1a1fa6d660, type: 2}
+      _value: 4
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 77120450b1dbcbb439277ad129dd1bf4, type: 2}
+      _value: 95
+    floatStats: []
+  _hitSFX: 0
+  _ATK: 46
+  _CRIT: 4
+  _DEF: 0
+  _EVA: 0
+  _HIT: 95
+  _MDEF: 0
+  _SPR: 0
+  _STR: 0
+  _VIT: 0
+  _categoryText: Greataxe
+  <OnlyUsers>k__BackingField: []

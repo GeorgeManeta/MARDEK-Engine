@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6535e70ab9379f549ba89d16ecdce68d, type: 3}
+  m_Name: Alchemist's Fire
+  m_EditorClassIdentifier: 
+  _displayName: Alchemist's Fire
+  _elementText: Fire
+  _description: A magical potion that explodes if under stress. Throwing it at an
+    enemy will inflict fire damage.
+  _sprite: {fileID: 21300000, guid: f80ca0cdf099cbd43ad98dcb4027969c, type: 3}
+  _element: {fileID: 11400000, guid: e179fa6b43e015742b42814e32864e49, type: 2}
+  _price: 500
+  <SkillsToEquip>k__BackingField: []
+  _percentHealthRestore: 0
+  _percentManaRestore: 0
+  _colorHexCode: 00C8FF
+  _pfx: flame1
+  _canResurrect: 0
+  _canPotionSpray: 0
+  _grantUnderwaterBreathing: 0
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 20
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: dc08ca354970a5347bce22f2ef48519f, type: 2}
+      _value: 50
+    floatStats: []

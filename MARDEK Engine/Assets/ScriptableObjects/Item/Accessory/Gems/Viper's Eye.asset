@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858e30d3888cc6e4ba8ef0b97c869e8e, type: 3}
+  m_Name: Viper's Eye
+  m_EditorClassIdentifier: 
+  _displayName: Viper's Eye
+  _elementText: Earth
+  _description: Viper's Eye is a green gem with a distinct black streak that makes
+    it resemble a staring reptilian eye. It's said to be formed when quartz is infused
+    with magical poison.
+  _sprite: {fileID: 21300000, guid: 8f3b308574b5a914f8a254fd35d8b929, type: 3}
+  _element: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
+  _price: 1000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 05877571ee16f9648838210e2d4696c4, type: 2}
+  _statsSet:
+    intStats: []
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: c016fa0b29d573147a3ec32d3eb2ee51, type: 2}
+      _value: 30
+  _hitSFX: 
+  <OnlyUsers>k__BackingField: []
+  _pfx: _emerald
+  _spellDMG: 40
+  _STFX: PSN
+  _STFXStrength: 100

@@ -11,7 +11,7 @@ namespace MARDEK.Core
         
         public override object CreateInstance(fsData data, Type storageType)
         {
-            //shoudn't create an instance of an addressable, get reference from database instead
+            //shouldn't create an instance of an addressable, get reference from database instead
             var guid = data.AsDictionary["refGuid"].AsString;
             return AddressableDatabase.GetAddressableByGuid(guid);
         }

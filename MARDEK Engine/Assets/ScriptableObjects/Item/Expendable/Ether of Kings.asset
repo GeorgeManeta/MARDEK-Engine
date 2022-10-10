@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6535e70ab9379f549ba89d16ecdce68d, type: 3}
+  m_Name: Ether of Kings
+  m_EditorClassIdentifier: 
+  _displayName: Ether of Kings
+  _description: The highest quality ether, infused with the urine of some great King
+    of olden times, or something like that. It restores 1000MP.
+  _sprite: {fileID: 21300000, guid: f612478da993f854fa91367d1b9b2009, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 6000
+  <SkillsToEquip>k__BackingField: []
+  _percentHealthRestore: 0
+  _percentManaRestore: 0
+  _colorHexCode: FFFF64
+  _pfx: potion_ether3
+  _canResurrect: 0
+  _canPotionSpray: 0
+  _grantUnderwaterBreathing: 0
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 04792f66b3d45e34caef63f646b39b6d, type: 2}
+      _value: 1000
+    floatStats: []

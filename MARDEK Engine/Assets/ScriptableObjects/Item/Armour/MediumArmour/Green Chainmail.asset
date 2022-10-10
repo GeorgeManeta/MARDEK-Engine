@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Green Chainmail
+  m_EditorClassIdentifier: 
+  _displayName: Green Chainmail
+  _description: Vehrn's custom-made armour. It's essentially just painted chainmail
+    with some minor magical enchantments, such as small protection against Light-elemental
+    damage.
+  _sprite: {fileID: 21300000, guid: 9260413138c253d448b58a075f2fec5a, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 500
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: d86f2f702e3a3ec49b9c95d50bafda11, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      _value: 3
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 009d5e1e1dc5de643afc1dd3a6e4a45a, type: 2}
+      _value: 25
+  _hitSFX: 0

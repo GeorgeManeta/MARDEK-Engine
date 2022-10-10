@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Wing Shield
+  m_EditorClassIdentifier: 
+  _displayName: Wing Shield
+  _description: A type of shield made in Aeropolis, with a sort of 'feather rune'
+    motif. It increases agility, and protects against AIR and EARTH.
+  _sprite: {fileID: 21300000, guid: c887d98e6d6ab1948b6ccf276333213f, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 4000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: dd92070e9d759fd49808966d2083db5a, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      _value: 4
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 70d794e8afaa3384c876f4eae5046a57, type: 2}
+      _value: 30
+    floatStats: []
+  _hitSFX: 

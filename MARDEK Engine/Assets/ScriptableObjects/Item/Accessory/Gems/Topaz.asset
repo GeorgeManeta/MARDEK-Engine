@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858e30d3888cc6e4ba8ef0b97c869e8e, type: 3}
+  m_Name: Topaz
+  m_EditorClassIdentifier: 
+  _displayName: Topaz
+  _elementText: Air
+  _description: This gemstone seems to have no weight at all...
+  _sprite: {fileID: 21300000, guid: eaf4d9e582cf1ee49b51f9b159b0632c, type: 3}
+  _element: {fileID: 11400000, guid: 3b3d471c2fd4e964bad27afb63ea5346, type: 2}
+  _price: 800
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 05877571ee16f9648838210e2d4696c4, type: 2}
+  _statsSet:
+    intStats: []
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 98aef769ec5273c479987f012f07b997, type: 2}
+      _value: 10
+  _hitSFX: 
+  <OnlyUsers>k__BackingField: []
+  _pfx: _topaz
+  _spellDMG: 30
+  _STFX: 
+  _STFXStrength: 0

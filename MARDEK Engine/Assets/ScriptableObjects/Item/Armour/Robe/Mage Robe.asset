@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Mage Robe
+  m_EditorClassIdentifier: 
+  _displayName: Mage Robe
+  _description: A simple blue robe worn by mages. It works as defence against magical
+    rather than physical attacks.
+  _sprite: {fileID: 21300000, guid: 12175c6390189b14fae1b57dca9b002c, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 100
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 4b5cbd7a1d559264cb6d32296f589841, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
+      _value: 2
+    floatStats: []
+  _hitSFX: 0

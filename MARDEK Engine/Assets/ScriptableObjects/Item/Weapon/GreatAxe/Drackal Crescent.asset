@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Drackal Crescent
+  m_EditorClassIdentifier: 
+  _displayName: Drackal Crescent
+  _elementText: Fire
+  _description: A powerful axe, forged from Red Dragon Scales, traditionally used
+    by the most powerful of Reptoid Chieftains.
+  _sprite: {fileID: 21300000, guid: 852e8d914dc67494fa44e8b58232fb77, type: 3}
+  _element: {fileID: 11400000, guid: e179fa6b43e015742b42814e32864e49, type: 2}
+  _price: 30000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 5bc6f4e4bd1702946b2f4e7c3ec017ca, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
+      _value: 60
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 4f2c3d936438bae4ab846e1a1fa6d660, type: 2}
+      _value: 10
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 77120450b1dbcbb439277ad129dd1bf4, type: 2}
+      _value: 95
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
+      _value: 3
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: b126ec105431be84db0d5e0d2a1d55cc, type: 2}
+      _value: 3
+    floatStats: []
+  _hitSFX: 0
+  _ATK: 60
+  _CRIT: 10
+  _DEF: 0
+  _EVA: 0
+  _HIT: 95
+  _MDEF: 0
+  _SPR: 0
+  _STR: 0
+  _VIT: 0
+  _categoryText: Greataxe
+  <OnlyUsers>k__BackingField: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c375ea2ef087174388e96bad2feb1eb, type: 3}
+  m_Name: Warding Stone
+  m_EditorClassIdentifier: 
+  _displayName: Warding Stone
+  _elementText: Light
+  _description: This spare Warding Stone is like a smooth, pearly pebble that fits
+    snugly into the palm of your hand. Its magic is only activated when it's on its
+    corresponding pedestal.
+  _sprite: {fileID: 21300000, guid: e950ec416aacaa24eb75f85d469e3a6a, type: 3}
+  _element: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
+  _price: -1
+  <SkillsToEquip>k__BackingField: []

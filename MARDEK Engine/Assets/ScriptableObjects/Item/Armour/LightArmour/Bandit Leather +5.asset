@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Bandit Leather +5
+  m_EditorClassIdentifier: 
+  _displayName: Bandit Leather +5
+  _elementText: Air
+  _description: A suit of armour made of leather, often worn by bandit leaders. It
+    is infused with the power of air, giving a bonus to agility, air resistance,
+    and resistance to paralysis. \nThis variation has enhanced enchantments.
+  _sprite: {fileID: 21300000, guid: 1a82040aa84bdc447addfd72751f5fe1, type: 3}
+  _element: {fileID: 11400000, guid: 3b3d471c2fd4e964bad27afb63ea5346, type: 2}
+  _price: 18000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 8b4cab54519098d45956395e894afcd1, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      _value: 7
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
+      _value: 7
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: ec557c6e575f0964aa9366e873e77086, type: 2}
+      _value: 100
+  _hitSFX: 0
+  _ATK: 0
+  _CRIT: 0
+  _DEF: 7
+  _EVA: 0
+  _HIT: 0
+  _MDEF: 7
+  _SPR: 0
+  _STR: 0
+  _VIT: 0
+  _categoryText: LightArmour
+  <OnlyUsers>k__BackingField: []

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Black Hat
+  m_EditorClassIdentifier: 
+  _displayName: Black Hat
+  _description: It's a stylish black hat that protects against the Dark element somewhat.
+  _sprite: {fileID: 21300000, guid: 6fa6b770fa193bc41a617bbf8fa56b59, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 900
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 679b1c6c225d8c244bf083d50292d4a3, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      _value: 1
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7c1ecc82623faf94d849ddff66d483f3, type: 2}
+      _value: 50
+  _hitSFX: 0

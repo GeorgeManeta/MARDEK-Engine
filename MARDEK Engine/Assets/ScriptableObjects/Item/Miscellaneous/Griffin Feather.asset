@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28426c7252aa3c842b45f00132e5ee91, type: 3}
+  m_Name: Griffin Feather
+  m_EditorClassIdentifier: 
+  _displayName: Griffin Feather
+  _elementText: Air
+  _description: A large pinion from a Griffin-type monster. They're highly sought
+    after for their magical properties.
+  _sprite: {fileID: 21300000, guid: f8fc5cfaa37e6f649907b8e70c94f08f, type: 3}
+  _element: {fileID: 11400000, guid: 3b3d471c2fd4e964bad27afb63ea5346, type: 2}
+  _price: 2600
+  <SkillsToEquip>k__BackingField: []

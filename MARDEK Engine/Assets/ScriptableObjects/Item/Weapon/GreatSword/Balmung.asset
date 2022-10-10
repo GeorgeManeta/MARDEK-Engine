@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Balmung
   m_EditorClassIdentifier: 
   _displayName: Balmung
+  _elementText: Earth
   _description: The sword of a legendary hero.
   _sprite: {fileID: 21300000, guid: 2cb5cdeebfd9b94488a95690ac08e299, type: 3}
   _element: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
-  _price: 0
+  _price: 1
   <SkillsToEquip>k__BackingField: []
   _category: {fileID: 11400000, guid: 726dae6e8135e0d4bb57b31773ff3078, type: 2}
   _statsSet:
@@ -25,6 +26,20 @@ MonoBehaviour:
       _value: 100
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 4f2c3d936438bae4ab846e1a1fa6d660, type: 2}
       _value: 8
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 77120450b1dbcbb439277ad129dd1bf4, type: 2}
+      _value: 95
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: b126ec105431be84db0d5e0d2a1d55cc, type: 2}
       _value: 5
     floatStats: []
+  _hitSFX: 0
+  _ATK: 100
+  _CRIT: 8
+  _DEF: 0
+  _EVA: 0
+  _HIT: 95
+  _MDEF: 0
+  _SPR: 0
+  _STR: 0
+  _VIT: 0
+  _categoryText: Greatsword
+  <OnlyUsers>k__BackingField: []

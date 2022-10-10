@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Solakian Platemail
+  m_EditorClassIdentifier: 
+  _displayName: Solakian Platemail
+  _elementText: Light
+  _description: A suit of golden armour blessed by the Sun God, SOLAK. You can feel
+    the holiness just radiating off it, like a warm sandwich.
+  _sprite: {fileID: 21300000, guid: c47c7cd2024e19544b08d105348189f6, type: 3}
+  _element: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
+  _price: 44000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 39eee71154b7dd748882f788cc0c5fb3, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      _value: 9
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 2
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9daa62ec1890c3543b1b68b27efc8f22, type: 2}
+      _value: 100
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 98aef769ec5273c479987f012f07b997, type: 2}
+      _value: 50
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 009d5e1e1dc5de643afc1dd3a6e4a45a, type: 2}
+      _value: 50
+  _hitSFX: 0
+  _ATK: 0
+  _CRIT: 0
+  _DEF: 9
+  _EVA: 0
+  _HIT: 0
+  _MDEF: 0
+  _SPR: 0
+  _STR: 0
+  _VIT: 0
+  _categoryText: HeavyArmour
+  <OnlyUsers>k__BackingField: []

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Lapis Lily
+  m_EditorClassIdentifier: 
+  _displayName: Lapis Lily
+  _elementText: Water
+  _description: A delicate brooch made of lapis lazuli and silver, fashioned in the
+    shape of a water lily. It was given to Mardek by Elwyen to show her gratitude.
+  _sprite: {fileID: 21300000, guid: 1b8286652ae31ca43bf8e5b158fccc8b, type: 3}
+  _element: {fileID: 11400000, guid: ef2aacb5c0629b644a8e1df0f9abf2fc, type: 2}
+  _price: 4000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
+      _value: 1
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9daa62ec1890c3543b1b68b27efc8f22, type: 2}
+      _value: 50
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 15a4ddc60c2248a428e6f6619b7523ff, type: 2}
+      _value: 50
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 2df2b0e1cb34dd34dbd7e87faf48867a, type: 2}
+      _value: 50
+  _hitSFX: 

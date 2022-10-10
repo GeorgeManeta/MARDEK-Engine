@@ -6,6 +6,10 @@ namespace MARDEK.Stats
     [System.Serializable]
     public class StatsSet : IStats
     {
+        public StatsSet(){
+            intStats = new List<StatHolder<int, StatOfType<int>>>();
+            floatStats = new List<StatHolder<float, StatOfType<float>>>();
+        }
         public List<StatHolder<int, StatOfType<int>>> intStats;
         public List<StatHolder<float, StatOfType<float>>> floatStats;
 

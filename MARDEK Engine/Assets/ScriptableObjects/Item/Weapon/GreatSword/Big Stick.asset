@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Big Stick
+  m_EditorClassIdentifier: 
+  _displayName: Big Stick
+  _description: A large, sturdy stick, found on the gr- no! It's a Mighty Hero's
+    Magic Sword, of course! This one is large enough for a child to wield in both
+    hands, like a greatsword.
+  _sprite: {fileID: 21300000, guid: 051839d7e3fca9d4d9c56d942f51e7c5, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 0
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 726dae6e8135e0d4bb57b31773ff3078, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
+      _value: 3
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 4f2c3d936438bae4ab846e1a1fa6d660, type: 2}
+      _value: 1
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 77120450b1dbcbb439277ad129dd1bf4, type: 2}
+      _value: 95
+    floatStats: []
+  _hitSFX: 0

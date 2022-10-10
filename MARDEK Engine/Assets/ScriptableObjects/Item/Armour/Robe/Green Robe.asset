@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f13698c79568447a0b3862945c868a, type: 3}
+  m_Name: Green Robe
+  m_EditorClassIdentifier: 
+  _displayName: Green Robe
+  _description: A green mage's robe. It allows its wearer to resist Earth damage.
+  _sprite: {fileID: 21300000, guid: b02b0b125d9aabd4e9e8f8dd45c7fa5b, type: 3}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
+  _price: 4000
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 4b5cbd7a1d559264cb6d32296f589841, type: 2}
+  _statsSet:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
+      _value: 6
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9cff1bd1d17a7344a93771942f908064, type: 2}
+      _value: 20
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 2
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 85468a50c61d3b748a2d8bf4d6988f7e, type: 2}
+      _value: 50
+  _hitSFX: 0

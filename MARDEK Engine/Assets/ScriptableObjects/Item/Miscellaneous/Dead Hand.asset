@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28426c7252aa3c842b45f00132e5ee91, type: 3}
+  m_Name: Dead Hand
+  m_EditorClassIdentifier: 
+  _displayName: Dead Hand
+  _elementText: Dark
+  _description: It's, uh, a zombie's hand... What would you want THAT for? Practical
+    jokes, probably. You sicken me.
+  _sprite: {fileID: 21300000, guid: 2fe778801d0ea1241ad2ca59d69fb885, type: 3}
+  _element: {fileID: 11400000, guid: b58053569349d314892770b43156bfd2, type: 2}
+  _price: 300
+  <SkillsToEquip>k__BackingField: []

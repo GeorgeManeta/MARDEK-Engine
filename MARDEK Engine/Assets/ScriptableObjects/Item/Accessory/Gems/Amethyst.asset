@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858e30d3888cc6e4ba8ef0b97c869e8e, type: 3}
+  m_Name: Amethyst
+  m_EditorClassIdentifier: 
+  _displayName: Amethyst
+  _elementText: Air
+  _description: A coloured variety of quartz, usually used to adorn jewellery or
+    armour. It's superstitiously believed to protect from intoxication, but this
+    has never been proven in the slightest.
+  _sprite: {fileID: 21300000, guid: 3eb9380e1b89e0d44be1c7ae548838bd, type: 3}
+  _element: {fileID: 11400000, guid: 3b3d471c2fd4e964bad27afb63ea5346, type: 2}
+  _price: 1400
+  <SkillsToEquip>k__BackingField: []
+  _category: {fileID: 11400000, guid: 05877571ee16f9648838210e2d4696c4, type: 2}
+  _statsSet:
+    intStats: []
+    floatStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 61647842abc8e09409c8e2ba72a78f42, type: 2}
+      _value: 30
+  _hitSFX: 
+  _ATK: 0
+  _CRIT: 0
+  _DEF: 0
+  _EVA: 0
+  _HIT: 0
+  _MDEF: 0
+  _SPR: 0
+  _STR: 0
+  _VIT: 0
+  _MaxMP: 0
+  _MaxHP: 0
+  _categoryText: Gemstone
+  <OnlyUsers>k__BackingField: []
+  _pfx: _amethyst
+  _spellDMG: 40
+  _STFX: CNF
+  _STFXStrength: 50

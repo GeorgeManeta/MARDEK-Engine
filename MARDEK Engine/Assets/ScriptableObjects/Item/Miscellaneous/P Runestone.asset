@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28426c7252aa3c842b45f00132e5ee91, type: 3}
+  m_Name: P Runestone
+  m_EditorClassIdentifier: 
+  _displayName: P Runestone
+  _elementText: Fire
+  _description: An ordinary brown rock, with a magical glowing rune carved into it.
+    It feels far heavier than it should, and you get the impression that it could
+    explode at any time... It contains physical potential.
+  _sprite: {fileID: 21300000, guid: 772fad1a11e43994f957c1e92807f32f, type: 3}
+  _element: {fileID: 11400000, guid: e179fa6b43e015742b42814e32864e49, type: 2}
+  _price: 2000
+  <SkillsToEquip>k__BackingField: []
