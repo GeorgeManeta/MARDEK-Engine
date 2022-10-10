@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: PhoenixPinion
   m_EditorClassIdentifier: 
   _displayName: PhoenixPinion
-  _elementText: 
   _description: A large, warm feather from the wing of a phoenix. It glows with a
     pleasant orange light. Pressing it to the forehead of a KO'd ally will cause
     them to be revived with full HP.
   _sprite: {fileID: 21300000, guid: 71b56a4069c3ca14f956ffbe1687f8a9, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 9999
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 100

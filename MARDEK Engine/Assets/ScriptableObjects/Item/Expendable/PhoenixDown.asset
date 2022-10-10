@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: PhoenixDown
   m_EditorClassIdentifier: 
   _displayName: PhoenixDown
-  _elementText: 
   _description: A soft, warm feather from the underbelly of a phoenix. It glows with
     a pleasant orange light. Pressing it to the forehead of a KO'd ally will cause
     them to be revived with half HP.
   _sprite: {fileID: 21300000, guid: 3072fdb7f6291474fb73b33ae86bbf51, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 500
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 50

@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: LeadPipe
   m_EditorClassIdentifier: 
   _displayName: LeadPipe
-  _elementText: 
   _description: A lead pipe that used to be the 'tail' of a fumerat. It reeks of
     sewage.
   _sprite: {fileID: 21300000, guid: b1d693101443d594c96e1374995ca55e, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 25
   <SkillsToEquip>k__BackingField: []

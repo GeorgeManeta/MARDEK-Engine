@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: MugwortJuice
   m_EditorClassIdentifier: 
   _displayName: MugwortJuice
-  _elementText: 
   _description: A potion made from the Mugwort herb, which has some sort of healing
     properties, apparently. It restores 500HP. And causes seizures.
   _sprite: {fileID: 21300000, guid: f6d699cf5096aff469ad23646b2995fe, type: 3}
-  _element: {fileID: 0}
+  _element: {fileID: 11400000, guid: ce9c718638458254ca7d5945b2b79f0a, type: 2}
   _price: 250
   <SkillsToEquip>k__BackingField: []
   _percentHealthRestore: 0
