@@ -14,8 +14,8 @@ namespace MARDEK.Battle
         [SerializeField, HideInInspector] IntegerStat AGLStat = null;
         const float actResolution = 10;
         [SerializeField] Party playerParty;
-        List<GameObject> enemies = new List<GameObject>();
-        [SerializeField] GameObject actionPickerUI = null;
+        [SerializeField] List<GameObject> enemies = new List<GameObject>();
+        [SerializeField] ListCharacterSkillsFromSkillset battleActUI = null;
 
         public List<Character> playableCharacters
         {
@@ -50,22 +50,7 @@ namespace MARDEK.Battle
                 characterActing = StepActCycleTryGetNextCharacter();
                 if (characterActing)
                 {
-                    actionPickerUI.SetActive(true);
-                }
-            }
-            else
-            {
-                // resolve action
-                if (selectedSkill != null)
-                {
-                    if(targets != null)
-                    {
-                        foreach (var t in targets)
-                            Debug.Log($"{characterActing.name} uses {selectedSkill.Skill.DisplayName} on {t.name}");
-                        targets = null;
-                        selectedSkill = null;
-                        characterActing = null;
-                    }
+                    battleActUI.SetCharacter(characterActing);
                 }
             }
         }

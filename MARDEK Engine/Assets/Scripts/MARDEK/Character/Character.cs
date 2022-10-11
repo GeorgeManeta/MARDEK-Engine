@@ -17,7 +17,6 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] public Inventory.Inventory Inventory { get; private set; }
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; }
 
-
         public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> desiredStatus)
         {            
             var resultHolder = new StatHolder<T, StatOfType<T>>(desiredStatus);
