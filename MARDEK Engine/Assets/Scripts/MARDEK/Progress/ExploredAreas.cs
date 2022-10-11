@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using MARDEK.Core;
@@ -11,8 +12,8 @@ namespace MARDEK.Progress
     {
         [SerializeField] Dictionary<string, ExploredArea> exploredAreas = new Dictionary<string, ExploredArea>();
         [SerializeField] PlayerController player;
-
-        int counter = 0;
+        SceneInfo sceneInfo;
+        WaitForSeconds wait = new WaitForSeconds(1f);
 
         public void MarkDiscovered(string sceneID, int tileX, int tileY)
         {
@@ -29,29 +30,33 @@ namespace MARDEK.Progress
             return area != null && area.IsDiscovered(tileX, tileY);
         }
 
-        void FixedUpdate()
-        {
-            counter += 1;
-            if (counter % 50 == 0)
-            {
-                MarkAreaAroundPlayerAsDiscovered();
-                counter = 0;
-            }
-        }
-
-        void MarkAreaAroundPlayerAsDiscovered()
+        void Start()
         {
             Scene activeScene = SceneManager.GetActiveScene();
-            SceneInfo sceneInfo = null;
+            sceneInfo = null;
 
             foreach (GameObject gameObject in activeScene.GetRootGameObjects())
             {
                 sceneInfo = gameObject.GetComponent<SceneInfo>();
                 if (sceneInfo != null)
-                {
                     break;
-                }
             }
+            StartCoroutine(UpdateMap());
+        }
+
+        IEnumerator UpdateMap()
+        {
+            while (true)
+            {
+                MarkAreaAroundPlayerAsDiscovered();
+                yield return wait;
+            }
+        }
+
+        void MarkAreaAroundPlayerAsDiscovered()
+        {
+            if (sceneInfo == null)
+                return;
 
             int playerX = (int) player.transform.position.x;
             int playerY = (int) player.transform.position.y;

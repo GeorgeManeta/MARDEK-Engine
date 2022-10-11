@@ -102,7 +102,8 @@ namespace MARDEK.UI
 
             if (sceneInfo == null)
             {
-                throw new System.ApplicationException("Scene " + activeScene.name + " doesn't have a SceneInfo root component");
+                Debug.LogWarning("Scene " + activeScene.name + " doesn't have a SceneInfo root component");
+                return;
             }
             this.activeSceneName.text = sceneInfo.displayName;
             this.sceneID = sceneInfo.id;

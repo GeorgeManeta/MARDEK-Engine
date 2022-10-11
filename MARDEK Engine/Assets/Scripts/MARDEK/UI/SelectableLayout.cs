@@ -47,26 +47,16 @@ namespace MARDEK.UI
         Selectable currentlySelected = null;
         
         GridLayoutGroup layout;
-        InputReader input;
 
         private void Awake()
         {
             selectables = GetComponentsInChildren<Selectable>();
             layout = GetComponent<GridLayoutGroup>();
-            input = GetComponent<InputReader>();
         }
 
         private void OnEnable()
         {
             UpdateSelectionAtIndex(false);
-            if(input)
-                input.enabled = true;
-        }
-
-        private void OnDisable()
-        {
-            if (input)
-                input.enabled = false;            
         }
 
         void UpdateSelectionAtIndex(bool playSFX = true)
