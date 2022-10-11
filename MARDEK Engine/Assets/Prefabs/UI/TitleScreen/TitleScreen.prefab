@@ -287,7 +287,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Unity Revival Project
+  m_Text: ' Engine
+
+'
 --- !u!1 &1642768561
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2242343820437641033, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_Text
-      value: ' Options'
+      value: Options
       objectReference: {fileID: 0}
     - target: {fileID: 9095848537721726252, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_Name
@@ -999,15 +1001,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2235846138340297008, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 2235846138340297008, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2242343820437641033, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_Text
-      value: ' Load Game'
+      value: Load Game
       objectReference: {fileID: 0}
     - target: {fileID: 9095848537721726252, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_Name
@@ -1167,7 +1169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2242343820437641033, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_Text
-      value: ' Quit'
+      value: Quit
       objectReference: {fileID: 0}
     - target: {fileID: 9095848537721726252, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_Name
@@ -1468,15 +1470,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2235846138340297008, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 2235846138340297008, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2242343820437641033, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_Text
-      value: ' New Game'
+      value: New Game
       objectReference: {fileID: 0}
     - target: {fileID: 9095848537721726252, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_Name
@@ -2471,6 +2473,14 @@ PrefabInstance:
     - target: {fileID: 30546535110353569, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2235846138340297008, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2235846138340297008, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2242343820437641033, guid: ff27de98e38eae948b6b9848443bc2ce, type: 3}
       propertyPath: m_Text
