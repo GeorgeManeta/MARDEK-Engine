@@ -15,7 +15,7 @@ namespace MARDEK.CharacterSystem
         List<StatsSet> statusChanges = new List<StatsSet>();
         [field: SerializeField] public Inventory.Inventory EquippedItems { get; private set; }
         [field: SerializeField] public Inventory.Inventory Inventory { get; private set; }
-        [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; }
+        [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; } = new List<SkillSlot>();
 
         public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> desiredStatus)
         {            

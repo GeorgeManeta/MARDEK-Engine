@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,5 +98,7 @@ MonoBehaviour:
       canPlayerPutItems: 0
   <Inventory>k__BackingField:
     slots: []
-  <ActionSkillset>k__BackingField: {fileID: 0}
-  <SkillSlots>k__BackingField: []
+  <SkillSlots>k__BackingField:
+  - <Skill>k__BackingField: {fileID: 11400000, guid: b71d26a843935224cbb9bd96661a0a90, type: 2}
+    <MasteryPoints>k__BackingField: 0
+  battleAI: {fileID: 0}

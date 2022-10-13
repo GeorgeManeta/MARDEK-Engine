@@ -12,6 +12,7 @@ namespace MARDEK.UI
     {
         [SerializeField] ScrollRect scrollRect;
         [SerializeField] int numFittingEntries;
+        [SerializeField] bool invertHorizontalInput = false;
         int currentScrollIndex = 0;
 
         int index = 0;
@@ -64,7 +65,12 @@ namespace MARDEK.UI
             if (currentlySelected)
                 currentlySelected.Deselect();
             if (Selectables.Count == 0)
+            {
+                currentlySelected = null;
                 return;
+            }
+            if (index > Selectables.Count)
+                index = 0;
             currentlySelected = Selectables[Index];
             currentlySelected.Select(playSFX);
             if (numFittingEntries > 0 && scrollRect != null)
@@ -83,7 +89,6 @@ namespace MARDEK.UI
 
             int numNonFittingEntries = numTotalEntries - numFittingEntries;
             float scrollAmount = newScrollIndex / (float) numNonFittingEntries;
-            Debug.Log("scrollAmount is " + scrollAmount);
             
             if (scrollRect.vertical) scrollRect.verticalNormalizedPosition = 1f - scrollAmount;
             else scrollRect.horizontalNormalizedPosition = scrollAmount;
@@ -127,6 +132,8 @@ namespace MARDEK.UI
         {
             if (layout.constraint == GridLayoutGroup.Constraint.FixedColumnCount && layout.constraintCount == 1) return;
 
+            if (invertHorizontalInput)
+                value = -value;
             if (layout.constraint == GridLayoutGroup.Constraint.FixedRowCount && layout.constraintCount != 1)
             {
                 if (value > 0) Index += layout.constraintCount;

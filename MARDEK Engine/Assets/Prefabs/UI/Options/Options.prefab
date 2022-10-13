@@ -123,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollRect: {fileID: 0}
   numFittingEntries: 0
+  invertHorizontalInput: 0
 --- !u!1 &4333983758871031590
 GameObject:
   m_ObjectHideFlags: 0

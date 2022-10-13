@@ -14,7 +14,7 @@ namespace MARDEK.UI
         
         public virtual bool isValid()
         {
-            return true;
+            return gameObject.activeSelf;
         }
         public virtual void Select(bool playSFX = true)
         {
@@ -22,6 +22,8 @@ namespace MARDEK.UI
             if(playSFX && selectionSFX)
                 AudioManager.PlaySoundEffect(selectionSFX);
         }
+
+        [ContextMenu("Deselect")]
         public virtual void Deselect()
         {
             OnDeselected.Invoke();

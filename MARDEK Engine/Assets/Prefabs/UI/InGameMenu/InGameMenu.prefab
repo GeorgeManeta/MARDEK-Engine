@@ -162,6 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollRect: {fileID: 0}
   numFittingEntries: 0
+  invertHorizontalInput: 0
   focusSound: {fileID: 11400000, guid: 637b94f06ac616a46b4b66e3ecb0af06, type: 2}
   unfocusSound: {fileID: 11400000, guid: c1ce66a092b05484497d70119f52cfd2, type: 2}
   blurPanel: {fileID: 2720840375774031873}

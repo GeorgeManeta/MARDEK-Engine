@@ -10,12 +10,11 @@ namespace MARDEK.Battle
     public class BattleManager : MonoBehaviour
     {
         public static EncounterSet encounter { private get; set; }
-        [SerializeField, HideInInspector] FloatStat ACTStat = null;
-        [SerializeField, HideInInspector] IntegerStat AGLStat = null;
+        [SerializeField] FloatStat ACTStat = null;
+        [SerializeField] IntegerStat AGLStat = null;
         const float actResolution = 10;
         [SerializeField] Party playerParty;
         [SerializeField] List<GameObject> enemies = new List<GameObject>();
-        [SerializeField] ListCharacterSkillsFromSkillset battleActUI = null;
 
         public List<Character> playableCharacters
         {
@@ -36,6 +35,8 @@ namespace MARDEK.Battle
         }
 
         public static Character characterActing { get; private set; }
+        [SerializeField] GameObject characterActionUI = null;
+
         public static SkillSlot selectedSkill { get; set; }
         public static List<Character> targets { get; private set; }
 
@@ -50,7 +51,8 @@ namespace MARDEK.Battle
                 characterActing = StepActCycleTryGetNextCharacter();
                 if (characterActing)
                 {
-                    battleActUI.SetCharacter(characterActing);
+                    Debug.Log(characterActing);
+                    characterActionUI.SetActive(true);
                 }
             }
         }
@@ -100,6 +102,11 @@ namespace MARDEK.Battle
                 if (c.GetStat(ACTStat).Value == maxAct)
                     return c;
             throw new System.Exception("A character had enough ACT to take a turn but wasn't returned by this method");
+        }
+        public void SkipCurrentCharacterTurn()
+        {
+            characterActing = null;
+            characterActionUI.SetActive(false);
         }
     }
 }

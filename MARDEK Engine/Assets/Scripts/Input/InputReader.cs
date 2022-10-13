@@ -13,8 +13,9 @@ public class InputReader : MonoBehaviour
     [SerializeField] List<InputActionBind> binds = new List<InputActionBind>();
     List<InputAction> bindedActions = new List<InputAction>();
 
-    void BindActions()
-    {        
+    async Task BindActions()
+    {
+        await Task.Yield();
         foreach (InputActionBind bind in binds)
         {
             if (bind.action != null)
@@ -39,10 +40,10 @@ public class InputReader : MonoBehaviour
         }
     }
 
-    private void OnEnable()
+    private async void OnEnable()
     {
         readers.Add(this);
-        BindActions();
+        await BindActions();
     }
 
     private async void OnDisable()
@@ -60,7 +61,7 @@ public class InputReader : MonoBehaviour
     async void Refresh()
     {
         await UnbindActions();
-        BindActions();
+        await BindActions();
     }
 
     [System.Serializable]
