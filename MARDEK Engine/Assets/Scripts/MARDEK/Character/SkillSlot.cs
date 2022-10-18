@@ -6,7 +6,7 @@ using MARDEK.Skill;
 namespace MARDEK.CharacterSystem
 {
     [System.Serializable]
-    public class SkillSlot
+    public class SkillSlot : Core.IActionSlot
     {
         [field: SerializeField] public Skill.Skill Skill {get;set;}
         [field: SerializeField] public int MasteryPoints { get; set; }
@@ -19,5 +19,24 @@ namespace MARDEK.CharacterSystem
                 return ((points >= requiredPoints) || (points == -1));
             }
         }
+
+        public string DisplayName
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(Skill.DisplayName))
+                    return Skill.name;
+                else
+                    return Skill.DisplayName;
+            }
+        }
+        public Sprite Sprite
+        {
+            get
+            {
+                return Skill.Element.thickSprite;
+            }
+        }
+        public int Number => Skill.Cost;
     }
 }

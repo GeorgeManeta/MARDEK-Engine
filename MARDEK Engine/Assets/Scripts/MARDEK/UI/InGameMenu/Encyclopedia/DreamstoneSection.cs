@@ -24,7 +24,6 @@ namespace MARDEK.UI
                     entry.transform.SetParent(grid.transform);
                     entry.transform.localScale = new Vector3(1f, 1f, 1f);
                 }
-                grid.gameObject.GetComponent<SelectableLayout>().RefreshSelectables();
             }
         }
 

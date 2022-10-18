@@ -12,7 +12,6 @@ namespace MARDEK.Battle
         public static EncounterSet encounter { private get; set; }
         [SerializeField] FloatStat ACTStat = null;
         [SerializeField] IntegerStat AGLStat = null;
-        const float actResolution = 10;
         [SerializeField] Party playerParty;
         [SerializeField] List<GameObject> enemies = new List<GameObject>();
 
@@ -37,8 +36,9 @@ namespace MARDEK.Battle
         public static Character characterActing { get; private set; }
         [SerializeField] GameObject characterActionUI = null;
 
-        public static SkillSlot selectedSkill { get; set; }
+        public static Core.IActionSlot selectedAction { get; set; }
         public static List<Character> targets { get; private set; }
+        const float actResolution = 2;
 
         private void Awake()
         {
@@ -51,8 +51,27 @@ namespace MARDEK.Battle
                 characterActing = StepActCycleTryGetNextCharacter();
                 if (characterActing)
                 {
-                    Debug.Log(characterActing);
                     characterActionUI.SetActive(true);
+                }
+            }
+            else
+            {
+                if (selectedAction != null)
+                {
+                    Character target;
+                    if (enemyCharacters.Contains(characterActing))
+                    {
+                        target = playableCharacters[Random.Range(0, playableCharacters.Count-1)];
+                    }
+                    else
+                    {
+                        target = enemyCharacters[Random.Range(0, enemyCharacters.Count-1)];
+                    }
+                    
+                    Debug.Log($"{characterActing.CharacterInfo.displayName} uses {selectedAction.DisplayName} targeting {target}");
+                    selectedAction = null;
+                    characterActing = null;
+                    characterActionUI.SetActive(false);
                 }
             }
         }

@@ -14,7 +14,6 @@ namespace MARDEK.UI
         [SerializeField] int numFittingEntries;
         [SerializeField] bool invertHorizontalInput = false;
         int currentScrollIndex = 0;
-
         int index = 0;
         int Index
         {
@@ -33,6 +32,7 @@ namespace MARDEK.UI
             }
         }
 
+        GridLayoutGroup layout;
         Selectable[] selectables;
         List<Selectable> Selectables
         {
@@ -40,27 +40,38 @@ namespace MARDEK.UI
             {
                 List<Selectable> returnList = new List<Selectable>();
                 foreach (var s in selectables)
-                    if (s && s.isValid())
+                    if (s && s.IsValid())
                         returnList.Add(s);
                 return returnList;
             }
         }
         Selectable currentlySelected = null;
-        
-        GridLayoutGroup layout;
 
-        private void Awake()
+        private void CacheSelectables()
         {
-            selectables = GetComponentsInChildren<Selectable>();
-            layout = GetComponent<GridLayoutGroup>();
-        }
-
-        private void OnEnable()
-        {
+            selectables = GetComponentsInChildren<Selectable>(true);
+            foreach (var s in Selectables)
+                if (s != currentlySelected)
+                    s.Deselect();
             UpdateSelectionAtIndex(false);
         }
+        private void Awake()
+        {
+            layout = GetComponent<GridLayoutGroup>();
+        }
+        private void OnEnable()
+        {
+            CacheSelectables();
+        }
+        private void Update()
+        {
+            if (selectables.Length != transform.childCount)
+            {
+                CacheSelectables();
+            }
+        }
 
-        void UpdateSelectionAtIndex(bool playSFX = true)
+        public void UpdateSelectionAtIndex(bool playSFX = true)
         {
             if (currentlySelected)
                 currentlySelected.Deselect();
@@ -80,7 +91,6 @@ namespace MARDEK.UI
                 if (desiredScrollIndex - currentScrollIndex < 0) SetScrollIndex(desiredScrollIndex);
             }
         }
-
         void SetScrollIndex(int newScrollIndex)
         {
             currentScrollIndex = newScrollIndex;
@@ -94,13 +104,6 @@ namespace MARDEK.UI
             else scrollRect.horizontalNormalizedPosition = scrollAmount;
         }
 
-        public void RefreshSelectables()
-        {
-            this.currentlySelected = null;
-            this.selectables = GetComponentsInChildren<Selectable>();
-            this.UpdateSelectionAtIndex(false);
-        }
-
         public void HandleMovementInput(InputAction.CallbackContext ctx)
         {
             if (enabled == false)
@@ -111,7 +114,6 @@ namespace MARDEK.UI
             if (value.y == 0)
                 HandleHorizontalInput(value.x);
         }
-
         void HandleVerticalInput(float value)
         {
             if (layout.constraint == GridLayoutGroup.Constraint.FixedRowCount && layout.constraintCount == 1) return;
@@ -127,7 +129,6 @@ namespace MARDEK.UI
 
             UpdateSelectionAtIndex();
         }
-
         void HandleHorizontalInput(float value)
         {
             if (layout.constraint == GridLayoutGroup.Constraint.FixedColumnCount && layout.constraintCount == 1) return;

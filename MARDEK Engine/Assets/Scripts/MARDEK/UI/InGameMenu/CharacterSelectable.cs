@@ -11,7 +11,7 @@ namespace MARDEK.UI
     {
         [SerializeField] Character character;
         public Character Character { get { return character; } }
-        public override bool isValid()
+        public override bool IsValid()
         {
             return Character.CharacterInfo != null;
         }

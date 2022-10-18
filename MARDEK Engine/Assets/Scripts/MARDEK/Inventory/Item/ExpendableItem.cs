@@ -21,7 +21,6 @@ namespace MARDEK.Inventory
         [SerializeField] StatsSet _statsSet;
 
         // TODO Giving and curing status effects
-
         public int percentHealthRestore { get { return _percentHealthRestore; } }
         public int percentManaRestore { get { return _percentManaRestore; } }
         /*public int HP { get { return _HP; } }
@@ -29,23 +28,20 @@ namespace MARDEK.Inventory
         public int POW { get { return _POW; } }
         public int STR { get { return _STR; } } 
         public int SPR { get { return _SPR; } }*/
-
         public string colorHexCode { get { return _colorHexCode; } }
         public string pfx { get { return _pfx; } }
-
         public bool canResurrect { get { return _canResurrect; } }
         public bool canPotionSpray { get { return _canPotionSpray; } }
         public bool grantUnderwaterBreathing { get { return _grantUnderwaterBreathing; } }
-
         public StatsSet statsSet { get { return _statsSet; } private set{_statsSet = value;} }
-
-        public ExpendableItem(){
-            statsSet = new StatsSet();
-        }
 
         override protected string CreateFullDescription(string rawDescription)
         {
             return "EXPENDABLE ITEM\n\n\n" + rawDescription;
+        }
+        
+        public ExpendableItem(){
+            statsSet = new StatsSet();
         }
     }
 }
