@@ -35,11 +35,6 @@ namespace MARDEK.Inventory
         public bool grantUnderwaterBreathing { get { return _grantUnderwaterBreathing; } }
         public StatsSet statsSet { get { return _statsSet; } private set{_statsSet = value;} }
 
-        override protected string CreateFullDescription(string rawDescription)
-        {
-            return "EXPENDABLE ITEM\n\n\n" + rawDescription;
-        }
-        
         public ExpendableItem(){
             statsSet = new StatsSet();
         }

@@ -38,5 +38,6 @@ namespace MARDEK.CharacterSystem
             }
         }
         public int Number => Skill.Cost;
+        public string Description => Skill.Description;
     }
 }

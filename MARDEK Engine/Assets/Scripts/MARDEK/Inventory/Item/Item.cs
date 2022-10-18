@@ -20,7 +20,7 @@ namespace MARDEK.Inventory
         /*[SerializeField] string _elementText;
         public string elementText { get { return _elementText; } }*/
         [SerializeField] string _description;
-        public string description { get { return CreateFullDescription(_description); } }
+        public string description { get { return _description; } }
         [SerializeField] Sprite _sprite;
         public Sprite sprite { get { return _sprite; } }
         [SerializeField] Element _element;
@@ -35,10 +35,6 @@ namespace MARDEK.Inventory
         public virtual bool CanStack()
         {
             return true;
-        }
-        protected virtual string CreateFullDescription(string rawDescription)
-        {
-            return "MISCELLANIOUS ITEM\n\n\n" + rawDescription;
         }
         protected virtual string CreateProperties()
         {

@@ -8,6 +8,8 @@ namespace MARDEK.UI
 {
     public class BattleActionSlotUI : Selectable
     {
+        public delegate void UpdateSelectedSlot(Core.IActionSlot slot);
+        public static UpdateSelectedSlot UpdateSelected { get; set; }
         [SerializeField] Image sprite;
         [SerializeField] Text nameLabel;
         [SerializeField] Text number;
@@ -30,6 +32,12 @@ namespace MARDEK.UI
         public void SelectSkill()
         {
             Battle.BattleManager.selectedAction = slot;
+        }
+
+        public override void Select(bool playSFX = true)
+        {
+            base.Select(playSFX);
+            UpdateSelected?.Invoke(slot);
         }
     }
 }

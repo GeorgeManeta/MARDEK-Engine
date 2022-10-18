@@ -9,5 +9,6 @@ namespace MARDEK.Core
         public string DisplayName { get; }
         public Sprite Sprite { get; }
         public int Number { get; }
+        public string Description { get; }
     }
 }

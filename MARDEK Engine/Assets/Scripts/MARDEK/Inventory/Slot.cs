@@ -34,6 +34,7 @@ namespace MARDEK.Inventory
         }
         public Sprite Sprite => item.sprite;
         public int Number => amount;
+        public string Description => item.description;
 
         public Slot(Item initialItem, int initialAmount, List<EquipmentCategory> itemFilter, bool canBeEmpty, bool canPlayerPutItems)
         {
