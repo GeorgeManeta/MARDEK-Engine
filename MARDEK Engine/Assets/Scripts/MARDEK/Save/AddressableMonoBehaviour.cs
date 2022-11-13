@@ -38,11 +38,12 @@ namespace MARDEK.Save
             }
         }
 
-        private void Awake()
+        protected virtual void Awake()
         {
             if (saveOptions.loadOnAwake)
                 Load();
         }
+
         private void OnEnable()
         {
             if(saveOptions.autoSave)

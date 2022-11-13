@@ -2,8 +2,6 @@ using UnityEngine;
 using System.Collections.Generic;
 using MARDEK.Inventory;
 using MARDEK.Stats;
-using MARDEK.Skill;
-using System;
 
 namespace MARDEK.CharacterSystem
 {
@@ -16,7 +14,12 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] public Inventory.Inventory EquippedItems { get; private set; }
         [field: SerializeField] public Inventory.Inventory Inventory { get; private set; }
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; }
+        [SerializeField] public bool isRequired;
 
+        public bool IsDummy()
+        {
+            return CharacterInfo == null;
+        }
 
         public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> desiredStatus)
         {            
