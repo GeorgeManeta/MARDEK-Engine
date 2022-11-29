@@ -49,71 +49,43 @@ MonoBehaviour:
     autoSave: 1
     saveOnDisable: 1
   serializedGuid: ebeb8f2825897c4cabc105f85e154bb2
-  characters:
-  - isRequired: 0
+  <Characters>k__BackingField:
+  - isRequired: 1
     <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <EquippedItems>k__BackingField:
-      slots:
-      - currentItem: {fileID: 11400000, guid: 9aa2388cf92cb9c4fb35cb9c3ccb5a30, type: 2}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
-      - currentItem: {fileID: 0}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
+      slots: []
     <Inventory>k__BackingField:
-      slots:
-      - currentItem: {fileID: 11400000, guid: 3071228e88047bf4295c85c047f12146, type: 2}
-        currentAmount: 24
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
-      - currentItem: {fileID: 0}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
+      slots: []
     <SkillSlots>k__BackingField: []
     stats:
-      intStats:
-      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
-        _value: 0
-      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 09d38a9ba80723242aff585ba0915607, type: 2}
-        _value: 0
-      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 9cff1bd1d17a7344a93771942f908064, type: 2}
-        _value: 0
-      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 04792f66b3d45e34caef63f646b39b6d, type: 2}
-        _value: 0
+      intStats: []
       floatStats: []
   - isRequired: 0
     <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <EquippedItems>k__BackingField:
-      slots:
-      - currentItem: {fileID: 11400000, guid: 187f47143155e864fa27026cfc40859f, type: 2}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
+      slots: []
     <Inventory>k__BackingField:
-      slots:
-      - currentItem: {fileID: 0}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
-      - currentItem: {fileID: 11400000, guid: 3071228e88047bf4295c85c047f12146, type: 2}
-        currentAmount: 69
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
-      - currentItem: {fileID: 0}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
     <SkillSlots>k__BackingField: []
     stats:
       intStats: []

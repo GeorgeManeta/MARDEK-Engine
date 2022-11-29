@@ -17,9 +17,7 @@ namespace MARDEK.UI
         [SerializeField] Image mouseCharacterImage;
 
         Party Party { get { return Party.Instance; } }
-
-        int mouseCharacterIndex = -1;
-        bool isMouseCharacterSelected;
+        Character mouseCharacter = new();
 
         void OnEnable()
         {
@@ -27,7 +25,6 @@ namespace MARDEK.UI
             SetClickActions();
             RefreshSlots();
         }
-
         void SetClickActions()
         {
             for (int index = 0; index < selectedCharacterSlots.Count; index++)
@@ -44,113 +41,52 @@ namespace MARDEK.UI
 
         void HandleClick(int index, bool isSelected)
         {
-            if (isSelected && Party.rawCharacters[index].isRequired)
+            Character characterAtIndex = (isSelected ? Party.Characters : Party.BenchedCharacters)[index];
+            if (characterAtIndex.isRequired)
             {
                 AudioManager.PlaySoundEffect(rejectSound);
                 return;
             }
 
-            if (index == mouseCharacterIndex)
-            {
-                mouseCharacterIndex = -1;
-                return;
-            }
-
-            if (mouseCharacterIndex != -1)
-            {
-                Party.SwapCharacters(mouseCharacterIndex, isMouseCharacterSelected, index, isSelected);
-                bool isDummy;
-                if (isMouseCharacterSelected) isDummy = Party.rawCharacters[mouseCharacterIndex] == null;
-                else isDummy = Party.BenchedCharacters[mouseCharacterIndex] == null;
-
-                if (isDummy)
-                {
-                    mouseCharacterIndex = -1;
-                }
-            }
-            else
-            {
-                bool isDummy;
-                if (isSelected) isDummy = Party.rawCharacters[index] == null;
-                else isDummy = Party.BenchedCharacters[index] == null;
-
-                if (!isDummy)
-                {
-                    mouseCharacterIndex = index;
-                    isMouseCharacterSelected = isSelected;
-                }
-            } 
+            Party.SetCharacterAtIndex(mouseCharacter, index, !isSelected);
+            mouseCharacter = characterAtIndex;
         }
 
         void OnDisable()
         {
             PlayerLocks.UISystemLock -= 1;
         }
-
         void Update()
         {
             mouseCharacterImage.transform.position = new Vector2(
                 Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue()
             );
         }
-
-        void FixedUpdate()
+        void LateUpdate()
         {
             RefreshSlots();
         }
-
         public void RefreshSlots()
         {
-            if (selectedCharacterSlots.Count != Party.rawCharacters.Count)
+            for (int index = 0; index < selectedCharacterSlots.Count; index++)
             {
-                throw new System.ApplicationException("The number of selected character slots should be equal to the number of selected characters");
-            }
-            for (int index = 0; index < selectedCharacterSlots.Count; index++) {
-                if (!isMouseCharacterSelected || mouseCharacterIndex != index)
-                {
-                    selectedCharacterSlots[index].SetCharacter(Party.rawCharacters[index]);
-                }
+                if(index < Party.Characters.Count)
+                    selectedCharacterSlots[index].SetCharacter(Party.Characters[index]);
                 else
-                {
                     selectedCharacterSlots[index].SetCharacter(null);
-                }
-            }
-
-            if (unselectedCharacterSlots.Count != Party.BenchedCharacters.Count)
-            {
-                throw new System.ApplicationException(
-                    "The number of unselected character (" + unselectedCharacterSlots.Count + 
-                    ") slots should be equal to the number of unselected characters (" +
-                    Party.BenchedCharacters.Count + ")"
-                );
             }
             for (int index = 0; index < unselectedCharacterSlots.Count; index++)
             {
-                if (isMouseCharacterSelected || mouseCharacterIndex != index)
-                {
+                if(index < Party.BenchedCharacters.Count)
                     unselectedCharacterSlots[index].SetCharacter(Party.BenchedCharacters[index]);
-                }
                 else
-                {
                     unselectedCharacterSlots[index].SetCharacter(null);
-                }
             }
 
-            if (mouseCharacterIndex != -1)
-            {
-                if (isMouseCharacterSelected)
-                {
-                    mouseCharacterImage.sprite = CharacterSlotUI.GetSprite(Party.rawCharacters[mouseCharacterIndex]);
-                }
-                else
-                {
-                    mouseCharacterImage.sprite = CharacterSlotUI.GetSprite(Party.BenchedCharacters[mouseCharacterIndex]);
-                }
-            }
-            else
-            {
+            if (mouseCharacter == null)
                 mouseCharacterImage.sprite = transparentSprite;
-            }
+            else
+                mouseCharacterImage.sprite = CharacterSlotUI.GetSprite(mouseCharacter);
         }
     }
 }
