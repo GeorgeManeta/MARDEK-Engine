@@ -24,6 +24,8 @@ namespace MARDEK.UI
             float currentFraction = (float) currentValue / (float) maxValue;
             int colorIndex = (int) (currentFraction * (this.backgroundColors.Count - 1) + 0.5f);
 
+            if (float.IsFinite(currentFraction) == false)
+                return;
             this.background.transform.localScale = new Vector2(currentFraction, 1f);
             this.background.color = this.backgroundColors[colorIndex];
             this.currentValue.color = this.textColors[colorIndex];

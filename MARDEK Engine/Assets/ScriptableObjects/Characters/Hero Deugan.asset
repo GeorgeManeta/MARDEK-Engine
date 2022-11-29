@@ -15,3 +15,16 @@ MonoBehaviour:
   <displayName>k__BackingField: Deugan
   <WalkSprites>k__BackingField: {fileID: 11400000, guid: a021fb592bdaa2c4a9a3a368a58456ae, type: 2}
   <ActionSkillset>k__BackingField: {fileID: 11400000, guid: 97d3ee5c53530fc4082df7991eda06e4, type: 2}
+  <StartingStats>k__BackingField:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}
+      _value: 1
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: b126ec105431be84db0d5e0d2a1d55cc, type: 2}
+      _value: 6
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
+      _value: 5
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 4
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
+      _value: 3
+    floatStats: []

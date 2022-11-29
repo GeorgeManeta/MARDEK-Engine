@@ -1,16 +1,17 @@
 namespace MARDEK.UI
 {
-    public class CharacterBagUI : InventoryCharacterUI
+    public class CharacterBagUI : InventoryUI
     {
         private void OnEnable()
         {
-            AssignInventoryToUI(character.Inventory);
+            FetchSelectedCharacterAndUpdateUI();
         }
 
         public void FetchSelectedCharacterAndUpdateUI()
         {
-            character = CharacterSelectable.currentSelected.Character;
-            AssignInventoryToUI(character.Inventory);
+            var character = CharacterSelectable.currentSelected.Character;
+            if(character != null)
+                AssignInventoryToUI(character.Inventory);
         }
     }
 }

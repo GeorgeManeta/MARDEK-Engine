@@ -48,7 +48,7 @@ namespace MARDEK.Battle
             if (characterActing == null)
             {
                 characterActing = StepActCycleTryGetNextCharacter();
-                if (characterActing)
+                if (characterActing != null)
                 {
                     actionPickerUI.SetActive(true);
                 }
@@ -61,7 +61,7 @@ namespace MARDEK.Battle
                     if(targets != null)
                     {
                         foreach (var t in targets)
-                            Debug.Log($"{characterActing.name} uses {selectedSkill.Skill.DisplayName} on {t.name}");
+                            Debug.Log($"{characterActing.CharacterInfo.displayName} uses {selectedSkill.Skill.DisplayName} on {t.CharacterInfo.displayName}");
                         targets = null;
                         selectedSkill = null;
                         characterActing = null;

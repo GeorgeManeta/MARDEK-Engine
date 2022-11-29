@@ -784,7 +784,7 @@ namespace FullSerializer {
             if (IsObjectReference(data)) {
                 int refId = int.Parse(data.AsDictionary[Key_ObjectReference].AsString);
                 result = _references.GetReferenceObject(refId);
-                Debug.Log("result is " + result);
+                //Debug.Log("result is " + result);
                 processors = GetProcessors(result.GetType());
                 return fsResult.Success;
             }

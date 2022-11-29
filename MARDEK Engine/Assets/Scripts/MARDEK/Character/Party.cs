@@ -6,33 +6,34 @@ namespace MARDEK.CharacterSystem
 {
     public class Party : AddressableMonoBehaviour
     {
-        static Party instance;
-
-        public static Party getInstance()
-        {
-            if (instance == null) throw new System.ApplicationException("No Party instance found");
-            return instance;
-        }
-
-        [SerializeField] List<Character> characters;
+        public static Party Instance { get; private set; }
+        
         public List<Character> Characters
         {
             get
             {
-                var chars = new List<Character>();
-                foreach (var playerCharacter in characters)
-                    if (!playerCharacter.IsDummy())
-                        chars.Add(playerCharacter);
-                return chars;
+                return characters;
+                //var chars = new List<Character>();
+                //foreach (var playerCharacter in characters)
+                //    if (!playerCharacter.IsDummy())
+                //        chars.Add(playerCharacter);
+                //return chars;
             }
         }
-
         public List<Character> rawCharacters { get { return characters; } }
+        [SerializeField] List<Character> characters;
+        [field: SerializeField] public List<Character> BenchedCharacters { get; private set; }
 
-        [field: SerializeField] public List<Character> unselectedCharacters { get; private set; }
-
-        [SerializeField] Character dummyCharacter;
-
+        override protected void Awake()
+        {
+            base.Awake();
+            if (Instance != null && Instance != this)
+            {
+                throw new System.ApplicationException("Multiple Party instances detected");
+            }
+            Instance = this;
+        }
+        
         Character TakeCharacter(int index, bool isSelected)
         {
             if (isSelected && characters[index].isRequired)
@@ -40,25 +41,13 @@ namespace MARDEK.CharacterSystem
                 throw new System.ArgumentException("Can't move required characters out of the party");
             }
             if (isSelected) return characters[index];
-            else return unselectedCharacters[index];
+            else return BenchedCharacters[index];
         }
-
-        override protected void Awake()
-        {
-            base.Awake();
-            if (instance != null && instance != this)
-            {
-                throw new System.ApplicationException("Multiple Party instances detected");
-            }
-            instance = this;
-        }
-
         void PutCharacter(Character character, int index, bool isSelected)
         {
             if (isSelected) characters[index] = character;
-            else unselectedCharacters[index] = character;
+            else BenchedCharacters[index] = character;
         }
-
         public void SwapCharacters(int index1, bool isSelected1, int index2, bool isSelected2)
         {
             Character oldCharacter1 = TakeCharacter(index1, isSelected1);
@@ -72,42 +61,40 @@ namespace MARDEK.CharacterSystem
                 Debug.Log(character);
             }
 
-            Debug.Log("New unselected characters are (" + unselectedCharacters.Count + "):");
-            foreach (var character in unselectedCharacters)
+            Debug.Log("New unselected characters are (" + BenchedCharacters.Count + "):");
+            foreach (var character in BenchedCharacters)
             {
                 Debug.Log(character);
             }
         }
-
         public int AddCharacter(Character newCharacter)
         {
-            for (int index = 0; index < unselectedCharacters.Count; index++)
+            for (int index = 0; index < BenchedCharacters.Count; index++)
             {
-                if (unselectedCharacters[index].IsDummy())
+                if (BenchedCharacters[index] == null)
                 {
-                    unselectedCharacters[index] = newCharacter;
+                    BenchedCharacters[index] = newCharacter;
                     return index;
                 }
             }
 
             throw new System.ApplicationException("There are not enough unselected character slots left");
         }
-
         public void RemoveCharacter(Character toRemove)
         {
             for (int index = 0; index < characters.Count; index++)
             {
                 if (characters[index] == toRemove)
                 {
-                    characters[index] = dummyCharacter;
+                    characters[index] = null;
                 }
             }
 
-            for (int index = 0; index < unselectedCharacters.Count; index++)
+            for (int index = 0; index < BenchedCharacters.Count; index++)
             {
-                if (unselectedCharacters[index] == toRemove)
+                if (BenchedCharacters[index] == toRemove)
                 {
-                    unselectedCharacters[index] = dummyCharacter;
+                    BenchedCharacters[index] = null;
                 }
             }
         }

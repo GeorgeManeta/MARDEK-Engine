@@ -29,7 +29,7 @@ namespace MARDEK.UI
 
         public void SetCharacter(Character character)
         {
-            if (character != null && !character.IsDummy())
+            if (character != null && character != null)
             {
                 characterImage.sprite = GetSprite(character);
                 if (character.isRequired) characterImage.color = new Color(1f, 1f, 1f, 0.5f);

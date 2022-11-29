@@ -9,11 +9,19 @@ namespace MARDEK.UI
 {
     public class CharacterSelectable : SelectableWithCurrentSelected<CharacterSelectable>
     {
-        [SerializeField] Character character;
-        public Character Character { get { return character; } }
+        public Character Character { 
+            get
+            {
+                var index = transform.GetSiblingIndex();
+                if (Party.Instance.Characters.Count <= index)
+                    return null;
+                return Party.Instance.Characters[index];
+            }
+        }
+
         public override bool isValid()
         {
-            return Character.CharacterInfo != null;
+            return Character != null;
         }
     }
 }
