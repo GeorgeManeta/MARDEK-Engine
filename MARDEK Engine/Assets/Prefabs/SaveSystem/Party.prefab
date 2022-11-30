@@ -25,14 +25,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4148650944317482613}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.3085477, y: 2.2573335, z: -0.639636}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7285427899915409153}
-  - {fileID: 8743124914424733750}
-  - {fileID: 2042552707106034524}
-  - {fileID: 6705969317594577409}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53,340 +49,375 @@ MonoBehaviour:
     autoSave: 1
     saveOnDisable: 1
   serializedGuid: ebeb8f2825897c4cabc105f85e154bb2
-  characters:
-  - {fileID: 2414872932222458909}
-  - {fileID: 4453358514107689770}
-  - {fileID: 6395334591798810688}
-  - {fileID: 1839777212553392413}
---- !u!1001 &270416669179610427
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1013374027887860850}
-    m_Modifications:
-    - target: {fileID: 7542370540316259324, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_Name
-      value: HeroDeugan
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
---- !u!114 &4453358514107689770 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4471291020982758929, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-  m_PrefabInstance: {fileID: 270416669179610427}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e926f53c4efbed945ad3f5f9fd8e0d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &8743124914424733750 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8833079830958105869, guid: b8f9bdbeb1104d4449167b9be1bbfb50, type: 3}
-  m_PrefabInstance: {fileID: 270416669179610427}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &2660389144604220799
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1013374027887860850}
-    m_Modifications:
-    - target: {fileID: 7765752777133994383, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_Name
-      value: AbstractPlayableCharacter (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7765752777133994383, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0217abd5630466647b6f50010771aa24, type: 3}
---- !u!114 &1839777212553392413 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4423566676288269410, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-  m_PrefabInstance: {fileID: 2660389144604220799}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e926f53c4efbed945ad3f5f9fd8e0d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &6705969317594577409 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-  m_PrefabInstance: {fileID: 2660389144604220799}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &5882741965354658573
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1013374027887860850}
-    m_Modifications:
-    - target: {fileID: 2775974325249239805, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_Name
-      value: HeroMardek
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8079713389849098000, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: baseStatus.intStats.Array.data[7]._value
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8079713389849098000, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: baseStatus.intStats.Array.data[8]._value
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8079713389849098000, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: baseStatus.intStats.Array.data[7].<statusEnum>k__BackingField
-      value: 
-      objectReference: {fileID: 11400000, guid: e63b06eec672dc9458a4ab94e4c84d37, type: 2}
-    - target: {fileID: 8079713389849098000, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: baseStatus.intStats.Array.data[8].<statusEnum>k__BackingField
-      value: 
-      objectReference: {fileID: 11400000, guid: 78be310948365564881caae421cc8d02, type: 2}
-    - target: {fileID: 8079713389849098000, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: baseStatus.intStats.Array.data[9].<statusEnum>k__BackingField
-      value: 
-      objectReference: {fileID: 11400000, guid: 43eade1775d1fb84a9fac2812007a80b, type: 2}
-    - target: {fileID: 8079713389849098000, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: baseStatus.intStats.Array.data[10].<statusEnum>k__BackingField
-      value: 
-      objectReference: {fileID: 11400000, guid: 33070d633c267994fa4d3d2e29dd23e2, type: 2}
-    - target: {fileID: 8079713389849098000, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: baseStatus.intStats.Array.data[11].<statusEnum>k__BackingField
-      value: 
-      objectReference: {fileID: 11400000, guid: 946b3fad7da056b468206c77a966c059, type: 2}
-    - target: {fileID: 8079713389849098000, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-      propertyPath: baseStatus.intStats.Array.data[12].<statusEnum>k__BackingField
-      value: 
-      objectReference: {fileID: 11400000, guid: 946b3fad7da056b468206c77a966c059, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
---- !u!114 &2414872932222458909 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8079713389849098000, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-  m_PrefabInstance: {fileID: 5882741965354658573}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e926f53c4efbed945ad3f5f9fd8e0d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &7285427899915409153 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3798989373300734988, guid: eb27bccd3e4df1b499c7633cbcabac6b, type: 3}
-  m_PrefabInstance: {fileID: 5882741965354658573}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &7323803629809660962
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1013374027887860850}
-    m_Modifications:
-    - target: {fileID: 7765752777133994383, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_Name
-      value: AbstractPlayableCharacter
-      objectReference: {fileID: 0}
-    - target: {fileID: 7765752777133994383, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0217abd5630466647b6f50010771aa24, type: 3}
---- !u!4 &2042552707106034524 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8789894269345474430, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-  m_PrefabInstance: {fileID: 7323803629809660962}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6395334591798810688 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4423566676288269410, guid: 0217abd5630466647b6f50010771aa24, type: 3}
-  m_PrefabInstance: {fileID: 7323803629809660962}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e926f53c4efbed945ad3f5f9fd8e0d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  <Characters>k__BackingField:
+  - isRequired: 1
+    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  <BenchedCharacters>k__BackingField:
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []
+  - isRequired: 0
+    <CharacterInfo>k__BackingField: {fileID: 0}
+    <EquippedItems>k__BackingField:
+      slots: []
+    <Inventory>k__BackingField:
+      slots: []
+    <SkillSlots>k__BackingField: []
+    stats:
+      intStats: []
+      floatStats: []

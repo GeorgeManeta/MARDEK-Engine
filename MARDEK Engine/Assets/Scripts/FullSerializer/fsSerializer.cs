@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using FullSerializer.Internal;
+using UnityEngine;
 
 #if !UNITY_EDITOR && UNITY_WSA
 // For System.Reflection.TypeExtensions
@@ -783,6 +784,7 @@ namespace FullSerializer {
             if (IsObjectReference(data)) {
                 int refId = int.Parse(data.AsDictionary[Key_ObjectReference].AsString);
                 result = _references.GetReferenceObject(refId);
+                //Debug.Log("result is " + result);
                 processors = GetProcessors(result.GetType());
                 return fsResult.Success;
             }

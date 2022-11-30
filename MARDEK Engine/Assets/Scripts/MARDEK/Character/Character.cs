@@ -2,34 +2,31 @@ using UnityEngine;
 using System.Collections.Generic;
 using MARDEK.Inventory;
 using MARDEK.Stats;
-using MARDEK.Skill;
-using System;
 
 namespace MARDEK.CharacterSystem
 {
     [System.Serializable]
-    public class Character : MonoBehaviour, IStats
+    public class Character : IStats
     {
+        [SerializeField] public bool isRequired;
+
         [field: SerializeField] public CharacterInfo CharacterInfo { get; private set; }
-        [SerializeField] StatsSet baseStatus = new StatsSet();
-        List<StatsSet> statusChanges = new List<StatsSet>();
         [field: SerializeField] public Inventory.Inventory EquippedItems { get; private set; }
         [field: SerializeField] public Inventory.Inventory Inventory { get; private set; }
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; } = new List<SkillSlot>();
+        [SerializeField] StatsSet stats = new StatsSet();
 
-        public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> desiredStatus)
+        public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> desiredStat)
         {            
-            var resultHolder = new StatHolder<T, StatOfType<T>>(desiredStatus);
+            var resultHolder = new StatHolder<T, StatOfType<T>>(desiredStat);
 
-            SumHolders(ref resultHolder, baseStatus.GetStat(desiredStatus));
-            foreach (var set in statusChanges)
-                SumHolders(ref resultHolder, set.GetStat(desiredStatus));
-
+            SumHolders(ref resultHolder, CharacterInfo.StartingStats.GetStat(desiredStat));
+            SumHolders(ref resultHolder, stats.GetStat(desiredStat));
             foreach(var slot in EquippedItems.Slots)
             {
                 var equippableItem = slot.item as EquippableItem;
                 if(equippableItem != null)
-                    SumHolders(ref resultHolder, equippableItem.statBoosts.GetStat(desiredStatus));
+                    SumHolders(ref resultHolder, equippableItem.statBoosts.GetStat(desiredStat));
             }
             
             return resultHolder;
@@ -52,23 +49,9 @@ namespace MARDEK.CharacterSystem
                 }
             }
         }
-
-        public BattleAI battleAI = null;
-        public void DoBattleAct()
-        {
-            if (battleAI)
-            {
-
-            }
-            else
-            {
-
-            }
-        }
-
         public void ModifyStat<T>(StatOfType<T> stat, float delta)
         {
-            baseStatus.ModifyStat(stat, delta);
+            stats.ModifyStat(stat, delta);
         }
     }
 }

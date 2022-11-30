@@ -1,10 +1,24 @@
 namespace MARDEK.UI
 {
-    public class CharacterEquipmentUI : InventoryCharacterUI
+    using MARDEK.CharacterSystem;
+
+    public class CharacterEquipmentUI : InventoryUI
     {
+        public Character Character
+        {
+            get
+            {
+                var index = transform.GetSiblingIndex();
+                if (Party.Instance.Characters.Count <= index)
+                    return null;
+                return Party.Instance.Characters[index];
+            }
+        }
         private void OnEnable()
         {
-            AssignInventoryToUI(character.EquippedItems);
+            var index = transform.GetSiblingIndex();
+            if(Character != null)
+                AssignInventoryToUI(Character.EquippedItems);
         }
     }
 }

@@ -15,3 +15,16 @@ MonoBehaviour:
   <displayName>k__BackingField: Mardek
   <WalkSprites>k__BackingField: {fileID: 11400000, guid: 2bfcf26a6a3c20846bbe75c6526f1515, type: 2}
   <ActionSkillset>k__BackingField: {fileID: 11400000, guid: a1dc15fcd846cd642bc0676902ad6eeb, type: 2}
+  <StartingStats>k__BackingField:
+    intStats:
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}
+      _value: 1
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: b126ec105431be84db0d5e0d2a1d55cc, type: 2}
+      _value: 10
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
+      _value: 9
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
+      _value: 8
+    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
+      _value: 7
+    floatStats: []

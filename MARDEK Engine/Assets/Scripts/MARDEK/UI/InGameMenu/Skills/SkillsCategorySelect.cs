@@ -25,9 +25,15 @@ namespace MARDEK.UI
 
         void CheckCategoryUpdate()
         {
+            var character = CharacterSelectable.currentSelected.Character;
+            if(character == null)
+            {
+                return;
+            }
+
             var categoryToUse = category;
             if (categoryToUse == null)
-                categoryToUse = CharacterSelectable.currentSelected.Character.CharacterInfo.ActionSkillset;
+                categoryToUse = character.CharacterInfo.ActionSkillset;
             if (categoryToUse != lastCategory)
             {
                 UpdateCategory(categoryToUse);

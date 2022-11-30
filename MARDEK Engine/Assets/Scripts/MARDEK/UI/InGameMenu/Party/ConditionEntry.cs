@@ -27,6 +27,8 @@ namespace MARDEK.UI
 
         public void SetCharacter(Character character)
         {
+            if (character == null || character.CharacterInfo == null)
+                return;
             // TODO Portrait
             // TODO Element
             this.nameText.text = character.CharacterInfo.displayName;

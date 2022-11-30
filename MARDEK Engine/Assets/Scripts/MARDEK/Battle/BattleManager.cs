@@ -49,7 +49,7 @@ namespace MARDEK.Battle
             if (characterActing == null)
             {
                 characterActing = StepActCycleTryGetNextCharacter();
-                if (characterActing)
+                if (characterActing != null)
                 {
                     characterActionUI.SetActive(true);
                 }
