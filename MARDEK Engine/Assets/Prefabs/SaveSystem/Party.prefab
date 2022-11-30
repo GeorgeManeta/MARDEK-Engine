@@ -58,8 +58,12 @@ MonoBehaviour:
       slots: []
     <SkillSlots>k__BackingField: []
     stats:
-      intStats: []
-      floatStats: []
+      intStats:
+      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
+        _value: 2
+      floatStats:
+      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
+        _value: 0
   - isRequired: 0
     <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <EquippedItems>k__BackingField:
@@ -68,28 +72,12 @@ MonoBehaviour:
       slots: []
     <SkillSlots>k__BackingField: []
     stats:
-      intStats: []
-      floatStats: []
-  - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
-    <EquippedItems>k__BackingField:
-      slots: []
-    <Inventory>k__BackingField:
-      slots: []
-    <SkillSlots>k__BackingField: []
-    stats:
-      intStats: []
-      floatStats: []
-  - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
-    <EquippedItems>k__BackingField:
-      slots: []
-    <Inventory>k__BackingField:
-      slots: []
-    <SkillSlots>k__BackingField: []
-    stats:
-      intStats: []
-      floatStats: []
+      intStats:
+      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
+        _value: 1
+      floatStats:
+      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
+        _value: 0
   <BenchedCharacters>k__BackingField:
   - isRequired: 0
     <CharacterInfo>k__BackingField: {fileID: 0}

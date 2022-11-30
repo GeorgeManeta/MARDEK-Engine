@@ -30,7 +30,8 @@ namespace MARDEK.UI
             if (barTransform)
             {
                 float xScale = Mathf.Clamp(statValue / maxStatValue , 0f, 1f);
-                barTransform.localScale = new Vector3(xScale, 1, 1);
+                if(float.IsFinite(xScale))
+                    barTransform.localScale = new Vector3(xScale, 1, 1);
             }
         }
     }

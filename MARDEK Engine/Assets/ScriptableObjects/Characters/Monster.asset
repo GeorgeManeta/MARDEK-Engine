@@ -13,3 +13,8 @@ MonoBehaviour:
   m_Name: Monster
   m_EditorClassIdentifier: 
   <displayName>k__BackingField: Monster
+  <WalkSprites>k__BackingField: {fileID: 0}
+  <ActionSkillset>k__BackingField: {fileID: 0}
+  <StartingStats>k__BackingField:
+    intStats: []
+    floatStats: []

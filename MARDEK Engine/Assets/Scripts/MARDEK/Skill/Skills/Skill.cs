@@ -12,5 +12,7 @@ namespace MARDEK.Skill
         [field: SerializeField] public int Cost { get; private set; }
         [field: SerializeField] public int PointsRequiredToMaster { get; private set; }
         [field: SerializeField] public Element Element { get; private set; }
+
+        public abstract void Apply(IStats user, IStats target);
     }
 }

@@ -165,7 +165,39 @@ PrefabInstance:
     - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: enemies.Array.data[0]
       value: 
-      objectReference: {fileID: 1583905226179721234}
+      objectReference: {fileID: 0}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].stats.intStats.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].stats.floatStats.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].<CharacterInfo>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].stats.intStats.Array.data[0]._value
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].stats.intStats.Array.data[1]._value
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].stats.intStats.Array.data[0].<statusEnum>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].stats.intStats.Array.data[1].<statusEnum>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: 09d38a9ba80723242aff585ba0915607, type: 2}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].stats.floatStats.Array.data[0].<statusEnum>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
     - target: {fileID: 760740986139804387, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -412,7 +444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4475267623241392938, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4475267623241392938, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1067,108 +1099,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c79af2cc0739f124783312b1a9fdd6b8, type: 3}
---- !u!4 &560043036396269283
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583905226179721234}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1583905226179721234
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 560043036396269283}
-  - component: {fileID: 4854313173763384831}
-  m_Layer: 0
-  m_Name: Monster
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &4854313173763384831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583905226179721234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e926f53c4efbed945ad3f5f9fd8e0d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
-  baseStatus:
-    intStats:
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 09d38a9ba80723242aff585ba0915607, type: 2}
-      _value: 100
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
-      _value: 100
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}
-      _value: 1
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: b126ec105431be84db0d5e0d2a1d55cc, type: 2}
-      _value: 30
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
-      _value: 24
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6194235459af05c4c9cbd04f733ace49, type: 2}
-      _value: 2
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
-      _value: 2
-    floatStats:
-    - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
-      _value: 0
-  <EquippedItems>k__BackingField:
-    slots:
-    - currentItem: {fileID: 0}
-      currentAmount: 0
-      itemFilter: []
-      canBeEmpty: 0
-      canPlayerPutItems: 0
-    - currentItem: {fileID: 0}
-      currentAmount: 0
-      itemFilter: []
-      canBeEmpty: 0
-      canPlayerPutItems: 0
-    - currentItem: {fileID: 0}
-      currentAmount: 0
-      itemFilter: []
-      canBeEmpty: 0
-      canPlayerPutItems: 0
-    - currentItem: {fileID: 0}
-      currentAmount: 0
-      itemFilter: []
-      canBeEmpty: 0
-      canPlayerPutItems: 0
-    - currentItem: {fileID: 0}
-      currentAmount: 0
-      itemFilter: []
-      canBeEmpty: 0
-      canPlayerPutItems: 0
-    - currentItem: {fileID: 0}
-      currentAmount: 0
-      itemFilter: []
-      canBeEmpty: 0
-      canPlayerPutItems: 0
-  <Inventory>k__BackingField:
-    slots: []
-  <SkillSlots>k__BackingField:
-  - <Skill>k__BackingField: {fileID: 11400000, guid: b71d26a843935224cbb9bd96661a0a90, type: 2}
-    <MasteryPoints>k__BackingField: 0
-  battleAI: {fileID: 0}
 --- !u!1001 &8523473284503139032
 PrefabInstance:
   m_ObjectHideFlags: 0

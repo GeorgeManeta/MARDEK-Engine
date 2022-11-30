@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MARDEK.Skill;
+using MARDEK.Stats;
 
 namespace MARDEK.CharacterSystem
 {
     [System.Serializable]
-    public class SkillSlot : Core.IActionSlot
+    public class SkillSlot : Stats.IActionSlot
     {
         [field: SerializeField] public Skill.Skill Skill {get;set;}
         [field: SerializeField] public int MasteryPoints { get; set; }
@@ -39,5 +40,10 @@ namespace MARDEK.CharacterSystem
         }
         public int Number => Skill.Cost;
         public string Description => Skill.Description;
+
+        public void ApplyAction(IStats user, IStats target)
+        {
+            Skill.Apply(user, target);
+        }
     }
 }

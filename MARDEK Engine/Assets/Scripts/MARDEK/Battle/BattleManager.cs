@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using MARDEK.CharacterSystem;
 using MARDEK.Stats;
-using MARDEK.Skill;
 
 namespace MARDEK.Battle
 {
@@ -13,7 +12,7 @@ namespace MARDEK.Battle
         [SerializeField] FloatStat ACTStat = null;
         [SerializeField] IntegerStat AGLStat = null;
         [SerializeField] Party playerParty;
-        [SerializeField] List<GameObject> enemies = new List<GameObject>();
+        [SerializeField] List<Character> enemies = new List<Character>();
 
         public List<Character> playableCharacters
         {
@@ -26,17 +25,18 @@ namespace MARDEK.Battle
         {
             get
             {
-                var chars = new List<Character>();
-                foreach (var enemy in enemies)
-                    chars.Add(enemy.GetComponent<Character>());
-                return chars;
+                return enemies;
+                //var chars = new List<Character>();
+                //foreach (var enemy in enemies)
+                //    chars.Add(enemy.GetComponent<Character>());
+                //return chars;
             }
         }
 
         public static Character characterActing { get; private set; }
         [SerializeField] GameObject characterActionUI = null;
 
-        public static Core.IActionSlot selectedAction { get; set; }
+        public static Stats.IActionSlot selectedAction { get; set; }
         public static List<Character> targets { get; private set; }
         const float actResolution = 2;
 
@@ -67,7 +67,8 @@ namespace MARDEK.Battle
                     {
                         target = enemyCharacters[Random.Range(0, enemyCharacters.Count-1)];
                     }
-                    
+
+                    selectedAction.ApplyAction(characterActing, target);
                     Debug.Log($"{characterActing.CharacterInfo.displayName} uses {selectedAction.DisplayName} targeting {target}");
                     selectedAction = null;
                     characterActing = null;

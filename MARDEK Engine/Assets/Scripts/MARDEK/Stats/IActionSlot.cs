@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MARDEK.Core
+namespace MARDEK.Stats
 {
     public interface IActionSlot
     {
@@ -10,5 +10,6 @@ namespace MARDEK.Core
         public Sprite Sprite { get; }
         public int Number { get; }
         public string Description { get; }
+        public void ApplyAction(IStats user, IStats target);
     }
 }

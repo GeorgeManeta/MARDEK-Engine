@@ -15,25 +15,85 @@ MonoBehaviour:
   possibleEncounters:
   - encounterWeight: 1
     encounterEnemies:
-    - enemyPrefab: {fileID: 1583905225047686083, guid: f8954a9b5664d584cad06fdc10ecabdd, type: 3}
+    - enemy:
+        isRequired: 0
+        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <EquippedItems>k__BackingField:
+          slots: []
+        <Inventory>k__BackingField:
+          slots: []
+        <SkillSlots>k__BackingField: []
+        stats:
+          intStats: []
+          floatStats: []
       minLevel: 1
       maxLevel: 1
   - encounterWeight: 1
     encounterEnemies:
-    - enemyPrefab: {fileID: 1583905225047686083, guid: f8954a9b5664d584cad06fdc10ecabdd, type: 3}
+    - enemy:
+        isRequired: 0
+        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <EquippedItems>k__BackingField:
+          slots: []
+        <Inventory>k__BackingField:
+          slots: []
+        <SkillSlots>k__BackingField: []
+        stats:
+          intStats: []
+          floatStats: []
       minLevel: 1
       maxLevel: 1
-    - enemyPrefab: {fileID: 1583905225047686083, guid: f8954a9b5664d584cad06fdc10ecabdd, type: 3}
+    - enemy:
+        isRequired: 0
+        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <EquippedItems>k__BackingField:
+          slots: []
+        <Inventory>k__BackingField:
+          slots: []
+        <SkillSlots>k__BackingField: []
+        stats:
+          intStats: []
+          floatStats: []
       minLevel: 1
       maxLevel: 1
   - encounterWeight: 1
     encounterEnemies:
-    - enemyPrefab: {fileID: 1583905225047686083, guid: f8954a9b5664d584cad06fdc10ecabdd, type: 3}
+    - enemy:
+        isRequired: 0
+        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <EquippedItems>k__BackingField:
+          slots: []
+        <Inventory>k__BackingField:
+          slots: []
+        <SkillSlots>k__BackingField: []
+        stats:
+          intStats: []
+          floatStats: []
       minLevel: 1
       maxLevel: 1
-    - enemyPrefab: {fileID: 1583905225047686083, guid: f8954a9b5664d584cad06fdc10ecabdd, type: 3}
+    - enemy:
+        isRequired: 0
+        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <EquippedItems>k__BackingField:
+          slots: []
+        <Inventory>k__BackingField:
+          slots: []
+        <SkillSlots>k__BackingField: []
+        stats:
+          intStats: []
+          floatStats: []
       minLevel: 1
       maxLevel: 1
-    - enemyPrefab: {fileID: 1583905225047686083, guid: f8954a9b5664d584cad06fdc10ecabdd, type: 3}
+    - enemy:
+        isRequired: 0
+        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <EquippedItems>k__BackingField:
+          slots: []
+        <Inventory>k__BackingField:
+          slots: []
+        <SkillSlots>k__BackingField: []
+        stats:
+          intStats: []
+          floatStats: []
       minLevel: 1
       maxLevel: 1

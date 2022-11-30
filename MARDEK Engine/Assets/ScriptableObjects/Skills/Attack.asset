@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e97727b890c81574e9c60256ce51f687, type: 3}
-  m_Name: Default Attack
+  m_Name: Attack
   m_EditorClassIdentifier: 
-  <DisplayName>k__BackingField: 
-  <Description>k__BackingField: 
+  <DisplayName>k__BackingField: Attack
+  <Description>k__BackingField: default attack
   <Cost>k__BackingField: 0
   <PointsRequiredToMaster>k__BackingField: 0
-  <Element>k__BackingField: {fileID: 0}
-  effects: []
+  <Element>k__BackingField: {fileID: 11400000, guid: dc4a9edd1549b5f488f18fb184119adf, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 72dca104a0c5e8641bcc8c9daca91aa7, type: 2}

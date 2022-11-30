@@ -14,7 +14,7 @@ namespace MARDEK.UI
         private void OnEnable()
         {
             var character = BattleManager.characterActing;
-            if (character)
+            if (character != null)
             {
                 nameLabel.text = character.CharacterInfo.displayName;
             }

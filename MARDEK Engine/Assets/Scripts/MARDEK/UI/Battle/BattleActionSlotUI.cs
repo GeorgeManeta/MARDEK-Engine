@@ -6,16 +6,17 @@ using UnityEngine.UI;
 
 namespace MARDEK.UI
 {
+    using Stats;
     public class BattleActionSlotUI : Selectable
     {
-        public delegate void UpdateSelectedSlot(Core.IActionSlot slot);
+        public delegate void UpdateSelectedSlot(IActionSlot slot);
         public static UpdateSelectedSlot UpdateSelected { get; set; }
         [SerializeField] Image sprite;
         [SerializeField] Text nameLabel;
         [SerializeField] Text number;
-        Core.IActionSlot slot;
+        IActionSlot slot;
 
-        public void SetSlot(Core.IActionSlot _slot)
+        public void SetSlot(IActionSlot _slot)
         {
             slot = _slot;
             if (slot == null)
@@ -29,7 +30,7 @@ namespace MARDEK.UI
             }
         }
 
-        public void SelectSkill()
+        public void SelectAction()
         {
             Battle.BattleManager.selectedAction = slot;
         }

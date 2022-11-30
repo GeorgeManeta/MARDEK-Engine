@@ -4,6 +4,8 @@ using UnityEngine;
 
 namespace MARDEK.Battle
 {
+    using CharacterSystem;
+
     [CreateAssetMenu(menuName = "MARDEK/Battle/EncounterSet")]
     public class EncounterSet : ScriptableObject
     {
@@ -20,24 +22,22 @@ namespace MARDEK.Battle
         [System.Serializable]
         class EnemyWithLevelRange
         {
-            public GameObject enemyPrefab;
+            public CharacterSystem.Character enemy;
             public int minLevel = 0;
             public int maxLevel = 0;
         }
 
-        public List<GameObject> InstantiateEncounter()
+        public List<Character> InstantiateEncounter()
         {
-            List<GameObject> enemiesInstantiated = new List<GameObject>();
-
+            List<Character> enemies = new List<Character>();
             var chosenEncounter = ChooseEncounter();
-            foreach(var enemy in chosenEncounter.encounterEnemies)
+            foreach(var enemyEntry in chosenEncounter.encounterEnemies)
             {
-                var newEnemy = Instantiate(enemy.enemyPrefab);
-                var enemyLevel = Random.Range(enemy.minLevel, enemy.maxLevel + 1);
-                // TODO: get enemy character component and set its level
-                enemiesInstantiated.Add(newEnemy);
+                var enemy = enemyEntry.enemy;
+                var enemyLevel = Random.Range(enemyEntry.minLevel, enemyEntry.maxLevel + 1);
+                enemies.Add(enemy);
             }
-            return enemiesInstantiated;
+            return enemies;
         }
 
         WeightedEncounter ChooseEncounter()

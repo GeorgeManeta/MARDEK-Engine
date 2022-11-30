@@ -10,7 +10,7 @@ namespace MARDEK.Skill
     {
         [SerializeField] List<SkillEffect> effects = new List<SkillEffect>();
 
-        public void Apply(IStats user, IStats target)
+        public override void Apply(IStats user, IStats target)
         {
             foreach (var effect in effects)
                 effect.Apply(user, target);

@@ -1,10 +1,11 @@
 using UnityEngine;
 using System.Collections.Generic;
+using MARDEK.Stats;
 
 namespace MARDEK.Inventory
 {
     [System.Serializable]
-    public class Slot : Core.IActionSlot
+    public class Slot : Stats.IActionSlot
     {
         public Item currentItem;
         public int currentAmount;
@@ -98,6 +99,11 @@ namespace MARDEK.Inventory
             this.currentAmount -= amount;
             if (this.currentAmount == 0) this.currentItem = null;
             return takenItem;
+        }
+
+        public void ApplyAction(IStats user, IStats target)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

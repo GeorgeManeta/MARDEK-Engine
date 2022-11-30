@@ -19,7 +19,7 @@ namespace MARDEK.UI
             }
         }
 
-        public override bool isValid()
+        public override bool IsValid()
         {
             return Character != null;
         }

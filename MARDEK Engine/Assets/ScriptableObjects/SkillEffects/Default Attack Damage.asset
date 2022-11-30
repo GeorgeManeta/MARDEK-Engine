@@ -14,8 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetStatus: {fileID: 11400000, guid: 09d38a9ba80723242aff585ba0915607, type: 2}
   valueExpresion:
-    expression: ATK
+    expression: ( ATK - DEF ) * STR * ( level + 5 ) / 50
     customTokens:
     - ID: ATK
+      stat: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
+      userOrTarget: 0
+    - ID: DEF
+      stat: {fileID: 11400000, guid: 46c026df8a249b74d8bcb5a7c1a50f02, type: 2}
+      userOrTarget: 1
+    - ID: STR
       stat: {fileID: 11400000, guid: b126ec105431be84db0d5e0d2a1d55cc, type: 2}
+      userOrTarget: 0
+    - ID: level
+      stat: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}
       userOrTarget: 0

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 namespace MARDEK.UI
 {
+    using Stats;
     public class BattleActionDescription : MonoBehaviour
     {
         [SerializeField] Text nameLabel;
@@ -20,7 +21,7 @@ namespace MARDEK.UI
             UpdateDescription(null);
         }
 
-        public void UpdateDescription(Core.IActionSlot action)
+        public void UpdateDescription(IActionSlot action)
         {
             if (action != null)
             {

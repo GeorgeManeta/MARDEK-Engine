@@ -9,6 +9,7 @@ namespace MARDEK.Skill
     [System.Serializable]
     public class SkillExpression
     {
+        [TextArea]
         [SerializeField] string expression;
         [SerializeField] List<StatTokenID> customTokens;
         ParserToken finalToken = null;
