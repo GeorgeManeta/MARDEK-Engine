@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee63e6016b84c294fb5bf1731f27e951, type: 3}
   m_Name: Default Attack Effect
   m_EditorClassIdentifier: 
-  targetStatus: {fileID: 11400000, guid: 09d38a9ba80723242aff585ba0915607, type: 2}
+  targetStat: {fileID: 11400000, guid: 09d38a9ba80723242aff585ba0915607, type: 2}
   valueExpresion: {fileID: 11400000, guid: 4426ef57d2d78fd4db26405c2ee87a53, type: 2}
