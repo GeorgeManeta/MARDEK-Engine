@@ -15,14 +15,13 @@ namespace MARDEK.Stats
         int index = 0;
         string[] lexicalParts;
 
-        [ContextMenu("Parse")]
         public float Evaluate(IStats user, IStats target)
         {
             if (finalToken == null)
                 Parse();
             return finalToken.Evaluate(user, target);
         }
-
+        [ContextMenu("Parse Expression")]
         void Parse()
         {
             lexicalParts = expression.Split(' ');
@@ -109,6 +108,7 @@ namespace MARDEK.Stats
             foreach (var customToken in customTokens)
                 if (lexicalPart == customToken.ID)
                     return new StatToken(customToken.stat, customToken.userOrTarget);
+            Debug.LogWarning($"Unexpected Token: {lexicalPart}");
             return null;
         }
 

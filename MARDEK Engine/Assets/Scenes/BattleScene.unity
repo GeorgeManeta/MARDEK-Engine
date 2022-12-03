@@ -167,6 +167,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].<Profile>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: enemies.Array.data[0].stats.intStats.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -179,12 +183,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
     - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].volatileStats.intStats.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: enemies.Array.data[0].stats.intStats.Array.data[0]._value
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: enemies.Array.data[0].stats.intStats.Array.data[1]._value
       value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].volatileStats.intStats.Array.data[0]._value
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: enemies.Array.data[0].stats.intStats.Array.data[0].<statusEnum>k__BackingField
@@ -198,6 +210,10 @@ PrefabInstance:
       propertyPath: enemies.Array.data[0].stats.floatStats.Array.data[0].<statusEnum>k__BackingField
       value: 
       objectReference: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: enemies.Array.data[0].volatileStats.intStats.Array.data[0].<statusEnum>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}
     - target: {fileID: 760740986139804387, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1

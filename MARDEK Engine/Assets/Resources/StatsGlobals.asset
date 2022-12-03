@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 546d6cfec148d6f45b0eefa1fe238ddc, type: 3}
   m_Name: StatsGlobals
   m_EditorClassIdentifier: 
-  CurrentHP: {fileID: 11400000, guid: 09d38a9ba80723242aff585ba0915607, type: 2}
-  MaxHP: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
-  CurrentMP: {fileID: 11400000, guid: 04792f66b3d45e34caef63f646b39b6d, type: 2}
-  MaxMP: {fileID: 11400000, guid: 9cff1bd1d17a7344a93771942f908064, type: 2}
+  <CurrentHP>k__BackingField: {fileID: 11400000, guid: 09d38a9ba80723242aff585ba0915607, type: 2}
+  <MaxHP>k__BackingField: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
+  <CurrentMP>k__BackingField: {fileID: 11400000, guid: 04792f66b3d45e34caef63f646b39b6d, type: 2}
+  <MaxMP>k__BackingField: {fileID: 11400000, guid: 9cff1bd1d17a7344a93771942f908064, type: 2}
+  <DefaultMaxHPExpression>k__BackingField: {fileID: 11400000, guid: 7e78f87a8cac86e4d8f80fba386c4141, type: 2}
+  <DefaultMaxMPExpression>k__BackingField: {fileID: 11400000, guid: a0b036d755c802d40a537dafffe15e06, type: 2}

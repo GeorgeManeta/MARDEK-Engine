@@ -26,10 +26,6 @@ namespace MARDEK.Battle
             get
             {
                 return enemies;
-                //var chars = new List<Character>();
-                //foreach (var enemy in enemies)
-                //    chars.Add(enemy.GetComponent<Character>());
-                //return chars;
             }
         }
 
@@ -68,8 +64,8 @@ namespace MARDEK.Battle
                         target = enemyCharacters[Random.Range(0, enemyCharacters.Count-1)];
                     }
 
+                    Debug.Log($"{characterActing.Profile.displayName} targets {target.Profile.displayName}");
                     selectedAction.ApplyAction(characterActing, target);
-                    Debug.Log($"{characterActing.Profile.displayName} uses {selectedAction.DisplayName} targeting {target}");
                     selectedAction = null;
                     characterActing = null;
                     characterActionUI.SetActive(false);

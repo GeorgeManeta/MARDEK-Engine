@@ -18,9 +18,11 @@ namespace MARDEK.Stats
             }
         }
 
-        [SerializeField] public StatOfType<int> CurrentHP;
-        [SerializeField] public StatOfType<int> MaxHP;
-        [SerializeField] public StatOfType<int> CurrentMP;
-        [SerializeField] public StatOfType<int> MaxMP;
+        [field: SerializeField] public StatOfType<int> CurrentHP { get; private set; }
+        [field: SerializeField] public StatOfType<int> MaxHP { get; private set; }
+        [field: SerializeField] public StatOfType<int> CurrentMP { get; private set; }
+        [field: SerializeField] public StatOfType<int> MaxMP { get; private set; }
+        [field: SerializeField] public StatExpression DefaultMaxHPExpression { get; private set; }
+        [field: SerializeField] public StatExpression DefaultMaxMPExpression { get; private set; }
     }
 }

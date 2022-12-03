@@ -15,7 +15,7 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] public Inventory.Inventory Inventory { get; private set; }
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; } = new List<SkillSlot>();
         [Header("Stats")]
-        [SerializeField] StatsSet volatileStats = new StatsSet();
+        [SerializeField] StatsSet volatileStats = new StatsSet(true);
         int _maxHP = -1;
         int MaxHP
         {
@@ -35,7 +35,32 @@ namespace MARDEK.CharacterSystem
                     _currentHP = GetStat(StatsGlobals.Instance.MaxHP).Value;
                 return _currentHP;
             }
+            set
+            {
+                _currentHP = value;
+            }
         }
+        int _maxMP = -1;
+        int MaxMP
+        {
+            get
+            {
+                if (_maxMP == -1)
+                    _maxMP = (int)Profile.MaxMPExpression.Evaluate(this, null);
+                return _maxMP;
+            }
+        }
+        int _currentMP = -1;
+        int CurrentMP
+        {
+            get
+            {
+                if (_currentMP == -1)
+                    _currentMP = GetStat(StatsGlobals.Instance.MaxMP).Value;
+                return _currentMP;
+            }
+        }
+
         public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> desiredStat)
         {            
             var resultHolder = new StatHolder<T, StatOfType<T>>(desiredStat);
@@ -44,8 +69,15 @@ namespace MARDEK.CharacterSystem
                 (resultHolder as StatHolder<int, StatOfType<int>>).Value = CurrentHP;
                 return resultHolder;
             }
+            if (desiredStat == StatsGlobals.Instance.CurrentMP)
+            {
+                (resultHolder as StatHolder<int, StatOfType<int>>).Value = CurrentMP;
+                return resultHolder;
+            }
             if (desiredStat == StatsGlobals.Instance.MaxHP)
                 (resultHolder as StatHolder<int, StatOfType<int>>).Value = MaxHP;
+            if (desiredStat == StatsGlobals.Instance.MaxMP)
+                (resultHolder as StatHolder<int, StatOfType<int>>).Value = MaxMP;
 
             SumHolders(ref resultHolder, Profile.StartingStats.GetStat(desiredStat));
             SumHolders(ref resultHolder, volatileStats.GetStat(desiredStat));
@@ -77,6 +109,11 @@ namespace MARDEK.CharacterSystem
         }
         public void ModifyStat<T>(StatOfType<T> stat, float delta)
         {
+            if (stat == StatsGlobals.Instance.CurrentHP)
+            {
+                CurrentHP += (int)delta;
+                return;
+            }
             volatileStats.ModifyStat(stat, delta);
         }
     }

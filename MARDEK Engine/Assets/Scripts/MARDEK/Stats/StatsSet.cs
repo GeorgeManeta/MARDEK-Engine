@@ -6,7 +6,10 @@ namespace MARDEK.Stats
     [System.Serializable]
     public class StatsSet : IStats
     {
-        public StatsSet(){
+        bool expandable = false;
+        public StatsSet(bool _expandable = false)
+        {
+            expandable = _expandable;
             intStats = new List<StatHolder<int, StatOfType<int>>>();
             floatStats = new List<StatHolder<float, StatOfType<float>>>();
         }
@@ -25,17 +28,29 @@ namespace MARDEK.Stats
         public void ModifyStat<T>(StatOfType<T> stat, float delta)
         {
             if (typeof(T) == typeof(int))
-                (GetStat(stat) as StatHolder<int, StatOfType<int>>).Value += (int)delta;
+            {
+                var holder = (GetStat(stat) as StatHolder<int, StatOfType<int>>);
+                if (expandable && intStats.Contains(holder) == false)
+                    intStats.Add(holder);
+                holder.Value += (int)delta;
+            }
             if (typeof(T) == typeof(float))
-                (GetStat(stat) as StatHolder<float, StatOfType<float>>).Value += delta;
+            {
+                var holder = (GetStat(stat) as StatHolder<float, StatOfType<float>>);
+                if (expandable && floatStats.Contains(holder) == false)
+                    floatStats.Add(holder);
+                holder.Value += delta;
+            }
         }
 
         private StatHolder<T, StatOfType<T>> GetStatFromList<T>(StatOfType<T> stat, List<StatHolder<T, StatOfType<T>>> statList)
         {
             foreach (var statusHolder in statList)
                 if (statusHolder.statusEnum == stat)
-                    return statusHolder as StatHolder<T, StatOfType<T>>;
-            return new StatHolder<T, StatOfType<T>>(stat);
+                    return statusHolder;
+
+            var newHolder = new StatHolder<T, StatOfType<T>>(stat);
+            return newHolder;
         }
     }
 }

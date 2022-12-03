@@ -31,12 +31,11 @@ namespace MARDEK.UI
                 return;
             // TODO Portrait
             // TODO Element
-            this.nameText.text = character.Profile.displayName;
-            this.levelText.text = "Lv " + character.GetStat(this.levelStat).Value;
+            nameText.text = character.Profile.displayName;
+            levelText.text = "Lv " + character.GetStat(levelStat).Value;
             // TODO Class
-            this.hpBar.SetValues(character.GetStat(this.currentHpStat).Value, character.GetStat(this.maxHpStat).Value);
-            // TODO Update mp bar when mana stats are available
-            //this.mpBar.SetValues(character.GetStat(this.currentMpStat).Value, character.GetStat(this.maxMpStat).Value);
+            hpBar.SetValues(character.GetStat(currentHpStat).Value, character.GetStat(maxHpStat).Value);
+            mpBar.SetValues(character.GetStat(currentMpStat).Value, character.GetStat(maxMpStat).Value);
             // TODO Update XP bar
         }
     }

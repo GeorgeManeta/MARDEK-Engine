@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b9b7a51fb7f61143b28facc8b1acbc5, type: 3}
+  m_Name: Default Max HP
+  m_EditorClassIdentifier: 
+  expression: 3 * VIT + 2 * VIT * Level
+  customTokens:
+  - ID: VIT
+    stat: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
+    userOrTarget: 0
+  - ID: Level
+    stat: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}
+    userOrTarget: 0

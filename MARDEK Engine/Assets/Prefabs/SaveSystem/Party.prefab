@@ -93,7 +93,37 @@ MonoBehaviour:
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <EquippedItems>k__BackingField:
-      slots: []
+      slots:
+      - currentItem: {fileID: 11400000, guid: 9f44d2ce67d4c63428b26c460a494c8e, type: 2}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 0
+        canPlayerPutItems: 0
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 0
+        canPlayerPutItems: 0
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 0
+        canPlayerPutItems: 0
+      - currentItem: {fileID: 11400000, guid: 7d545b6b019ef57499fd306d4bb86984, type: 2}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 0
+        canPlayerPutItems: 0
+      - currentItem: {fileID: 11400000, guid: 1a6088039ca4aff479c8f3002a92c2da, type: 2}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 0
+        canPlayerPutItems: 0
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 0
+        canPlayerPutItems: 0
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []

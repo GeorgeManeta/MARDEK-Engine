@@ -10,13 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b9b7a51fb7f61143b28facc8b1acbc5, type: 3}
-  m_Name: Default MaxHP
+  m_Name: Zero
   m_EditorClassIdentifier: 
-  expression: 3 * VIT + 2 * VIT * Level
-  customTokens:
-  - ID: VIT
-    stat: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
-    userOrTarget: 0
-  - ID: Level
-    stat: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}
-    userOrTarget: 0
+  expression: 0
+  customTokens: []

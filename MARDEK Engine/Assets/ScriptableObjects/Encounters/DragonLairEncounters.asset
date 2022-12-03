@@ -17,13 +17,51 @@ MonoBehaviour:
     encounterEnemies:
     - enemy:
         isRequired: 0
-        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <Profile>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
         <EquippedItems>k__BackingField:
           slots: []
         <Inventory>k__BackingField:
           slots: []
         <SkillSlots>k__BackingField: []
-        stats:
+        volatileStats:
+          intStats:
+          - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
+            _value: 0
+          - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
+            _value: 0
+          - <statusEnum>k__BackingField: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}
+            _value: 0
+          - <statusEnum>k__BackingField: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
+            _value: 0
+          floatStats:
+          - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
+            _value: 1.7010349
+      minLevel: 1
+      maxLevel: 1
+  - encounterWeight: 1
+    encounterEnemies:
+    - enemy:
+        isRequired: 0
+        <Profile>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <EquippedItems>k__BackingField:
+          slots: []
+        <Inventory>k__BackingField:
+          slots: []
+        <SkillSlots>k__BackingField: []
+        volatileStats:
+          intStats: []
+          floatStats: []
+      minLevel: 1
+      maxLevel: 1
+    - enemy:
+        isRequired: 0
+        <Profile>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <EquippedItems>k__BackingField:
+          slots: []
+        <Inventory>k__BackingField:
+          slots: []
+        <SkillSlots>k__BackingField: []
+        volatileStats:
           intStats: []
           floatStats: []
       minLevel: 1
@@ -32,67 +70,39 @@ MonoBehaviour:
     encounterEnemies:
     - enemy:
         isRequired: 0
-        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <Profile>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
         <EquippedItems>k__BackingField:
           slots: []
         <Inventory>k__BackingField:
           slots: []
         <SkillSlots>k__BackingField: []
-        stats:
+        volatileStats:
           intStats: []
           floatStats: []
       minLevel: 1
       maxLevel: 1
     - enemy:
         isRequired: 0
-        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <Profile>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
         <EquippedItems>k__BackingField:
           slots: []
         <Inventory>k__BackingField:
           slots: []
         <SkillSlots>k__BackingField: []
-        stats:
-          intStats: []
-          floatStats: []
-      minLevel: 1
-      maxLevel: 1
-  - encounterWeight: 1
-    encounterEnemies:
-    - enemy:
-        isRequired: 0
-        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
-        <EquippedItems>k__BackingField:
-          slots: []
-        <Inventory>k__BackingField:
-          slots: []
-        <SkillSlots>k__BackingField: []
-        stats:
+        volatileStats:
           intStats: []
           floatStats: []
       minLevel: 1
       maxLevel: 1
     - enemy:
         isRequired: 0
-        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
+        <Profile>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
         <EquippedItems>k__BackingField:
           slots: []
         <Inventory>k__BackingField:
           slots: []
         <SkillSlots>k__BackingField: []
-        stats:
-          intStats: []
-          floatStats: []
-      minLevel: 1
-      maxLevel: 1
-    - enemy:
-        isRequired: 0
-        <CharacterInfo>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
-        <EquippedItems>k__BackingField:
-          slots: []
-        <Inventory>k__BackingField:
-          slots: []
-        <SkillSlots>k__BackingField: []
-        stats:
+        volatileStats:
           intStats: []
           floatStats: []
       minLevel: 1
