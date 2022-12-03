@@ -10,7 +10,7 @@ namespace MARDEK.CharacterSystem
     {
         [SerializeField] public bool isRequired;
 
-        [field: SerializeField] public CharacterInfo CharacterInfo { get; private set; }
+        [field: SerializeField] public CharacterProfile Profile { get; private set; }
         [field: SerializeField] public Inventory.Inventory EquippedItems { get; private set; }
         [field: SerializeField] public Inventory.Inventory Inventory { get; private set; }
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; } = new List<SkillSlot>();
@@ -20,7 +20,7 @@ namespace MARDEK.CharacterSystem
         {            
             var resultHolder = new StatHolder<T, StatOfType<T>>(desiredStat);
 
-            SumHolders(ref resultHolder, CharacterInfo.StartingStats.GetStat(desiredStat));
+            SumHolders(ref resultHolder, Profile.StartingStats.GetStat(desiredStat));
             SumHolders(ref resultHolder, stats.GetStat(desiredStat));
             foreach(var slot in EquippedItems.Slots)
             {

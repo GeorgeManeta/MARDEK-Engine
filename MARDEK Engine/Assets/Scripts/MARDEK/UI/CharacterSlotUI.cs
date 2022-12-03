@@ -10,9 +10,9 @@ namespace MARDEK.UI
     {
         public static Sprite GetSprite(Character character)
         {
-            if (character == null || character.CharacterInfo == null)
+            if (character == null || character.Profile == null)
                 return null;
-            return character.CharacterInfo.WalkSprites.GetClipByIndex(0).GetSprite(Time.time % 1);
+            return character.Profile.WalkSprites.GetClipByIndex(0).GetSprite(Time.time % 1);
         }
 
         [SerializeField] Image backgroundImage;
@@ -31,7 +31,7 @@ namespace MARDEK.UI
 
         public void SetCharacter(Character character)
         {
-            if (character != null && character.CharacterInfo != null)
+            if (character != null && character.Profile != null)
             {
                 characterImage.sprite = GetSprite(character);
                 if (character.isRequired) characterImage.color = new Color(1f, 1f, 1f, 0.5f);

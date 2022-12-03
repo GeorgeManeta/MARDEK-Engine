@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using CharacterInfo = MARDEK.CharacterSystem.CharacterInfo;
+using CharacterInfo = MARDEK.CharacterSystem.CharacterProfile;
 
 namespace MARDEK.DialogueSystem
 {

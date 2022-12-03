@@ -69,7 +69,7 @@ namespace MARDEK.Battle
                     }
 
                     selectedAction.ApplyAction(characterActing, target);
-                    Debug.Log($"{characterActing.CharacterInfo.displayName} uses {selectedAction.DisplayName} targeting {target}");
+                    Debug.Log($"{characterActing.Profile.displayName} uses {selectedAction.DisplayName} targeting {target}");
                     selectedAction = null;
                     characterActing = null;
                     characterActionUI.SetActive(false);

@@ -27,11 +27,11 @@ namespace MARDEK.UI
 
         public void SetCharacter(Character character)
         {
-            if (character == null || character.CharacterInfo == null)
+            if (character == null || character.Profile == null)
                 return;
             // TODO Portrait
             // TODO Element
-            this.nameText.text = character.CharacterInfo.displayName;
+            this.nameText.text = character.Profile.displayName;
             this.levelText.text = "Lv " + character.GetStat(this.levelStat).Value;
             // TODO Class
             this.hpBar.SetValues(character.GetStat(this.currentHpStat).Value, character.GetStat(this.maxHpStat).Value);

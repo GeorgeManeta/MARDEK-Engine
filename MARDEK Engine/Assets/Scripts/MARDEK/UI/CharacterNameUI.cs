@@ -12,7 +12,7 @@ namespace MARDEK.UI
 
         void Start()
         {
-            characteName.text = characterUI.character.CharacterInfo == null ? "Null" : characterUI.character.CharacterInfo.displayName;
+            characteName.text = characterUI.character.Profile == null ? "Null" : characterUI.character.Profile.displayName;
         }
     }
 }

@@ -145,7 +145,7 @@ namespace MARDEK.DialogueSystem
         {
             if (dialogue != null)
             {
-                CharacterSystem.CharacterInfo characterBio = dialogue.CharacterLines[dialogueIndex].Character;
+                CharacterSystem.CharacterProfile characterBio = dialogue.CharacterLines[dialogueIndex].Character;
                 if (characterBio != null)
                 {
                     characterNameText.text = characterBio.displayName;
