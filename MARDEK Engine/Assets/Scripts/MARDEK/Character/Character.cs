@@ -19,16 +19,33 @@ namespace MARDEK.CharacterSystem
         int _maxHP = -1;
         int MaxHP
         {
-            get;set;
+            get
+            {
+                if(_maxHP == -1)
+                    _maxHP = (int)Profile.MaxHPExpression.Evaluate(this, null);
+                return _maxHP;
+            }
         }
         int _currentHP = -1;
         int CurrentHP
         {
-            get;set;
+            get
+            {
+                if (_currentHP == -1)
+                    _currentHP = GetStat(StatsGlobals.Instance.MaxHP).Value;
+                return _currentHP;
+            }
         }
         public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> desiredStat)
         {            
             var resultHolder = new StatHolder<T, StatOfType<T>>(desiredStat);
+            if (desiredStat == StatsGlobals.Instance.CurrentHP)
+            {
+                (resultHolder as StatHolder<int, StatOfType<int>>).Value = CurrentHP;
+                return resultHolder;
+            }
+            if (desiredStat == StatsGlobals.Instance.MaxHP)
+                (resultHolder as StatHolder<int, StatOfType<int>>).Value = MaxHP;
 
             SumHolders(ref resultHolder, Profile.StartingStats.GetStat(desiredStat));
             SumHolders(ref resultHolder, volatileStats.GetStat(desiredStat));
@@ -38,7 +55,6 @@ namespace MARDEK.CharacterSystem
                 if(equippableItem != null)
                     SumHolders(ref resultHolder, equippableItem.statBoosts.GetStat(desiredStat));
             }
-            
             return resultHolder;
 
             void SumHolders(ref StatHolder<T, StatOfType<T>> firstHolder, StatHolder<T, StatOfType<T>> secondHolder)
