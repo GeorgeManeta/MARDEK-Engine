@@ -1,6 +1,4 @@
-using MARDEK.Stats;
-
-namespace MARDEK.Skill.ExpressionParser
+namespace MARDEK.Stats.ExpressionParser
 {
     public abstract class ParserToken
     {

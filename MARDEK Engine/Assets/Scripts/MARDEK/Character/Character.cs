@@ -14,14 +14,24 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] public Inventory.Inventory EquippedItems { get; private set; }
         [field: SerializeField] public Inventory.Inventory Inventory { get; private set; }
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; } = new List<SkillSlot>();
-        [SerializeField] StatsSet stats = new StatsSet();
-
+        [Header("Stats")]
+        [SerializeField] StatsSet volatileStats = new StatsSet();
+        int _maxHP = -1;
+        int MaxHP
+        {
+            get;set;
+        }
+        int _currentHP = -1;
+        int CurrentHP
+        {
+            get;set;
+        }
         public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> desiredStat)
         {            
             var resultHolder = new StatHolder<T, StatOfType<T>>(desiredStat);
 
             SumHolders(ref resultHolder, Profile.StartingStats.GetStat(desiredStat));
-            SumHolders(ref resultHolder, stats.GetStat(desiredStat));
+            SumHolders(ref resultHolder, volatileStats.GetStat(desiredStat));
             foreach(var slot in EquippedItems.Slots)
             {
                 var equippableItem = slot.item as EquippableItem;
@@ -51,7 +61,7 @@ namespace MARDEK.CharacterSystem
         }
         public void ModifyStat<T>(StatOfType<T> stat, float delta)
         {
-            stats.ModifyStat(stat, delta);
+            volatileStats.ModifyStat(stat, delta);
         }
     }
 }

@@ -13,5 +13,6 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] public SpriteAnimationClipList WalkSprites { get; private set; }
         [field: SerializeField] public Skillset ActionSkillset { get; private set; }
         [field: SerializeField] public StatsSet StartingStats { get; private set; } = new StatsSet();
+        [field: SerializeField] public StatExpression MaxHPExpression { get; private set; }
     }
 }

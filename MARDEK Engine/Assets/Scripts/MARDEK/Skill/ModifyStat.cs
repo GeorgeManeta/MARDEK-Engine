@@ -7,7 +7,7 @@ namespace MARDEK.Skill
     public class ModifyStat : SkillEffect
     {
         [SerializeField] IntegerStat targetStatus; // most probably the current health stat, but who knows
-        [SerializeField] SkillExpression valueExpresion = new SkillExpression();
+        [SerializeField] StatExpression valueExpresion;
 
         public override void Apply(IStats user, IStats target)
         {

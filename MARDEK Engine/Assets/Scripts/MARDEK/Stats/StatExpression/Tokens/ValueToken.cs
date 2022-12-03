@@ -1,4 +1,4 @@
-namespace MARDEK.Skill.ExpressionParser
+namespace MARDEK.Stats.ExpressionParser
 {
     public abstract class ValueToken : ParserToken
     {

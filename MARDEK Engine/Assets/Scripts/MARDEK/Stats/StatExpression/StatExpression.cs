@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using MARDEK.Skill.ExpressionParser;
-using MARDEK.Stats;
 
-namespace MARDEK.Skill
+namespace MARDEK.Stats
 {
-    [System.Serializable]
-    public class SkillExpression
+    using ExpressionParser;
+    [CreateAssetMenu(menuName = "MARDEK/Expression")]
+    public class StatExpression : ScriptableObject
     {
         [TextArea]
         [SerializeField] string expression;
