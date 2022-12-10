@@ -1,5 +1,3 @@
-using UnityEngine;
-
 namespace MARDEK.Inventory
 {
     /*
@@ -8,6 +6,6 @@ namespace MARDEK.Inventory
      */
     public class PlotItem : Item
     {
-        
+        public bool isOwned;
     }
 }
