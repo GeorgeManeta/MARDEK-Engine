@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Fire Crystal of Belfan
   m_EditorClassIdentifier: 
   _displayName: Fire Crystal of Belfan
-  _elementText: Fire
   _description: An Artefact of the Gods. It is essentially crystalised elemental
     energy, and one of the planet's 'organs', of a sort. This particular crystal
     is the source of all heat and fire on Belfan, so handle it with care!
@@ -21,3 +20,4 @@ MonoBehaviour:
   _element: {fileID: 11400000, guid: e179fa6b43e015742b42814e32864e49, type: 2}
   _price: -1
   <SkillsToEquip>k__BackingField: []
+  isOwned: 1

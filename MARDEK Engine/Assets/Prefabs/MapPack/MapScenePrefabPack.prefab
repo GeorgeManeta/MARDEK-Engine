@@ -756,6 +756,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GeneralProgressData
       objectReference: {fileID: 0}
+    - target: {fileID: 8688935292817615562, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
+      propertyPath: _obtainedPlotItems.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688935292817615562, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
+      propertyPath: _obtainedPlotItems.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 52ee7b57162544e4da1db2bdaeef1e39, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
 --- !u!4 &1578929430860088402 stripped
@@ -763,6 +771,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4351751439770214631, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
   m_PrefabInstance: {fileID: 2994327585680204981}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5843615748297100927 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8688935292817615562, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
+  m_PrefabInstance: {fileID: 2994327585680204981}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5d2ba7faf01dd4f8b8930a280d6ab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3293506592424831944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1335,6 +1354,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -115
       objectReference: {fileID: 0}
+    - target: {fileID: 4675395754425634664, guid: 232e2963de121e3459437b2b03d1118e, type: 3}
+      propertyPath: generalProgressData
+      value: 
+      objectReference: {fileID: 5843615748297100927}
     - target: {fileID: 4741436559249590528, guid: 232e2963de121e3459437b2b03d1118e, type: 3}
       propertyPath: party
       value: 
