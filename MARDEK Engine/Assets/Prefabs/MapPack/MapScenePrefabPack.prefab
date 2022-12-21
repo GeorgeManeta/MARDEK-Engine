@@ -756,14 +756,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GeneralProgressData
       objectReference: {fileID: 0}
-    - target: {fileID: 8688935292817615562, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
-      propertyPath: _obtainedPlotItems.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688935292817615562, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
-      propertyPath: _obtainedPlotItems.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 52ee7b57162544e4da1db2bdaeef1e39, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
 --- !u!4 &1578929430860088402 stripped
