@@ -1,9 +1,9 @@
 using UnityEngine;
-using MARDEK.Event;
 using MARDEK.Core;
 
-namespace MARDEK.Animation
+namespace MARDEK.Event
 {
+    using Animation;
     public class PlaySpriteAnimationCommand : OngoingCommand
     {
         [SerializeField] SpriteAnimator targetAnimator;

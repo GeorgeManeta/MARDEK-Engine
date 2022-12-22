@@ -1,4 +1,3 @@
-using MARDEK.Inventory;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,9 +8,6 @@ namespace MARDEK.Save
     {
         [SerializeField] string currentScene = default;
         [SerializeField] string _gameName = string.Empty;
-        [SerializeField] List<PlotItem> _obtainedPlotItems;
-
-        public List<PlotItem> obtainedPlotItems { get { return _obtainedPlotItems; } }
         public string GameName
         {
             get

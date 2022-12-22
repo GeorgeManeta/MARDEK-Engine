@@ -1,5 +1,3 @@
-using MARDEK.Inventory;
-using MARDEK.Save;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -7,14 +5,13 @@ using UnityEngine.UI;
 
 namespace MARDEK.UI
 {
+    using CharacterSystem;
     public class PlotItemsMenu : MonoBehaviour
     {
         [SerializeField] GridLayoutGroup grid;
         [SerializeField] Image selectedItemHeaderColor;
         [SerializeField] TMP_Text selectedItemHeader;
         [SerializeField] TMP_Text selectedItemDescription;
-        
-        [SerializeField] GeneralProgressData generalProgressData;
         [SerializeField] GameObject plotItemSlotPrefab;
 
         void Awake()
@@ -39,7 +36,7 @@ namespace MARDEK.UI
         void UpdateEntries()
         {
             ClearOldEntries();
-            foreach (PlotItem plotItem in generalProgressData.obtainedPlotItems)
+            foreach (var plotItem in Party.Instance.plotItems)
             {
                 PlotItemSlot itemSlot = Instantiate(this.plotItemSlotPrefab, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PlotItemSlot>();
                 itemSlot.Init(plotItem, selectedItemHeaderColor, selectedItemHeader, selectedItemDescription);
