@@ -38,5 +38,10 @@ namespace MARDEK.Inventory
         public ExpendableItem(){
             statsSet = new StatsSet();
         }
+
+        override public Color GetInventorySpaceColor()
+        {
+            return new Color(81f / 255f, 113f / 255f, 217f / 255f);
+        }
     }
 }

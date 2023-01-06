@@ -19,7 +19,7 @@ namespace MARDEK.UI
                 }
                 else
                 {
-                    Debug.LogWarning("UI has more item slots than assigned inventory");
+                    Debug.LogWarning("UI has more item slots than assigned inventory (" + slots.Count + ", " + inventory.Slots.Count + ")");
                     break;
                 }
             }

@@ -39,7 +39,7 @@ namespace MARDEK.Movement
             base.Save();
         }
 
-        private void Awake()
+        override protected void Awake()
         {
             if (instance)
                 Destroy(instance);

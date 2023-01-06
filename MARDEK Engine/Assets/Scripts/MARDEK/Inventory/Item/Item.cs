@@ -40,5 +40,14 @@ namespace MARDEK.Inventory
         {
             return "";
         }
+
+        /**
+         * The color that will be used to display the type of item this is when the player is in the battle loot
+         * menu or the treasure chest menu.
+         */
+        public virtual Color GetInventorySpaceColor()
+        {
+            return new Color(193f / 255f, 145 / 255f, 89f / 255f);
+        }
     }
 }

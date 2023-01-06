@@ -74,6 +74,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _waitExcecutionEnd: 1
   dialogue: {fileID: 11400000, guid: ef164f6f14f3870438d2ac734c50ad18, type: 2}
+--- !u!1 &4143924185953857063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1755438880410901930}
+  - component: {fileID: 2013790900750702802}
+  m_Layer: 7
+  m_Name: GiveElixirs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1755438880410901930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4143924185953857063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7940664090476052963}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2013790900750702802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4143924185953857063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69c1ab381aedc944b5e64ff16845290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu: {fileID: 0}
+  item: {fileID: 11400000, guid: 3071228e88047bf4295c85c047f12146, type: 2}
+  amount: 50
 --- !u!1 &4510285572471907587
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,6 +180,53 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!1 &5069379678175743167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6410482508528778190}
+  - component: {fileID: 5295018025259333000}
+  m_Layer: 7
+  m_Name: GivePotion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6410482508528778190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5069379678175743167}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7940664090476052963}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5295018025259333000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5069379678175743167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69c1ab381aedc944b5e64ff16845290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu: {fileID: 0}
+  item: {fileID: 11400000, guid: e98d4b59366a27b41b0eee429f91bbb8, type: 2}
+  amount: 1
 --- !u!1 &6880118188401107836
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,6 +260,8 @@ Transform:
   - {fileID: 5840987662943551231}
   - {fileID: 4350193877978884714}
   - {fileID: 240904795198167826}
+  - {fileID: 6410482508528778190}
+  - {fileID: 1755438880410901930}
   m_Father: {fileID: 2801880452226114186}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -201,6 +297,8 @@ MonoBehaviour:
   - commandsGameObject: {fileID: 964362845602222572}
   - commandsGameObject: {fileID: 7411718621527480161}
   - commandsGameObject: {fileID: 4510285572471907587}
+  - commandsGameObject: {fileID: 5069379678175743167}
+  - commandsGameObject: {fileID: 4143924185953857063}
   - commandsGameObject: {fileID: 0}
 --- !u!1 &7411718621527480161
 GameObject:
@@ -277,7 +375,7 @@ PrefabInstance:
     - target: {fileID: 93526961, guid: cebde8a71b5d92b449f312c784ae012b, type: 3}
       propertyPath: commands.commandsGameObject
       value: 
-      objectReference: {fileID: 6880118188401107836}
+      objectReference: {fileID: 0}
     - target: {fileID: 946864481000588583, guid: cebde8a71b5d92b449f312c784ae012b, type: 3}
       propertyPath: m_RootOrder
       value: 0
