@@ -11,6 +11,9 @@ namespace MARDEK.UI
 {
     public class TreasureChestMenu : MonoBehaviour
     {
+        public static TreasureChestMenu instance { get; private set; }
+
+        [SerializeField] GameObject container;
         [SerializeField] TMP_Text itemName;
         [SerializeField] TMP_Text itemDescription;
         [SerializeField] Image itemImage;
@@ -29,8 +32,15 @@ namespace MARDEK.UI
         Item currentItem;
         int currentAmount;
 
+        void Awake()
+        {
+            if (instance == null) instance = this;
+        }
+
         public void Open(Item item, int amount)
         {
+            PlayerLocks.EventSystemLock++;
+            container.SetActive(true);
             currentItem = item;
             currentAmount = amount;
 
@@ -94,7 +104,7 @@ namespace MARDEK.UI
 
         public void ExitWithoutTakingItem()
         {
-            gameObject.SetActive(false);
+            container.SetActive(false);
             PlayerLocks.EventSystemLock--;
             AudioManager.PlaySoundEffect(cancelSound);
         }
@@ -104,7 +114,7 @@ namespace MARDEK.UI
             var character = Party.Instance.Characters[getSelectedCharacterIndex()];
             if (character.Inventory.AddItem(currentItem, currentAmount))
             {
-                gameObject.SetActive(false);
+                container.SetActive(false);
                 PlayerLocks.EventSystemLock--;
                 AudioManager.PlaySoundEffect(takeSound);
                 // TODO Mark treasure chest as taken
