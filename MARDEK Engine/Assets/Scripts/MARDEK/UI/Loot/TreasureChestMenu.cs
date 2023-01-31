@@ -2,6 +2,7 @@ using MARDEK.Audio;
 using MARDEK.CharacterSystem;
 using MARDEK.Core;
 using MARDEK.Inventory;
+using MARDEK.Save;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -31,18 +32,20 @@ namespace MARDEK.UI
 
         Item currentItem;
         int currentAmount;
+        ChestID currentChestID;
 
         void Awake()
         {
             if (instance == null) instance = this;
         }
 
-        public void Open(Item item, int amount)
+        public void Open(Item item, int amount, ChestID chestID)
         {
             PlayerLocks.EventSystemLock++;
             container.SetActive(true);
             currentItem = item;
             currentAmount = amount;
+            currentChestID = chestID;
 
             itemName.text = item.displayName;
             itemDescription.text = item.description;
@@ -117,7 +120,7 @@ namespace MARDEK.UI
                 container.SetActive(false);
                 PlayerLocks.EventSystemLock--;
                 AudioManager.PlaySoundEffect(takeSound);
-                // TODO Mark treasure chest as taken
+                GeneralProgressData.instance.MarkChestAsOpened(currentChestID);
             }
             else
             {
