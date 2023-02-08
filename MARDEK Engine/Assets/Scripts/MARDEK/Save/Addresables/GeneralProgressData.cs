@@ -10,7 +10,6 @@ namespace MARDEK.Save
 
         [SerializeField] string currentScene = default;
         [SerializeField] string _gameName = string.Empty;
-        [SerializeField] HashSet<string> openedChests = new HashSet<string>();
         
         override protected void Awake()
         {
@@ -44,16 +43,6 @@ namespace MARDEK.Save
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             else
                 SceneManager.LoadScene(currentScene);
-        }
-
-        public bool HasOpenedChest(ChestID chestID)
-        {
-            return openedChests.Contains(chestID.name);
-        }
-
-        public void MarkChestAsOpened(ChestID chestID)
-        {
-            openedChests.Add(chestID.name);
         }
     }
 }

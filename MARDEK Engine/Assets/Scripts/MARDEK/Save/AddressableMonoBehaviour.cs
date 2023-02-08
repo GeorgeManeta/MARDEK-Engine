@@ -31,6 +31,11 @@ namespace MARDEK.Save
         public Guid GetGuid() { return guid; }
         private void OnValidate()
         {
+            ValidateGuid();
+        }
+
+        protected virtual void ValidateGuid()
+        {
             if (guid == Guid.Empty)
             {
                 guid = Guid.NewGuid();

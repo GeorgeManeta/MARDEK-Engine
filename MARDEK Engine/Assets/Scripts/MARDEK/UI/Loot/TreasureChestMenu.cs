@@ -32,20 +32,20 @@ namespace MARDEK.UI
 
         Item currentItem;
         int currentAmount;
-        ChestID currentChestID;
+        Progress.TreasureChest currentChest;
 
         void Awake()
         {
             if (instance == null) instance = this;
         }
 
-        public void Open(Item item, int amount, ChestID chestID)
+        public void Open(Item item, int amount, Progress.TreasureChest chest)
         {
             PlayerLocks.EventSystemLock++;
             container.SetActive(true);
             currentItem = item;
             currentAmount = amount;
-            currentChestID = chestID;
+            currentChest = chest;
 
             itemName.text = item.displayName;
             itemDescription.text = item.description;
@@ -120,7 +120,8 @@ namespace MARDEK.UI
                 container.SetActive(false);
                 PlayerLocks.EventSystemLock--;
                 AudioManager.PlaySoundEffect(takeSound);
-                GeneralProgressData.instance.MarkChestAsOpened(currentChestID);
+                currentChest.SetBoolValue(true);
+                currentChest = null;
             }
             else
             {
