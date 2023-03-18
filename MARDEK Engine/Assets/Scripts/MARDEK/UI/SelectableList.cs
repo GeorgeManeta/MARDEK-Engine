@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -7,12 +5,15 @@ using UnityEngine.UI;
 
 namespace MARDEK.UI
 {
-    [RequireComponent(typeof(GridLayoutGroup), typeof(InputReader))]
-    public class SelectableLayout : MonoBehaviour
+    [RequireComponent(typeof(InputReader))]
+    public class SelectableList : MonoBehaviour
     {
         [SerializeField] ScrollRect scrollRect;
         [SerializeField] int numFittingEntries;
         [SerializeField] bool invertHorizontalInput = false;
+        [SerializeField] bool acceptHorizontalInput;
+        [SerializeField] bool acceptVerticalInput;
+
         int currentScrollIndex = 0;
         int index = 0;
         int Index
@@ -32,7 +33,6 @@ namespace MARDEK.UI
             }
         }
 
-        GridLayoutGroup layout;
         Selectable[] selectables;
         List<Selectable> Selectables
         {
@@ -55,21 +55,18 @@ namespace MARDEK.UI
                     s.Deselect();
             UpdateSelectionAtIndex(false);
         }
-        private void Awake()
-        {
-            layout = GetComponent<GridLayoutGroup>();
-        }
+
         private void OnEnable()
         {
             CacheSelectables();
         }
+
         private void Update()
         {
             if (selectables.Length != transform.childCount)
             {
                 CacheSelectables();
             }
-            if (currentlySelected == null) UpdateSelectionAtIndex(false);
         }
 
         public void UpdateSelectionAtIndex(bool playSFX = true)
@@ -87,16 +84,16 @@ namespace MARDEK.UI
             currentlySelected.Select(playSFX);
             if (numFittingEntries > 0 && scrollRect != null)
             {
-                int desiredScrollIndex = Index / layout.constraintCount;
+                int desiredScrollIndex = Index;
                 if (desiredScrollIndex - currentScrollIndex >= numFittingEntries) SetScrollIndex(1 + desiredScrollIndex - numFittingEntries);
                 if (desiredScrollIndex - currentScrollIndex < 0) SetScrollIndex(desiredScrollIndex);
             }
         }
+
         void SetScrollIndex(int newScrollIndex)
         {
             currentScrollIndex = newScrollIndex;
-            int numTotalEntries = Selectables.Count / layout.constraintCount;
-            if (Selectables.Count % layout.constraintCount != 0) numTotalEntries += 1;
+            int numTotalEntries = Selectables.Count;
 
             int numNonFittingEntries = numTotalEntries - numFittingEntries;
             float scrollAmount = newScrollIndex / (float) numNonFittingEntries;
@@ -115,35 +112,24 @@ namespace MARDEK.UI
             if (value.y == 0)
                 HandleHorizontalInput(value.x);
         }
+
         void HandleVerticalInput(float value)
         {
-            if (layout.constraint == GridLayoutGroup.Constraint.FixedRowCount && layout.constraintCount == 1) return;
+            if (!acceptVerticalInput) return;
 
-            if (layout.constraint == GridLayoutGroup.Constraint.FixedColumnCount && layout.constraintCount != 1)
-            {
-                if (value > 0) Index -= layout.constraintCount;
-                else Index += layout.constraintCount;
-            } else {
-                if (value > 0) Index--;
-                else Index++;
-            }
+            if (value > 0) Index--;
+            else Index++;
 
             UpdateSelectionAtIndex();
         }
+
         void HandleHorizontalInput(float value)
         {
-            if (layout.constraint == GridLayoutGroup.Constraint.FixedColumnCount && layout.constraintCount == 1) return;
+            if (!acceptHorizontalInput) return;
+            if (invertHorizontalInput) value = -value;
 
-            if (invertHorizontalInput)
-                value = -value;
-            if (layout.constraint == GridLayoutGroup.Constraint.FixedRowCount && layout.constraintCount != 1)
-            {
-                if (value > 0) Index += layout.constraintCount;
-                else Index -= layout.constraintCount;
-            } else {
-                if (value > 0) Index++;
-                else Index--;
-            }
+            if (value > 0) Index++;
+            else Index--;
             
             UpdateSelectionAtIndex();
         }

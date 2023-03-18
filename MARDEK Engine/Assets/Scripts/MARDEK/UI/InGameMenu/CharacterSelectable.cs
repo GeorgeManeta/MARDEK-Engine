@@ -13,7 +13,7 @@ namespace MARDEK.UI
             get
             {
                 var index = transform.GetSiblingIndex();
-                if (Party.Instance.Characters.Count <= index)
+                if (Party.Instance == null || Party.Instance.Characters.Count <= index)
                     return null;
                 return Party.Instance.Characters[index];
             }
