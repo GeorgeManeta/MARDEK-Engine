@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+
+#if UNITY_EDITOR
 using UnityEditor;
 using System.IO;
+#endif
 
 [CreateAssetMenu(menuName = "2D/Tiles/WaveringTile")]
 public class WaveringTile : AnimatedTile
 {
+
+#if UNITY_EDITOR
     [SerializeField] int[] deltasByFrame = { 1, 1, 1, 15, 15, 15 };
     [SerializeField] int yOffeset = 0;
     [ContextMenu("CreateAnimation")]
@@ -53,4 +58,5 @@ public class WaveringTile : AnimatedTile
         }
         m_AnimatedSprites = list.ToArray();
     }
+#endif
 }

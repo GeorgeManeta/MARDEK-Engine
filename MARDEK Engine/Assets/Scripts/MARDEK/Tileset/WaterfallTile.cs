@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+
+#if UNITY_EDITOR
 using UnityEditor;
 using System.IO;
+#endif
 
 public class WaterfallTile : AnimatedTile
 {
+#if UNITY_EDITOR
     [ContextMenu("CreateAnimation")]
     public void CreateAnimation()
     {
@@ -45,4 +49,5 @@ public class WaterfallTile : AnimatedTile
         }
         m_AnimatedSprites = list.ToArray();
     }
+#endif
 }
