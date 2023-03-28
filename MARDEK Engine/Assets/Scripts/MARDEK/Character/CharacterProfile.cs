@@ -6,7 +6,7 @@ using MARDEK.Stats;
 
 namespace MARDEK.CharacterSystem
 {
-    [CreateAssetMenu(menuName ="MARDEK/Character/CharacterInfo")]
+    [CreateAssetMenu(menuName ="MARDEK/Character/CharacterProfile")]
     public class CharacterProfile : AddressableScriptableObject
     {
         [field: SerializeField] public string displayName { get; private set; }

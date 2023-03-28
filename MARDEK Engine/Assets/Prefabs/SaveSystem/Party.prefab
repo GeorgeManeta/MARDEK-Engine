@@ -51,7 +51,7 @@ MonoBehaviour:
   serializedGuid: ebeb8f2825897c4cabc105f85e154bb2
   <Characters>k__BackingField:
   - isRequired: 1
-    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
+    <Profile>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <EquippedItems>k__BackingField:
       slots:
       - currentItem: {fileID: 11400000, guid: 0366ff94fc3cd4240867624b0d8ca2ee, type: 2}
@@ -413,15 +413,11 @@ MonoBehaviour:
         canBeEmpty: 1
         canPlayerPutItems: 1
     <SkillSlots>k__BackingField: []
-    stats:
-      intStats:
-      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
-        _value: 2
-      floatStats:
-      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
-        _value: 0
+    volatileStats:
+      intStats: []
+      floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
+    <Profile>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <EquippedItems>k__BackingField:
       slots:
       - currentItem: {fileID: 11400000, guid: 9f44d2ce67d4c63428b26c460a494c8e, type: 2}
@@ -784,342 +780,339 @@ MonoBehaviour:
         canBeEmpty: 1
         canPlayerPutItems: 1
     <SkillSlots>k__BackingField: []
-    stats:
-      intStats:
-      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
-        _value: 1
-      floatStats:
-      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
-        _value: 0
+    volatileStats:
+      intStats: []
+      floatStats: []
   <BenchedCharacters>k__BackingField:
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <CharacterInfo>k__BackingField: {fileID: 0}
+    <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    stats:
+    volatileStats:
       intStats: []
       floatStats: []
   plotItems: []
+  money: 0

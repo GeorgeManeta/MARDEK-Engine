@@ -22,7 +22,7 @@ namespace MARDEK.UI
                 return;
             }
                 
-            var characterInfo = characterSelectable.Character.CharacterInfo;
+            var characterInfo = characterSelectable.Character.Profile;
             var clip = characterInfo.WalkSprites.GetClipByReference(movementSpriteAnimationDirection);
             var animRatio = Time.time % 1;
             characterImage.sprite = clip.GetSprite(animRatio);
