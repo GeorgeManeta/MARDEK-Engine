@@ -6,8 +6,17 @@ namespace MARDEK.Save
 {
     public class GeneralProgressData : AddressableMonoBehaviour
     {
+        public static GeneralProgressData instance { get; private set; }
+
         [SerializeField] string currentScene = default;
         [SerializeField] string _gameName = string.Empty;
+        
+        override protected void Awake()
+        {
+            base.Awake();
+            instance = this;
+        }
+        
         public string GameName
         {
             get
@@ -27,6 +36,7 @@ namespace MARDEK.Save
             currentScene = SceneManager.GetActiveScene().path;
             base.Save();
         }
+
         public void LoadScene()
         {
             if (string.IsNullOrEmpty(currentScene))

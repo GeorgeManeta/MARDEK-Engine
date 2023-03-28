@@ -1,16 +1,19 @@
 using System.Collections.Generic;
 using UnityEngine;
-using MARDEK.Save;
 
 namespace MARDEK.CharacterSystem
 {
+    using Save;
+    using Inventory;
     public class Party : AddressableMonoBehaviour
     {
         public static Party Instance { get; private set; }
-        
+
         [field: SerializeField] public List<Character> Characters { get; private set; }
         [field: SerializeField] public List<Character> BenchedCharacters { get; private set; }
-
+        public List<PlotItem> plotItems = new List<PlotItem>();
+        public int money;
+        
         override protected void Awake()
         {
             base.Awake();

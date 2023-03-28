@@ -69,6 +69,7 @@ namespace MARDEK.UI
             {
                 CacheSelectables();
             }
+            if (currentlySelected == null) UpdateSelectionAtIndex(false);
         }
 
         public void UpdateSelectionAtIndex(bool playSFX = true)

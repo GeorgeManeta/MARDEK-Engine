@@ -101,5 +101,10 @@ namespace MARDEK.Inventory
         // TODO Automatic status effects
             return result;
         }
+
+        override public Color GetInventorySpaceColor()
+        {
+            return category.color.ToColor();
+        }
     }
 }

@@ -9,9 +9,9 @@ namespace MARDEK.UI
 
         public void FetchSelectedCharacterAndUpdateUI()
         {
-            var character = CharacterSelectable.currentSelected.Character;
+            var character = CharacterSelectable.currentSelected;
             if(character != null)
-                AssignInventoryToUI(character.Inventory);
+                AssignInventoryToUI(character.Character.Inventory);
         }
     }
 }

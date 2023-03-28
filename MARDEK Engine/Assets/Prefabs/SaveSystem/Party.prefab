@@ -51,413 +51,1075 @@ MonoBehaviour:
   serializedGuid: ebeb8f2825897c4cabc105f85e154bb2
   <Characters>k__BackingField:
   - isRequired: 1
-    <Profile>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
+    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <EquippedItems>k__BackingField:
       slots:
       - currentItem: {fileID: 11400000, guid: 0366ff94fc3cd4240867624b0d8ca2ee, type: 2}
-        currentAmount: 0
-        itemFilter: []
+        currentAmount: 1
+        itemFilter:
+        - {fileID: 11400000, guid: 1078b8d8773998a4cb1043d7bc7975bc, type: 2}
         canBeEmpty: 0
-        canPlayerPutItems: 0
+        canPlayerPutItems: 1
       - currentItem: {fileID: 11400000, guid: ebcad2eaae57c184f9acdadea91704c8, type: 2}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
+        currentAmount: 1
+        itemFilter:
+        - {fileID: 11400000, guid: dd92070e9d759fd49808966d2083db5a, type: 2}
+        canBeEmpty: 1
+        canPlayerPutItems: 1
       - currentItem: {fileID: 0}
         currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
-      - currentItem: {fileID: 11400000, guid: 43f9c1563af910a4d8949169e09553d5, type: 2}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
-      - currentItem: {fileID: 11400000, guid: 1a6088039ca4aff479c8f3002a92c2da, type: 2}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
+        itemFilter:
+        - {fileID: 11400000, guid: f68f09e3d87d52a4aa3003b803a9f87b, type: 2}
+        canBeEmpty: 1
+        canPlayerPutItems: 1
       - currentItem: {fileID: 0}
         currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
+        itemFilter:
+        - {fileID: 11400000, guid: 39eee71154b7dd748882f788cc0c5fb3, type: 2}
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter:
+        - {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter:
+        - {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
+        canBeEmpty: 1
+        canPlayerPutItems: 1
     <Inventory>k__BackingField:
-      slots: []
+      slots:
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
     <SkillSlots>k__BackingField: []
-    volatileStats:
-      intStats: []
-      floatStats: []
+    stats:
+      intStats:
+      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
+        _value: 2
+      floatStats:
+      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
+        _value: 0
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
+    <CharacterInfo>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <EquippedItems>k__BackingField:
       slots:
       - currentItem: {fileID: 11400000, guid: 9f44d2ce67d4c63428b26c460a494c8e, type: 2}
-        currentAmount: 0
-        itemFilter: []
+        currentAmount: 1
+        itemFilter:
+        - {fileID: 11400000, guid: 726dae6e8135e0d4bb57b31773ff3078, type: 2}
         canBeEmpty: 0
-        canPlayerPutItems: 0
+        canPlayerPutItems: 1
       - currentItem: {fileID: 0}
         currentAmount: 0
         itemFilter: []
-        canBeEmpty: 0
+        canBeEmpty: 1
         canPlayerPutItems: 0
       - currentItem: {fileID: 0}
         currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
-      - currentItem: {fileID: 11400000, guid: 7d545b6b019ef57499fd306d4bb86984, type: 2}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
-      - currentItem: {fileID: 11400000, guid: 1a6088039ca4aff479c8f3002a92c2da, type: 2}
-        currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
+        itemFilter:
+        - {fileID: 11400000, guid: f68f09e3d87d52a4aa3003b803a9f87b, type: 2}
+        - {fileID: 11400000, guid: dae8caefbcf26a44a954801b232fb279, type: 2}
+        canBeEmpty: 1
+        canPlayerPutItems: 1
       - currentItem: {fileID: 0}
         currentAmount: 0
-        itemFilter: []
-        canBeEmpty: 0
-        canPlayerPutItems: 0
+        itemFilter:
+        - {fileID: 11400000, guid: 39eee71154b7dd748882f788cc0c5fb3, type: 2}
+        - {fileID: 11400000, guid: d86f2f702e3a3ec49b9c95d50bafda11, type: 2}
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter:
+        - {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter:
+        - {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
+        canBeEmpty: 1
+        canPlayerPutItems: 1
     <Inventory>k__BackingField:
-      slots: []
+      slots:
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
+      - currentItem: {fileID: 0}
+        currentAmount: 0
+        itemFilter: []
+        canBeEmpty: 1
+        canPlayerPutItems: 1
     <SkillSlots>k__BackingField: []
-    volatileStats:
-      intStats: []
-      floatStats: []
+    stats:
+      intStats:
+      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
+        _value: 1
+      floatStats:
+      - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
+        _value: 0
   <BenchedCharacters>k__BackingField:
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
   - isRequired: 0
-    <Profile>k__BackingField: {fileID: 0}
+    <CharacterInfo>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
       slots: []
     <Inventory>k__BackingField:
       slots: []
     <SkillSlots>k__BackingField: []
-    volatileStats:
+    stats:
       intStats: []
       floatStats: []
+  plotItems: []
