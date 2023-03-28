@@ -1,3 +1,4 @@
+using PlasticPipe.PlasticProtocol.Server.Stubs;
 using System;
 using System.Collections.Generic;
 
@@ -6,50 +7,29 @@ namespace MARDEK.Stats
     [System.Serializable]
     public class StatsSet : IStats
     {
+        public List<StatHolder> intStats;
         bool expandable = false;
         public StatsSet(bool _expandable = false)
         {
             expandable = _expandable;
-            intStats = new List<StatHolder<int, StatOfType<int>>>();
-            floatStats = new List<StatHolder<float, StatOfType<float>>>();
+            intStats = new List<StatHolder>();
         }
-        public List<StatHolder<int, StatOfType<int>>> intStats;
-        public List<StatHolder<float, StatOfType<float>>> floatStats;
-
-        public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> stat)
+        public int GetStat(IntegerStat stat)
         {
-            if (typeof(T) == typeof(int))
-                return GetStatFromList(stat as StatOfType<int>, intStats) as StatHolder<T, StatOfType<T>>;
-            if (typeof(T) == typeof(float))
-                return GetStatFromList(stat as StatOfType<float>, floatStats) as StatHolder<T, StatOfType<T>>;
-            return null;
+            return GetStatHolder(stat).Value;
         }
-
-        public void ModifyStat<T>(StatOfType<T> stat, float delta)
+        public void ModifyStat(IntegerStat stat, int delta)
         {
-            if (typeof(T) == typeof(int))
-            {
-                var holder = (GetStat(stat) as StatHolder<int, StatOfType<int>>);
-                if (expandable && intStats.Contains(holder) == false)
-                    intStats.Add(holder);
-                holder.Value += (int)delta;
-            }
-            if (typeof(T) == typeof(float))
-            {
-                var holder = (GetStat(stat) as StatHolder<float, StatOfType<float>>);
-                if (expandable && floatStats.Contains(holder) == false)
-                    floatStats.Add(holder);
-                holder.Value += delta;
-            }
+            GetStatHolder(stat).Value += delta;
         }
-
-        private StatHolder<T, StatOfType<T>> GetStatFromList<T>(StatOfType<T> stat, List<StatHolder<T, StatOfType<T>>> statList)
+        StatHolder GetStatHolder(IntegerStat stat)
         {
-            foreach (var statusHolder in statList)
+            foreach (var statusHolder in intStats)
                 if (statusHolder.statusEnum == stat)
                     return statusHolder;
-
-            var newHolder = new StatHolder<T, StatOfType<T>>(stat);
+            var newHolder = new StatHolder(stat);
+            if (expandable)
+                intStats.Add(newHolder);
             return newHolder;
         }
     }

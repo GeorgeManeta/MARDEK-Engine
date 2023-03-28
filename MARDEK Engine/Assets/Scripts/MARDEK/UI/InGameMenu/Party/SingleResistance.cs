@@ -19,14 +19,14 @@ namespace MARDEK.UI
         static readonly Color PASSIVE_ICON_COLOR = new Color(1f, 1f, 1f, 0.05f);
         static readonly Color ACTIVE_ICON_COLOR = new Color(1f, 1f, 1f, 0.9f);
 
-        [SerializeField] FloatStat resistanceStat;
+        [SerializeField] IntegerStat resistanceStat;
         [SerializeField] Image icon;
         [SerializeField] Image background;
         [SerializeField] Text text;
 
         public void SetCharacter(Character character)
         {
-            this.SetValue(this.resistanceStat == null ? 0f : character.GetStat(this.resistanceStat).Value);
+            this.SetValue(resistanceStat == null ? 0f : character.GetStat(resistanceStat));
         }
 
         void SetValue(float newValue)

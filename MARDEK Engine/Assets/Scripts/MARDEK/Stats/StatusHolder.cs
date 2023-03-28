@@ -3,16 +3,16 @@ using UnityEngine;
 namespace MARDEK.Stats
 {
     [System.Serializable]
-    public class StatHolder<U, T> where T : StatOfType<U>
+    public class StatHolder
     {
-        public StatHolder(T status)
+        public StatHolder(IntegerStat status)
         {
             statusEnum = status;
         }
 
-        [field: SerializeField] public T statusEnum { get; private set; }
-        [SerializeField] U _value = default;
-        public U Value
+        [field: SerializeField] public IntegerStat statusEnum { get; private set; }
+        [SerializeField] int _value = default;
+        public int Value
         {
             get
             {

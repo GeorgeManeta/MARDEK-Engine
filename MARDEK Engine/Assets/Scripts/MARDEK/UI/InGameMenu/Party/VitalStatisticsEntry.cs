@@ -34,14 +34,14 @@ namespace MARDEK.UI
 
         public void SetCharacter(Character character)
         {
-            this.attackValue.text = character.GetStat(this.attackStat).Value.ToString();
-            this.defValue.text = character.GetStat(this.defStat).Value.ToString();
-            this.mdefValue.text = character.GetStat(this.mdefStat).Value.ToString();
+            attackValue.text = character.GetStat(attackStat).ToString();
+            defValue.text = character.GetStat(defStat).ToString();
+            mdefValue.text = character.GetStat(mdefStat).ToString();
 
-            this.strValue.text = character.GetStat(this.strStat).Value.ToString();
-            this.vitValue.text = character.GetStat(this.vitStat).Value.ToString();
-            this.sprValue.text = character.GetStat(this.sprStat).Value.ToString();
-            this.aglValue.text = character.GetStat(this.aglStat).Value.ToString();
+            strValue.text = character.GetStat(strStat).ToString();
+            vitValue.text = character.GetStat(vitStat).ToString();
+            sprValue.text = character.GetStat(sprStat).ToString();
+            aglValue.text = character.GetStat(aglStat).ToString();
 
             // TODO Update the colors of the values and bonuses
             // TODO Update the bonuses

@@ -116,7 +116,7 @@ namespace MARDEK.Stats
         class StatTokenID
         {
             public string ID;
-            public StatBase stat;
+            public IntegerStat stat;
             [Tooltip("If false gets the stat from the skill user, if true from the skill target")]
             public bool userOrTarget = false;
         }

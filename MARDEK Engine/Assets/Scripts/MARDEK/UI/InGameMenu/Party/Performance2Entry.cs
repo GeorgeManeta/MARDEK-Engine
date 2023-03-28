@@ -15,13 +15,13 @@ namespace MARDEK.UI
 
         public void SetCharacter(Character character)
         {
-            this.damageDealtCount.text = character.GetStat(this.damageDealtStat).Value.ToString();
-            this.damageReceivedCount.text = character.GetStat(this.damageReceivedStat).Value.ToString();
+            damageDealtCount.text = character.GetStat(damageDealtStat).ToString();
+            damageReceivedCount.text = character.GetStat(damageReceivedStat).ToString();
         }
 
         private void UpdateStat(Character character, IntegerStat stat, Text text)
         {
-            if (stat != null) text.text = character.GetStat(stat).Value.ToString();
+            if (stat != null) text.text = character.GetStat(stat).ToString();
         }
     }
 }

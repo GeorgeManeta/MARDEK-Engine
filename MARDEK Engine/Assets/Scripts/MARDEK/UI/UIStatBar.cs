@@ -23,9 +23,9 @@ namespace MARDEK.UI
         [ContextMenu("Update Bar")]
         void UpdateBar()
         {
-            var statValue = (float)characterUI.character.GetStat(stat).Value;
+            var statValue = (float)characterUI.character.GetStat(stat);
             if (statText) statText.text = statValue.ToString();
-            var maxStatValue = (float)characterUI.character.GetStat(maxStat).Value;
+            var maxStatValue = (float)characterUI.character.GetStat(maxStat);
             if (maxStatText) maxStatText.text = maxStatValue.ToString();
             if (barTransform)
             {

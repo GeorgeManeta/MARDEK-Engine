@@ -15,7 +15,7 @@ namespace MARDEK.Inventory
     {
         // All possible elements should be placed here in the editor for access.
         public Element[] elements;
-        public StatOfType<int>[] intStats;
+        public List<IntegerStat> intStats;
         public EquipmentCategory[] categories;
 
         //public StatOfType<float>[] floatStats;
@@ -33,24 +33,24 @@ namespace MARDEK.Inventory
         }
 
         [ContextMenu("Deserialize")]
-        void setIntStat(int value, StatOfType<int> stat, EquippableItem item)
+        void setIntStat(int value, IntegerStat stat, EquippableItem item)
         {
             if (value == 0)
             {
                 return;
             }
-            StatHolder<int, StatOfType<int>> statATK = new StatHolder<int, StatOfType<int>>(stat);
+            var statATK = new StatHolder(stat);
             statATK.Value = value;
             item.statBoosts.intStats.Add(statATK);
         }
         [ContextMenu("Deserialize")]
-        void setIntStatExp(int value, StatOfType<int> stat, ExpendableItem item)
+        void setIntStatExp(int value, IntegerStat stat, ExpendableItem item)
         {
             if (value == 0)
             {
                 return;
             }
-            StatHolder<int, StatOfType<int>> statATK = new StatHolder<int, StatOfType<int>>(stat);
+            var statATK = new StatHolder(stat);
             statATK.Value = value;
             item.statsSet.intStats.Add(statATK);
         }
@@ -64,9 +64,8 @@ namespace MARDEK.Inventory
             {
                 elemDict[elem.name] = elem;
             }
-            Dictionary<string, StatOfType<int>> statDict =
-                new Dictionary<string, StatOfType<int>>();
-            foreach (StatOfType<int> stat in intStats)
+            var statDict = new Dictionary<string, IntegerStat>();
+            foreach (var stat in intStats)
             {
                 statDict[stat.name] = stat;
             }

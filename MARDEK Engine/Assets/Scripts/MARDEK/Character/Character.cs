@@ -16,23 +16,28 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; } = new List<SkillSlot>();
         [Header("Stats")]
         [SerializeField] StatsSet volatileStats = new StatsSet(true);
-        int _maxHP = -1;
         int MaxHP
         {
             get
             {
-                if(_maxHP == -1)
-                    _maxHP = (int)Profile.MaxHPExpression.Evaluate(this, null);
-                return _maxHP;
+                return (int)Profile.MaxHPExpression.Evaluate(this, null);
+            }
+        }
+        int MaxMP
+        {
+            get
+            {
+                return (int)Profile.MaxMPExpression.Evaluate(this, null);
             }
         }
         int _currentHP = -1;
+        int _currentMP = -1;
         int CurrentHP
         {
             get
             {
                 if (_currentHP == -1)
-                    _currentHP = GetStat(StatsGlobals.Instance.MaxHP).Value;
+                    _currentHP = GetStat(StatsGlobals.Instance.MaxHP);
                 return _currentHP;
             }
             set
@@ -40,81 +45,55 @@ namespace MARDEK.CharacterSystem
                 _currentHP = value;
             }
         }
-        int _maxMP = -1;
-        int MaxMP
-        {
-            get
-            {
-                if (_maxMP == -1)
-                    _maxMP = (int)Profile.MaxMPExpression.Evaluate(this, null);
-                return _maxMP;
-            }
-        }
-        int _currentMP = -1;
         int CurrentMP
         {
             get
             {
                 if (_currentMP == -1)
-                    _currentMP = GetStat(StatsGlobals.Instance.MaxMP).Value;
+                    _currentMP = GetStat(StatsGlobals.Instance.MaxMP);
                 return _currentMP;
+            }
+            set
+            {
+                _currentMP = value;
             }
         }
 
-        public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> desiredStat)
+        public int GetStat(IntegerStat desiredStat)
         {            
-            var resultHolder = new StatHolder<T, StatOfType<T>>(desiredStat);
             if (desiredStat == StatsGlobals.Instance.CurrentHP)
-            {
-                (resultHolder as StatHolder<int, StatOfType<int>>).Value = CurrentHP;
-                return resultHolder;
-            }
+                return CurrentHP;
             if (desiredStat == StatsGlobals.Instance.CurrentMP)
-            {
-                (resultHolder as StatHolder<int, StatOfType<int>>).Value = CurrentMP;
-                return resultHolder;
-            }
-            if (desiredStat == StatsGlobals.Instance.MaxHP)
-                (resultHolder as StatHolder<int, StatOfType<int>>).Value = MaxHP;
-            if (desiredStat == StatsGlobals.Instance.MaxMP)
-                (resultHolder as StatHolder<int, StatOfType<int>>).Value = MaxMP;
+                return CurrentMP;
 
-            SumHolders(ref resultHolder, Profile.StartingStats.GetStat(desiredStat));
-            SumHolders(ref resultHolder, volatileStats.GetStat(desiredStat));
+            var resultHolder = new StatHolder(desiredStat);
+            if (desiredStat == StatsGlobals.Instance.MaxHP)
+                resultHolder.Value = MaxHP;
+            if (desiredStat == StatsGlobals.Instance.MaxMP)
+                resultHolder.Value = MaxMP;
+
+            resultHolder.Value += Profile.StartingStats.GetStat(desiredStat);
+            resultHolder.Value += volatileStats.GetStat(desiredStat);
             foreach(var slot in EquippedItems.Slots)
             {
                 var equippableItem = slot.item as EquippableItem;
                 if(equippableItem != null)
-                    SumHolders(ref resultHolder, equippableItem.statBoosts.GetStat(desiredStat));
+                    resultHolder.Value += equippableItem.statBoosts.GetStat(desiredStat);
             }
-            return resultHolder;
-
-            void SumHolders(ref StatHolder<T, StatOfType<T>> firstHolder, StatHolder<T, StatOfType<T>> secondHolder)
-            {
-                if (firstHolder == null)
-                    return;
-                if (typeof(T) == typeof(int))
-                {
-                    var firstValue = firstHolder as StatHolder<int, StatOfType<int>>;
-                    var secondValue = secondHolder as StatHolder<int, StatOfType<int>>;
-                    firstValue.Value += secondValue.Value;
-                }
-                if (typeof(T) == typeof(float))
-                {
-                    var firstValue = firstHolder as StatHolder<float, StatOfType<float>>;
-                    var secondValue = secondHolder as StatHolder<float, StatOfType<float>>;
-                    firstValue.Value += secondValue.Value;
-                }
-            }
+            return resultHolder.Value;
         }
-        public void ModifyStat<T>(StatOfType<T> stat, float delta)
+        public void ModifyStat(IntegerStat stat, int delta)
         {
             if (stat == StatsGlobals.Instance.CurrentHP)
             {
-                CurrentHP += (int)delta;
-                return;
+                CurrentHP += delta;
             }
-            volatileStats.ModifyStat(stat, delta);
+            else if (stat == StatsGlobals.Instance.CurrentMP)
+            {
+                CurrentMP += delta;
+            }
+            else
+                volatileStats.ModifyStat(stat, delta);
         }
     }
 }

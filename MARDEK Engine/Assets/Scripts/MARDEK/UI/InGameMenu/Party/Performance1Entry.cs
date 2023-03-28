@@ -23,17 +23,17 @@ namespace MARDEK.UI
 
         public void SetCharacter(Character character)
         {
-            this.UpdateStat(character, this.battleCountStat, this.battleCount);
-            this.UpdateStat(character, this.killCountStat, this.killCount);
-            this.UpdateStat(character, this.koCountStat, this.koCount);
-            this.UpdateStat(character, this.meleeCountStat, this.meleeCount);
-            this.UpdateStat(character, this.magicCountStat, this.magicCount);
-            this.UpdateStat(character, this.itemCountStat, this.itemCount);
+            UpdateStat(character, battleCountStat, battleCount);
+            UpdateStat(character, killCountStat, killCount);
+            UpdateStat(character, koCountStat, koCount);
+            UpdateStat(character, meleeCountStat, meleeCount);
+            UpdateStat(character, magicCountStat, magicCount);
+            UpdateStat(character, itemCountStat, itemCount);
         }
 
         private void UpdateStat(Character character, IntegerStat stat, Text text)
         {
-            if (stat != null) text.text = character.GetStat(stat).Value.ToString();
+            if (stat != null) text.text = character.GetStat(stat).ToString();
         }
     }
 }

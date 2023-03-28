@@ -9,7 +9,7 @@ namespace MARDEK.Battle
     public class BattleManager : MonoBehaviour
     {
         public static EncounterSet encounter { private get; set; }
-        [SerializeField] FloatStat ACTStat = null;
+        [SerializeField] IntegerStat ACTStat = null;
         [SerializeField] IntegerStat AGLStat = null;
         [SerializeField] Party playerParty;
         [SerializeField] List<Character> enemies = new List<Character>();
@@ -78,7 +78,7 @@ namespace MARDEK.Battle
             AddTickRateToACT(ref charactersInBattle, Time.deltaTime);
             var readyToAct = GetNextCharacterReadyToAct(charactersInBattle);
             if (readyToAct != null)
-                readyToAct.ModifyStat(ACTStat, -actResolution); // "reset" charact ACT
+                readyToAct.ModifyStat(ACTStat, -(int)actResolution); // "reset" charact ACT
             return readyToAct;
         }
         List<Character> GetCharactersInOrder()
@@ -98,9 +98,9 @@ namespace MARDEK.Battle
         {
             foreach(var c in characters)
             {
-                var tickRate = 1 + 0.05f * c.GetStat(AGLStat).Value;
+                var tickRate = 1 + 0.05f * c.GetStat(AGLStat);
                 tickRate *= deltatime;
-                c.ModifyStat(ACTStat, tickRate);
+                c.ModifyStat(ACTStat, (int)tickRate);
             }
         }
         Character GetNextCharacterReadyToAct(List<Character> characters)
@@ -108,14 +108,14 @@ namespace MARDEK.Battle
             float maxAct = 0;
             foreach(var c in characters)
             {
-                var act = c.GetStat(ACTStat).Value;
+                var act = c.GetStat(ACTStat);
                 if (act > maxAct)
                     maxAct = act;
             }
             if (maxAct < actResolution)
                 return null;
             foreach (var c in characters)
-                if (c.GetStat(ACTStat).Value == maxAct)
+                if (c.GetStat(ACTStat) == maxAct)
                     return c;
             throw new System.Exception("A character had enough ACT to take a turn but wasn't returned by this method");
         }

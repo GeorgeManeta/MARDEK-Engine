@@ -62,14 +62,7 @@ namespace MARDEK.Inventory
             string result = "";
             foreach (string importantStatName in names)
             {
-                foreach (var candidateStat in this.statBoosts.intStats)
-                {
-                    if (candidateStat.statusEnum.name.Equals(importantStatName))
-                    {
-                        result += importantStatName + ": " + candidateStat.Value + "\n";
-                    }
-                }
-                foreach (var candidateStat in this.statBoosts.floatStats)
+                foreach (var candidateStat in statBoosts.intStats)
                 {
                     if (candidateStat.statusEnum.name.Equals(importantStatName))
                     {

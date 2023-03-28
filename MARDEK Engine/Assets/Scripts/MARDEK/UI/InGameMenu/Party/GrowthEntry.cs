@@ -16,7 +16,7 @@ namespace MARDEK.UI
         public void SetCharacter(Character character)
         {
             // TODO Update xp value text
-            this.levelText.text = "Level " + character.GetStat(this.levelStat).Value;
+            this.levelText.text = "Level " + character.GetStat(this.levelStat);
             // TODO Update xp progress bar
         }
     }

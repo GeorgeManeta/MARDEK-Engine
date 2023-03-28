@@ -2,7 +2,7 @@ namespace MARDEK.Stats
 {
     public interface IStats
     {
-        public StatHolder<T, StatOfType<T>> GetStat<T>(StatOfType<T> stat);
-        public void ModifyStat<T> (StatOfType<T> stat, float delta);
+        public int GetStat(IntegerStat stat);
+        public void ModifyStat(IntegerStat stat, int delta);
     } 
 }
