@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace MARDEK.UI
 {
-    using CharacterSystem;
+    using Progress;
     public class PlotItemsMenu : MonoBehaviour
     {
         [SerializeField] GridLayoutGroup grid;

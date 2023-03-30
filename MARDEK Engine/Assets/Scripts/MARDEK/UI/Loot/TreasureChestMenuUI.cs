@@ -10,9 +10,10 @@ using UnityEngine.UI;
 
 namespace MARDEK.UI
 {
-    public class TreasureChestMenu : MonoBehaviour
+    using Progress;
+    public class TreasureChestMenuUI : MonoBehaviour
     {
-        public static TreasureChestMenu instance { get; private set; }
+        public static TreasureChestMenuUI instance { get; private set; }
 
         [SerializeField] GameObject container;
         [SerializeField] TMP_Text itemName;
@@ -32,20 +33,27 @@ namespace MARDEK.UI
 
         Item currentItem;
         int currentAmount;
-        Progress.TreasureChest currentChest;
+
+        public bool IsOpen
+        {
+            get
+            {
+                return container.activeSelf;
+            }
+        }
+        public bool SuccessfullyTookItem { get; private set; }
 
         void Awake()
         {
             if (instance == null) instance = this;
         }
 
-        public void Open(Item item, int amount, Progress.TreasureChest chest)
+        public void Open(Item item, int amount)
         {
             PlayerLocks.EventSystemLock++;
             container.SetActive(true);
             currentItem = item;
             currentAmount = amount;
-            currentChest = chest;
 
             itemName.text = item.displayName;
             itemDescription.text = item.description;
@@ -107,6 +115,7 @@ namespace MARDEK.UI
 
         public void ExitWithoutTakingItem()
         {
+            SuccessfullyTookItem = false;
             container.SetActive(false);
             PlayerLocks.EventSystemLock--;
             AudioManager.PlaySoundEffect(cancelSound);
@@ -117,11 +126,10 @@ namespace MARDEK.UI
             var character = Party.Instance.Characters[getSelectedCharacterIndex()];
             if (character.Inventory.AddItem(currentItem, currentAmount))
             {
+                SuccessfullyTookItem = true;
                 container.SetActive(false);
                 PlayerLocks.EventSystemLock--;
                 AudioManager.PlaySoundEffect(takeSound);
-                currentChest.SetBoolValue(true);
-                currentChest = null;
             }
             else
             {

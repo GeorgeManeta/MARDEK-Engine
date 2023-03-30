@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MARDEK.CharacterSystem
+namespace MARDEK.Progress
 {
     using Save;
     using Inventory;
+    using CharacterSystem;
     public class Party : AddressableMonoBehaviour
     {
         public static Party Instance { get; private set; }

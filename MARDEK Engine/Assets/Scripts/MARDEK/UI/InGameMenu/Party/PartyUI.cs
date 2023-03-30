@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace MARDEK.UI
 {
+    using Progress;
     public class PartyUI : MonoBehaviour
     {
         [SerializeField] List<ConditionEntry> conditionEntries;

@@ -7,6 +7,7 @@ using UnityEngine.Serialization;
 
 namespace MARDEK.UI
 {
+    using Progress;
     public class CharacterSelectable : SelectableWithCurrentSelected<CharacterSelectable>
     {
         public Character Character { 

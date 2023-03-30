@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace MARDEK.UI
 {
+    using Progress;
     public class BattleLoot : MonoBehaviour
     {
         Item[] currentItems = new Item[4];

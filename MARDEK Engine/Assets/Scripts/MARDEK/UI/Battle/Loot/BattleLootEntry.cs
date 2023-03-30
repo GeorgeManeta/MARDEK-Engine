@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 namespace MARDEK.UI
 {
+    using Progress;
     public class BattleLootEntry : BattleLootSelectable
     {
         [SerializeField] AudioObject rejectSound;

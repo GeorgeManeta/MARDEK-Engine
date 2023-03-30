@@ -1,6 +1,7 @@
 namespace MARDEK.UI
 {
-    using MARDEK.CharacterSystem;
+    using Progress;
+    using CharacterSystem;
 
     public class CharacterEquipmentUI : InventoryUI
     {

@@ -4,6 +4,8 @@ using UnityEngine;
 
 namespace MARDEK.UI
 {
+    using Progress;
+
     public class CurrentMoneyText : MonoBehaviour
     {
         [SerializeField] TMP_Text text;

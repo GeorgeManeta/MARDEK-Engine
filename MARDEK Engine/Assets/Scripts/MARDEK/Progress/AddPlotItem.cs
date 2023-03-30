@@ -1,10 +1,9 @@
 using UnityEngine;
 
-namespace MARDEK.Event
+namespace MARDEK.Progress
 {
     using Inventory;
-    using CharacterSystem;
-    public class AddPlotItem : CommandBase
+    public class AddPlotItem : Event.CommandBase
     {
         [SerializeField] PlotItem item;
 

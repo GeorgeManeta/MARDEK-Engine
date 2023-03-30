@@ -6,6 +6,7 @@ using MARDEK.Stats;
 
 namespace MARDEK.Battle
 {
+    using Progress;
     public class BattleManager : MonoBehaviour
     {
         public static EncounterSet encounter { private get; set; }
