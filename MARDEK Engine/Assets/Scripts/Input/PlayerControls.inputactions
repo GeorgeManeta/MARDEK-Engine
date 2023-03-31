@@ -7,11 +7,12 @@
             "actions": [
                 {
                     "name": "Movement",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "6c609b02-eeaf-4e17-ac5a-aeb8ed3508b8",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Interact",
@@ -19,7 +20,8 @@
                     "id": "51f5ebf4-417f-4b8d-b098-451de96cf095",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Cancel",
@@ -27,7 +29,8 @@
                     "id": "a4c9ce8e-496a-4d82-b332-eabd6858b61a",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Open Menu",
@@ -35,7 +38,8 @@
                     "id": "6d420b4f-1953-474d-b0e2-3a2493033763",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Escape",
@@ -43,7 +47,8 @@
                     "id": "e75c94af-2049-4532-93a4-87451de49d9f",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Open Party Dialogue",
@@ -51,7 +56,8 @@
                     "id": "832c1633-597b-43f7-b15b-095fcf364a7b",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Open Chat Log",
@@ -59,7 +65,8 @@
                     "id": "2734c0fd-92b9-4821-b197-95a9cb40cbdd",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Split Item Stack",
@@ -67,7 +74,8 @@
                     "id": "ad7502da-2e4b-4cc2-b0b5-4b496f3ce079",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "UI/LeftClick",
@@ -75,7 +83,8 @@
                     "id": "735404bc-0821-4882-99be-c03b369fd9f4",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "UI/Point",
@@ -83,7 +92,8 @@
                     "id": "4ca5cfc3-6b6b-4f32-b371-1db56682f12b",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
