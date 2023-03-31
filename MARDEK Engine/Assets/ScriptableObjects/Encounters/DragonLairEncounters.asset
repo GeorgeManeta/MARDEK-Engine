@@ -24,18 +24,9 @@ MonoBehaviour:
           slots: []
         <SkillSlots>k__BackingField: []
         volatileStats:
-          intStats:
-          - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
-            _value: 0
-          - <statusEnum>k__BackingField: {fileID: 11400000, guid: 7179e0b7f3f17f44bbe9be5b7802b8db, type: 2}
-            _value: 0
-          - <statusEnum>k__BackingField: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}
-            _value: 0
-          - <statusEnum>k__BackingField: {fileID: 11400000, guid: 66e6bfc20ad436f4f91096bcd539b6f0, type: 2}
-            _value: 0
-          floatStats:
-          - <statusEnum>k__BackingField: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
-            _value: 1.7010349
+          intStats: []
+        _currentHP: -1138
+        _currentMP: -1
       minLevel: 1
       maxLevel: 1
   - encounterWeight: 1
@@ -50,7 +41,8 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
-          floatStats: []
+        _currentHP: -1
+        _currentMP: -1
       minLevel: 1
       maxLevel: 1
     - enemy:
@@ -63,7 +55,8 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
-          floatStats: []
+        _currentHP: -1
+        _currentMP: -1
       minLevel: 1
       maxLevel: 1
   - encounterWeight: 1
@@ -78,7 +71,8 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
-          floatStats: []
+        _currentHP: -1578
+        _currentMP: -1
       minLevel: 1
       maxLevel: 1
     - enemy:
@@ -91,7 +85,8 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
-          floatStats: []
+        _currentHP: -1138
+        _currentMP: -1
       minLevel: 1
       maxLevel: 1
     - enemy:
@@ -104,6 +99,7 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
-          floatStats: []
+        _currentHP: -1138
+        _currentMP: -1
       minLevel: 1
       maxLevel: 1

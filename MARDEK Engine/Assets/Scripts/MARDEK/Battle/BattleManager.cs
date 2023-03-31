@@ -7,28 +7,22 @@ using MARDEK.Stats;
 namespace MARDEK.Battle
 {
     using Progress;
+    using UnityEngine.Events;
+
     public class BattleManager : MonoBehaviour
     {
+        const float actResolution = 1000;
         public static EncounterSet encounter { private get; set; }
         [SerializeField] IntegerStat ACTStat = null;
         [SerializeField] IntegerStat AGLStat = null;
         [SerializeField] Party playerParty;
-        public List<Character> EnemyCharacters { get; private set; } = new List<Character>();
-        public List<Character> PlayableCharacters
-        {
-            get
-            {
-                return playerParty.Characters;
-            }
-        }
         [SerializeField] List<Character> DummyEnemies;
-
-        public static Character characterActing { get; private set; }
         [SerializeField] GameObject characterActionUI = null;
-
+        [SerializeField] UnityEvent OnVictory;
+        public List<Character> EnemyCharacters { get; private set; } = new List<Character>();
+        public List<Character> PlayableCharacters { get { return playerParty.Characters; } }
+        public static Character characterActing { get; private set; }
         public static Stats.IActionSlot selectedAction { get; set; }
-        public static List<Character> targets { get; private set; }
-        const float actResolution = 1000;
 
         private void Awake()
         {
@@ -49,7 +43,12 @@ namespace MARDEK.Battle
 
             var victory = EnemyCharacters.Count == 0;
             if (victory)
+            {
                 print("victory!!");
+                OnVictory.Invoke();
+                enabled = false;
+                return;
+            }
 
             if (characterActing == null)
             {

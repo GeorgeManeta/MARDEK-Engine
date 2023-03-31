@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using MARDEK.Inventory;
 using MARDEK.Stats;
+using System.Drawing.Printing;
 
 namespace MARDEK.CharacterSystem
 {
@@ -9,10 +10,9 @@ namespace MARDEK.CharacterSystem
     public class Character : IStats
     {
         [SerializeField] public bool isRequired;
-
         [field: SerializeField] public CharacterProfile Profile { get; private set; }
-        [field: SerializeField] public Inventory.Inventory EquippedItems { get; private set; }
-        [field: SerializeField] public Inventory.Inventory Inventory { get; private set; }
+        [field: SerializeField] public Inventory.Inventory EquippedItems { get; private set; } = new Inventory.Inventory();
+        [field: SerializeField] public Inventory.Inventory Inventory { get; private set; } = new Inventory.Inventory();
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; } = new List<SkillSlot>();
         [Header("Stats")]
         [SerializeField] StatsSet volatileStats = new StatsSet(true);
@@ -30,18 +30,24 @@ namespace MARDEK.CharacterSystem
                 return (int)Profile.MaxMPExpression.Evaluate(this, null);
             }
         }
-        int _currentHP = -1;
-        int _currentMP = -1;
+        [SerializeField] int _currentHP = -1;
+        [SerializeField] int _currentMP = -1;
         int CurrentHP
         {
             get
             {
                 if (_currentHP == -1)
+                {
+                    Debug.Log("a");
+                    Debug.Log(_currentHP);
                     _currentHP = GetStat(StatsGlobals.Instance.MaxHP);
+                    Debug.Log(_currentHP);
+                }
                 return _currentHP;
             }
             set
             {
+                Debug.Log("b");
                 _currentHP = value;
             }
         }
@@ -57,6 +63,13 @@ namespace MARDEK.CharacterSystem
             {
                 _currentMP = value;
             }
+        }
+
+        public Character Clone()
+        {
+            var clone = new Character();
+            clone.Profile = Profile;
+            return clone;
         }
 
         public int GetStat(IntegerStat desiredStat)

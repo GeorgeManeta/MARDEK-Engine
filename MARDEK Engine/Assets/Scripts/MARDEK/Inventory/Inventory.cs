@@ -6,7 +6,7 @@ namespace MARDEK.Inventory
     [System.Serializable]
     public class Inventory
     {
-        [SerializeField] List<Slot> slots;
+        [SerializeField] List<Slot> slots = new List<Slot>();
         public List<Slot> Slots { get { return slots; } }
 
         public int CountItem(Item item)

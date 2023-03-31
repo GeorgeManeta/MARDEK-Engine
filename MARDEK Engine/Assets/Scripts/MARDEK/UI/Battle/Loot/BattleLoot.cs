@@ -14,9 +14,7 @@ namespace MARDEK.UI
         // TODO Remove after testing
         [SerializeField] List<Item> initialItems;
         [SerializeField] List<int> initialAmounts;
-
         [SerializeField] List<BattleLootEntry> entries;
-        [SerializeField] SelectableList selectables;
         [SerializeField] List<InventorySpace> inventorySpaces;
 
         void Start()

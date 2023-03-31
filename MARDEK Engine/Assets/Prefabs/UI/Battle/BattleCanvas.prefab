@@ -278,6 +278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9e5b830b45a5941abb99866fcde26c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horizontalConstraint: 1
+  verticalConstraint: 0
   scrollRect: {fileID: 0}
   numFittingEntries: 0
   invertHorizontalInput: 1
@@ -1525,18 +1527,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 5861836221694945283}
-          m_TargetAssemblyTypeName: BattleActionDescription, MARDEK.UI
-          m_MethodName: UpdateDescription
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!114 &1071462339108523758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1549,6 +1539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9e5b830b45a5941abb99866fcde26c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horizontalConstraint: 0
+  verticalConstraint: 1
   scrollRect: {fileID: 1257911206731027800}
   numFittingEntries: 7
   invertHorizontalInput: 0
@@ -4434,8 +4426,11 @@ MonoBehaviour:
   ACTStat: {fileID: 11400000, guid: 6144087aadcd1274882923bcc6aa21b4, type: 2}
   AGLStat: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
   playerParty: {fileID: 0}
-  enemies: []
+  DummyEnemies: []
   characterActionUI: {fileID: 6566202195194959525}
+  OnVictory:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &4129369519186946166
 MonoBehaviour:
   m_ObjectHideFlags: 0

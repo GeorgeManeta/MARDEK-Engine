@@ -160,6 +160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b59c2f2ead3ca5468e8d98ba644bbe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horizontalConstraint: 0
+  verticalConstraint: 1
   scrollRect: {fileID: 0}
   numFittingEntries: 0
   invertHorizontalInput: 0

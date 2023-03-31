@@ -7,9 +7,10 @@ using UnityEngine.UI;
 
 namespace MARDEK.UI
 {
-    [RequireComponent(typeof(GridLayoutGroup), typeof(InputReader))]
     public class SelectableLayout : MonoBehaviour
     {
+        [SerializeField] int horizontalConstraint;
+        [SerializeField] int verticalConstraint;
         [SerializeField] ScrollRect scrollRect;
         [SerializeField] int numFittingEntries;
         [SerializeField] bool invertHorizontalInput = false;
@@ -32,7 +33,6 @@ namespace MARDEK.UI
             }
         }
 
-        GridLayoutGroup layout;
         Selectable[] selectables;
         List<Selectable> Selectables
         {
@@ -55,9 +55,22 @@ namespace MARDEK.UI
                     s.Deselect();
             UpdateSelectionAtIndex(false);
         }
-        private void Awake()
+        private void OnValidate()
         {
-            layout = GetComponent<GridLayoutGroup>();
+            var layout = GetComponent<GridLayoutGroup>();
+            if (layout)
+            {
+                if(layout.constraint == GridLayoutGroup.Constraint.FixedColumnCount)
+                {
+                    verticalConstraint = layout.constraintCount;
+                    horizontalConstraint = 0;
+                }
+                else if (layout.constraint == GridLayoutGroup.Constraint.FixedRowCount)
+                {
+                    verticalConstraint = 0;
+                    horizontalConstraint = layout.constraintCount;
+                }
+            }
         }
         private void OnEnable()
         {
@@ -65,11 +78,8 @@ namespace MARDEK.UI
         }
         private void Update()
         {
-            if (selectables.Length != transform.childCount)
-            {
-                CacheSelectables();
-            }
-            if (currentlySelected == null) UpdateSelectionAtIndex(false);
+            if (currentlySelected == null)
+                UpdateSelectionAtIndex(false);
         }
 
         public void UpdateSelectionAtIndex(bool playSFX = true)
@@ -87,7 +97,7 @@ namespace MARDEK.UI
             currentlySelected.Select(playSFX);
             if (numFittingEntries > 0 && scrollRect != null)
             {
-                int desiredScrollIndex = Index / layout.constraintCount;
+                int desiredScrollIndex = Index / verticalConstraint;
                 if (desiredScrollIndex - currentScrollIndex >= numFittingEntries) SetScrollIndex(1 + desiredScrollIndex - numFittingEntries);
                 if (desiredScrollIndex - currentScrollIndex < 0) SetScrollIndex(desiredScrollIndex);
             }
@@ -95,8 +105,8 @@ namespace MARDEK.UI
         void SetScrollIndex(int newScrollIndex)
         {
             currentScrollIndex = newScrollIndex;
-            int numTotalEntries = Selectables.Count / layout.constraintCount;
-            if (Selectables.Count % layout.constraintCount != 0) numTotalEntries += 1;
+            int numTotalEntries = Selectables.Count / verticalConstraint;
+            if (Selectables.Count % verticalConstraint != 0) numTotalEntries += 1;
 
             int numNonFittingEntries = numTotalEntries - numFittingEntries;
             float scrollAmount = newScrollIndex / (float) numNonFittingEntries;
@@ -116,35 +126,23 @@ namespace MARDEK.UI
                 HandleHorizontalInput(value.x);
         }
         void HandleVerticalInput(float value)
-        {
-            if (layout.constraint == GridLayoutGroup.Constraint.FixedRowCount && layout.constraintCount == 1) return;
-
-            if (layout.constraint == GridLayoutGroup.Constraint.FixedColumnCount && layout.constraintCount != 1)
-            {
-                if (value > 0) Index -= layout.constraintCount;
-                else Index += layout.constraintCount;
-            } else {
-                if (value > 0) Index--;
-                else Index++;
-            }
-
+        {   
+            if (value > 0)
+                Index -= verticalConstraint;
+            else
+                Index += verticalConstraint;
             UpdateSelectionAtIndex();
         }
         void HandleHorizontalInput(float value)
         {
-            if (layout.constraint == GridLayoutGroup.Constraint.FixedColumnCount && layout.constraintCount == 1) return;
-
+            var amount = horizontalConstraint;
             if (invertHorizontalInput)
-                value = -value;
-            if (layout.constraint == GridLayoutGroup.Constraint.FixedRowCount && layout.constraintCount != 1)
-            {
-                if (value > 0) Index += layout.constraintCount;
-                else Index -= layout.constraintCount;
-            } else {
-                if (value > 0) Index++;
-                else Index--;
-            }
-            
+                amount *= -1;
+
+            if (value > 0)
+                Index += amount;
+            else
+                Index -= amount;            
             UpdateSelectionAtIndex();
         }
     }

@@ -378,7 +378,7 @@ Transform:
   m_Children:
   - {fileID: 657244837}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &230893270
 PrefabInstance:
@@ -16014,17 +16014,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4524198ac264da046815598c35039adc, type: 3}
---- !u!114 &789882695 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5843615748297100927, guid: 4524198ac264da046815598c35039adc, type: 3}
-  m_PrefabInstance: {fileID: 789882694}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd5d2ba7faf01dd4f8b8930a280d6ab8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &997399299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16512,7 +16501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4698576466535043288, guid: b113440698ed91445a4aad7285fdf655, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4698576466535043288, guid: b113440698ed91445a4aad7285fdf655, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16708,7 +16697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f17a2fb50dbe07e4abf1b56893157918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generalProgressData: {fileID: 789882695}
   item: {fileID: 11400000, guid: 52ee7b57162544e4da1db2bdaeef1e39, type: 2}
 --- !u!114 &1332648969
 MonoBehaviour:
@@ -16722,7 +16710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202c736151635bc47a136038ad3d1a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generalProgressData: {fileID: 789882695}
   item: {fileID: 11400000, guid: 52f4333fdca10d745b7082e5a780abd7, type: 2}
 --- !u!114 &1332648970
 MonoBehaviour:
@@ -16736,7 +16723,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202c736151635bc47a136038ad3d1a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generalProgressData: {fileID: 789882695}
   item: {fileID: 11400000, guid: 6c503aa560361ad4e82b8be2e07f3d11, type: 2}
 --- !u!1001 &1429795061
 PrefabInstance:
