@@ -15,9 +15,9 @@ namespace MARDEK.UI
 
         private void Start()
         {
-            foreach(var enemy in battleManager.enemyCharacters)
+            foreach(var enemy in battleManager.EnemyCharacters)
                 CreateCharacterUI(enemyUILayout, enemy);
-            foreach(var playerCharacter in battleManager.playableCharacters)
+            foreach(var playerCharacter in battleManager.PlayableCharacters)
                 CreateCharacterUI(partyUILayout, playerCharacter);
         }
 

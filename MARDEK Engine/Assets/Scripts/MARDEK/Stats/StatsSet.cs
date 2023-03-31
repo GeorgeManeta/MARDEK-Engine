@@ -14,21 +14,29 @@ namespace MARDEK.Stats
         }
         public int GetStat(IntegerStat stat)
         {
-            return GetStatHolder(stat).Value;
+            var holder = GetStatHolder(stat);
+            if(holder != null)
+                return holder.Value;
+            else
+                return new StatHolder(stat).Value;
         }
         public void ModifyStat(IntegerStat stat, int delta)
         {
-            GetStatHolder(stat).Value += delta;
+            var holder = GetStatHolder(stat);
+            if (holder == null)
+            {
+                holder = new StatHolder(stat);
+                if (expandable)
+                    intStats.Add(holder);
+            }
+            holder.Value += delta;
         }
         StatHolder GetStatHolder(IntegerStat stat)
         {
             foreach (var statusHolder in intStats)
                 if (statusHolder.statusEnum == stat)
                     return statusHolder;
-            var newHolder = new StatHolder(stat);
-            if (expandable)
-                intStats.Add(newHolder);
-            return newHolder;
+            return null;
         }
     }
 }

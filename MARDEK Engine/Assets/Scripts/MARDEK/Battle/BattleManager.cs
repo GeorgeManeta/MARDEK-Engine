@@ -13,36 +13,44 @@ namespace MARDEK.Battle
         [SerializeField] IntegerStat ACTStat = null;
         [SerializeField] IntegerStat AGLStat = null;
         [SerializeField] Party playerParty;
-        [SerializeField] List<Character> enemies = new List<Character>();
-
-        public List<Character> playableCharacters
+        public List<Character> EnemyCharacters { get; private set; } = new List<Character>();
+        public List<Character> PlayableCharacters
         {
             get
             {
                 return playerParty.Characters;
             }
         }
-        public List<Character> enemyCharacters
-        {
-            get
-            {
-                return enemies;
-            }
-        }
+        [SerializeField] List<Character> DummyEnemies;
 
         public static Character characterActing { get; private set; }
         [SerializeField] GameObject characterActionUI = null;
 
         public static Stats.IActionSlot selectedAction { get; set; }
         public static List<Character> targets { get; private set; }
-        const float actResolution = 2;
+        const float actResolution = 1000;
 
         private void Awake()
         {
-            if(encounter) enemies = encounter.InstantiateEncounter();
+            if (encounter)
+                EnemyCharacters = encounter.InstantiateEncounter();
+            else
+                EnemyCharacters = DummyEnemies;
         }
         private void Update()
         {
+            for(int i = EnemyCharacters.Count - 1; i >= 0; i--)
+            {
+                var enemy = EnemyCharacters[i];
+                var health = enemy.GetStat(StatsGlobals.Instance.CurrentHP);
+                if (health <= 0)
+                    EnemyCharacters.Remove(enemy);
+            }
+
+            var victory = EnemyCharacters.Count == 0;
+            if (victory)
+                print("victory!!");
+
             if (characterActing == null)
             {
                 characterActing = StepActCycleTryGetNextCharacter();
@@ -56,13 +64,13 @@ namespace MARDEK.Battle
                 if (selectedAction != null)
                 {
                     Character target;
-                    if (enemyCharacters.Contains(characterActing))
+                    if (EnemyCharacters.Contains(characterActing))
                     {
-                        target = playableCharacters[Random.Range(0, playableCharacters.Count-1)];
+                        target = PlayableCharacters[Random.Range(0, PlayableCharacters.Count-1)];
                     }
                     else
                     {
-                        target = enemyCharacters[Random.Range(0, enemyCharacters.Count-1)];
+                        target = EnemyCharacters[Random.Range(0, EnemyCharacters.Count-1)];
                     }
 
                     Debug.Log($"{characterActing.Profile.displayName} targets {target.Profile.displayName}");
@@ -88,10 +96,10 @@ namespace MARDEK.Battle
             List<Character> returnList = new List<Character>();
             for (int i = 0; i < 4; i++)
             {
-                if (playableCharacters.Count > i)
-                    returnList.Add(playableCharacters[i]);
-                if (enemyCharacters.Count > i)
-                    returnList.Add(enemyCharacters[i]);
+                if (PlayableCharacters.Count > i)
+                    returnList.Add(PlayableCharacters[i]);
+                if (EnemyCharacters.Count > i)
+                    returnList.Add(EnemyCharacters[i]);
             }
             return returnList;
         }
@@ -100,7 +108,7 @@ namespace MARDEK.Battle
             foreach(var c in characters)
             {
                 var tickRate = 1 + 0.05f * c.GetStat(AGLStat);
-                tickRate *= deltatime;
+                tickRate *= 1000 * deltatime;
                 c.ModifyStat(ACTStat, (int)tickRate);
             }
         }

@@ -186,8 +186,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 5881335801273842901}
-          m_TargetAssemblyTypeName: MARDEK.UI.SkillSlotUI, MARDEK.UI
-          m_MethodName: SelectSkill
+          m_TargetAssemblyTypeName: MARDEK.UI.BattleActionSlotUI, MARDEK.UI
+          m_MethodName: SelectAction
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

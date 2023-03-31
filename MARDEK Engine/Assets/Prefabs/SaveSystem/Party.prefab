@@ -412,10 +412,15 @@ MonoBehaviour:
         itemFilter: []
         canBeEmpty: 1
         canPlayerPutItems: 1
-    <SkillSlots>k__BackingField: []
+    <SkillSlots>k__BackingField:
+    - <Skill>k__BackingField: {fileID: 11400000, guid: 362c7ff5941da0149bca2126b40a3163, type: 2}
+      <MasteryPoints>k__BackingField: -1
+    - <Skill>k__BackingField: {fileID: 11400000, guid: fc162735c75ffb7409d7a57a0fbf4b93, type: 2}
+      <MasteryPoints>k__BackingField: -1
+    - <Skill>k__BackingField: {fileID: 11400000, guid: 16ebce88c9d14d342a129e17e0b3bef2, type: 2}
+      <MasteryPoints>k__BackingField: -1
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <EquippedItems>k__BackingField:
@@ -782,7 +787,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   <BenchedCharacters>k__BackingField:
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
@@ -793,7 +797,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -803,7 +806,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -813,7 +815,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -823,7 +824,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -833,7 +833,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -843,7 +842,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -853,7 +851,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -863,7 +860,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -873,7 +869,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -883,7 +878,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -893,7 +887,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -903,7 +896,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -913,7 +905,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -923,7 +914,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -933,7 +923,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -943,7 +932,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -953,7 +941,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -963,7 +950,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -973,7 +959,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -983,7 +968,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -993,7 +977,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1003,7 +986,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1013,7 +995,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1023,7 +1004,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1033,7 +1013,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1043,7 +1022,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1053,7 +1031,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1063,7 +1040,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1073,7 +1049,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1083,7 +1058,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1093,7 +1067,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1103,7 +1076,6 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   - isRequired: 0
     <Profile>k__BackingField: {fileID: 0}
     <EquippedItems>k__BackingField:
@@ -1113,6 +1085,5 @@ MonoBehaviour:
     <SkillSlots>k__BackingField: []
     volatileStats:
       intStats: []
-      floatStats: []
   plotItems: []
   money: 0

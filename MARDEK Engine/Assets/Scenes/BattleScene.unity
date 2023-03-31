@@ -167,6 +167,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: DummyEnemies.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: enemies.Array.data[0].<Profile>k__BackingField
       value: 
       objectReference: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
@@ -178,6 +182,10 @@ PrefabInstance:
       propertyPath: enemies.Array.data[0].stats.floatStats.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: DummyEnemies.Array.data[0].<Profile>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
     - target: {fileID: 330018440776529925, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: enemies.Array.data[0].<CharacterInfo>k__BackingField
       value: 
@@ -1278,6 +1286,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -240
       objectReference: {fileID: 0}
+    - target: {fileID: 8473454266330402848, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: binds.Array.data[0].bindStarted
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8473454266330402848, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
+      propertyPath: binds.Array.data[0].bindPerformed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8574940754687583910, guid: 0aba383be76ec0040a70d6d5e9546adc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1758,6 +1774,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[0].volatileStats.intStats.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.data[0].<Skill>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: fc162735c75ffb7409d7a57a0fbf4b93, type: 2}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.data[1].<Skill>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: aceb6579998cc054cae25a57414cbe84, type: 2}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.data[2].<Skill>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: aacac0dd56300a34fbf3060c733ebbf1, type: 2}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.data[3].<Skill>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: b4b5b21800ecd4d4dbeb75a10270c543, type: 2}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.data[4].<Skill>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: 16ebce88c9d14d342a129e17e0b3bef2, type: 2}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.data[0].<MasteryPoints>k__BackingField
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.data[1].<MasteryPoints>k__BackingField
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.data[2].<MasteryPoints>k__BackingField
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.data[3].<MasteryPoints>k__BackingField
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 189181372132509467, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
+      propertyPath: <Characters>k__BackingField.Array.data[1].<SkillSlots>k__BackingField.Array.data[4].<MasteryPoints>k__BackingField
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 1013374027887860850, guid: 611f50f7562c49a47b7c82bad018a096, type: 3}
       propertyPath: m_RootOrder
       value: 3

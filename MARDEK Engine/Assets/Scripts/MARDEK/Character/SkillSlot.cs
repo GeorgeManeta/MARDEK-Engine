@@ -43,6 +43,7 @@ namespace MARDEK.CharacterSystem
 
         public void ApplyAction(IStats user, IStats target)
         {
+            Debug.Log($"Used {Skill.name}");
             Skill.Apply(user, target);
         }
     }
