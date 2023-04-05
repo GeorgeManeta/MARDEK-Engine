@@ -103,7 +103,7 @@ namespace MARDEK.Inventory
 
         public void ApplyAction(IStats user, IStats target)
         {
-            throw new System.NotImplementedException();
+            Debug.Log($"TODO: use item = {this.DisplayName}");
         }
     }
 }

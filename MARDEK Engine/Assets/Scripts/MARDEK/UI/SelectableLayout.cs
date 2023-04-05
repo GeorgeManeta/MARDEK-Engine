@@ -9,7 +9,8 @@ namespace MARDEK.UI
 {
     public class SelectableLayout : MonoBehaviour
     {
-        [SerializeField] GridLayoutGroup.Axis startAxis;
+        [SerializeField] bool resetIndexOnEnable = false;
+        [SerializeField] GridLayoutGroup.Axis startAxis = GridLayoutGroup.Axis.Vertical;
         [SerializeField] int constraintCount;
         [SerializeField] ScrollRect scrollRect;
         [SerializeField] int numFittingEntries;
@@ -20,6 +21,8 @@ namespace MARDEK.UI
         {
             get
             {
+                if (_index < 0 || _index >= Selectables.Count)
+                    _index = 0;
                 return _index;
             }
             set
@@ -78,6 +81,14 @@ namespace MARDEK.UI
                     constraintCount = layout.constraintCount;
                 }
             }
+        }
+        private void OnEnable()
+        {
+            if (resetIndexOnEnable)
+                Index = 0;
+            foreach (var s in Selectables)
+                s.Deselect();
+            UpdateSelectionAtIndex();
         }
         private void Update()
         {
