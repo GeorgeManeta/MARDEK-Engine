@@ -30,7 +30,13 @@ namespace MARDEK.Movement
             if (overrideFacingDirection)
                 transitionFacingDirection = overrideFacingDirection;
             else
-                transitionFacingDirection = PlayerController.GetPlayerMovement().currentDirection;
+            {
+                var player = PlayerController.GetPlayerMovement();
+                if (player)
+                    transitionFacingDirection = player.currentDirection;
+                else
+                    transitionFacingDirection = null;
+            }
         }
 
         public static void ClearUsedWaypoint()
