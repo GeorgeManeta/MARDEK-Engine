@@ -10,6 +10,8 @@ namespace MARDEK.UI
     using Progress;
     public class CharacterSelectable : SelectableWithCurrentSelected<CharacterSelectable>
     {
+        [SerializeField] Text characterNameText;
+        [SerializeField] GameObject wrapper;
         public Character Character { 
             get
             {
@@ -23,6 +25,22 @@ namespace MARDEK.UI
         public override bool IsValid()
         {
             return Character != null;
+        }
+
+        private void OnEnable()
+        {
+            if (IsValid())
+            {
+                if (wrapper)
+                    wrapper.SetActive(true);
+                if (characterNameText)
+                    characterNameText.text = Character.Profile.displayName;
+            }
+            else
+            {
+                if (wrapper)
+                    wrapper.SetActive(false);
+            }
         }
     }
 }

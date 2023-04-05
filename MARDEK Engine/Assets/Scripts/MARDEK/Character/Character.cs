@@ -35,9 +35,10 @@ namespace MARDEK.CharacterSystem
         {
             get
             {
-                if (_currentHP == -1)
+                var maxHP = GetStat(StatsGlobals.Instance.MaxHP);
+                if (_currentHP == -1 || _currentHP > maxHP)
                 {
-                    _currentHP = GetStat(StatsGlobals.Instance.MaxHP);
+                    _currentHP = maxHP;
                 }
                 return _currentHP;
             }
@@ -50,8 +51,9 @@ namespace MARDEK.CharacterSystem
         {
             get
             {
-                if (_currentMP == -1)
-                    _currentMP = GetStat(StatsGlobals.Instance.MaxMP);
+                var maxMP = GetStat(StatsGlobals.Instance.MaxMP);
+                if (_currentMP == -1 || _currentMP > maxMP)
+                    _currentMP = maxMP;
                 return _currentMP;
             }
             set

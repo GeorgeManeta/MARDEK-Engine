@@ -1,5 +1,71 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8434626144040796269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2786f6b2301a94f4288672ff5305244c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions: []
+  architectures:
+  - target: 5
+    name: Windows x86
+    enabled: 0
+    binaryNameFormat: '{0}.exe'
+  - target: 19
+    name: Windows x64
+    enabled: 1
+    binaryNameFormat: '{0}.exe'
+  variants:
+  - variantName: Build Output
+    selectedIndex: 0
+    values:
+    - App
+    - Visual Studio Solution
+  platformName: PC
+  dataDirNameFormat: '{0}_Data'
+  targetGroup: 1
+--- !u!114 &-7627522902241819504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2786f6b2301a94f4288672ff5305244c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions: []
+  architectures:
+  - target: 5
+    name: Windows x86
+    enabled: 0
+    binaryNameFormat: '{0}.exe'
+  - target: 19
+    name: Windows x64
+    enabled: 1
+    binaryNameFormat: '{0}.exe'
+  variants:
+  - variantName: Build Output
+    selectedIndex: 0
+    values:
+    - App
+    - Visual Studio Solution
+  platformName: PC
+  dataDirNameFormat: '{0}_Data'
+  targetGroup: 1
 --- !u!114 &-5175575204825204547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,8 +146,8 @@ MonoBehaviour:
     buildPath: $VERSION/$PLATFORM
     openFolderPostBuild: 0
   _productParameters:
-    buildCounter: 7
-    buildVersion: 0.1.7
+    buildCounter: 8
+    buildVersion: 0.1.8
     versionTemplate: 0.1.$BUILD
     autoGenerate: 1
     syncWithPlayerSettings: 0
@@ -104,47 +170,44 @@ MonoBehaviour:
         - fileGUID: 6febde95d7660a449b1ff57bbfa809ea
   _platformList:
     platforms:
-    - {fileID: 1696010925549556930}
-    - {fileID: 1905912444616002523}
-    - {fileID: -4417948210501968905}
+    - {fileID: -7627522902241819504}
+    - {fileID: 9039529353577470648}
   _projectConfigurations:
     configSet:
-      _Buckets: 04000000ffffffff06000000ffffffff030000000500000002000000
-      _HashCodes: 6d38f6476da5e235134e5c09fe378756878a7279510e9f592d6dfd48
-      _Next: ffffffff00000000ffffffffffffffff01000000ffffffffffffffff
-      _Count: 7
-      _Version: 7
+      _Buckets: 03000000ffffffff04000000ffffffffffffffff01000000ffffffff
+      _HashCodes: 878a7279510e9f596d38f6476da5e2352d6dfd480000000000000000
+      _Next: ffffffffffffffff0000000002000000ffffffff0000000000000000
+      _Count: 5
+      _Version: 5
       _FreeList: -1
       _FreeCount: 0
       _Keys:
-      - Release/WebGL/WebGL
-      - Release/WebGL
-      - Release/Linux/Linux x64
-      - Release/Linux
       - Release/PC/Windows x64 (App)
       - Release/PC
+      - Release/WebGL/WebGL
+      - Release/WebGL
       - Release
+      - 
+      - 
       _Values:
-      - enabled: 1
-        childKeys: []
-      - enabled: 1
-        childKeys:
-        - Release/WebGL/WebGL
-      - enabled: 1
-        childKeys: []
-      - enabled: 1
-        childKeys:
-        - Release/Linux/Linux x64
       - enabled: 1
         childKeys: []
       - enabled: 1
         childKeys:
         - Release/PC/Windows x64 (App)
       - enabled: 1
+        childKeys: []
+      - enabled: 1
         childKeys:
-        - Release/WebGL
-        - Release/Linux
+        - Release/WebGL/WebGL
+      - enabled: 1
+        childKeys:
         - Release/PC
+        - Release/WebGL
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
     showViewOptions: 0
     showConfigs: 0
     showBuildInfo: 0
@@ -157,54 +220,6 @@ MonoBehaviour:
     buildActions:
     - {fileID: -5175575204825204547}
     - {fileID: 8740841105189655030}
---- !u!114 &1696010925549556930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0acaf75cc66fc934ea46bf602fc7c245, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enabled: 1
-  distributionList:
-    distributions: []
-  architectures:
-  - target: 20
-    name: WebGL
-    enabled: 1
-    binaryNameFormat: '{0}'
-  variants: []
-  platformName: WebGL
-  dataDirNameFormat: '{0}_Data'
-  targetGroup: 13
---- !u!114 &1905912444616002523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dc439ce9d1bfb34a821f7d6fabc4fef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enabled: 1
-  distributionList:
-    distributions: []
-  architectures:
-  - target: 24
-    name: Linux x64
-    enabled: 1
-    binaryNameFormat: '{0}.x86_64'
-  variants: []
-  platformName: Linux
-  dataDirNameFormat: '{0}_Data'
-  targetGroup: 1
 --- !u!114 &8740841105189655030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,3 +250,27 @@ MonoBehaviour:
   channelName: 
   showUploadProgress: 0
   itchChannelOverride: webgl
+--- !u!114 &9039529353577470648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0acaf75cc66fc934ea46bf602fc7c245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions: []
+  architectures:
+  - target: 20
+    name: WebGL
+    enabled: 1
+    binaryNameFormat: '{0}'
+  variants: []
+  platformName: WebGL
+  dataDirNameFormat: '{0}_Data'
+  targetGroup: 13

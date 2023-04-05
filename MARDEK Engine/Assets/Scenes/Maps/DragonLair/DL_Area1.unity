@@ -367,11 +367,6 @@ MonoBehaviour:
     saveOnDisable: 1
   serializedGuid: 8cc74d5c7d1d9242a3ac9926ad008905
   value: 0
---- !u!1 &348553884 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6880118188401107836, guid: d1dcdf008fb60a340a9abd2867b93fc8, type: 3}
-  m_PrefabInstance: {fileID: 1203709084379945950}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &424963899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16527,10 +16522,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3153002801511463964, guid: d1dcdf008fb60a340a9abd2867b93fc8, type: 3}
-      propertyPath: commands.commandsGameObject
-      value: 
-      objectReference: {fileID: 348553884}
     - target: {fileID: 5295018025259333000, guid: d1dcdf008fb60a340a9abd2867b93fc8, type: 3}
       propertyPath: menu
       value: 

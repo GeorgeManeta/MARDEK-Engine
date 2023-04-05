@@ -72,13 +72,13 @@ MonoBehaviour:
         - {fileID: 11400000, guid: f68f09e3d87d52a4aa3003b803a9f87b, type: 2}
         canBeEmpty: 1
         canPlayerPutItems: 1
-      - currentItem: {fileID: 0}
+      - currentItem: {fileID: 11400000, guid: 43f9c1563af910a4d8949169e09553d5, type: 2}
         currentAmount: 0
         itemFilter:
         - {fileID: 11400000, guid: 39eee71154b7dd748882f788cc0c5fb3, type: 2}
         canBeEmpty: 1
         canPlayerPutItems: 1
-      - currentItem: {fileID: 0}
+      - currentItem: {fileID: 11400000, guid: 1a6088039ca4aff479c8f3002a92c2da, type: 2}
         currentAmount: 0
         itemFilter:
         - {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
@@ -92,8 +92,8 @@ MonoBehaviour:
         canPlayerPutItems: 1
     <Inventory>k__BackingField:
       slots:
-      - currentItem: {fileID: 0}
-        currentAmount: 0
+      - currentItem: {fileID: 11400000, guid: 3071228e88047bf4295c85c047f12146, type: 2}
+        currentAmount: 9
         itemFilter: []
         canBeEmpty: 1
         canPlayerPutItems: 1
@@ -445,14 +445,14 @@ MonoBehaviour:
         - {fileID: 11400000, guid: dae8caefbcf26a44a954801b232fb279, type: 2}
         canBeEmpty: 1
         canPlayerPutItems: 1
-      - currentItem: {fileID: 0}
+      - currentItem: {fileID: 11400000, guid: 7d545b6b019ef57499fd306d4bb86984, type: 2}
         currentAmount: 0
         itemFilter:
         - {fileID: 11400000, guid: 39eee71154b7dd748882f788cc0c5fb3, type: 2}
         - {fileID: 11400000, guid: d86f2f702e3a3ec49b9c95d50bafda11, type: 2}
         canBeEmpty: 1
         canPlayerPutItems: 1
-      - currentItem: {fileID: 0}
+      - currentItem: {fileID: 11400000, guid: 1a6088039ca4aff479c8f3002a92c2da, type: 2}
         currentAmount: 0
         itemFilter:
         - {fileID: 11400000, guid: cc10574bbb211d2459008f7b3458f955, type: 2}
@@ -466,8 +466,8 @@ MonoBehaviour:
         canPlayerPutItems: 1
     <Inventory>k__BackingField:
       slots:
-      - currentItem: {fileID: 0}
-        currentAmount: 0
+      - currentItem: {fileID: 11400000, guid: 3071228e88047bf4295c85c047f12146, type: 2}
+        currentAmount: 9
         itemFilter: []
         canBeEmpty: 1
         canPlayerPutItems: 1

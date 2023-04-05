@@ -18,16 +18,14 @@ namespace MARDEK.Movement
         public override void Trigger()
         {
             usedWaypoint = waypoint;
-
-            if(overrideFacingDirection)
-                SetFacingDirection();
+            SetupFacingDirection();
 
             //Command queue won't have the oportunity to reset the lockValue itself cause the scene reload will destroy the object
             PlayerLocks.EventSystemLock = 0;
             SceneManager.LoadScene(scene);
         }
 
-        void SetFacingDirection()
+        void SetupFacingDirection()
         {
             if (overrideFacingDirection)
                 transitionFacingDirection = overrideFacingDirection;
