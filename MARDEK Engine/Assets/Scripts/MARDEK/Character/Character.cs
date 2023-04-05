@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Collections.Generic;
 using MARDEK.Inventory;
 using MARDEK.Stats;
-using System.Drawing.Printing;
 
 namespace MARDEK.CharacterSystem
 {
@@ -38,16 +37,12 @@ namespace MARDEK.CharacterSystem
             {
                 if (_currentHP == -1)
                 {
-                    Debug.Log("a");
-                    Debug.Log(_currentHP);
                     _currentHP = GetStat(StatsGlobals.Instance.MaxHP);
-                    Debug.Log(_currentHP);
                 }
                 return _currentHP;
             }
             set
             {
-                Debug.Log("b");
                 _currentHP = value;
             }
         }

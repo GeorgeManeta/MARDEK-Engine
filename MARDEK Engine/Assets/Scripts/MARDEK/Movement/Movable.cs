@@ -37,7 +37,7 @@ namespace MARDEK.Movement
         public event MoveDelegate OnStartMove = delegate { };
         public event MoveDelegate OnEndMove = delegate { };
 
-        private void Awake()
+        private void Start()
         {
             targetPosition = transform.position;            
         }

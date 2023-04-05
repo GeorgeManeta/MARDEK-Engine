@@ -16585,9 +16585,6 @@ GameObject:
   - component: {fileID: 1332648967}
   - component: {fileID: 1332648962}
   - component: {fileID: 1332648963}
-  - component: {fileID: 1332648969}
-  - component: {fileID: 1332648968}
-  - component: {fileID: 1332648970}
   m_Layer: 0
   m_Name: TriggerOnce
   m_TagString: Untagged
@@ -16685,45 +16682,6 @@ MonoBehaviour:
   targetAnimator: {fileID: 1803016139}
   sendStopRate: 1
   animationStopRate: 0
---- !u!114 &1332648968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332648961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f17a2fb50dbe07e4abf1b56893157918, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 52ee7b57162544e4da1db2bdaeef1e39, type: 2}
---- !u!114 &1332648969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332648961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 202c736151635bc47a136038ad3d1a34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 52f4333fdca10d745b7082e5a780abd7, type: 2}
---- !u!114 &1332648970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332648961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 202c736151635bc47a136038ad3d1a34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 6c503aa560361ad4e82b8be2e07f3d11, type: 2}
 --- !u!1001 &1429795061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16799,11 +16757,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2801880452226114186, guid: d1dcdf008fb60a340a9abd2867b93fc8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5
+      value: -6.5
       objectReference: {fileID: 0}
     - target: {fileID: 2801880452226114186, guid: d1dcdf008fb60a340a9abd2867b93fc8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.5
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 2801880452226114186, guid: d1dcdf008fb60a340a9abd2867b93fc8, type: 3}
       propertyPath: m_LocalPosition.z

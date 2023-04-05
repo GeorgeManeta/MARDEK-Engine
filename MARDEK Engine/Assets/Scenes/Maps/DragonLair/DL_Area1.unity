@@ -9779,7 +9779,6 @@ GameObject:
   - component: {fileID: 1366511939}
   - component: {fileID: 1366511938}
   - component: {fileID: 1366511937}
-  - component: {fileID: 1366511943}
   m_Layer: 0
   m_Name: TriggerOnce
   m_TagString: Untagged
@@ -9880,19 +9879,6 @@ Transform:
   m_Father: {fileID: 1611162748}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1366511943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366511936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 202c736151635bc47a136038ad3d1a34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 52ee7b57162544e4da1db2bdaeef1e39, type: 2}
 --- !u!1 &1611162745
 GameObject:
   m_ObjectHideFlags: 0

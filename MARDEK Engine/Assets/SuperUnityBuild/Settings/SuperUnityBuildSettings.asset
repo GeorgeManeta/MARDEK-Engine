@@ -25,7 +25,7 @@ MonoBehaviour:
       test: WEBGL
   pathToButlerExe: D:\Programs\butler-windows-amd64\butler.exe
   nameOfItchUser: george-maneta
-  nameOfItchGame: murp
+  nameOfItchGame: mardek-engine
   useGeneratedBuildVersion: 1
   channelName: $PLATFORM-$ARCHITECTURE
   showUploadProgress: 0
@@ -80,17 +80,17 @@ MonoBehaviour:
     buildPath: $VERSION/$PLATFORM
     openFolderPostBuild: 0
   _productParameters:
-    buildCounter: 6
-    buildVersion: 0.1.6
+    buildCounter: 7
+    buildVersion: 0.1.7
     versionTemplate: 0.1.$BUILD
     autoGenerate: 1
     syncWithPlayerSettings: 0
   _releaseTypeList:
     releaseTypes:
     - typeName: Release
-      bundleIdentifier: com.MURPTeam.MARDEK-Unity-Revival-Project
-      companyName: MURP Team
-      productName: MARDEK-Unity-Revival-Project
+      bundleIdentifier: 
+      companyName: MARDEK Engine
+      productName: MARDEK Engine
       buildOptions: 1
       customDefines: 
       sceneList:
@@ -230,7 +230,7 @@ MonoBehaviour:
       test: WEBGL
   pathToButlerExe: D:\Programs\butler-windows-amd64\butler.exe
   nameOfItchUser: george-maneta
-  nameOfItchGame: murp
+  nameOfItchGame: mardek-engine
   useGeneratedBuildVersion: 1
   channelName: 
   showUploadProgress: 0

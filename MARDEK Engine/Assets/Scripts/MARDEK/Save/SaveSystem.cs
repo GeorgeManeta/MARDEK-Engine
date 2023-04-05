@@ -5,6 +5,10 @@ using System.Text.RegularExpressions;
 using FullSerializer;
 using MARDEK.Core;
 
+#if UNITY_WEBGL && !UNITY_EDITOR
+using System.Runtime.InteropServices;
+#endif
+
 namespace MARDEK.Save
 {
     public class SaveSystem : MonoBehaviour

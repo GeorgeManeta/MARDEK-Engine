@@ -51,7 +51,6 @@ namespace MARDEK.Movement
         public void OnMovementInput(InputAction.CallbackContext ctx)
         {
             Vector2 direction = ctx.ReadValue<Vector2>();
-
             if (direction.x == 0 || direction.y == 0)
                 desiredDirection = ApproximanteDirectionByVector2(direction);
             else
