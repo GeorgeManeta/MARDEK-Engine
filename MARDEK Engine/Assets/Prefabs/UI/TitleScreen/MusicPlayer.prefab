@@ -28,6 +28,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1767256119314488891}
   - {fileID: 1214723106748616038}
@@ -107,6 +108,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9038356813079486436}
   m_RootOrder: 16
@@ -145,7 +147,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 914a86c5e7e77e64c90018ded1dd9257, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -186,6 +188,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8895294549012019668}
   m_RootOrder: 3
@@ -253,6 +256,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9038356813079486436}
   m_RootOrder: 18
@@ -329,6 +333,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1214723106748616038}
   m_RootOrder: 3
@@ -418,6 +423,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  deselectOnDisable: 0
   selectionSFX: {fileID: 0}
   noteImage: {fileID: 7863814083357480128}
   musicTypeLabel: {fileID: 7021463503981534973}
@@ -450,6 +456,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3871943872666532416}
   m_RootOrder: 1
@@ -488,7 +495,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f58cde84aef5adb41b9406acd1afae11, type: 3}
     m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
@@ -529,6 +536,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8895294549012019668}
   m_RootOrder: 2
@@ -596,6 +604,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3871943872666532416}
   m_RootOrder: 0
@@ -634,7 +643,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f58cde84aef5adb41b9406acd1afae11, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -676,6 +685,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1214723106748616038}
   m_RootOrder: 2
@@ -765,6 +775,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  deselectOnDisable: 0
   selectionSFX: {fileID: 0}
   noteImage: {fileID: 1770005938079615358}
   musicTypeLabel: {fileID: 7021463503981534973}
@@ -798,6 +809,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1214723106748616038}
   m_RootOrder: 6
@@ -887,6 +899,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  deselectOnDisable: 0
   selectionSFX: {fileID: 0}
   noteImage: {fileID: 5444764257975184134}
   musicTypeLabel: {fileID: 7021463503981534973}
@@ -919,6 +932,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4010462705826153427}
   - {fileID: 7595098825929668291}
@@ -998,6 +1012,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1214723106748616038}
   m_RootOrder: 4
@@ -1087,6 +1102,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  deselectOnDisable: 0
   selectionSFX: {fileID: 0}
   noteImage: {fileID: 5516547996592163229}
   musicTypeLabel: {fileID: 7021463503981534973}
@@ -1119,6 +1135,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8895294549012019668}
   m_RootOrder: 0
@@ -1157,7 +1174,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3cccca8e27b6c9d43adb3acad899e95a, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -1169,7 +1186,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Music Player
+  m_Text: Music  Player
 --- !u!1 &5814447716142835974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,6 +1215,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9038356813079486436}
   m_RootOrder: 15
@@ -1273,6 +1291,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9038356813079486436}
   m_RootOrder: 14
@@ -1349,6 +1368,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1214723106748616038}
   m_RootOrder: 7
@@ -1438,6 +1458,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  deselectOnDisable: 0
   selectionSFX: {fileID: 0}
   noteImage: {fileID: 3224503476470012585}
   musicTypeLabel: {fileID: 7021463503981534973}
@@ -1471,6 +1492,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1214723106748616038}
   m_RootOrder: 1
@@ -1560,6 +1582,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  deselectOnDisable: 0
   selectionSFX: {fileID: 0}
   noteImage: {fileID: 4007189793992497332}
   musicTypeLabel: {fileID: 7021463503981534973}
@@ -1593,6 +1616,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1214723106748616038}
   m_RootOrder: 0
@@ -1682,6 +1706,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  deselectOnDisable: 0
   selectionSFX: {fileID: 0}
   noteImage: {fileID: 2688165316476210172}
   musicTypeLabel: {fileID: 7021463503981534973}
@@ -1714,6 +1739,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3095556720948798575}
   - {fileID: 7514729037219082826}
@@ -1798,6 +1824,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9038356813079486436}
   m_RootOrder: 19
@@ -1874,6 +1901,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1214723106748616038}
   m_RootOrder: 5
@@ -1963,6 +1991,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  deselectOnDisable: 0
   selectionSFX: {fileID: 0}
   noteImage: {fileID: 8947147925870034889}
   musicTypeLabel: {fileID: 7021463503981534973}
@@ -1996,6 +2025,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9038356813079486436}
   m_RootOrder: 17
@@ -2126,6 +2156,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8437009237627006150}
   m_Father: {fileID: 9038356813079486436}
@@ -2194,6 +2225,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9038356813079486436}
   m_RootOrder: 13
@@ -2232,7 +2264,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f58cde84aef5adb41b9406acd1afae11, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -2273,6 +2305,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9038356813079486436}
   m_RootOrder: 12
@@ -2311,7 +2344,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f58cde84aef5adb41b9406acd1afae11, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -2352,6 +2385,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9038356813079486436}
   m_RootOrder: 11
@@ -2390,7 +2424,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f58cde84aef5adb41b9406acd1afae11, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -2434,6 +2468,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9038356813079486436}
   m_RootOrder: 0
@@ -2522,6 +2557,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2718343715525904640}
   - {fileID: 1138109095380683809}
@@ -2586,6 +2622,7 @@ MonoBehaviour:
         m_Processors: 
         m_Interactions: 
         m_SingletonActionBindings: []
+        m_Flags: 0
       m_Reference: {fileID: -4635892176794517615, guid: 842e31e9d541ad04c8c2cd7997d79b05, type: 3}
     bindStarted: 0
     bindPerformed: 1
@@ -2617,8 +2654,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9e5b830b45a5941abb99866fcde26c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetIndexOnEnable: 0
+  startAxis: 0
+  constraintCount: 0
   scrollRect: {fileID: 0}
   numFittingEntries: 0
+  invertHorizontalInput: 0
 --- !u!1001 &298942626955242696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2736,14 +2777,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 148d755ce00b9534aa824514fa057366, type: 3}
---- !u!224 &5267914129205292810 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5565724841873064898, guid: 148d755ce00b9534aa824514fa057366, type: 3}
-  m_PrefabInstance: {fileID: 298942626955242696}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1256862248714763894 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1537780477599830718, guid: 148d755ce00b9534aa824514fa057366, type: 3}
+  m_PrefabInstance: {fileID: 298942626955242696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &5267914129205292810 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5565724841873064898, guid: 148d755ce00b9534aa824514fa057366, type: 3}
   m_PrefabInstance: {fileID: 298942626955242696}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &583676893877425696
@@ -4244,14 +4285,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 148d755ce00b9534aa824514fa057366, type: 3}
---- !u!224 &8437009237627006150 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5565724841873064898, guid: 148d755ce00b9534aa824514fa057366, type: 3}
-  m_PrefabInstance: {fileID: 4047375359675150084}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3277601558468328890 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1537780477599830718, guid: 148d755ce00b9534aa824514fa057366, type: 3}
+  m_PrefabInstance: {fileID: 4047375359675150084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &8437009237627006150 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5565724841873064898, guid: 148d755ce00b9534aa824514fa057366, type: 3}
   m_PrefabInstance: {fileID: 4047375359675150084}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4191893601654912265
@@ -4589,14 +4630,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 148d755ce00b9534aa824514fa057366, type: 3}
---- !u!1 &6011296972728760146 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1537780477599830718, guid: 148d755ce00b9534aa824514fa057366, type: 3}
-  m_PrefabInstance: {fileID: 5060675496816059884}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &794406825118656046 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5565724841873064898, guid: 148d755ce00b9534aa824514fa057366, type: 3}
+  m_PrefabInstance: {fileID: 5060675496816059884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6011296972728760146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1537780477599830718, guid: 148d755ce00b9534aa824514fa057366, type: 3}
   m_PrefabInstance: {fileID: 5060675496816059884}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5580685606064272725
@@ -6151,14 +6192,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 148d755ce00b9534aa824514fa057366, type: 3}
---- !u!1 &8114549057638073870 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1537780477599830718, guid: 148d755ce00b9534aa824514fa057366, type: 3}
-  m_PrefabInstance: {fileID: 7335203062658749616}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2951701719543224178 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5565724841873064898, guid: 148d755ce00b9534aa824514fa057366, type: 3}
+  m_PrefabInstance: {fileID: 7335203062658749616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8114549057638073870 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1537780477599830718, guid: 148d755ce00b9534aa824514fa057366, type: 3}
   m_PrefabInstance: {fileID: 7335203062658749616}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7950333303288764437
