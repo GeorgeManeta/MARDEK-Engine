@@ -1,32 +1,36 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.IO;
 using System.Text.RegularExpressions;
 using FullSerializer;
 using MARDEK.Core;
 
 #if UNITY_WEBGL && !UNITY_EDITOR
-using System.Runtime.InteropServices;
+    using System.Runtime.InteropServices;
 #endif
 
 namespace MARDEK.Save
 {
     public class SaveSystem : MonoBehaviour
     {
-#if UNITY_WEBGL && !UNITY_EDITOR
-        [DllImport("__Internal")]
-        private static extern void SyncDB();
-#endif
+        #if UNITY_WEBGL && !UNITY_EDITOR
+            [DllImport("__Internal")]
+            private static extern void SyncDB();
+        #endif
+
         static string persistentPath
         {
             get
             {
                 string path;
-#if UNITY_WEBGL
-                path = System.IO.Path.Combine("/idbfs", Application.productName);
-#else
-                path = Application.persistentDataPath;
-#endif
+
+                #if UNITY_WEBGL
+                    path = System.IO.Path.Combine("/idbfs", Application.productName);
+                #else
+                    path = Application.persistentDataPath;
+                #endif
+
                 if (System.IO.Directory.Exists(path) == false)
                     System.IO.Directory.CreateDirectory(path);
                 return path;
@@ -39,32 +43,38 @@ namespace MARDEK.Save
         public static event SaveCallback OnBeforeSave = delegate { };
 
         static SaveState currentSaveState;
+        public static string CurrentSaveStateName { get; set; }
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         static void Initialization()
         {
             currentSaveState = new SaveState();
         }
-        
-        public static void SaveObject(IAddressableGuid addressable)
+
+        public static void SaveObjectToCurrentSave(IAddressableGuid addressable)
         {
             if (Application.isPlaying == false)
                 throw new Exception("Don't Save while outside playmode");
             currentSaveState.SaveObject(addressable, serializer);
-            
+
         }
-        public static bool LoadObject(IAddressableGuid addressable)
+        public static bool LoadObjectFromCurrentSave(IAddressableGuid addressable)
         {
             if (Application.isPlaying == false)
                 throw new Exception("Don't Load while outside playmode");
             return currentSaveState.LoadObjects(addressable, serializer);
         }
 
-        [ContextMenu("QuickSave")] void QuickSave() => SaveToFile();
-        [ContextMenu("QuickLoad")] void QuickLoad() => LoadFromFile();
+        public static bool LoadObjectFromGivenSave(IAddressableGuid addressable, SaveState saveState) {
+            return saveState.LoadObjects(addressable, serializer);
+        }
 
-        public void SaveToFile(string fileName = "quicksave")
+        public static void SaveToFile(string fileName)
         {
+            PlayerPrefs.SetString("lastSavedFile", fileName);
+
+            SaveObjectToCurrentSave(GeneralProgressData.currentGeneralProgressData);
+
             OnBeforeSave.Invoke();
             serializer.TrySerialize(currentSaveState.addressableState, out fsData data);
             string json = fsJsonPrinter.PrettyJson(data);
@@ -73,22 +83,59 @@ namespace MARDEK.Save
             string filePath = System.IO.Path.Combine(persistentPath, $"{fileName}.json");
             System.IO.File.WriteAllText(filePath, json);
 
-#if UNITY_WEBGL && !UNITY_EDITOR
-            //flush our changes to IndexedDB
-            SyncDB();
-#endif
+            #if UNITY_WEBGL && !UNITY_EDITOR
+                //flush our changes to IndexedDB
+                SyncDB();
+            #endif
+
             Debug.Log($"Game file saved to {filePath}");
         }
-        public void LoadFromFile(string fileName = "quicksave")
+
+        public static bool CheckFileExists(string fileName)
         {
-            currentSaveState = new SaveState();
             string filePath = System.IO.Path.Combine(persistentPath, $"{fileName}.json");
-            string json = System.IO.File.ReadAllText(filePath);
-            if (formatSaveFiles)
-                json = FormatSaveFile(json, false);
-            fsJsonParser.Parse(json, out fsData data);
-            serializer.TryDeserialize(data, ref currentSaveState.addressableState);
-            Debug.Log($"Game file loaded from {filePath}");
+            return File.Exists(filePath);
+        }
+
+        /*
+         * Loads save file at currentSaveStateName into currentSaveState.
+         * Used by GameFileLoader.
+         * Uses static attribute currentSaveStateName instead of a parameter so SaveFileBox can set currentSaveStateName 
+         * to the name of the save file that should be loaded.
+         */
+        public static void LoadIntoCurrentSave()
+        {
+            if (CheckFileExists(CurrentSaveStateName))
+            {
+                PlayerPrefs.SetString("lastLoadedFile", CurrentSaveStateName);
+
+                currentSaveState = GetSaveFromFile(CurrentSaveStateName);
+                LoadObjectFromGivenSave(GeneralProgressData.currentGeneralProgressData, currentSaveState);
+            }
+            else
+            {
+                Debug.Log("Error - attempting to load nonexistent save file as current save: " + CurrentSaveStateName);
+            }
+        }
+
+        public static SaveState? GetSaveFromFile(string fileName)
+        {
+            if (CheckFileExists(fileName))
+            {
+                SaveState returnedSaveState = new SaveState();
+                string filePath = System.IO.Path.Combine(persistentPath, $"{fileName}.json");
+                string json = System.IO.File.ReadAllText(filePath);
+                if (formatSaveFiles)
+                    json = FormatSaveFile(json, false);
+                fsJsonParser.Parse(json, out fsData data);
+                serializer.TryDeserialize(data, ref returnedSaveState.addressableState);
+                Debug.Log($"GetSaveData: Game file loaded from {filePath}");
+                return returnedSaveState;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         static string FormatSaveFile(string content, bool isSaving)

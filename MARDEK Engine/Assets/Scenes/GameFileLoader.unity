@@ -428,9 +428,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1236152497}
-        m_TargetAssemblyTypeName: MURP.SaveSystem.SaveSystem, MURP.SaveSystem
-        m_MethodName: LoadFromFile
-        m_Mode: 5
+        m_TargetAssemblyTypeName: MARDEK.Save.SaveSystem, MARDEK.Save
+        m_MethodName: LoadIntoCurrentSave
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -64,11 +64,11 @@ namespace MARDEK.Save
 
         public virtual void Save()
         {
-            SaveSystem.SaveObject(this);
+            SaveSystem.SaveObjectToCurrentSave(this);
         }
         public virtual void Load()
         {
-            SaveSystem.LoadObject(this);
+            SaveSystem.LoadObjectFromCurrentSave(this);
         }
 
         [ContextMenu("Save")]
