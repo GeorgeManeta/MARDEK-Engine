@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace MARDEK.Stats.ExpressionParser
 {
     public class StatToken : ValueToken
@@ -14,7 +16,9 @@ namespace MARDEK.Stats.ExpressionParser
         public override float Evaluate(IStats user, IStats target)
         {
             IStats statHolderToGetFrom = _getFromTarget ? target : user;
-            return statHolderToGetFrom.GetStat(_targetStat);
+            var value = statHolderToGetFrom.GetStat(_targetStat);
+            Debug.Log($"parse {_targetStat.name} as {value}");
+            return value;
         }
     }
 }

@@ -19,7 +19,7 @@ namespace MARDEK.Inventory
         // Added only to fascilitate mass inputs. Should not be active unless you are attempting to create items via JSONReader.cs
         /*[SerializeField] string _elementText;
         public string elementText { get { return _elementText; } }*/
-        [SerializeField] string _description;
+        [SerializeField, TextArea] string _description;
         public string description { get { return _description; } }
         [SerializeField] Sprite _sprite;
         public Sprite sprite { get { return _sprite; } }
