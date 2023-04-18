@@ -20,7 +20,7 @@ namespace MARDEK.UI
             string lastSavedFile = PlayerPrefs.GetString("lastSavedFile", string.Empty);
             if (lastSavedFile.Length > 0)
             {
-                // if lastSavedFile is "MARDEK_save_15", value is "15"
+                // if lastSavedFile is "MARDEK_save_15", lastLoadedNumber is "15"
                 string lastSavedNumber = lastSavedFile.Substring(
                     lastSavedFile.LastIndexOf("_") + 1);
 
@@ -36,7 +36,7 @@ namespace MARDEK.UI
             string lastLoadedFile = PlayerPrefs.GetString("lastLoadedFile", string.Empty);
             if (lastLoadedFile.Length > 0)
             {
-                // if lastLoadedFile is "MARDEK_save_15", value is "15"
+                // if lastLoadedFile is "MARDEK_save_15", lastLoadedNumber is "15"
                 string lastLoadedNumber = lastLoadedFile.Substring(
                     lastLoadedFile.LastIndexOf("_") + 1);
 

@@ -6410,6 +6410,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -81
       objectReference: {fileID: 0}
+    - target: {fileID: 5843615748297100927, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 811884959}
     - target: {fileID: 5873182553696433468, guid: 4524198ac264da046815598c35039adc, type: 3}
       propertyPath: m_TargetGraphic
       value: 
