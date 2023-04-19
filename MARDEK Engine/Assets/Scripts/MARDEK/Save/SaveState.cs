@@ -27,7 +27,7 @@ namespace MARDEK.Save
             var newWrapper = new AddresableSaveWrapper() { jsonData = json };
             addressableState[guid] = newWrapper;
         }
-        public bool LoadObjects(IAddressableGuid addressable, fsSerializer serializer)
+        public bool LoadObject(IAddressableGuid addressable, fsSerializer serializer)
         {
             Guid guid = addressable.GetGuid();
             if (addressableState.ContainsKey(guid))

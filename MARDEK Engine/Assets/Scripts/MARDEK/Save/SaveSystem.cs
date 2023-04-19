@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.IO;
 using System.Text.RegularExpressions;
 using FullSerializer;
 using MARDEK.Core;
@@ -17,16 +18,19 @@ namespace MARDEK.Save
         [DllImport("__Internal")]
         private static extern void SyncDB();
 #endif
-        static string persistentPath
+
+        public static string persistentPath
         {
             get
             {
                 string path;
+
 #if UNITY_WEBGL
                 path = System.IO.Path.Combine("/idbfs", Application.productName);
 #else
                 path = Application.persistentDataPath;
 #endif
+
                 if (System.IO.Directory.Exists(path) == false)
                     System.IO.Directory.CreateDirectory(path);
                 return path;
@@ -39,32 +43,39 @@ namespace MARDEK.Save
         public static event SaveCallback OnBeforeSave = delegate { };
 
         static SaveState currentSaveState;
-
+        public static string currentSaveFile;
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         static void Initialization()
         {
             currentSaveState = new SaveState();
         }
-        
-        public static void SaveObject(IAddressableGuid addressable)
+
+        public static void SaveObjectToCurrentSave(IAddressableGuid addressable)
         {
             if (Application.isPlaying == false)
                 throw new Exception("Don't Save while outside playmode");
             currentSaveState.SaveObject(addressable, serializer);
-            
+
         }
-        public static bool LoadObject(IAddressableGuid addressable)
+        public static bool LoadObjectFromCurrentSave(IAddressableGuid addressable)
         {
             if (Application.isPlaying == false)
                 throw new Exception("Don't Load while outside playmode");
-            return currentSaveState.LoadObjects(addressable, serializer);
+            return currentSaveState.LoadObject(addressable, serializer);
         }
 
-        [ContextMenu("QuickSave")] void QuickSave() => SaveToFile();
-        [ContextMenu("QuickLoad")] void QuickLoad() => LoadFromFile();
+        public static bool LoadObjectFromGivenSave(IAddressableGuid addressable, SaveState saveState) {
+            return saveState.LoadObject(addressable, serializer);
+        }
 
-        public void SaveToFile(string fileName = "quicksave")
+        public static void SaveToFile(string fileName)
         {
+            /* you don't need to manually save any AddressableMonoBehavior here;
+            if they have AutoSave on they will be saved to currentSaveState automatically
+            before it saves to the file */
+
+            PlayerPrefs.SetString("lastSavedFile", fileName);
+
             OnBeforeSave.Invoke();
             serializer.TrySerialize(currentSaveState.addressableState, out fsData data);
             string json = fsJsonPrinter.PrettyJson(data);
@@ -77,18 +88,34 @@ namespace MARDEK.Save
             //flush our changes to IndexedDB
             SyncDB();
 #endif
+
             Debug.Log($"Game file saved to {filePath}");
         }
-        public void LoadFromFile(string fileName = "quicksave")
+
+        /*
+         * Loads save file at into currentSaveState.
+         * Called by SaveFileBox.
+         * Afterwards, the active scene becomes GameFileLoader which takes care of the rest of the loading.
+         */
+        public static void LoadIntoCurrentSave()
         {
-            currentSaveState = new SaveState();
+            PlayerPrefs.SetString("lastLoadedFile", currentSaveFile);
+
+            currentSaveState = GetSaveFromFile(currentSaveFile);
+            // LoadObjectFromGivenSave(GeneralProgressData.instance, currentSaveState);
+        }
+
+        public static SaveState? GetSaveFromFile(string fileName)
+        {
+            SaveState returnedSaveState = new SaveState();
             string filePath = System.IO.Path.Combine(persistentPath, $"{fileName}.json");
             string json = System.IO.File.ReadAllText(filePath);
             if (formatSaveFiles)
                 json = FormatSaveFile(json, false);
             fsJsonParser.Parse(json, out fsData data);
-            serializer.TryDeserialize(data, ref currentSaveState.addressableState);
-            Debug.Log($"Game file loaded from {filePath}");
+            serializer.TryDeserialize(data, ref returnedSaveState.addressableState);
+            Debug.Log($"GetSaveData: Game file loaded from {filePath}");
+            return returnedSaveState;
         }
 
         static string FormatSaveFile(string content, bool isSaving)
