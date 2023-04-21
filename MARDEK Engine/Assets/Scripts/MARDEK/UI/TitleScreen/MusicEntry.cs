@@ -1,6 +1,7 @@
 using MARDEK.Audio;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -8,7 +9,7 @@ namespace MARDEK.UI
     {
         public static Music selectedMusic { private set; get; }
 
-        [SerializeField] Text displayName;
+        [SerializeField] TextMeshProUGUI displayName;
         [SerializeField] Image backgroundImage;
         [SerializeField] Music music;
 

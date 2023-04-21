@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class MenuTab : Selectable
     {
         [SerializeField] Image tabImage;
-        [SerializeField] Text tabNameLabel;
+        [SerializeField] TextMeshProUGUI tabNameLabel;
         [SerializeField] string tabName;
         
         bool isSelected;

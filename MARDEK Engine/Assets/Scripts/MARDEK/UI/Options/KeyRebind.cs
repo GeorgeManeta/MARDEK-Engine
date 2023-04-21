@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using System;
+using TMPro;
 
 public class KeyRebind : MonoBehaviour
 {
@@ -11,8 +9,8 @@ public class KeyRebind : MonoBehaviour
     [SerializeField, Range(0, 3)] int compositeBindingIndex = 0;
     InputActionRebindingExtensions.RebindingOperation rebindingOperation;
 
-    [SerializeField] Text actionNameText = null;
-    [SerializeField] Text bindText = null;
+    [SerializeField] TextMeshProUGUI actionNameText = null;
+    [SerializeField] TextMeshProUGUI bindText = null;
     [SerializeField, HideInInspector] Color originalColor;
     Color rebindingColor = Color.red;
 

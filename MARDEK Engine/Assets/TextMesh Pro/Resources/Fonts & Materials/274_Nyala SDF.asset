@@ -59,9 +59,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: 274_Nyala SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 763759972
   material: {fileID: 34239865603532732}
-  materialHashCode: 0
+  materialHashCode: -1786289084
   m_Version: 1.1.0
   m_SourceFontFileGUID: f58cde84aef5adb41b9406acd1afae11
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: f58cde84aef5adb41b9406acd1afae11, type: 3}
@@ -2527,7 +2527,7 @@ MonoBehaviour:
   normalStyle: 0
   normalSpacingOffset: 0
   boldStyle: 0.75
-  boldSpacing: 7
+  boldSpacing: 0
   italicStyle: 35
   tabSize: 10
 --- !u!21 &34239865603532732
@@ -2600,9 +2600,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0

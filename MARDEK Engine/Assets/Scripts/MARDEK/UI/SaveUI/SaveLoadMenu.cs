@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using MARDEK.Core;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -9,7 +9,7 @@ namespace MARDEK.UI
     {
         public static bool IsSaveNotLoad { get; private set; } = false;
 
-        [SerializeField] Text MenuTitle;
+        [SerializeField] TextMeshProUGUI MenuTitle;
 
         [SerializeField] SaveFileBox lastSavedBox;
         [SerializeField] SaveFileBox lastLoadedBox;
