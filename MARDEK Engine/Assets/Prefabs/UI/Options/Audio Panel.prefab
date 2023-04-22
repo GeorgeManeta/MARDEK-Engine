@@ -191,6 +191,10 @@ PrefabInstance:
       propertyPath: audioGroup
       value: 
       objectReference: {fileID: 4292416007131526640, guid: 1d639220ee8ccaf448ed840a6fa75147, type: 2}
+    - target: {fileID: 9108112270605244206, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
+      propertyPath: audioGroupVolume.audioGroup
+      value: 
+      objectReference: {fileID: 4292416007131526640, guid: 1d639220ee8ccaf448ed840a6fa75147, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
 --- !u!224 &1577727466796482268 stripped
@@ -325,6 +329,10 @@ PrefabInstance:
       propertyPath: audioGroup
       value: 
       objectReference: {fileID: 4253808412046528104, guid: 1d639220ee8ccaf448ed840a6fa75147, type: 2}
+    - target: {fileID: 9108112270605244206, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
+      propertyPath: audioGroupVolume.audioGroup
+      value: 
+      objectReference: {fileID: 4253808412046528104, guid: 1d639220ee8ccaf448ed840a6fa75147, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
 --- !u!224 &6398115002563322382 stripped
@@ -447,6 +455,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9108112270605244206, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
+      propertyPath: audioGroupVolume.audioGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 1d639220ee8ccaf448ed840a6fa75147, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
 --- !u!224 &9133270621405283140 stripped

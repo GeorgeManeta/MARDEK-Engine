@@ -1,14 +1,14 @@
 using MARDEK.CharacterSystem;
 using MARDEK.Stats;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class Performance2Entry : MonoBehaviour, PartyEntry
     {
-        [SerializeField] Text damageDealtCount;
-        [SerializeField] Text damageReceivedCount;
+        [SerializeField] TextMeshProUGUI damageDealtCount;
+        [SerializeField] TextMeshProUGUI damageReceivedCount;
 
         [SerializeField] IntegerStat damageDealtStat;
         [SerializeField] IntegerStat damageReceivedStat;
@@ -19,7 +19,7 @@ namespace MARDEK.UI
             damageReceivedCount.text = character.GetStat(damageReceivedStat).ToString();
         }
 
-        private void UpdateStat(Character character, IntegerStat stat, Text text)
+        private void UpdateStat(Character character, IntegerStat stat, TextMeshProUGUI text)
         {
             if (stat != null) text.text = character.GetStat(stat).ToString();
         }

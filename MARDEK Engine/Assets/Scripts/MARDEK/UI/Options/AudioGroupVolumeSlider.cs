@@ -1,12 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class AudioGroupVolumeSlider : MonoBehaviour
 {
     [SerializeField] AudioGroupVolume audioGroupVolume;
-    [SerializeField] Text groupNameText = null;
+    [SerializeField] TextMeshProUGUI groupNameText = null;
     [SerializeField] Slider volumeSlider = null;
 
     private void OnEnable()

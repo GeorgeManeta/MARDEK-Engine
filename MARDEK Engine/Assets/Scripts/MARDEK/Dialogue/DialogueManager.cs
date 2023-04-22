@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using MARDEK.CharacterSystem;
+using TMPro;
 
 namespace MARDEK.DialogueSystem
 {
@@ -27,8 +28,8 @@ namespace MARDEK.DialogueSystem
         }
 
         [SerializeField] GameObject canvas = null;
-        [SerializeField] Text dialogueText = null;
-        [SerializeField] Text characterNameText = null;
+        [SerializeField] TextMeshProUGUI dialogueText = null;
+        [SerializeField] TextMeshProUGUI characterNameText = null;
         [SerializeField] float dialogueSpeed = 5;
 
         Dialogue dialogue;

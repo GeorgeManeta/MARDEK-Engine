@@ -204,13 +204,13 @@ MonoBehaviour:
   m_text: 'Now Playing:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e5a1305a02d3244daec74333a5e3ea0, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: c5dfa332ce6299e4da40873115ab39d7, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 6b3c75d5f6c8aa44da1336214571312e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286565359
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 2
@@ -1219,7 +1219,7 @@ MonoBehaviour:
     Use WASD to select tracks.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e5a1305a02d3244daec74333a5e3ea0, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: c5dfa332ce6299e4da40873115ab39d7, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 6b3c75d5f6c8aa44da1336214571312e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2371,7 +2371,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286565359
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 2
