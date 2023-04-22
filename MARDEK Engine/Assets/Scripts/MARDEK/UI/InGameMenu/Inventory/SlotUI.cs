@@ -3,6 +3,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using MARDEK.Audio;
 using MARDEK.Inventory;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -10,7 +11,7 @@ namespace MARDEK.UI
     {
         [SerializeField] Image backgroundImage;
         [SerializeField] Image itemImage;
-        [SerializeField] Text amountText;
+        [SerializeField] TextMeshProUGUI amountText;
         [SerializeField] Sprite baseSlotSprite;
         [SerializeField] Sprite hoverSlotSprite;
         [SerializeField] Sprite transparentSprite;

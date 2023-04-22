@@ -2,6 +2,7 @@ using MARDEK.CharacterSystem;
 using MARDEK.Stats;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -10,14 +11,14 @@ namespace MARDEK.UI
         [SerializeField] Image portraitImage;
         [SerializeField] Image elementImage;
 
-        [SerializeField] Text nameText;
-        [SerializeField] Text levelText;
-        [SerializeField] Text classText;
+        [SerializeField] TextMeshProUGUI nameText;
+        [SerializeField] TextMeshProUGUI levelText;
+        [SerializeField] TextMeshProUGUI classText;
 
         [SerializeField] ConditionBar hpBar;
         [SerializeField] ConditionBar mpBar;
         [SerializeField] Image xpProgressBar;
-        [SerializeField] Text xpText;
+        [SerializeField] TextMeshProUGUI xpText;
 
         [SerializeField] IntegerStat levelStat;
         [SerializeField] IntegerStat currentHpStat;

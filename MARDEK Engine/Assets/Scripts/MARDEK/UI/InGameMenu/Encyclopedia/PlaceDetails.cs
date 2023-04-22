@@ -1,14 +1,15 @@
 using MARDEK.Progress;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class PlaceDetails : MonoBehaviour
     {
-        [SerializeField] Text title;
+        [SerializeField] TextMeshProUGUI title;
         [SerializeField] Image landscape;
-        [SerializeField] Text description;
+        [SerializeField] TextMeshProUGUI description;
 
         public void SetPlace(EncyclopediaPlace place)
         {

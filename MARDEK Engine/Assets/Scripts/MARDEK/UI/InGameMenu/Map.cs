@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -22,7 +23,7 @@ namespace MARDEK.UI
         static readonly Color DOOR_COLOR = new Color(1f, 1f, 1f);
         static readonly Color PLAYER_COLOR = new Color(0.8f, 0.1f, 0.7f);
 
-        [SerializeField] Text activeSceneName;
+        [SerializeField] TextMeshProUGUI activeSceneName;
         [SerializeField] Image mapImage;
         [SerializeField] ExploredAreas exploredAreas;
 

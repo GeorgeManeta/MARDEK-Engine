@@ -1,12 +1,12 @@
 using MARDEK.Progress;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class DreamstoneMessageView : MonoBehaviour
     {
-        [SerializeField] Text text;
+        [SerializeField] TextMeshProUGUI text;
         [SerializeField] GameObject previousMenu;
 
         Dreamstone currentDreamstone;

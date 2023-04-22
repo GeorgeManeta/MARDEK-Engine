@@ -1,16 +1,17 @@
 using MARDEK.Progress;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class MonsterDetails : MonoBehaviour
     {
         [SerializeField] Image elementIcon;
-        [SerializeField] Text nameText;
-        [SerializeField] Text descriptionText;
+        [SerializeField] TextMeshProUGUI nameText;
+        [SerializeField] TextMeshProUGUI descriptionText;
 
-        [SerializeField] Text classValue;
+        [SerializeField] TextMeshProUGUI classValue;
 
         public void SetMonster(EncyclopediaMonster monster)
         {

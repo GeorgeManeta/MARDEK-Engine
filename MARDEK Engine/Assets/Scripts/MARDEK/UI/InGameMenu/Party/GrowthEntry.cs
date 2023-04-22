@@ -2,13 +2,14 @@ using MARDEK.CharacterSystem;
 using MARDEK.Stats;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class GrowthEntry : MonoBehaviour, PartyEntry
     {
-        [SerializeField] Text xpValueText;
-        [SerializeField] Text levelText;
+        [SerializeField] TextMeshProUGUI xpValueText;
+        [SerializeField] TextMeshProUGUI levelText;
         [SerializeField] Image xpProgressBar;
 
         [SerializeField] IntegerStat levelStat;

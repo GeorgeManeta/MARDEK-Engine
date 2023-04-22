@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -10,8 +11,8 @@ namespace MARDEK.UI
         [SerializeField] List<Color> backgroundColors;
 
         [SerializeField] Image background;
-        [SerializeField] Text currentValue;
-        [SerializeField] Text maxValue;
+        [SerializeField] TextMeshProUGUI currentValue;
+        [SerializeField] TextMeshProUGUI maxValue;
 
         public void SetValues(int currentValue, int maxValue)
         {

@@ -250,7 +250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2112930565242412756
 RectTransform:
   m_ObjectHideFlags: 0
@@ -751,7 +751,7 @@ RectTransform:
   m_GameObject: {fileID: 5499308817354531635}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1, z: 1}
+  m_LocalScale: {x: 1.175, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8819234365563584944}
@@ -760,7 +760,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 569, y: -175}
-  m_SizeDelta: {x: 860, y: 169.55579}
+  m_SizeDelta: {x: 725, y: 169.55579}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7551694924707212851
 CanvasRenderer:

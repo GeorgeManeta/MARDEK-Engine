@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using MARDEK.Inventory;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class ItemSkillsPanel : MonoBehaviour
     {
-        [SerializeField] Text textField;
+        [SerializeField] TextMeshProUGUI textField;
 
         void Update()
         {
