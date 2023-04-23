@@ -146,8 +146,8 @@ MonoBehaviour:
     buildPath: $VERSION/$PLATFORM
     openFolderPostBuild: 0
   _productParameters:
-    buildCounter: 10
-    buildVersion: 0.1.10
+    buildCounter: 12
+    buildVersion: 0.1.12
     versionTemplate: 0.1.$BUILD
     autoGenerate: 1
     syncWithPlayerSettings: 0
@@ -213,7 +213,7 @@ MonoBehaviour:
     showBuildInfo: 0
     hideDisabled: 0
     treeView: 0
-    selectedKeyChain: Release/Linux/Linux x64
+    selectedKeyChain: Release/PC/Windows x64 (App)
   _preBuildActions:
     buildActions: []
   _postBuildActions:
