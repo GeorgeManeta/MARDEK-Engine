@@ -139,8 +139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68cb2ed5c6d1e3e419d4ef4fb4f36157, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageDealtCount: {fileID: 4269692400069192008}
-  damageReceivedCount: {fileID: 1099841703035203056}
+  damageDealtCount: {fileID: 8324453896181412054}
+  damageReceivedCount: {fileID: 5153793735261140078}
   damageDealtStat: {fileID: 11400000, guid: 63ad0c302adf3e549ab6649ef49d62e7, type: 2}
   damageReceivedStat: {fileID: 11400000, guid: 2de35104fd6a9014fa09a89970453cf0, type: 2}
 --- !u!1001 &157485379695734429
@@ -249,15 +249,15 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1625171315177568044, guid: a8d9fff9e23b3374bad38e844e5e0625, type: 3}
   m_PrefabInstance: {fileID: 157485379695734429}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4269692400069192008 stripped
+--- !u!114 &8324453896181412054 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4138665687513810901, guid: a8d9fff9e23b3374bad38e844e5e0625, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8190331010422316619, guid: a8d9fff9e23b3374bad38e844e5e0625, type: 3}
   m_PrefabInstance: {fileID: 157485379695734429}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1883589961895732067
@@ -366,6 +366,10 @@ PrefabInstance:
     - target: {fileID: 5412020897721624174, guid: b88c7b332d814d84392f9a5a0f98036e, type: 3}
       propertyPath: m_Name
       value: DamageDealtLabel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6609734715684259683, guid: b88c7b332d814d84392f9a5a0f98036e, type: 3}
+      propertyPath: m_text
+      value: 'Damage dealt:'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b88c7b332d814d84392f9a5a0f98036e, type: 3}
@@ -479,22 +483,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d9fff9e23b3374bad38e844e5e0625, type: 3}
---- !u!114 &1099841703035203056 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4138665687513810901, guid: a8d9fff9e23b3374bad38e844e5e0625, type: 3}
-  m_PrefabInstance: {fileID: 3903515525334510117}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &2351395789283597577 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1625171315177568044, guid: a8d9fff9e23b3374bad38e844e5e0625, type: 3}
   m_PrefabInstance: {fileID: 3903515525334510117}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5153793735261140078 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8190331010422316619, guid: a8d9fff9e23b3374bad38e844e5e0625, type: 3}
+  m_PrefabInstance: {fileID: 3903515525334510117}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4378149882887888482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -601,6 +605,10 @@ PrefabInstance:
     - target: {fileID: 5412020897721624174, guid: b88c7b332d814d84392f9a5a0f98036e, type: 3}
       propertyPath: m_Name
       value: DamageReceivedLabel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6609734715684259683, guid: b88c7b332d814d84392f9a5a0f98036e, type: 3}
+      propertyPath: m_text
+      value: 'Damage received:'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b88c7b332d814d84392f9a5a0f98036e, type: 3}

@@ -1,14 +1,15 @@
 using MARDEK.Audio;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class MusicPlayer : MonoBehaviour
     {
         [SerializeField] Music emptyMusic;
-        [SerializeField] Text currentPlayTimeText;
-        [SerializeField] Text currentMusicText;
+        [SerializeField] TextMeshProUGUI currentPlayTimeText;
+        [SerializeField] TextMeshProUGUI currentMusicText;
         [SerializeField] Image progressBar;
         [SerializeField] Button pausePlayButton;
         [SerializeField] Image playIcon;

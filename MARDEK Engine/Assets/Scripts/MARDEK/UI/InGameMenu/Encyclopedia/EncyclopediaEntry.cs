@@ -1,6 +1,7 @@
 using MARDEK.Progress;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -17,7 +18,7 @@ namespace MARDEK.UI
 
         [SerializeField] Image background;
         [SerializeField] Image icon;
-        [SerializeField] Text text;
+        [SerializeField] TextMeshProUGUI text;
 
         public EncyclopediaItem item { get; private set; }
         bool selected;

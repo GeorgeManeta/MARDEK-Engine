@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using MARDEK.Save;
 using System.IO;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -13,10 +14,10 @@ namespace MARDEK.UI
         [SerializeField] GameObject saveFileInfo;
 
         [SerializeField] List<Image> portraitImages;
-        [SerializeField] Text saveNameLabel;
-        [SerializeField] Text savedTimeLabel;
-        [SerializeField] Text sceneNameLabel;
-        [SerializeField] Text saveNumberLabel;
+        [SerializeField] TextMeshProUGUI saveNameLabel;
+        [SerializeField] TextMeshProUGUI savedTimeLabel;
+        [SerializeField] TextMeshProUGUI sceneNameLabel;
+        [SerializeField] TextMeshProUGUI saveNumberLabel;
 
         bool saveFileExists;
         string saveFileName = string.Empty;

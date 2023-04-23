@@ -2,6 +2,7 @@ using MARDEK.CharacterSystem;
 using MARDEK.Stats;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -22,7 +23,7 @@ namespace MARDEK.UI
         [SerializeField] IntegerStat resistanceStat;
         [SerializeField] Image icon;
         [SerializeField] Image background;
-        [SerializeField] Text text;
+        [SerializeField] TextMeshProUGUI text;
 
         public void SetCharacter(Character character)
         {
