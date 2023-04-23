@@ -49,8 +49,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4940970346514259339}
         m_TargetAssemblyTypeName: MARDEK.UI.SaveLoadMenu, MARDEK.UI
-        m_MethodName: EnableAsSaveMenu
-        m_Mode: 1
+        m_MethodName: EnableAsSaveOrLoad
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -236,8 +236,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4940970346514259339}
         m_TargetAssemblyTypeName: MARDEK.UI.SaveLoadMenu, MARDEK.UI
-        m_MethodName: EnableAsLoadMenu
-        m_Mode: 1
+        m_MethodName: EnableAsSaveOrLoad
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

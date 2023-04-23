@@ -7,6 +7,8 @@ namespace MARDEK.UI
 {
     public class SaveLoadMenu : MonoBehaviour
     {
+        public static bool IsSaveNotLoad { get; private set; } = false;
+
         [SerializeField] Text MenuTitle;
 
         [SerializeField] SaveFileBox lastSavedBox;
@@ -18,9 +20,12 @@ namespace MARDEK.UI
         void OnDisable()
         {
             PlayerLocks.UISystemLock -= 1;
+            ClearSaveBoxPages();
+        }
 
-            // Delete save file boxes dynamically
-            foreach(GameObject page in allSaveFilePages)
+        void ClearSaveBoxPages()
+        {
+            foreach (GameObject page in allSaveFilePages)
             {
                 while (page.transform.childCount > 0)
                 {
@@ -29,44 +34,33 @@ namespace MARDEK.UI
             }
         }
 
-        void CustomEnable(bool IsSaveMenu)
+        public void EnableAsSaveOrLoad(bool IsSaveMenu)
         {
-            PlayerLocks.UISystemLock += 1;
+            IsSaveNotLoad = IsSaveMenu;
+
+            if(IsSaveMenu)
+                MenuTitle.text = "Save";
+            else
+                MenuTitle.text = "Load";
+
             gameObject.SetActive(true);
+            PlayerLocks.UISystemLock += 1;
+            InstantiateSaveBoxOnPages();
+        }
 
-            // Update SaveWhenClick of last saved/last loaded boxes
-            // LastSavedAndLoadedPage takes care of setting info for those boxes
-            lastSavedBox.SaveWhenClick = IsSaveMenu;
-            lastLoadedBox.SaveWhenClick = IsSaveMenu;
-
-            // Update the pages of save file boxes after the last saved/last loaded page
+        void InstantiateSaveBoxOnPages()
+        {
             for (int pageI = 0; pageI < allSaveFilePages.Count; pageI++)
             {
-                // Load save file data - these save file boxes are created/destroyed when menu is opened/closed
-
                 for (int i = 0; i < 7; i++)
                 {
-                    // make new SaveFileBox prefab as child of allSaveFilePages[pageI]
                     GameObject newSaveBox = Instantiate(SaveFileBoxPrefab, allSaveFilePages[pageI].transform, true);
 
                     int saveNumber = pageI * 7 + i + 1;
                     SaveFileBox newSaveBoxScript = newSaveBox.GetComponent<SaveFileBox>();
                     newSaveBoxScript.SetSaveNumber(saveNumber.ToString());
-                    newSaveBoxScript.SaveWhenClick = IsSaveMenu;
                 }
-
             }
-        }
-
-        public void EnableAsSaveMenu()
-        {
-            MenuTitle.text = "Save";
-            CustomEnable(true);
-        }
-        public void EnableAsLoadMenu()
-        {
-            MenuTitle.text = "Load";
-            CustomEnable(false);
         }
     }
 }

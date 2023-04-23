@@ -2,14 +2,6 @@ using UnityEngine;
 
 namespace MARDEK.UI
 {
-    /*
-     * Unlike the other save file boxes, which are created/destroyed when the save/load menu opens/closes,
-     * the save file boxes on the first page of the save/load menu always exist
-     * but update their values every time the first page is set active.
-     * 
-     * This is so if the player saves to a save file and goes back to this page, the last saved/last loaded
-     * boxes will be updated.
-     */
     public class LastSavedAndLoadedPage : MonoBehaviour
     {
         [SerializeField] SaveFileBox lastSavedBox;
@@ -18,35 +10,23 @@ namespace MARDEK.UI
         void OnEnable()
         {
             string lastSavedFile = PlayerPrefs.GetString("lastSavedFile", string.Empty);
-            if (lastSavedFile.Length > 0)
-            {
-                // if lastSavedFile is "MARDEK_save_15", lastLoadedNumber is "15"
-                string lastSavedNumber = lastSavedFile.Substring(
-                    lastSavedFile.LastIndexOf("_") + 1);
-
-                lastSavedBox.SetSaveNumber(lastSavedNumber);
-            }
-            else
-            {
-                lastSavedBox.SetSaveExists(false);
-            }
-
-
+            SetSaveNumberOfSaveBoxBySaveFileString(lastSavedBox, lastSavedFile);
 
             string lastLoadedFile = PlayerPrefs.GetString("lastLoadedFile", string.Empty);
-            if (lastLoadedFile.Length > 0)
-            {
-                // if lastLoadedFile is "MARDEK_save_15", lastLoadedNumber is "15"
-                string lastLoadedNumber = lastLoadedFile.Substring(
-                    lastLoadedFile.LastIndexOf("_") + 1);
+            SetSaveNumberOfSaveBoxBySaveFileString(lastLoadedBox, lastLoadedFile);
+        }
 
-                lastLoadedBox.SetSaveNumber(lastLoadedNumber);
-            }
+        void SetSaveNumberOfSaveBoxBySaveFileString(SaveFileBox saveBox, string saveFile)
+        {
+            if (string.IsNullOrEmpty(saveFile))
+                saveBox.SetSaveExists(false);
             else
             {
-                lastLoadedBox.SetSaveExists(false);
+                string saveFileIndex = saveFile.Substring(saveFile.LastIndexOf("_") + 1);
+                saveBox.SetSaveNumber(saveFileIndex);
             }
         }
+
     }
 }
 

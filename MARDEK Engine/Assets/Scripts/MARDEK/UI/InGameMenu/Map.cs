@@ -83,7 +83,6 @@ namespace MARDEK.UI
 
             Tilemap tilemap = null;
             List<Collider2D> otherColliders = new List<Collider2D>();
-            SceneInfo sceneInfo = null;
 
             foreach (GameObject gameObject in activeScene.GetRootGameObjects()) {
                 if (gameObject.name.Equals("Grid")) {
@@ -95,18 +94,10 @@ namespace MARDEK.UI
                         otherColliders.Add(collider);
                     }
                 }
-                if (sceneInfo == null) {
-                    sceneInfo = gameObject.GetComponent<SceneInfo>();
-                }
             }
 
-            if (sceneInfo == null)
-            {
-                Debug.LogWarning("Scene " + activeScene.name + " doesn't have a SceneInfo root component");
-                return;
-            }
-            this.activeSceneName.text = sceneInfo.displayName;
-            this.sceneID = sceneInfo.id;
+            activeSceneName.text = SceneInfo.CurrentSceneInfoDisplayName;
+            sceneID = SceneInfo.CurrentSceneInfoID;
 
             // Find the relevant part of the map (the smallest rectangle that contains all passable terrain and all chests, people, etc)
             int minX = 1000;

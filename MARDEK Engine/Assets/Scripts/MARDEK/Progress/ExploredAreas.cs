@@ -67,7 +67,7 @@ namespace MARDEK.Progress
             {
                 for (int y = playerY - discoverRadius; y <= playerY + discoverRadius; y++)
                 {
-                    MarkDiscovered(sceneInfo.id, x, y);
+                    MarkDiscovered(SceneInfo.CurrentSceneInfoID, x, y);
                 }
             }
         }

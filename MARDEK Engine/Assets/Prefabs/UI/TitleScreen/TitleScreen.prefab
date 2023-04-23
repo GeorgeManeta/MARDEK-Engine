@@ -16779,8 +16779,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4701764954810300458}
         m_TargetAssemblyTypeName: MARDEK.UI.SaveLoadMenu, MARDEK.UI
-        m_MethodName: EnableAsLoadMenu
-        m_Mode: 1
+        m_MethodName: EnableAsSaveOrLoad
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -23245,6 +23245,10 @@ PrefabInstance:
     - target: {fileID: 4811934735201344906, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
       propertyPath: m_Name
       value: GeneralProgressData
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688935292817615562, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
+      propertyPath: sceneInfo
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8688935292817615562, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
       propertyPath: saveOptions.autoSave
