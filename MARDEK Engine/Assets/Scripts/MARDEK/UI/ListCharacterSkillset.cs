@@ -4,13 +4,14 @@ using UnityEngine;
 using MARDEK.CharacterSystem;
 using MARDEK.Skill;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class ListCharacterSkillset : ListActions
     {
         Skillset skillsetToShow;
-        [SerializeField] Text skillsetNameLabel = null;
+        [SerializeField] TextMeshProUGUI skillsetNameLabel = null;
         [SerializeField] Image skillsetIcon = null; 
         [SerializeField] List<Skillset> possibleSkillsets;
 
