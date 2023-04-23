@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hero Deugan
   m_EditorClassIdentifier: 
   <displayName>k__BackingField: Deugan
+  <displayClass>k__BackingField: Hero
   <WalkSprites>k__BackingField: {fileID: 11400000, guid: a021fb592bdaa2c4a9a3a368a58456ae, type: 2}
   <ActionSkillset>k__BackingField: {fileID: 11400000, guid: 97d3ee5c53530fc4082df7991eda06e4, type: 2}
   <StartingStats>k__BackingField:
@@ -27,6 +28,6 @@ MonoBehaviour:
       _value: 12
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
       _value: 15
-    floatStats: []
+  <element>k__BackingField: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
   MaxHPExpressionOveride: {fileID: 0}
   MaxMPExpressionOveride: {fileID: 0}

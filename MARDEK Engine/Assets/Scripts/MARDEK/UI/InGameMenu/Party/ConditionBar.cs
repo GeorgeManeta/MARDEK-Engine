@@ -27,7 +27,7 @@ namespace MARDEK.UI
 
             if (float.IsFinite(currentFraction) == false)
                 return;
-            this.background.transform.localScale = new Vector2(currentFraction, 1f);
+            this.background.transform.localScale = new Vector3(currentFraction, 1f, 1f);
             this.background.color = this.backgroundColors[colorIndex];
             this.currentValue.color = this.textColors[colorIndex];
             this.maxValue.color = this.textColors[colorIndex];

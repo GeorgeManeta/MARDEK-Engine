@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 685, y: 0}
+  m_AnchoredPosition: {x: 665, y: 0}
   m_SizeDelta: {x: 290, y: 75}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &4278058762702780664
@@ -69,7 +69,7 @@ MonoBehaviour:
   m_text: Royal Knight
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e5a1305a02d3244daec74333a5e3ea0, type: 2}
-  m_sharedMaterial: {fileID: 34239865603532732, guid: 1e5a1305a02d3244daec74333a5e3ea0, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: c5dfa332ce6299e4da40873115ab39d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -753,7 +753,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 520, y: 0}
+  m_AnchoredPosition: {x: 530, y: 0}
   m_SizeDelta: {x: 145, y: 75}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &5582290355631100477
@@ -787,7 +787,7 @@ MonoBehaviour:
   m_text: Lv 500
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e5a1305a02d3244daec74333a5e3ea0, type: 2}
-  m_sharedMaterial: {fileID: 34239865603532732, guid: 1e5a1305a02d3244daec74333a5e3ea0, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: c5dfa332ce6299e4da40873115ab39d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -817,7 +817,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1054,17 +1054,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0%
+  m_text: 99%
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fe3409624909d4241a6adefa6f6b8d29, type: 2}
-  m_sharedMaterial: {fileID: -2826511421195677910, guid: fe3409624909d4241a6adefa6f6b8d29, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 7f5436582e1bbe84e8d3c6eb15283236, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284276221
-  m_fontColor: {r: 0.99215686, g: 0.8666667, b: 0.36078432, a: 1}
+    rgba: 4290898168
+  m_fontColor: {r: 0.972549, g: 0.9098039, b: 0.75686276, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1192,7 +1192,7 @@ MonoBehaviour:
   m_text: Mereador
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e5a1305a02d3244daec74333a5e3ea0, type: 2}
-  m_sharedMaterial: {fileID: 34239865603532732, guid: 1e5a1305a02d3244daec74333a5e3ea0, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: c5dfa332ce6299e4da40873115ab39d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1222,7 +1222,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1459,15 +1459,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[0].b
-      value: 0.39607844
+      value: 0.4575472
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[0].g
-      value: 0.39607844
+      value: 0.4575472
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[0].r
-      value: 0.99607843
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[1].a
@@ -1475,15 +1475,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[1].b
-      value: 0.22352941
+      value: 0.3726415
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[1].g
-      value: 0.9019608
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[1].r
-      value: 0.8117647
+      value: 0.9165939
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[2].a
@@ -1491,15 +1491,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[2].b
-      value: 0.21960784
+      value: 0.36320752
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[2].g
-      value: 0.90588236
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[2].r
-      value: 0.5019608
+      value: 0.62520224
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: backgroundColors.Array.size
@@ -1704,15 +1704,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[0].b
-      value: 0.99607843
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[0].g
-      value: 0.96862745
+      value: 0.98145497
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: textColors.Array.data[0].r
-      value: 0.13725491
+      value: 0.4198113
       objectReference: {fileID: 0}
     - target: {fileID: 3626187735152395375, guid: d6900ca3ecb88354baae7e43f60fe8c6, type: 3}
       propertyPath: backgroundColors.Array.size

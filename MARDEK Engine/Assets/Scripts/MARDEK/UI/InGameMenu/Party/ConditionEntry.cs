@@ -31,10 +31,10 @@ namespace MARDEK.UI
             if (character == null || character.Profile == null)
                 return;
             // TODO Portrait
-            // TODO Element
+            elementImage.sprite = character.Profile.element.thickSprite;
             nameText.text = character.Profile.displayName;
             levelText.text = "Lv " + character.GetStat(levelStat);
-            // TODO Class
+            classText.text = character.Profile.displayClass;
             hpBar.SetValues(character.GetStat(currentHpStat), character.GetStat(maxHpStat));
             mpBar.SetValues(character.GetStat(currentMpStat), character.GetStat(maxMpStat));
             // TODO Update XP bar

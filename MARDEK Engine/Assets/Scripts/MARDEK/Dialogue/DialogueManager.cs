@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using MARDEK.CharacterSystem;
 using TMPro;
+using MARDEK.Stats;
 
 namespace MARDEK.DialogueSystem
 {
@@ -30,6 +31,7 @@ namespace MARDEK.DialogueSystem
         [SerializeField] GameObject canvas = null;
         [SerializeField] TextMeshProUGUI dialogueText = null;
         [SerializeField] TextMeshProUGUI characterNameText = null;
+        [SerializeField] Image characterElementImage = null;
         [SerializeField] float dialogueSpeed = 5;
 
         Dialogue dialogue;
@@ -150,6 +152,17 @@ namespace MARDEK.DialogueSystem
                 if (characterBio != null)
                 {
                     characterNameText.text = characterBio.displayName;
+
+                    if (characterBio.element != null)
+                    {
+                        characterElementImage.enabled = true;
+                        characterElementImage.sprite = characterBio.element.thinSprite;
+                    }
+                    else
+                    {
+                        characterElementImage.enabled = false;
+                    }
+
                     return;
                 }
             }
