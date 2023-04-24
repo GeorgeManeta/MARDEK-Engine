@@ -54,7 +54,7 @@ namespace MARDEK.UI
             {
                 for (int i = 0; i < 7; i++)
                 {
-                    GameObject newSaveBox = Instantiate(SaveFileBoxPrefab, allSaveFilePages[pageI].transform, false);
+                    GameObject newSaveBox = Instantiate(SaveFileBoxPrefab, allSaveFilePages[pageI].transform);
 
                     int saveNumber = pageI * 7 + i + 1;
                     SaveFileBox newSaveBoxScript = newSaveBox.GetComponent<SaveFileBox>();
