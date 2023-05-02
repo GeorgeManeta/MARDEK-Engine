@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class FramerateCapOption : MonoBehaviour
     {
         const string framerateCapPlayerPrefsKey = "framerateCap";
-        [SerializeField] Text frameRateCapValueLabel = null;
+        [SerializeField] TextMeshProUGUI frameRateCapValueLabel = null;
         [SerializeField] Slider slider = null;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]

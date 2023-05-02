@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -22,7 +23,7 @@ namespace MARDEK.UI
         static readonly Color DOOR_COLOR = new Color(1f, 1f, 1f);
         static readonly Color PLAYER_COLOR = new Color(0.8f, 0.1f, 0.7f);
 
-        [SerializeField] Text activeSceneName;
+        [SerializeField] TextMeshProUGUI activeSceneName;
         [SerializeField] Image mapImage;
         [SerializeField] ExploredAreas exploredAreas;
 
@@ -83,7 +84,6 @@ namespace MARDEK.UI
 
             Tilemap tilemap = null;
             List<Collider2D> otherColliders = new List<Collider2D>();
-            SceneInfo sceneInfo = null;
 
             foreach (GameObject gameObject in activeScene.GetRootGameObjects()) {
                 if (gameObject.name.Equals("Grid")) {
@@ -95,18 +95,10 @@ namespace MARDEK.UI
                         otherColliders.Add(collider);
                     }
                 }
-                if (sceneInfo == null) {
-                    sceneInfo = gameObject.GetComponent<SceneInfo>();
-                }
             }
 
-            if (sceneInfo == null)
-            {
-                Debug.LogWarning("Scene " + activeScene.name + " doesn't have a SceneInfo root component");
-                return;
-            }
-            this.activeSceneName.text = sceneInfo.displayName;
-            this.sceneID = sceneInfo.id;
+            activeSceneName.text = SceneInfo.CurrentSceneInfoDisplayName;
+            sceneID = SceneInfo.CurrentSceneInfoID;
 
             // Find the relevant part of the map (the smallest rectangle that contains all passable terrain and all chests, people, etc)
             int minX = 1000;

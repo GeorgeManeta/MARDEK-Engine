@@ -68,7 +68,12 @@ namespace MARDEK.Save
         }
         public virtual void Load()
         {
-            SaveSystem.LoadObject(this);
+            SaveSystem.LoadObject(this, null);
+        }
+
+        public virtual void Load(SaveState saveState)
+        {
+            SaveSystem.LoadObject(this, saveState);
         }
 
         [ContextMenu("Save")]

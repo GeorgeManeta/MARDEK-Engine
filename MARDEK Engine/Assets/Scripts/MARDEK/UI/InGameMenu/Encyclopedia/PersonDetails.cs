@@ -1,24 +1,25 @@
 using MARDEK.Progress;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class PersonDetails : MonoBehaviour
     {
         [SerializeField] Image elementIcon;
-        [SerializeField] Text fullNameText;
-        [SerializeField] Text descriptionText;
+        [SerializeField] TextMeshProUGUI fullNameText;
+        [SerializeField] TextMeshProUGUI descriptionText;
 
         [SerializeField] Image portrait;
-        [SerializeField] Text raceValue;
-        [SerializeField] Text genderValue;
-        [SerializeField] Text ageValue;
-        [SerializeField] Text classValue;
-        [SerializeField] Text elementValue;
-        [SerializeField] Text placeOfOriginValue;
-        [SerializeField] Text weaponValue;
-        [SerializeField] Text alignmentValue;
+        [SerializeField] TextMeshProUGUI raceValue;
+        [SerializeField] TextMeshProUGUI genderValue;
+        [SerializeField] TextMeshProUGUI ageValue;
+        [SerializeField] TextMeshProUGUI classValue;
+        [SerializeField] TextMeshProUGUI elementValue;
+        [SerializeField] TextMeshProUGUI placeOfOriginValue;
+        [SerializeField] TextMeshProUGUI weaponValue;
+        [SerializeField] TextMeshProUGUI alignmentValue;
 
         public void SetPerson(EncyclopediaPerson person)
         {

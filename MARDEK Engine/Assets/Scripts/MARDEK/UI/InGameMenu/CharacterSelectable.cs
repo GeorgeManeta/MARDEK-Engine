@@ -4,13 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using MARDEK.CharacterSystem;
 using UnityEngine.Serialization;
+using TMPro;
 
 namespace MARDEK.UI
 {
     using Progress;
     public class CharacterSelectable : SelectableWithCurrentSelected<CharacterSelectable>
     {
-        [SerializeField] Text characterNameText;
+        [SerializeField] TextMeshProUGUI characterNameText;
         [SerializeField] GameObject wrapper;
         public Character Character { 
             get

@@ -1,14 +1,15 @@
 using MARDEK.Progress;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class ArtefactDetails : MonoBehaviour
     {
-        [SerializeField] Text title;
+        [SerializeField] TextMeshProUGUI title;
         [SerializeField] Image image;
-        [SerializeField] Text description;
+        [SerializeField] TextMeshProUGUI description;
 
         public void SetArtefact(EncyclopediaArtefact artefact)
         {

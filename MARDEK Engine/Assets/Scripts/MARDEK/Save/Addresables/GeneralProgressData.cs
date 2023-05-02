@@ -1,21 +1,19 @@
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using FullSerializer;
+
+using MARDEK.Core;
 
 namespace MARDEK.Save
 {
     public class GeneralProgressData : AddressableMonoBehaviour
     {
-        public static GeneralProgressData instance { get; private set; }
 
-        [SerializeField] string currentScene = default;
+        [SerializeField] public string currentScene = default;
         [SerializeField] string _gameName = string.Empty;
-        
-        override protected void Awake()
-        {
-            base.Awake();
-            instance = this;
-        }
+        [SerializeField] public string sceneName { get; private set; } = string.Empty;
+        [SerializeField] public DateTime savedTime { get; private set; } = new DateTime();
         
         public string GameName
         {
@@ -30,10 +28,15 @@ namespace MARDEK.Save
                 return;
             }
         }
-        
+
         public override void Save()
         {
-            currentScene = SceneManager.GetActiveScene().path;
+            Scene scene = SceneManager.GetActiveScene();
+            currentScene = scene.path;
+
+            sceneName = SceneInfo.CurrentSceneInfoDisplayName;
+            savedTime = DateTime.Now;
+
             base.Save();
         }
 

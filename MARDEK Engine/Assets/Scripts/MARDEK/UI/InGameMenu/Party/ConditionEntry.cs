@@ -2,6 +2,7 @@ using MARDEK.CharacterSystem;
 using MARDEK.Stats;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -10,14 +11,14 @@ namespace MARDEK.UI
         [SerializeField] Image portraitImage;
         [SerializeField] Image elementImage;
 
-        [SerializeField] Text nameText;
-        [SerializeField] Text levelText;
-        [SerializeField] Text classText;
+        [SerializeField] TextMeshProUGUI nameText;
+        [SerializeField] TextMeshProUGUI levelText;
+        [SerializeField] TextMeshProUGUI classText;
 
         [SerializeField] ConditionBar hpBar;
         [SerializeField] ConditionBar mpBar;
         [SerializeField] Image xpProgressBar;
-        [SerializeField] Text xpText;
+        [SerializeField] TextMeshProUGUI xpText;
 
         [SerializeField] IntegerStat levelStat;
         [SerializeField] IntegerStat currentHpStat;
@@ -30,10 +31,10 @@ namespace MARDEK.UI
             if (character == null || character.Profile == null)
                 return;
             // TODO Portrait
-            // TODO Element
+            elementImage.sprite = character.Profile.element.thickSprite;
             nameText.text = character.Profile.displayName;
             levelText.text = "Lv " + character.GetStat(levelStat);
-            // TODO Class
+            classText.text = character.Profile.displayClass;
             hpBar.SetValues(character.GetStat(currentHpStat), character.GetStat(maxHpStat));
             mpBar.SetValues(character.GetStat(currentMpStat), character.GetStat(maxMpStat));
             // TODO Update XP bar

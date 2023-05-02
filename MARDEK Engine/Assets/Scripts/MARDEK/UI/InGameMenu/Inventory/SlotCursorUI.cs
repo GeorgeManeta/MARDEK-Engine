@@ -1,13 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class SlotCursorUI : MonoBehaviour
     {
         [SerializeField] Image itemImage;
-        [SerializeField] Text amountText;
+        [SerializeField] TextMeshProUGUI amountText;
         [SerializeField] Sprite transparentSprite;
 
         void Update()

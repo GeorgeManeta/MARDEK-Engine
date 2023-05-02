@@ -1,18 +1,18 @@
 using MARDEK.CharacterSystem;
 using MARDEK.Stats;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
     public class Performance1Entry : MonoBehaviour, PartyEntry
     {
-        [SerializeField] Text battleCount;
-        [SerializeField] Text killCount;
-        [SerializeField] Text koCount;
-        [SerializeField] Text meleeCount;
-        [SerializeField] Text magicCount;
-        [SerializeField] Text itemCount;
+        [SerializeField] TextMeshProUGUI battleCount;
+        [SerializeField] TextMeshProUGUI killCount;
+        [SerializeField] TextMeshProUGUI koCount;
+        [SerializeField] TextMeshProUGUI meleeCount;
+        [SerializeField] TextMeshProUGUI magicCount;
+        [SerializeField] TextMeshProUGUI itemCount;
 
         [SerializeField] IntegerStat battleCountStat;
         [SerializeField] IntegerStat killCountStat;
@@ -31,7 +31,7 @@ namespace MARDEK.UI
             UpdateStat(character, itemCountStat, itemCount);
         }
 
-        private void UpdateStat(Character character, IntegerStat stat, Text text)
+        private void UpdateStat(Character character, IntegerStat stat, TextMeshProUGUI text)
         {
             if (stat != null) text.text = character.GetStat(stat).ToString();
         }

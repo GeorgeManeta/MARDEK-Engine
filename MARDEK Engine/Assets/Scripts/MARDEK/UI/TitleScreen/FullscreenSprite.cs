@@ -48,6 +48,7 @@ public class FullscreenSprite : MonoBehaviour {
 
         float scale = Mathf.Max(cameraAspect / hardAspect, 1f);
 
-        transform.localScale = new Vector2(scale, scale);
+        // Use Vector3 with z=1, instead of Vector2, because otherwise background doesn't show up when canvas has Pixel Perfect on
+        transform.localScale = new Vector3(scale, scale, 1);
     }
 }

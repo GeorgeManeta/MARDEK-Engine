@@ -27,6 +27,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9133270621405283140}
   - {fileID: 1577727466796482268}
@@ -154,6 +155,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2268718472343682786, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
+      propertyPath: m_text
+      value: Music Volume (100%)
+      objectReference: {fileID: 0}
     - target: {fileID: 3735211743020686898, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
       propertyPath: m_Name
       value: AudioGroupVolumeSlider (1)
@@ -184,6 +189,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9108112270605244206, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
       propertyPath: audioGroup
+      value: 
+      objectReference: {fileID: 4292416007131526640, guid: 1d639220ee8ccaf448ed840a6fa75147, type: 2}
+    - target: {fileID: 9108112270605244206, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
+      propertyPath: audioGroupVolume.audioGroup
       value: 
       objectReference: {fileID: 4292416007131526640, guid: 1d639220ee8ccaf448ed840a6fa75147, type: 2}
     m_RemovedComponents: []
@@ -284,6 +293,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2268718472343682786, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
+      propertyPath: m_text
+      value: Sound Effects Volume (100%)
+      objectReference: {fileID: 0}
     - target: {fileID: 3735211743020686898, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
       propertyPath: m_Name
       value: AudioGroupVolumeSlider (2)
@@ -314,6 +327,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9108112270605244206, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
       propertyPath: audioGroup
+      value: 
+      objectReference: {fileID: 4253808412046528104, guid: 1d639220ee8ccaf448ed840a6fa75147, type: 2}
+    - target: {fileID: 9108112270605244206, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
+      propertyPath: audioGroupVolume.audioGroup
       value: 
       objectReference: {fileID: 4253808412046528104, guid: 1d639220ee8ccaf448ed840a6fa75147, type: 2}
     m_RemovedComponents: []
@@ -438,6 +455,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9108112270605244206, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
+      propertyPath: audioGroupVolume.audioGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 1d639220ee8ccaf448ed840a6fa75147, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb0049adf8f97e740bc3b6b867b9a6c5, type: 3}
 --- !u!224 &9133270621405283140 stripped

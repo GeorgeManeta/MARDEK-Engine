@@ -2,6 +2,7 @@ using MARDEK.CharacterSystem;
 using MARDEK.Stats;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace MARDEK.UI
 {
@@ -9,19 +10,19 @@ namespace MARDEK.UI
     {
         [SerializeField] Image portraitImage;
 
-        [SerializeField] Text attackValue;
-        [SerializeField] Text defValue;
-        [SerializeField] Text mdefValue;
+        [SerializeField] TextMeshProUGUI attackValue;
+        [SerializeField] TextMeshProUGUI defValue;
+        [SerializeField] TextMeshProUGUI mdefValue;
 
-        [SerializeField] Text strValue;
-        [SerializeField] Text vitValue;
-        [SerializeField] Text sprValue;
-        [SerializeField] Text aglValue;
+        [SerializeField] TextMeshProUGUI strValue;
+        [SerializeField] TextMeshProUGUI vitValue;
+        [SerializeField] TextMeshProUGUI sprValue;
+        [SerializeField] TextMeshProUGUI aglValue;
 
-        [SerializeField] Text strBonus;
-        [SerializeField] Text vitBonus;
-        [SerializeField] Text sprBonus;
-        [SerializeField] Text aglBonus;
+        [SerializeField] TextMeshProUGUI strBonus;
+        [SerializeField] TextMeshProUGUI vitBonus;
+        [SerializeField] TextMeshProUGUI sprBonus;
+        [SerializeField] TextMeshProUGUI aglBonus;
 
         [SerializeField] IntegerStat attackStat;
         [SerializeField] IntegerStat defStat;

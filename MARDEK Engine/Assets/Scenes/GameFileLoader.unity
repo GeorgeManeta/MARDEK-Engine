@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GeneralProgressData
       objectReference: {fileID: 0}
+    - target: {fileID: 4811934735201344906, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8688935292817615562, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
       propertyPath: saveOptions.autoSave
       value: 0
@@ -428,20 +432,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1236152497}
-        m_TargetAssemblyTypeName: MURP.SaveSystem.SaveSystem, MURP.SaveSystem
-        m_MethodName: LoadFromFile
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: quicksave
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1392470753}
-        m_TargetAssemblyTypeName: MURP.SaveSystem.AddressableMonoBehaviour, MURP.SaveSystem
-        m_MethodName: Load
+        m_TargetAssemblyTypeName: MARDEK.Save.SaveSystem, MARDEK.Save
+        m_MethodName: LoadCurrentSaveFileNameIntoInternalSaveState
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -665,6 +657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MapParty
       objectReference: {fileID: 0}
+    - target: {fileID: 2859971442608448863, guid: e83dd42baf92c0b4baa2292b12e6e423, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4872008754745725967, guid: e83dd42baf92c0b4baa2292b12e6e423, type: 3}
       propertyPath: saveOptions.saveOnDisable
       value: 0
@@ -781,8 +777,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Loading game...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1e5a1305a02d3244daec74333a5e3ea0, type: 2}
+  m_sharedMaterial: {fileID: 34239865603532732, guid: 1e5a1305a02d3244daec74333a5e3ea0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
