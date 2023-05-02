@@ -414,6 +414,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 981872588581803882}
     m_Modifications:
     - target: {fileID: 3338939999481485540, guid: 06edf4f702630404da735584c188f8fb, type: 3}
+      propertyPath: m_text
+      value: Name
+      objectReference: {fileID: 0}
+    - target: {fileID: 3338939999481485540, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
       objectReference: {fileID: 0}
@@ -687,6 +691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45db637564cddb84ebdac0e72926d64e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  basePanel: {fileID: 654981169262684974}
 --- !u!224 &7662517753504627427 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4948326371249647573, guid: df1bcd03d4d40b1498eec39ab94ab726, type: 3}
@@ -789,6 +794,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}
+--- !u!1 &654981169262684974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839551628258381453, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}
+  m_PrefabInstance: {fileID: 6339944646683256227}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &981872588581803882 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6511164897813689033, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}

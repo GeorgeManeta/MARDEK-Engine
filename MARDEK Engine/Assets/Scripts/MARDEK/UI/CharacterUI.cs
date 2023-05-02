@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using MARDEK.CharacterSystem;
+using UnityEngine.EventSystems;
 
 namespace MARDEK.UI
 {
-    public class CharacterUI : MonoBehaviour
+    public class CharacterUI : MonoBehaviour, IPointerClickHandler
     {
         public Character character { get; private set; }
+        [SerializeField] GameObject basePanel;
 
         private void Awake()
         {
@@ -17,7 +19,14 @@ namespace MARDEK.UI
 
         public void AssignCharacter(Character c)
         {
+            if (c == null)
+                basePanel.SetActive(false);
             character = c;
+        }
+
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            BattleUIManager.Instance.InspectCharacter(character);
         }
     }
 }

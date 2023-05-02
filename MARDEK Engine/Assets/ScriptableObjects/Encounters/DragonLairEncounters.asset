@@ -25,10 +25,12 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
-        _currentHP: -1138
+        _level: 1
+        _exp: 0
+        _currentHP: -1
         _currentMP: -1
-      minLevel: 1
-      maxLevel: 1
+      minLevel: 30
+      maxLevel: 36
   - encounterWeight: 1
     encounterEnemies:
     - enemy:
@@ -41,10 +43,12 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
+        _level: 1
+        _exp: 0
         _currentHP: -1
         _currentMP: -1
-      minLevel: 1
-      maxLevel: 1
+      minLevel: 30
+      maxLevel: 36
     - enemy:
         isRequired: 0
         <Profile>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
@@ -55,10 +59,12 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
+        _level: 1
+        _exp: 0
         _currentHP: -1
         _currentMP: -1
-      minLevel: 1
-      maxLevel: 1
+      minLevel: 30
+      maxLevel: 36
   - encounterWeight: 1
     encounterEnemies:
     - enemy:
@@ -71,10 +77,12 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
-        _currentHP: -1578
+        _level: 1
+        _exp: 0
+        _currentHP: -1
         _currentMP: -1
-      minLevel: 1
-      maxLevel: 1
+      minLevel: 30
+      maxLevel: 36
     - enemy:
         isRequired: 0
         <Profile>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
@@ -85,10 +93,12 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
-        _currentHP: -1138
+        _level: 1
+        _exp: 0
+        _currentHP: -1
         _currentMP: -1
-      minLevel: 1
-      maxLevel: 1
+      minLevel: 30
+      maxLevel: 36
     - enemy:
         isRequired: 0
         <Profile>k__BackingField: {fileID: 11400000, guid: a5ffa13b48131f34481c948e163e06bd, type: 2}
@@ -99,7 +109,9 @@ MonoBehaviour:
         <SkillSlots>k__BackingField: []
         volatileStats:
           intStats: []
-        _currentHP: -1138
+        _level: 1
+        _exp: 0
+        _currentHP: -1
         _currentMP: -1
-      minLevel: 1
-      maxLevel: 1
+      minLevel: 30
+      maxLevel: 36

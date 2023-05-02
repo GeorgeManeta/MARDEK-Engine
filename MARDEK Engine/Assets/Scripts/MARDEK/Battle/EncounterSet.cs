@@ -33,8 +33,8 @@ namespace MARDEK.Battle
             var chosenEncounter = ChooseEncounter();
             foreach(var enemyEntry in chosenEncounter.encounterEnemies)
             {
-                var enemy = enemyEntry.enemy.Clone();
                 var enemyLevel = Random.Range(enemyEntry.minLevel, enemyEntry.maxLevel + 1);
+                var enemy = enemyEntry.enemy.Clone(enemyLevel);
                 enemies.Add(enemy);
             }
             return enemies;
