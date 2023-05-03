@@ -14,25 +14,47 @@ namespace MARDEK.UI
         [SerializeField] TMPro.TMP_Text statText;
         [SerializeField] TMPro.TMP_Text maxStatText;
 
-        private void Update()
+        int lastUpdatedFrame = -1;
+        bool needUpdate
         {
-            // TODO: only update when the character stats change
+            get
+            {
+                if (characterUI.character == null)
+                    return false;
+                return characterUI.character.LastStatModificationFrame > lastUpdatedFrame;
+            }
+        }
+
+        private void OnEnable()
+        {
             UpdateBar();
+        }
+
+        private void LateUpdate()
+        {
+            if (needUpdate)
+                UpdateBar();
         }
 
         [ContextMenu("Update Bar")]
         void UpdateBar()
         {
+            if (characterUI.character == null)
+                return;
+
             var statValue = (float)characterUI.character.GetStat(stat);
-            if (statText) statText.text = statValue.ToString();
             var maxStatValue = (float)characterUI.character.GetStat(maxStat);
-            if (maxStatText) maxStatText.text = maxStatValue.ToString();
+            if (statText)
+                statText.text = statValue.ToString();
+            if (maxStatText) 
+                maxStatText.text = maxStatValue.ToString();
             if (barTransform)
             {
                 float xScale = Mathf.Clamp(statValue / maxStatValue , 0f, 1f);
                 if(float.IsFinite(xScale))
                     barTransform.localScale = new Vector3(xScale, 1, 1);
             }
+            lastUpdatedFrame = Time.frameCount;
         }
     }
 }

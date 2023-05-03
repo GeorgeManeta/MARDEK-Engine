@@ -105,6 +105,8 @@ namespace MARDEK.Stats
                 return new OpenParenthesisToken();
             if (lexicalPart == ")")
                 return new CloseParenthesisToken();
+            if (lexicalPart == "max")
+                return new MaxToken();
             foreach (var customToken in customTokens)
                 if (lexicalPart == customToken.ID)
                     return new StatToken(customToken.stat, customToken.userOrTarget);

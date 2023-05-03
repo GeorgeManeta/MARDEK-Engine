@@ -15,7 +15,7 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; } = new List<SkillSlot>();
         [Header("Stats")]
         [SerializeField] StatsSet volatileStats = new StatsSet(true);
-
+        public int LastStatModificationFrame { get; private set; } = -1;
 
         [SerializeField] int _level = 1;
         [SerializeField] int _exp = 0;
@@ -116,6 +116,8 @@ namespace MARDEK.CharacterSystem
         }
         public void ModifyStat(IntegerStat stat, int delta)
         {
+            Debug.Log($"Modify stat {stat.name} by {delta}");
+            LastStatModificationFrame = Time.frameCount;
             if (stat == StatsGlobals.Instance.Level)
                 _level += delta;
             else if (stat == StatsGlobals.Instance.Experience)

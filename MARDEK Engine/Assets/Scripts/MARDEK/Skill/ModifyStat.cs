@@ -12,8 +12,8 @@ namespace MARDEK.Skill
         public override void Apply(IStats user, IStats target)
         {
             var value = -valueExpresion.Evaluate(user, target);
+            //Debug.Log($"Modifying {targetStat} by {value}");
             target.ModifyStat(targetStat, (int)value);
-            Debug.Log($"Stat {targetStat} modified by {value}");
         }
     }
 }

@@ -12,6 +12,7 @@ namespace MARDEK.Battle
     public class BattleManager : MonoBehaviour
     {
         const float actResolution = 1000;
+
         public static EncounterSet encounter { private get; set; }
         [SerializeField] IntegerStat ACTStat = null;
         [SerializeField] IntegerStat AGLStat = null;
@@ -33,23 +34,7 @@ namespace MARDEK.Battle
         }
         private void Update()
         {
-            for(int i = EnemyCharacters.Count - 1; i >= 0; i--)
-            {
-                var enemy = EnemyCharacters[i];
-                var health = enemy.GetStat(StatsGlobals.Instance.CurrentHP);
-                if (health <= 0)
-                    EnemyCharacters.Remove(enemy);
-            }
-
-            var victory = EnemyCharacters.Count == 0;
-            if (victory)
-            {
-                print("victory!!");
-                OnVictory.Invoke();
-                enabled = false;
-                return;
-            }
-
+            CheckVictory();
             if (characterActing == null)
             {
                 characterActing = StepActCycleTryGetNextCharacter();
@@ -131,6 +116,25 @@ namespace MARDEK.Battle
         {
             characterActing = null;
             characterActionUI.SetActive(false);
+        }
+    
+        void CheckVictory()
+        {
+            for (int i = EnemyCharacters.Count - 1; i >= 0; i--)
+            {
+                var enemy = EnemyCharacters[i];
+                var health = enemy.GetStat(StatsGlobals.Instance.CurrentHP);
+                if (health <= 0)
+                    EnemyCharacters.Remove(enemy);
+            }
+
+            var victory = EnemyCharacters.Count == 0;
+            if (victory)
+            {
+                print("victory!!");
+                OnVictory.Invoke();
+                enabled = false;
+            }
         }
     }
 }

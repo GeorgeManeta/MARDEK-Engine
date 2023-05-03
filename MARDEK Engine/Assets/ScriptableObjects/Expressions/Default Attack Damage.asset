@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b9b7a51fb7f61143b28facc8b1acbc5, type: 3}
   m_Name: Default Attack Damage
   m_EditorClassIdentifier: 
-  expression: ( atk - def ) * str * ( level + 5 ) / 50
+  expression: 0 max ( atk - def ) * str * ( level + 5 ) / 50
   customTokens:
   - ID: atk
     stat: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
