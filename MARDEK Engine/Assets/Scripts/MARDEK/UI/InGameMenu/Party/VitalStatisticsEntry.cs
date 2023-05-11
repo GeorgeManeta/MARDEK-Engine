@@ -8,8 +8,6 @@ namespace MARDEK.UI
 {
     public class VitalStatisticsEntry : MonoBehaviour, PartyEntry
     {
-        [SerializeField] Image portraitImage;
-
         [SerializeField] TextMeshProUGUI attackValue;
         [SerializeField] TextMeshProUGUI defValue;
         [SerializeField] TextMeshProUGUI mdefValue;

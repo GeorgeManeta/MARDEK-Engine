@@ -8,6 +8,7 @@ namespace MARDEK.UI
     using Progress;
     public class PartyUI : MonoBehaviour
     {
+        [SerializeField] List<PortraitBoxEntry> portraitBoxEntries;
         [SerializeField] List<ConditionEntry> conditionEntries;
         [SerializeField] List<VitalStatisticsEntry> vitalStatisticsEntries;
         [SerializeField] List<ResistancesEntry> elementalResistancesEntries;
@@ -19,6 +20,7 @@ namespace MARDEK.UI
         void OnEnable()
         {
             List<PartyEntry>[] entriesList = new List<PartyEntry>[]{
+                portraitBoxEntries.Cast<PartyEntry>().ToList(),
                 conditionEntries.Cast<PartyEntry>().ToList(),
                 vitalStatisticsEntries.Cast<PartyEntry>().ToList(),
                 elementalResistancesEntries.Cast<PartyEntry>().ToList(),

@@ -1,0 +1,341 @@
+<item type="DefineSpriteTag" frameCount="112" hasEndTag="true" spriteId="1198">
+<subTags>
+<item type="SoundStreamHead2Tag" latencySeek="0" playBackSoundRate="3" playBackSoundSize="true" playBackSoundType="true" reserved="2" streamSoundCompression="0" streamSoundRate="0" streamSoundSampleCount="0" streamSoundSize="false" streamSoundType="false"/>
+<item type="DoActionTag" actionBytes="882c0006005f706172656e740073746174730068616972006661636500676f746f416e6453746f70005374756666008e0d00537475666600000004a9005d00960400040208004e96020008014e8701000317960400040308024e9d02002700960400040308034e9d02000d0096050007010000009902000800960400040308034e9902000800960400040308024e9609000701000000040108045217960b0006000000000000000008053d1700"/>
+<item type="PlaceObject2Tag" characterId="1119" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1120" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1121" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1122" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="2"/>
+<item type="PlaceObject2Tag" characterId="1123" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1124" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1125" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1126" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1127" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1128" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1129" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1130" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1131" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1132" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="bald" namedAnchor="false"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="DoActionTag" actionBytes="881d0004005f706172656e74007472616e73666f726d006d617472697800610096020008001c96020008004e96020008004e96020008014e96020008024e96020008034e96090006000000000000000048129d020001000400"/>
+<item type="FrameLabelTag" name="mardek" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1133" clipDepth="0" depth="4" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="PlaceObject2Tag" characterId="1134" clipDepth="0" depth="5" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1135" clipDepth="0" depth="5" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="4"/>
+<item type="RemoveObject2Tag" depth="5"/>
+<item type="FrameLabelTag" name="soldier" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1136" clipDepth="0" depth="3" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="3"/>
+<item type="FrameLabelTag" name="derek" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1137" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="socialfox" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1138" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="inventor" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1139" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="DoActionTag" actionBytes="960a000047616d6544617461001c9609000043484150544552004e96050007010000004912129d020001000400"/>
+<item type="FrameLabelTag" name="jacques" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1140" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1141" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="2"/>
+<item type="FrameLabelTag" name="bandit" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1142" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="bigbeard" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1143" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="miner" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1144" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="zombie" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1145" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="gallovar" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1146" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="solakian" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1147" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="solakianHP" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1148" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="mardek_hero" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1149" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="deugan_hero" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1150" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="mardek_soldier" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1151" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="deugan_soldier" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1152" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="2"/>
+<item type="FrameLabelTag" name="donovan" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1153" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="donovan_bearded" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1154" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="2"/>
+<item type="FrameLabelTag" name="steele" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1155" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="muriance" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1156" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="2"/>
+<item type="FrameLabelTag" name="vehrn" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1157" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="bartholio" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1158" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="vennie" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1159" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="bernard" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1160" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="steele2" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1161" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="luft" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1162" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="2"/>
+<item type="FrameLabelTag" name="arab1" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1163" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="arabguard" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1164" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="arabShaman" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1165" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="arabShaman_galaris" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1166" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="arab2" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1167" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="peregrin" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1168" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="captain" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1169" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="Ypriest" namedAnchor="false"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="quillon" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1170" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="veneficus" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1171" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="tchief" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1172" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="eric" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1173" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="old1" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1174" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="man1" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1175" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="man3" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1176" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="shaman" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1177" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="hermit" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1178" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="2"/>
+<item type="FrameLabelTag" name="enki" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1179" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="king" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1180" clipDepth="0" depth="3" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="3"/>
+<item type="FrameLabelTag" name="ncrew" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1181" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="vudu" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1182" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="2"/>
+<item type="FrameLabelTag" name="saul" namedAnchor="false"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="saucer" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1183" clipDepth="0" depth="4" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="4"/>
+<item type="FrameLabelTag" name="goldknight" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1184" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="ncaptain" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1185" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="1"/>
+<item type="FrameLabelTag" name="curator" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1186" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="2"/>
+<item type="FrameLabelTag" name="mugbert" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1187" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="gope" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1188" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="FrameLabelTag" name="dougal" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1189" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="944" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="PlaceObject2Tag" characterId="1190" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="true" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="false" ratio="0">
+<matrix type="MATRIX" hasRotate="false" hasScale="false" nRotateBits="0" nScaleBits="0" nTranslateBits="0" rotateSkew0="0" rotateSkew1="0" scaleX="0" scaleY="0" translateX="0" translateY="0"/>
+</item>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1191" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1192" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1193" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1194" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1195" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="PlaceObject2Tag" characterId="1196" clipDepth="0" depth="2" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="RemoveObject2Tag" depth="2"/>
+<item type="FrameLabelTag" name="lonewolf" namedAnchor="false"/>
+<item type="PlaceObject2Tag" characterId="1197" clipDepth="0" depth="1" placeFlagHasCharacter="true" placeFlagHasClipActions="false" placeFlagHasClipDepth="false" placeFlagHasColorTransform="false" placeFlagHasMatrix="false" placeFlagHasName="false" placeFlagHasRatio="false" placeFlagMove="true" ratio="0"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+<item type="ShowFrameTag"/>
+</subTags>
+</item>

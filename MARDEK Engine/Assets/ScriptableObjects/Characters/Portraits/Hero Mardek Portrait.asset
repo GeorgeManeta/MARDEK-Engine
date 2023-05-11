@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f7cb1b40972334ca24490674fdbca9, type: 3}
+  m_Name: Hero Mardek Portrait
+  m_EditorClassIdentifier: 
+  <displayName>k__BackingField: marduke marmalade
+  <WalkSprites>k__BackingField: {fileID: 0}
+  <element>k__BackingField: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
+  <face>k__BackingField: {fileID: 3286163911610860551, guid: bda2ed0c2dfc5bd4a86a19738587493f, type: 3}
+  <hair>k__BackingField: {fileID: 3286163911610860551, guid: c05f49b8f9fdaa649b64ca129715fb75, type: 3}
+  <eye>k__BackingField: {fileID: 3286163911610860551, guid: 4ee70bea8e40a864e9426a7b292b526a, type: 3}
+  <eyebrow>k__BackingField: {fileID: 3286163911610860551, guid: 46b24ffe8d3ec154abcb84907dee9407, type: 3}
+  <neck>k__BackingField: {fileID: 3286163911610860551, guid: 8e071b14b49d75b4e814ed74820b2f37, type: 3}
+  <armour>k__BackingField: {fileID: 3286163911610860551, guid: 9822a75808b514542b6d5049ec757e90, type: 3}

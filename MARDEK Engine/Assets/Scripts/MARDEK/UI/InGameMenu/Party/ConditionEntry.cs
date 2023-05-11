@@ -8,7 +8,6 @@ namespace MARDEK.UI
 {
     public class ConditionEntry : MonoBehaviour, PartyEntry
     {
-        [SerializeField] Image portraitImage;
         [SerializeField] Image elementImage;
 
         [SerializeField] TextMeshProUGUI nameText;
@@ -30,7 +29,7 @@ namespace MARDEK.UI
         {
             if (character == null || character.Profile == null)
                 return;
-            // TODO Portrait
+
             elementImage.sprite = character.Profile.element.thickSprite;
             nameText.text = character.Profile.displayName;
             levelText.text = "Lv " + character.GetStat(levelStat);

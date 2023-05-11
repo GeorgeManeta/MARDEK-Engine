@@ -15,6 +15,7 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] public Skillset ActionSkillset { get; private set; }
         [field: SerializeField] public StatsSet StartingStats { get; private set; } = new StatsSet();
         [field: SerializeField] public Element element { get; private set; }
+        [field: SerializeField] public CharacterPortrait portrait { get; private set; }
 
         [SerializeField] StatExpression MaxHPExpressionOveride;
         [SerializeField] StatExpression MaxMPExpressionOveride;
