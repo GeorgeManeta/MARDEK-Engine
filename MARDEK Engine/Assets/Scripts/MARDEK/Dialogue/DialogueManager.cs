@@ -1,11 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using MARDEK.CharacterSystem;
+using MARDEK.UI;
 using TMPro;
-using MARDEK.Stats;
 
 namespace MARDEK.DialogueSystem
 {
@@ -32,6 +28,7 @@ namespace MARDEK.DialogueSystem
         [SerializeField] TextMeshProUGUI dialogueText = null;
         [SerializeField] TextMeshProUGUI characterNameText = null;
         [SerializeField] Image characterElementImage = null;
+        [SerializeField] PortraitDisplay characterPortrait = null;
         [SerializeField] float dialogueSpeed = 5;
 
         Dialogue dialogue;
@@ -161,6 +158,18 @@ namespace MARDEK.DialogueSystem
                     else
                     {
                         characterElementImage.enabled = false;
+                    }
+
+                    if (characterBio.portrait != null)
+                    {
+                        characterPortrait.gameObject.SetActive(true);
+                        characterPortrait.SetPortrait(characterBio.portrait);
+                        characterNameText.rectTransform.anchoredPosition = new Vector2(425, -435);
+                    }
+                    else
+                    {
+                        characterPortrait.gameObject.SetActive(false);
+                        characterNameText.rectTransform.anchoredPosition = new Vector2(25, -435);
                     }
 
                     return;

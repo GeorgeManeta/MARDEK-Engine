@@ -1055,6 +1055,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6986619448826405947, guid: 62e723969551b3149975abd31df3cc8c, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 6477199304378664558}
+    - target: {fileID: 6986619448826405947, guid: 62e723969551b3149975abd31df3cc8c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1751730485
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62e723969551b3149975abd31df3cc8c, type: 3}
 --- !u!4 &948702547565784640 stripped
