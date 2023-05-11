@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
-using MARDEK.UI;
 using TMPro;
+using MARDEK.CharacterSystem;
 
 namespace MARDEK.DialogueSystem
 {

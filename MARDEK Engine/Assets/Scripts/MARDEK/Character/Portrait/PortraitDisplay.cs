@@ -1,11 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
-using MARDEK.CharacterSystem;
-using MARDEK.Core;
 
-namespace MARDEK.UI
+namespace MARDEK.CharacterSystem
 {
     // [RequireComponent(typeof(SpriteRenderer))]
     public class PortraitDisplay : MonoBehaviour
@@ -14,22 +9,28 @@ namespace MARDEK.UI
         // [SerializeField] bool _isAnimating = false;
         // [SerializeField] SpriteAnimationClipList clipList = null;
 
-        [SerializeField] SpriteRenderer neck;
-        [SerializeField] SpriteRenderer face;
-        [SerializeField] SpriteRenderer hair;
-        [SerializeField] SpriteRenderer armour;
+        [SerializeField] HumanPortrait human;
+        [SerializeField] AnnunakiPortrait annunaki;
 
-        CharacterPortrait portrait;
-        public void SetPortrait(CharacterPortrait p)
+        public void SetPortrait(CharacterPortrait portrait)
         {
-            if (p != null)
+            if (portrait != null)
             {
                 this.gameObject.SetActive(true);
-                portrait = p;
-                neck.sprite = portrait.neck;
-                face.sprite = portrait.face;
-                hair.sprite = portrait.hair;
-                armour.sprite = portrait.armour;
+
+                switch (portrait.Type)
+                {
+                    case PortraitType.human:
+                        this.human.SetPortrait(portrait);
+                        this.human.gameObject.SetActive(true);
+                        break;
+
+                    case PortraitType.annunaki:
+                        this.annunaki.SetPortrait(portrait);
+                        this.annunaki.gameObject.SetActive(true);
+                        break;
+
+                }
             }
             else
             {
