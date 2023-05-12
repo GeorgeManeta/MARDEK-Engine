@@ -169,7 +169,7 @@ namespace MARDEK.DialogueSystem
                     else
                     {
                         characterPortrait.gameObject.SetActive(false);
-                        characterNameText.rectTransform.anchoredPosition = new Vector2(25, -435);
+                        characterNameText.rectTransform.anchoredPosition = new Vector2(50, -435);
                     }
 
                     return;
