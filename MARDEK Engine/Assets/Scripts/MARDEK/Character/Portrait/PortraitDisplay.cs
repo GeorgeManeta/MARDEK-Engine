@@ -14,6 +14,9 @@ namespace MARDEK.CharacterSystem
 
         public void SetPortrait(CharacterPortrait portrait)
         {
+            this.human.gameObject.SetActive(false);
+            this.annunaki.gameObject.SetActive(false);
+
             if (portrait != null)
             {
                 this.gameObject.SetActive(true);

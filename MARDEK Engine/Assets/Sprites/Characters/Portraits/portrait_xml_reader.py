@@ -1,8 +1,8 @@
 """
 Usage:
-Export a portrait DefineSprite_[number] to SWF, then open the SWF in JPEXS and export the SWF to XML.
+Export a portrait DefineSprite_[number] to SVG. Also export it to SWF, then open the SWF in JPEXS and export the SWF to XML.
 
-Has various functions for operating on the XML file.
+Has various functions for operating on the XML file/SVG folder.
 """
 
 # For renaming SVGs
@@ -144,7 +144,7 @@ def run_all():
         reformatSVGs(folderName)
 
 if __name__ == "__main__":
-    run_all()
+    reformatSVGs("anu_eye_1587")
 
 if 1 == 2:
     # Replace with name of xml you want to read
