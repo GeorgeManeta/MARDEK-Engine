@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2147403751133618551}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28, y: 88, z: 0}
+  m_LocalPosition: {x: -22, y: 58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 5789045943083121511}
   - component: {fileID: 3935524615280056133}
   m_Layer: 0
-  m_Name: Armour
+  m_Name: Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   face: {fileID: 7555493890381915016}
   eye: {fileID: 4431785145972578116}
-  armour: {fileID: 3935524615280056133}
+  torso: {fileID: 3935524615280056133}
 --- !u!1 &8494896928517103174
 GameObject:
   m_ObjectHideFlags: 0

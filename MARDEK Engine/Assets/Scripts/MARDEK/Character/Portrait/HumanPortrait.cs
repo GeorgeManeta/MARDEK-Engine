@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace MARDEK.CharacterSystem
 {
-    public class HumanPortrait : MonoBehaviour
+    public class HumanPortrait : MonoBehaviour, IPortrait
     {
         [SerializeField] SpriteRenderer neck;
         [SerializeField] SpriteRenderer face;
@@ -15,14 +13,14 @@ namespace MARDEK.CharacterSystem
         [SerializeField] SpriteRenderer rightBrow;
 
         [SerializeField] SpriteRenderer hair;
-        [SerializeField] SpriteRenderer armour;
+        [SerializeField] SpriteRenderer torso;
 
         public void SetPortrait(CharacterPortrait portrait)
         {
             neck.sprite = portrait.Neck;
             face.sprite = portrait.Face;
             hair.sprite = portrait.Hair;
-            armour.sprite = portrait.Armour;
+            torso.sprite = portrait.Torso;
 
             leftEye.sprite = portrait.Eye;
             rightEye.sprite = portrait.Eye;

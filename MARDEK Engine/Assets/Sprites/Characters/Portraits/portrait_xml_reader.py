@@ -135,16 +135,18 @@ def run_all():
         print("folder:", folderName)
 
         fileName = os.path.join(folderName, "swf.xml")
-        frameList = readFrames(fileName)
-        print("List of frames:")
-        print(frameList)
-
-        renameSVGs(frameList, folderName)
+        try:
+            frameList = readFrames(fileName)
+            print("List of frames:")
+            print(frameList)
+            renameSVGs(frameList, folderName)
+        except:
+            print("SWF not detected")
 
         reformatSVGs(folderName)
 
 if __name__ == "__main__":
-    reformatSVGs("anu_eye_1587")
+    run_all()
 
 if 1 == 2:
     # Replace with name of xml you want to read

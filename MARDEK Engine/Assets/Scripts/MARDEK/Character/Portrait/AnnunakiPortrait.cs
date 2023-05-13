@@ -1,20 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace MARDEK.CharacterSystem
 {
-    public class AnnunakiPortrait : MonoBehaviour
+    public class AnnunakiPortrait : MonoBehaviour, IPortrait
     {
         [SerializeField] SpriteRenderer face;
         [SerializeField] SpriteRenderer eye;
-        [SerializeField] SpriteRenderer armour;
+        [SerializeField] SpriteRenderer torso;
 
         public void SetPortrait(CharacterPortrait portrait)
         {
             face.sprite = portrait.Face;
             eye.sprite = portrait.Eye;
-            armour.sprite = portrait.Armour;
+            torso.sprite = portrait.Torso;
         }
     }
 }

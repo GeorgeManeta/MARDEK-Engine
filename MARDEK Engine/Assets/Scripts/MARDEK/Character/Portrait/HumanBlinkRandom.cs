@@ -14,7 +14,7 @@ namespace MARDEK.CharacterSystem
         override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             timeWithoutBlinking = 0;
-            timeBetweenBlinks = (float)(Random.value * 4 + 0.5);
+            timeBetweenBlinks = (float)(Random.value * 4 + 0.75);
         }
 
         // OnStateUpdate is called before OnStateUpdate is called on any state inside this state machine

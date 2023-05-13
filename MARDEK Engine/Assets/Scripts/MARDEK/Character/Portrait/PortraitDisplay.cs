@@ -9,13 +9,19 @@ namespace MARDEK.CharacterSystem
         // [SerializeField] bool _isAnimating = false;
         // [SerializeField] SpriteAnimationClipList clipList = null;
 
-        [SerializeField] HumanPortrait human;
         [SerializeField] AnnunakiPortrait annunaki;
+        [SerializeField] HumanPortrait humanF;
+        [SerializeField] HumanPortrait humanM;
+        [SerializeField] HumanPortrait humanChild;
+        [SerializeField] RobotPortrait robot;
 
         public void SetPortrait(CharacterPortrait portrait)
         {
-            this.human.gameObject.SetActive(false);
             this.annunaki.gameObject.SetActive(false);
+            this.humanF.gameObject.SetActive(false);
+            this.humanM.gameObject.SetActive(false);
+            this.humanChild.gameObject.SetActive(false);
+            this.robot.gameObject.SetActive(false);
 
             if (portrait != null)
             {
@@ -23,16 +29,30 @@ namespace MARDEK.CharacterSystem
 
                 switch (portrait.Type)
                 {
-                    case PortraitType.human:
-                        this.human.SetPortrait(portrait);
-                        this.human.gameObject.SetActive(true);
-                        break;
-
                     case PortraitType.annunaki:
                         this.annunaki.SetPortrait(portrait);
                         this.annunaki.gameObject.SetActive(true);
                         break;
 
+                    case PortraitType.humanF:
+                        this.humanF.SetPortrait(portrait);
+                        this.humanF.gameObject.SetActive(true);
+                        break;
+
+                    case PortraitType.humanM:
+                        this.humanM.SetPortrait(portrait);
+                        this.humanM.gameObject.SetActive(true);
+                        break;
+
+                    case PortraitType.humanChild:
+                        this.humanChild.SetPortrait(portrait);
+                        this.humanChild.gameObject.SetActive(true);
+                        break;
+
+                    case PortraitType.robot:
+                        this.robot.SetPortrait(portrait);
+                        this.robot.gameObject.SetActive(true);
+                        break;
                 }
             }
             else
