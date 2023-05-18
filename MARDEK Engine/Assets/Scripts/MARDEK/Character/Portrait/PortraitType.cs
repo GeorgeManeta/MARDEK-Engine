@@ -1,5 +1,5 @@
 namespace MARDEK.CharacterSystem
 {
-    public enum PortraitType { annunaki, humanF, humanM, humanChild, robot, aruan }
+    public enum PortraitType { annunaki, humanF, humanM, humanChild, robot, aruan, reptoid }
 }
 
