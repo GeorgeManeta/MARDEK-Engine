@@ -16,6 +16,7 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] public Sprite Eyebrow { get; private set; }
         [field: SerializeField] public Sprite Neck { get; private set; }
         [field: SerializeField] public Sprite Torso { get; private set; }
+        [field: SerializeField] public Sprite Mouth { get; private set; }
 
         // TODO implement
         [field: SerializeField] public Sprite Hat { get; private set; }

@@ -14,6 +14,7 @@ namespace MARDEK.CharacterSystem
         [SerializeField] HumanPortrait humanM;
         [SerializeField] HumanPortrait humanChild;
         [SerializeField] RobotPortrait robot;
+        [SerializeField] AruanPortrait aruan;
 
         public void SetPortrait(CharacterPortrait portrait)
         {
@@ -22,6 +23,7 @@ namespace MARDEK.CharacterSystem
             this.humanM.gameObject.SetActive(false);
             this.humanChild.gameObject.SetActive(false);
             this.robot.gameObject.SetActive(false);
+            this.aruan.gameObject.SetActive(false);
 
             if (portrait != null)
             {
@@ -52,6 +54,11 @@ namespace MARDEK.CharacterSystem
                     case PortraitType.robot:
                         this.robot.SetPortrait(portrait);
                         this.robot.gameObject.SetActive(true);
+                        break;
+
+                    case PortraitType.aruan:
+                        this.aruan.SetPortrait(portrait);
+                        this.aruan.gameObject.SetActive(true);
                         break;
                 }
             }
