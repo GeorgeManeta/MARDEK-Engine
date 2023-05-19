@@ -38,14 +38,14 @@
 //            Dictionary<string, Element> elemDict = new Dictionary<string, Element>();
 //            foreach (Element elem in elements)
 //            {
-//                elemDict[elem.name] = elem;
+//                elemDict[elem.expressionName] = elem;
 //            }
 
 //            Dictionary<string, EquipmentCategory> categoryDict =
 //                new Dictionary<string, EquipmentCategory>();
 //            foreach (EquipmentCategory cat in categories)
 //            {
-//                categoryDict[cat.name] = cat;
+//                categoryDict[cat.expressionName] = cat;
 //            }
 
 //            ImportItems list = new ImportItems();
@@ -90,7 +90,7 @@
 //                /*if (item.elementText != "" && item.elementText != null)
 //                {
 //                    item.element = elemDict[item.elementText];
-//                    Debug.Log(item.element.name);
+//                    Debug.Log(item.element.expressionName);
 //                }*/
 
 //                AssetDatabase.CreateAsset(

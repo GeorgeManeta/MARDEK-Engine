@@ -117,7 +117,7 @@ namespace MARDEK.Inventory
                 /*if (item.elementText != "" && item.elementText != null)
                 {
                     item.element = elemDict[item.elementText];
-                    Debug.Log(item.element.name);
+                    Debug.Log(item.element.expressionName);
                 }*/
 
                 AssetDatabase.CreateAsset(

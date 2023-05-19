@@ -27,7 +27,7 @@ namespace MARDEK.UI
         {
             if (saveFileName == string.Empty)
             {
-                Debug.Log("Warning: clicked save slot without save number/name.");
+                Debug.Log("Warning: clicked save slot without save number/expressionName.");
                 return;
             }
 

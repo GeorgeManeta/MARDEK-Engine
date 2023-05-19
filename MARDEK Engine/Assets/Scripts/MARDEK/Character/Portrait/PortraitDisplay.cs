@@ -30,5 +30,14 @@ namespace MARDEK.CharacterSystem
                 this.gameObject.SetActive(false);
             }
         }
+
+        public void SetExpression(PortraitExpression expression)
+        {
+            foreach (IPortrait portraitPrefab in portraitPrefabs)
+            {
+                portraitPrefab.SetExpression(expression);
+            }
+
+        }
     }
 }

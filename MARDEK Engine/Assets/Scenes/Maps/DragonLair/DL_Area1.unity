@@ -1482,10 +1482,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 948702547565784641, guid: 4524198ac264da046815598c35039adc, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 953111483505499798, guid: 4524198ac264da046815598c35039adc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2417,14 +2413,6 @@ PrefabInstance:
     - target: {fileID: 2312219549347681370, guid: 4524198ac264da046815598c35039adc, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -130
-      objectReference: {fileID: 0}
-    - target: {fileID: 2358050325120674609, guid: 4524198ac264da046815598c35039adc, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1347626153
-      objectReference: {fileID: 0}
-    - target: {fileID: 2358050325120674609, guid: 4524198ac264da046815598c35039adc, type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2376513626740240168, guid: 4524198ac264da046815598c35039adc, type: 3}
       propertyPath: m_AnchorMax.y

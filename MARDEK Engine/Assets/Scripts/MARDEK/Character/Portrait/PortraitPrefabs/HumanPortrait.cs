@@ -2,31 +2,37 @@ using UnityEngine;
 
 namespace MARDEK.CharacterSystem
 {
-    public class AruanPortrait : MonoBehaviour, IPortrait
+    public class HumanPortrait : MonoBehaviour, IPortrait
     {
-        [field: SerializeField] public PortraitType PortraitType { get; private set; }
+        [field:SerializeField] public PortraitType PortraitType { get; private set; }
 
+        [SerializeField] SpriteRenderer neck;
         [SerializeField] SpriteRenderer face;
+
         [SerializeField] SpriteRenderer leftEye;
-        [SerializeField] SpriteRenderer leftBrow;
         [SerializeField] SpriteRenderer rightEye;
+        [SerializeField] SpriteRenderer leftBrow;
         [SerializeField] SpriteRenderer rightBrow;
 
-        [SerializeField] SpriteRenderer mouth;
-
+        [SerializeField] SpriteRenderer hair;
         [SerializeField] SpriteRenderer torso;
 
         public void SetPortrait(CharacterPortrait portrait)
         {
+            neck.sprite = portrait.Neck;
             face.sprite = portrait.Face;
+            hair.sprite = portrait.Hair;
+            torso.sprite = portrait.Torso;
+
             leftEye.sprite = portrait.Eye;
             rightEye.sprite = portrait.Eye;
             leftBrow.sprite = portrait.Eyebrow;
             rightBrow.sprite = portrait.Eyebrow;
+        }
 
-            torso.sprite = portrait.Torso;
+        public void SetExpression(PortraitExpression expression)
+        {
 
-            mouth.sprite = portrait.Mouth;
         }
     }
 }

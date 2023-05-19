@@ -10,5 +10,10 @@ namespace MARDEK.CharacterSystem
         // All the robot assets are present in the RobotPortrait prefab.
 
         public void SetPortrait(CharacterPortrait portrait) { }
+
+        public void SetExpression(PortraitExpression expression)
+        {
+
+        }
     }
 }

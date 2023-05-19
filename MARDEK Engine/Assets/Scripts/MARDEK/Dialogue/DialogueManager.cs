@@ -165,6 +165,15 @@ namespace MARDEK.DialogueSystem
                         characterPortrait.gameObject.SetActive(true);
                         characterPortrait.SetPortrait(characterBio.portrait);
                         characterNameText.rectTransform.anchoredPosition = new Vector2(400, -435);
+
+                        if (dialogue.CharacterLines[dialogueIndex].Expression != null)
+                        {
+                            characterPortrait.SetExpression(dialogue.CharacterLines[dialogueIndex].Expression);
+                        }
+                        else
+                        {
+                            characterPortrait.SetExpression(null);
+                        }
                     }
                     else
                     {
