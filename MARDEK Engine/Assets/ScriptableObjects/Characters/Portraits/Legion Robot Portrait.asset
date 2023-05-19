@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1f7cb1b40972334ca24490674fdbca9, type: 3}
   m_Name: Legion Robot Portrait
   m_EditorClassIdentifier: 
-  <Type>k__BackingField: 4
+  <Type>k__BackingField: {fileID: 11400000, guid: cddfc9b53f413564b983792fed8114ee, type: 2}
   <Face>k__BackingField: {fileID: 0}
   <Hair>k__BackingField: {fileID: 0}
   <Eye>k__BackingField: {fileID: 0}
   <Eyebrow>k__BackingField: {fileID: 0}
   <Neck>k__BackingField: {fileID: 0}
   <Torso>k__BackingField: {fileID: 0}
+  <Mouth>k__BackingField: {fileID: 0}
   <Hat>k__BackingField: {fileID: 0}
   <Ethnicity>k__BackingField: -1

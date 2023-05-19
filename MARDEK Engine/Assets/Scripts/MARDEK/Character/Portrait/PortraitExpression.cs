@@ -2,8 +2,8 @@ using UnityEngine;
 
 namespace MARDEK.CharacterSystem
 {
-    [CreateAssetMenu(menuName = "MARDEK/Character/PortraitType")]
-    public class PortraitType : ScriptableObject
+    [CreateAssetMenu(menuName = "MARDEK/Character/PortraitExpression")]
+    public class PortraitExpression : ScriptableObject
     {
         [SerializeField] string _name;
 

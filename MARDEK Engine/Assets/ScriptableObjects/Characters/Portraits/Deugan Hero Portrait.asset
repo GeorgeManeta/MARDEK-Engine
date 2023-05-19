@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1f7cb1b40972334ca24490674fdbca9, type: 3}
   m_Name: Deugan Hero Portrait
   m_EditorClassIdentifier: 
-  <Type>k__BackingField: 2
+  <Type>k__BackingField: {fileID: 11400000, guid: bba3c83117c53c84b90bdc6d9ef8b3de, type: 2}
   <Face>k__BackingField: {fileID: 3286163911610860551, guid: bd1c3d014f0648d45bc1341a2b3f42cf, type: 3}
   <Hair>k__BackingField: {fileID: 3286163911610860551, guid: 7831ed4af89f6504a997149080978caf, type: 3}
   <Eye>k__BackingField: {fileID: 3286163911610860551, guid: 43143fe752e9e9540a5c5d6435669ce4, type: 3}
   <Eyebrow>k__BackingField: {fileID: 3286163911610860551, guid: 808b2cdac51a14246b6b943c4f59e745, type: 3}
   <Neck>k__BackingField: {fileID: 3286163911610860551, guid: 8e071b14b49d75b4e814ed74820b2f37, type: 3}
   <Torso>k__BackingField: {fileID: 3286163911610860551, guid: aab0f8d70738b2a4cac359f0f3ab9e65, type: 3}
+  <Mouth>k__BackingField: {fileID: 0}
+  <Hat>k__BackingField: {fileID: 0}
+  <Ethnicity>k__BackingField: 0

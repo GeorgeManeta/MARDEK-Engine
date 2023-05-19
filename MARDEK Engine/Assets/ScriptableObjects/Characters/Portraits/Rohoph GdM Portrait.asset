@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1f7cb1b40972334ca24490674fdbca9, type: 3}
   m_Name: Rohoph GdM Portrait
   m_EditorClassIdentifier: 
-  <Type>k__BackingField: 0
+  <Type>k__BackingField: {fileID: 11400000, guid: 9bcaccb128694cb45ac0edfecde68f81, type: 2}
   <Face>k__BackingField: {fileID: 3286163911610860551, guid: d9f9e0a992f63d14ba1bb86b7ca8c376, type: 3}
   <Hair>k__BackingField: {fileID: 0}
   <Eye>k__BackingField: {fileID: 3286163911610860551, guid: abf2bf927ffbbad4aac5557eb9341484, type: 3}
   <Eyebrow>k__BackingField: {fileID: 0}
   <Neck>k__BackingField: {fileID: 0}
   <Torso>k__BackingField: {fileID: 3286163911610860551, guid: 8f17aad63e2104748b20af1aa3ffa6d7, type: 3}
+  <Mouth>k__BackingField: {fileID: 0}
+  <Hat>k__BackingField: {fileID: 0}
+  <Ethnicity>k__BackingField: 0

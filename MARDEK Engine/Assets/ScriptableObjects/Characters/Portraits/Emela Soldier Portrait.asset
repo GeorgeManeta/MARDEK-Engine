@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1f7cb1b40972334ca24490674fdbca9, type: 3}
   m_Name: Emela Soldier Portrait
   m_EditorClassIdentifier: 
-  <Type>k__BackingField: 1
+  <Type>k__BackingField: {fileID: 11400000, guid: 93e2d2916c6997a4db530e0ed71c9f9a, type: 2}
   <Face>k__BackingField: {fileID: 3286163911610860551, guid: 66857829789713f45968ad39b0be38a1, type: 3}
   <Hair>k__BackingField: {fileID: 3286163911610860551, guid: 8d7f805890c18a64eb355532ae62d0d1, type: 3}
   <Eye>k__BackingField: {fileID: 3286163911610860551, guid: 0c9930e8ba2e951448ae51224fb708b3, type: 3}
   <Eyebrow>k__BackingField: {fileID: 3286163911610860551, guid: 8d260945fe420f64bad76902a25512c7, type: 3}
   <Neck>k__BackingField: {fileID: 3286163911610860551, guid: 8e071b14b49d75b4e814ed74820b2f37, type: 3}
   <Torso>k__BackingField: {fileID: 3286163911610860551, guid: 33ec7830fe5ddf34d8ed19a97fbfe6e9, type: 3}
+  <Mouth>k__BackingField: {fileID: 0}
   <Hat>k__BackingField: {fileID: 0}
   <Ethnicity>k__BackingField: 0

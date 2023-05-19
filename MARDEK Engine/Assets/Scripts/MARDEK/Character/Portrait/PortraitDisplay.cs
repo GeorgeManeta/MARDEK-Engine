@@ -26,39 +26,39 @@ namespace MARDEK.CharacterSystem
             {
                 this.gameObject.SetActive(true);
 
-                switch (portrait.Type)
+                switch (portrait.Type.name)
                 {
-                    case PortraitType.annunaki:
+                    case "annunaki":
                         this.annunaki.SetPortrait(portrait);
                         this.annunaki.gameObject.SetActive(true);
                         break;
 
-                    case PortraitType.humanF:
+                    case "humanF":
                         this.humanF.SetPortrait(portrait);
                         this.humanF.gameObject.SetActive(true);
                         break;
 
-                    case PortraitType.humanM:
+                    case "humanM":
                         this.humanM.SetPortrait(portrait);
                         this.humanM.gameObject.SetActive(true);
                         break;
 
-                    case PortraitType.humanChild:
+                    case "humanChild":
                         this.humanChild.SetPortrait(portrait);
                         this.humanChild.gameObject.SetActive(true);
                         break;
 
-                    case PortraitType.robot:
+                    case "robot":
                         this.robot.SetPortrait(portrait);
                         this.robot.gameObject.SetActive(true);
                         break;
 
-                    case PortraitType.aruan:
+                    case "aruan":
                         this.aruan.SetPortrait(portrait);
                         this.aruan.gameObject.SetActive(true);
                         break;
 
-                    case PortraitType.reptoid:
+                    case "reptoid":
                         this.reptoid.SetPortrait(portrait);
                         this.reptoid.gameObject.SetActive(true);
                         break;
