@@ -224,13 +224,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 617d10b8577001543b92b25728647a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  annunaki: {fileID: 6116382029719108348}
-  humanF: {fileID: 4489444182626952764}
-  humanM: {fileID: 2046992676417830440}
-  humanChild: {fileID: 5995779235928819960}
-  robot: {fileID: 8911023237546116222}
-  aruan: {fileID: 3927821144605936429}
-  reptoid: {fileID: 5793079949255717240}
+  portraitPrefabs:
+  - {fileID: 6116382029719108348}
+  - {fileID: 4489444182626952764}
+  - {fileID: 2046992676417830440}
+  - {fileID: 5995779235928819960}
+  - {fileID: 8911023237546116222}
+  - {fileID: 3927821144605936429}
+  - {fileID: 5793079949255717240}
 --- !u!210 &8594002066779949714
 SortingGroup:
   m_ObjectHideFlags: 0

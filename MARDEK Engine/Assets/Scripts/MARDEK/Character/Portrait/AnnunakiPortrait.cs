@@ -4,6 +4,8 @@ namespace MARDEK.CharacterSystem
 {
     public class AnnunakiPortrait : MonoBehaviour, IPortrait
     {
+        [field: SerializeField] public PortraitType PortraitType { get; private set; }
+
         [SerializeField] SpriteRenderer face;
         [SerializeField] SpriteRenderer eye;
         [SerializeField] SpriteRenderer torso;

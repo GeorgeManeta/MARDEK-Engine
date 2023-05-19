@@ -4,6 +4,8 @@ namespace MARDEK.CharacterSystem
 {
     public class ReptoidPortrait : MonoBehaviour, IPortrait
     {
+        [field: SerializeField] public PortraitType PortraitType { get; private set; }
+
         [SerializeField] SpriteRenderer neck;
         [SerializeField] SpriteRenderer face;
         [SerializeField] SpriteRenderer mouth;
