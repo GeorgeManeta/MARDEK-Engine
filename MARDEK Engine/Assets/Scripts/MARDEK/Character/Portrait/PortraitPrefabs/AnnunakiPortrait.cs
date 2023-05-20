@@ -41,7 +41,7 @@ namespace MARDEK.CharacterSystem
                 }
             }
 
-            switch (expression.expressionName)
+            switch (expression.name)
             {
                 case "angr":
                     eye.transform.localPosition = new Vector3(-45, 15, 0);
