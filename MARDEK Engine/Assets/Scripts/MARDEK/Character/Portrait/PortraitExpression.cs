@@ -12,19 +12,32 @@ namespace MARDEK.CharacterSystem
         {
             foreach (var op in Transforms)
             {
-                if (op.ApplyOperation)
-                {
-                    op.gameObject.SetActive(true);
-                    op.SpriteRenderer.gameObject.SetActive(true);
+                op.gameObject.SetActive(true);
+                op.SpriteRenderer.gameObject.SetActive(true);
 
+                if (op.ApplyPosition)
+                {
                     op.SpriteRenderer.gameObject.transform.localPosition = op.Position;
+                }
+
+                if (op.ApplyRotation)
+                {
                     op.SpriteRenderer.gameObject.transform.localRotation = Quaternion.Euler(0, 0, op.Rotation);
+                }
+
+                if (op.ApplyScale)
+                {
                     op.SpriteRenderer.gameObject.transform.localScale = new Vector3(op.Scale.x, op.Scale.y, 1);
                 }
-                else
-                {
-                    op.gameObject.SetActive(false);
-                }
+            }
+        }
+
+        public void HideSprites()
+        {
+            foreach (var op in Transforms)
+            {
+                op.gameObject.SetActive(false);
+                op.SpriteRenderer.gameObject.SetActive(false);
             }
         }
     }

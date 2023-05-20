@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace MARDEK.CharacterSystem
 {
-    public class ReptoidPortrait : MonoBehaviour, IPortrait
+    public class ReptoidPortrait : PortraitPrefab
     {
-        [field: SerializeField] public PortraitType PortraitType { get; private set; }
+        [field: SerializeField] public override PortraitType PortraitType { get; protected set; }
 
         [SerializeField] SpriteRenderer neck;
         [SerializeField] SpriteRenderer face;
@@ -12,18 +12,13 @@ namespace MARDEK.CharacterSystem
         [SerializeField] SpriteRenderer eye;
         [SerializeField] SpriteRenderer torso;
 
-        public void SetPortrait(CharacterPortrait portrait)
+        public override void SetPortrait(CharacterPortrait portrait)
         {
             neck.sprite = portrait.Neck;
             face.sprite = portrait.Face;
             mouth.sprite = portrait.Mouth;
             torso.sprite = portrait.Torso;
             eye.sprite = portrait.Eye;
-        }
-
-        public void SetExpression(PortraitExpressionEnum expression)
-        {
-
         }
     }
 }

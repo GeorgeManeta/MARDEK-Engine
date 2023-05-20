@@ -2,18 +2,12 @@ using UnityEngine;
 
 namespace MARDEK.CharacterSystem
 {
-    public class RobotPortrait : MonoBehaviour, IPortrait
+    public class RobotPortrait : PortraitPrefab
     {
-        [field: SerializeField] public PortraitType PortraitType { get; private set; }
+        [field: SerializeField] public override PortraitType PortraitType { get; protected set; }
 
         // There is only one robot (Legion), so this is basically empty...
-        // All the robot assets are present in the RobotPortrait prefab.
 
-        public void SetPortrait(CharacterPortrait portrait) { }
-
-        public void SetExpression(PortraitExpressionEnum expression)
-        {
-
-        }
+        public override void SetPortrait(CharacterPortrait portrait) { }
     }
 }

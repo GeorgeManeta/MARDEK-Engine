@@ -6,6 +6,7 @@ namespace MARDEK.CharacterSystem
     public class PortraitDisplay : MonoBehaviour
     {
         [field: SerializeField] List<MonoBehaviour> portraitPrefabs;
+        PortraitPrefab activePortrait;
 
         public void SetPortrait(CharacterPortrait portrait)
         {
@@ -14,10 +15,11 @@ namespace MARDEK.CharacterSystem
                 this.gameObject.SetActive(true);
 
                 foreach (var portraitPrefab in portraitPrefabs) {
-                    if ( ((IPortrait) portraitPrefab).PortraitType == portrait.PortraitType )
+                    if ( ((PortraitPrefab) portraitPrefab).PortraitType == portrait.PortraitType )
                     {
-                        ((IPortrait) portraitPrefab).SetPortrait(portrait);
+                        ((PortraitPrefab) portraitPrefab).SetPortrait(portrait);
                         portraitPrefab.gameObject.SetActive(true);
+                        activePortrait = (PortraitPrefab) portraitPrefab;
                     }
                     else
                     {
@@ -33,11 +35,10 @@ namespace MARDEK.CharacterSystem
 
         public void SetExpression(PortraitExpressionEnum expression)
         {
-            foreach (IPortrait portraitPrefab in portraitPrefabs)
+            if (activePortrait != null)
             {
-                portraitPrefab.SetExpression(expression);
+                activePortrait.SetExpression(expression);
             }
-
         }
     }
 }

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace MARDEK.CharacterSystem
 {
-    public class HumanPortrait : MonoBehaviour, IPortrait
+    public class HumanPortrait : PortraitPrefab
     {
-        [field:SerializeField] public PortraitType PortraitType { get; private set; }
+        [field:SerializeField] public override PortraitType PortraitType { get; protected set; }
 
         [SerializeField] SpriteRenderer neck;
         [SerializeField] SpriteRenderer face;
@@ -17,7 +17,7 @@ namespace MARDEK.CharacterSystem
         [SerializeField] SpriteRenderer hair;
         [SerializeField] SpriteRenderer torso;
 
-        public void SetPortrait(CharacterPortrait portrait)
+        public override void SetPortrait(CharacterPortrait portrait)
         {
             neck.sprite = portrait.Neck;
             face.sprite = portrait.Face;
@@ -28,11 +28,6 @@ namespace MARDEK.CharacterSystem
             rightEye.sprite = portrait.Eye;
             leftBrow.sprite = portrait.Eyebrow;
             rightBrow.sprite = portrait.Eyebrow;
-        }
-
-        public void SetExpression(PortraitExpressionEnum expression)
-        {
-
         }
     }
 }

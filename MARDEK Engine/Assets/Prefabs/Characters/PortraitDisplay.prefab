@@ -671,6 +671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AruanPortrait
       objectReference: {fileID: 0}
+    - target: {fileID: 3048925699021078175, guid: da65546ab86597d4e9afcc8cff10187d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da65546ab86597d4e9afcc8cff10187d, type: 3}
 --- !u!4 &2419752165669319149 stripped

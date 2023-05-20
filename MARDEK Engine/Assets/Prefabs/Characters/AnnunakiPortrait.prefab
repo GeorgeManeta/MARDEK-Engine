@@ -282,11 +282,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 4431785145972578116}
   <Position>k__BackingField: {x: -45, y: 0}
+  <ApplyPosition>k__BackingField: 1
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 1, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &2624272417212058697
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,13 +318,13 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8232851466797024715}
-  - {fileID: 8228242286556296194}
   - {fileID: 2831181742656115034}
-  - {fileID: 4162482371980506579}
-  - {fileID: 2849674701927141428}
-  - {fileID: 2132086999198776023}
-  - {fileID: 5604097545572693703}
+  - {fileID: 8228242286556296194}
   - {fileID: 6500117084682109956}
+  - {fileID: 2849674701927141428}
+  - {fileID: 5604097545572693703}
+  - {fileID: 4162482371980506579}
+  - {fileID: 2132086999198776023}
   m_Father: {fileID: 225714732923662063}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -373,19 +375,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a02e40d446796e4bbf8876a22d89935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Expressions>k__BackingField:
+  - {fileID: 2311188442500374393}
+  - {fileID: 6889005963070219348}
+  - {fileID: 446004186427024635}
+  - {fileID: 2620246556771638571}
+  - {fileID: 6364868841662151970}
+  - {fileID: 6747797996444171259}
+  - {fileID: 696479630991997966}
+  - {fileID: 6253233482349187147}
+  <NormalExpression>k__BackingField: {fileID: 2311188442500374393}
   <PortraitType>k__BackingField: {fileID: 11400000, guid: 9bcaccb128694cb45ac0edfecde68f81, type: 2}
   face: {fileID: 7555493890381915016}
   eye: {fileID: 4431785145972578116}
   torso: {fileID: 3935524615280056133}
-  expressions:
-  - {fileID: 2311188442500374393}
-  - {fileID: 446004186427024635}
-  - {fileID: 6889005963070219348}
-  - {fileID: 696479630991997966}
-  - {fileID: 6364868841662151970}
-  - {fileID: 6253233482349187147}
-  - {fileID: 6747797996444171259}
-  - {fileID: 2620246556771638571}
 --- !u!1 &2717301726531395910
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,11 +486,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 7968342159046397948}
   <Position>k__BackingField: {x: -62, y: 38}
+  <ApplyPosition>k__BackingField: 0
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 0.9, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &3091577397723218175
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,11 +537,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 4431785145972578116}
   <Position>k__BackingField: {x: -55, y: -25}
+  <ApplyPosition>k__BackingField: 1
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 1, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &3277082525449659391
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,11 +641,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 1324404124138339808}
   <Position>k__BackingField: {x: -72, y: 63}
+  <ApplyPosition>k__BackingField: 0
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 0.9, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &3525339263501846173
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +680,7 @@ Transform:
   - {fileID: 1244678450445570206}
   - {fileID: 4932854852670143009}
   m_Father: {fileID: 1624862319354423946}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &696479630991997966
 MonoBehaviour:
@@ -786,11 +795,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 8845430596291096744}
   <Position>k__BackingField: {x: -67, y: 88}
+  <ApplyPosition>k__BackingField: 0
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 0.9, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &3748902111817604393
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,7 +834,7 @@ Transform:
   - {fileID: 2996846357948745470}
   - {fileID: 2230034012157183437}
   m_Father: {fileID: 1624862319354423946}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2620246556771638571
 MonoBehaviour:
@@ -933,11 +944,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 4431785145972578116}
   <Position>k__BackingField: {x: -45, y: -20}
+  <ApplyPosition>k__BackingField: 1
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 1, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &3967991024875467029
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +983,7 @@ Transform:
   - {fileID: 5330128141925820598}
   - {fileID: 1793404295390658525}
   m_Father: {fileID: 1624862319354423946}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &446004186427024635
 MonoBehaviour:
@@ -1032,11 +1045,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 4431785145972578116}
   <Position>k__BackingField: {x: -45, y: 0}
+  <ApplyPosition>k__BackingField: 1
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 1, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &4712955945470826649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,7 +1084,7 @@ Transform:
   - {fileID: 339825766397301941}
   - {fileID: 8270614158167184887}
   m_Father: {fileID: 1624862319354423946}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6747797996444171259
 MonoBehaviour:
@@ -1184,11 +1199,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 7606612081210301286}
   <Position>k__BackingField: {x: -67, y: 98}
+  <ApplyPosition>k__BackingField: 0
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 0.9, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &6429551004007227299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,11 +1250,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 4431785145972578116}
   <Position>k__BackingField: {x: -45, y: 0}
+  <ApplyPosition>k__BackingField: 1
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 1, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &6886828630594375594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,11 +1301,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 4431785145972578116}
   <Position>k__BackingField: {x: -45, y: 15}
+  <ApplyPosition>k__BackingField: 1
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 1, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &6907723684295375668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,11 +1405,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 4798286752579977436}
   <Position>k__BackingField: {x: -67, y: 28}
+  <ApplyPosition>k__BackingField: 0
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 1, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &7265584502672642730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,11 +1509,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 1954531979340382769}
   <Position>k__BackingField: {x: -67, y: 63}
+  <ApplyPosition>k__BackingField: 0
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 1, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &7272587392969481295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,7 +1548,7 @@ Transform:
   - {fileID: 4663853409967933283}
   - {fileID: 6379294770416443745}
   m_Father: {fileID: 1624862319354423946}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6253233482349187147
 MonoBehaviour:
@@ -1573,7 +1598,7 @@ Transform:
   - {fileID: 4465677655757270597}
   - {fileID: 9222285878006845517}
   m_Father: {fileID: 1624862319354423946}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6889005963070219348
 MonoBehaviour:
@@ -1635,11 +1660,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 4431785145972578116}
   <Position>k__BackingField: {x: -50, y: 50}
+  <ApplyPosition>k__BackingField: 1
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 1, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &8097824163646555003
 GameObject:
   m_ObjectHideFlags: 0
@@ -1684,11 +1711,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ApplyOperation>k__BackingField: 1
   <SpriteRenderer>k__BackingField: {fileID: 4431785145972578116}
   <Position>k__BackingField: {x: -45, y: 15}
+  <ApplyPosition>k__BackingField: 1
   <Rotation>k__BackingField: 0
+  <ApplyRotation>k__BackingField: 0
   <Scale>k__BackingField: {x: 1, y: 1}
+  <ApplyScale>k__BackingField: 0
 --- !u!1 &8494896928517103174
 GameObject:
   m_ObjectHideFlags: 0
