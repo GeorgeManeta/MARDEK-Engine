@@ -5,6 +5,8 @@ namespace MARDEK.CharacterSystem
 {
     public class AnnunakiPortrait : MonoBehaviour, IPortrait
     {
+        [SerializeField] StringExpressionMap map;
+
         [field: SerializeField] public PortraitType PortraitType { get; private set; }
 
         [SerializeField] SpriteRenderer face;
@@ -41,25 +43,26 @@ namespace MARDEK.CharacterSystem
                 }
             }
 
-            switch (expression.name)
+
+            switch (expression)
             {
-                case "angr":
+                case var v when v == this.map.GetExp("angr"):
                     eye.transform.localPosition = new Vector3(-45, 15, 0);
                     break;
 
-                case "grin":
+                case var v when v == this.map.GetExp("grin"):
                     eye.transform.localPosition = new Vector3(-45, 15, 0);
                     break;
 
-                case "dreamy":
+                case var v when v == this.map.GetExp("dreamy"):
                     eye.transform.localPosition = new Vector3(-50, 50, 0);
                     break;
 
-                case "susp":
+                case var v when v == this.map.GetExp("susp"):
                     eye.transform.localPosition = new Vector3(-45, -20, 0);
                     break;
 
-                case "deep":
+                case var v when v == this.map.GetExp("deep"):
                     eye.transform.localPosition = new Vector3(-55, -25, 0);
                     break;
 
@@ -67,7 +70,6 @@ namespace MARDEK.CharacterSystem
                     eye.transform.localPosition = new Vector3(-45, 0, 0);
                     break;
             }
-
         }
     }
 }

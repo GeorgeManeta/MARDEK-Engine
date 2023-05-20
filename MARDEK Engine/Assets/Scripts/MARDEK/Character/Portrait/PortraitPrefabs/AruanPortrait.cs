@@ -5,6 +5,8 @@ namespace MARDEK.CharacterSystem
 {
     public class AruanPortrait : MonoBehaviour, IPortrait
     {
+        [SerializeField] StringExpressionMap map;
+
         [field: SerializeField] public PortraitType PortraitType { get; private set; }
 
         [SerializeField] SpriteRenderer face;
@@ -35,6 +37,7 @@ namespace MARDEK.CharacterSystem
             rightBrow.transform.localRotation = Quaternion.Euler(0, 0, 0);
 
             foreach(var expr in expressions) { 
+
                 expr.gameObject.SetActive(false);
             }
 
@@ -57,9 +60,9 @@ namespace MARDEK.CharacterSystem
                 }
             }
 
-            switch (expression.name)
+            switch (expression)
             {
-                case "susp":
+                case var v when v == map.GetExp("susp"):
                     rightBrow.transform.localPosition = new Vector3(-170, 35, 0);
                     rightBrow.transform.localRotation = Quaternion.Euler(0, 0, 20);
                     leftBrow.transform.localPosition = new Vector3(-45, 50, 0);
@@ -73,7 +76,7 @@ namespace MARDEK.CharacterSystem
 
                     break;
 
-                case "deep":
+                case var v when v == map.GetExp("deep"):
                     rightBrow.transform.localPosition = new Vector3(-170, 35, 0);
                     rightBrow.transform.localRotation = Quaternion.Euler(0, 0, 10);
                     leftBrow.transform.localPosition = new Vector3(-45, 25, 0);
@@ -81,21 +84,21 @@ namespace MARDEK.CharacterSystem
 
                     break;
 
-                case "angr":
+                case var v when v == map.GetExp("angr"):
                     rightBrow.transform.localPosition = new Vector3(-165, 30, 0);
                     rightBrow.transform.localRotation = Quaternion.Euler(0, 0, 8);
                     leftBrow.transform.localPosition = new Vector3(-55, 27, 0);
                     leftBrow.transform.localRotation = Quaternion.Euler(0, 0, -5);
                     break;
 
-                case "shok":
+                case var v when v == map.GetExp("shok"):
                     rightBrow.transform.localPosition = new Vector3(-175, 63, 0);
                     rightBrow.transform.localRotation = Quaternion.Euler(0, 0, 75);
                     leftBrow.transform.localPosition = new Vector3(-10, 50, 0);
                     leftBrow.transform.localRotation = Quaternion.Euler(0, 0, -50);
                     break;
 
-                case "grin":
+                case var v when v == map.GetExp("grin"):
                     rightBrow.transform.localPosition = new Vector3(-175, 47, 0);
                     rightBrow.transform.localRotation = Quaternion.Euler(0, 0, 55);
                     leftBrow.transform.localPosition = new Vector3(-30, 40, 0);
