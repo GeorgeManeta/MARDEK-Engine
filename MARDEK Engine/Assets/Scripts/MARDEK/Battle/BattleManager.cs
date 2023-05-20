@@ -91,7 +91,7 @@ namespace MARDEK.Battle
         }
         List<Character> GetCharactersInOrder()
         {
-            // order by position (p1 e1 p2 e2 p3 e3 p4 e4)
+            // order by Position (p1 e1 p2 e2 p3 e3 p4 e4)
             List<Character> returnList = new List<Character>();
             for (int i = 0; i < 4; i++)
             {

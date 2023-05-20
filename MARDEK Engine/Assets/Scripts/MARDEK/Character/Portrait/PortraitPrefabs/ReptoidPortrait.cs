@@ -21,7 +21,7 @@ namespace MARDEK.CharacterSystem
             eye.sprite = portrait.Eye;
         }
 
-        public void SetExpression(PortraitExpression expression)
+        public void SetExpression(PortraitExpressionEnum expression)
         {
 
         }

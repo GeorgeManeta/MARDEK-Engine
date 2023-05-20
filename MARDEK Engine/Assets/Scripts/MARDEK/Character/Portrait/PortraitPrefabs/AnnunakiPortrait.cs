@@ -5,15 +5,13 @@ namespace MARDEK.CharacterSystem
 {
     public class AnnunakiPortrait : MonoBehaviour, IPortrait
     {
-        [SerializeField] StringExpressionMap map;
-
         [field: SerializeField] public PortraitType PortraitType { get; private set; }
 
         [SerializeField] SpriteRenderer face;
         [SerializeField] SpriteRenderer eye;
         [SerializeField] SpriteRenderer torso;
 
-        [SerializeField] List<ExpressionSprite> expressions;
+        [SerializeField] List<PortraitExpression> expressions;
 
         public void SetPortrait(CharacterPortrait portrait)
         {
@@ -21,19 +19,37 @@ namespace MARDEK.CharacterSystem
             eye.sprite = portrait.Eye;
             torso.sprite = portrait.Torso;
 
-            eye.transform.localPosition = new Vector3(-45, 0, 0);
-
-            foreach(var expr in expressions)
-            {
-                expr.gameObject.SetActive(false);
-            }
+            // apply norm expression
+            expressions[0].ApplyTransforms();
         }
 
-        public void SetExpression(PortraitExpression expression)
+        public void SetExpression(PortraitExpressionEnum expression)
         {
+            bool match = false;
             foreach(var expr in expressions)
             {
-                if (expr.expression == expression)
+                if (expr.Expression == expression)
+                {
+                    expr.gameObject.SetActive(true);
+                    expr.ApplyTransforms();
+                    match = true;
+                }
+                else
+                {
+                    expr.gameObject.SetActive(false);
+                }
+            }
+            if (!match)
+            {
+                // apply norm expression
+                expressions[0].gameObject.SetActive(true);
+                expressions[0].ApplyTransforms();
+            }
+
+            /*
+            foreach(var expr in expressions)
+            {
+                if (expr.Expression == Expression)
                 {
                     expr.gameObject.SetActive(true);
                 }
@@ -44,7 +60,7 @@ namespace MARDEK.CharacterSystem
             }
 
 
-            switch (expression)
+            switch (Expression)
             {
                 case var v when v == this.map.GetExp("angr"):
                     eye.transform.localPosition = new Vector3(-45, 15, 0);
@@ -70,6 +86,7 @@ namespace MARDEK.CharacterSystem
                     eye.transform.localPosition = new Vector3(-45, 0, 0);
                     break;
             }
+            */
         }
     }
 }

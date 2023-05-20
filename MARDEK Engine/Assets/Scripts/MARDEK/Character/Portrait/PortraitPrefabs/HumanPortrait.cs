@@ -30,7 +30,7 @@ namespace MARDEK.CharacterSystem
             rightBrow.sprite = portrait.Eyebrow;
         }
 
-        public void SetExpression(PortraitExpression expression)
+        public void SetExpression(PortraitExpressionEnum expression)
         {
 
         }

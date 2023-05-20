@@ -19,7 +19,7 @@ namespace MARDEK.CharacterSystem
 
         [SerializeField] SpriteRenderer torso;
 
-        [SerializeField] List<ExpressionSprite> expressions;
+        [SerializeField] List<PortraitExpression> expressions;
 
         public void SetPortrait(CharacterPortrait portrait)
         {
@@ -46,11 +46,11 @@ namespace MARDEK.CharacterSystem
             expressions[1].gameObject.SetActive(true);
         }
 
-        public void SetExpression(PortraitExpression expression)
+        public void SetExpression(PortraitExpressionEnum expression)
         {
             foreach(var expr in expressions)
             {
-                if (expr.expression == expression)
+                if (expr.Expression == expression)
                 {
                     expr.gameObject.SetActive(true);
                 }

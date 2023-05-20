@@ -42,7 +42,7 @@ public class FullscreenSprite : MonoBehaviour {
         // (1) No distortion -> scaleX == scaleY
         // (2) Background image must be at least as wide as the camera -> cameraSize.y * hardAspect * scaleX >= cameraSize.x
         // (3) Background image must be at leats as high as the camera -> scaleY >= 1
-        // (4) The scale should not be larger than neccessary -> pick minimum required scale
+        // (4) The Scale should not be larger than neccessary -> pick minimum required Scale
         //
         // From (2) it follows that scaleX >= cameraSize.x / cameraSize.y / hardAspect = cameraAspect / hardAspect
 

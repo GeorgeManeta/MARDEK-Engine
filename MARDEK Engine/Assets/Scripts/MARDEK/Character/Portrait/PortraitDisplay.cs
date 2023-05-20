@@ -31,7 +31,7 @@ namespace MARDEK.CharacterSystem
             }
         }
 
-        public void SetExpression(PortraitExpression expression)
+        public void SetExpression(PortraitExpressionEnum expression)
         {
             foreach (IPortrait portraitPrefab in portraitPrefabs)
             {

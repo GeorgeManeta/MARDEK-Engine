@@ -5,9 +5,9 @@ namespace MARDEK.CharacterSystem
 {
     public class StringExpressionMap : MonoBehaviour
     {
-        [field: SerializeField] public List<PortraitExpression> Map;
+        [field: SerializeField] public List<PortraitExpressionEnum> Map;
 
-        public PortraitExpression GetExp(string name)
+        public PortraitExpressionEnum GetExp(string name)
         {
             return Map.Find(expr => expr.name == name);
         }
