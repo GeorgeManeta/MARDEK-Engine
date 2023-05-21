@@ -769,10 +769,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: HumanMPortrait
       objectReference: {fileID: 0}
-    - target: {fileID: 2700925397866280906, guid: 4aefbc72787cdf542a699a53a224aa74, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4aefbc72787cdf542a699a53a224aa74, type: 3}
 --- !u!114 &2046992676417830440 stripped
@@ -803,16 +799,12 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4634612532267022749, guid: 027a5a15cc735964c9e377ec85d22cff, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4634612532267022749, guid: 027a5a15cc735964c9e377ec85d22cff, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 4634612532267022749, guid: 027a5a15cc735964c9e377ec85d22cff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 4634612532267022749, guid: 027a5a15cc735964c9e377ec85d22cff, type: 3}
       propertyPath: m_LocalPosition.y

@@ -13,21 +13,21 @@ namespace MARDEK.CharacterSystem
             foreach (var op in Transforms)
             {
                 op.gameObject.SetActive(true);
-                op.SpriteRenderer.gameObject.SetActive(true);
+                op.Obj.gameObject.SetActive(true);
 
                 if (op.ApplyPosition)
                 {
-                    op.SpriteRenderer.gameObject.transform.localPosition = op.Position;
+                    op.Obj.gameObject.transform.localPosition = op.Position;
                 }
 
                 if (op.ApplyRotation)
                 {
-                    op.SpriteRenderer.gameObject.transform.localRotation = Quaternion.Euler(0, 0, op.Rotation);
+                    op.Obj.gameObject.transform.localRotation = Quaternion.Euler(0, 0, op.Rotation);
                 }
 
                 if (op.ApplyScale)
                 {
-                    op.SpriteRenderer.gameObject.transform.localScale = new Vector3(op.Scale.x, op.Scale.y, 1);
+                    op.Obj.gameObject.transform.localScale = new Vector3(op.Scale.x, op.Scale.y, 1);
                 }
             }
         }
@@ -37,7 +37,7 @@ namespace MARDEK.CharacterSystem
             foreach (var op in Transforms)
             {
                 op.gameObject.SetActive(false);
-                op.SpriteRenderer.gameObject.SetActive(false);
+                op.Obj.gameObject.SetActive(false);
             }
         }
     }

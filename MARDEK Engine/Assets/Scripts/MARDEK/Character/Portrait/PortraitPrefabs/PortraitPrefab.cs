@@ -28,6 +28,7 @@ namespace MARDEK.CharacterSystem
             }
             if (currentExpression == null)
             {
+                Debug.Log("Expression " + expression.name + " not available for " + this.name + ". Using default norm expression.");
                 NormalExpression.gameObject.SetActive(true);
                 NormalExpression.ApplyTransforms();
             }

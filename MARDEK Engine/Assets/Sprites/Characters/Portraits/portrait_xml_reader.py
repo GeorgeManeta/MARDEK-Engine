@@ -12,6 +12,9 @@ import os
 # Formerly used minidom and ElementTree but those suck, lxml is better
 from lxml import etree as ET
 
+# For changing SVG import settings in .svg.meta files
+import re
+
 # Reads the frames and framelabels in the xml and returns a list where the ith element is the name/label of the (i+1)th frame in the DefineSprite
 def readFrames(fileName = ""):
 
@@ -129,6 +132,50 @@ def reformatSVGs(folderName = ""):
 
     print("SVGs in", folderName, "formatted.")
 
+"""
+Set SVG import settings for all .svg.meta files in folderName.
+
+The SVG is expected to have "Textured Sprite" as its Generated Asset Type.
+
+TextureSize is max(width, height) * scaleFactor --- scaleFactor = 3 by default
+but can be changed. Legion's portrait sprites are scaled by 7, for example.
+"""
+def svg_import_settings(folderName = "", scaleFactor = 3):
+    if folderName == "":
+        folderName = input("Enter name of folder containing exported SVGs: ")
+        print("Folder name:", folderName)
+
+    for metadata in [f for f in sorted(os.listdir(folderName)) if f.endswith(".svg.meta")]:
+
+        metadata = os.path.join(folderName, metadata)
+
+        # get texture size of imported SVG
+        svgName = metadata[:-5]
+        DOMTree = ET.parse(svgName)
+        SVGRoot = DOMTree.getroot()
+        height = float(SVGRoot.get("height")[:-2])
+        width = float(SVGRoot.get("width")[:-2])
+        textureSize = round(max(height, width)) * scaleFactor
+        print("read:", svgName, "height:", height, "width:", width, "textureSize:", textureSize)
+
+        file_text = ""
+        with open(metadata, "r") as f:
+            file_text = f.read()
+
+            # set Pixels per Unit to 1
+            file_text = re.sub(r'svgPixelsPerUnit: [0-9]+\n', r'svgPixelsPerUnit: 1\n', file_text)
+
+            # set Texture Size to correct value
+            file_text = re.sub(r'textureSize: [0-9]+\n', r'textureSize: ' + str(textureSize) + r'\n', file_text)
+
+        with open(metadata, "w") as f:
+            f.write(file_text)
+
+"""
+Renames and reformats the files in every folder of this program's current working directory.
+
+Does not change the SVG import settings.
+"""
 def run_all():
     files = [f for f in sorted(os.listdir()) if os.path.isdir(f)]
     for folderName in files:
@@ -137,8 +184,6 @@ def run_all():
         fileName = os.path.join(folderName, "swf.xml")
         try:
             frameList = readFrames(fileName)
-            print("List of frames:")
-            print(frameList)
             renameSVGs(frameList, folderName)
         except:
             print("SWF not detected")
@@ -146,16 +191,6 @@ def run_all():
         reformatSVGs(folderName)
 
 if __name__ == "__main__":
-    run_all()
-
-if 1 == 2:
-    # Replace with name of xml you want to read
-    fileName = r"C:\Users\account\Documents\MardekDev\MARDEK-Engine\MARDEK Engine\Assets\Sprites\Characters\Portraits\DefineSprite_883_neck_male\swf.xml"
-    frameList = readFrames(fileName)
-    print("List of frames:")
-    print(frameList)
-
-    folderName = r"C:\Users\account\Documents\MardekDev\MARDEK-Engine\MARDEK Engine\Assets\Sprites\Characters\Portraits\DefineSprite_883_neck_male"
-    renameSVGs(frameList, folderName)
-
-    reformatSVGs(folderName)
+    # run_all()
+    
+    svg_import_settings("huM_mouth_1059_raw")
