@@ -17,7 +17,7 @@ namespace MARDEK.CharacterSystem
             eye.sprite = portrait.Eye;
             torso.sprite = portrait.Torso;
 
-            NormalExpression.ApplyTransforms();
+            DefaultExpression.ApplyTransforms();
         }
     }
 }

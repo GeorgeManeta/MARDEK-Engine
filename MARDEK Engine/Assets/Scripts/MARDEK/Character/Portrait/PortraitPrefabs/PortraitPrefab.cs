@@ -9,7 +9,7 @@ namespace MARDEK.CharacterSystem
         public abstract void SetPortrait(CharacterPortrait portrait);
 
         [field: SerializeField] public List<PortraitExpression> Expressions { get; private set; }
-        [field: SerializeField] public PortraitExpression NormalExpression { get; private set; }
+        [field: SerializeField] public PortraitExpression DefaultExpression { get; private set; }
 
         public void SetExpression(PortraitExpressionEnum expression)
         {
@@ -28,9 +28,16 @@ namespace MARDEK.CharacterSystem
             }
             if (currentExpression == null)
             {
-                Debug.Log("Expression " + expression.name + " not available for " + this.name + ". Using default norm expression.");
-                NormalExpression.gameObject.SetActive(true);
-                NormalExpression.ApplyTransforms();
+                if (DefaultExpression != null)
+                {
+                    Debug.Log("Expression " + expression.name + " not available for " + this.name + ". Using default expression: " + DefaultExpression.name);
+                    DefaultExpression.gameObject.SetActive(true);
+                    DefaultExpression.ApplyTransforms();
+                }
+                else
+                {
+                    Debug.Log("Expression " + expression.name + " not available for " + this.name + ". No default expression found.");
+                }
             }
             else
             {
