@@ -8,6 +8,15 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] List<MonoBehaviour> portraitPrefabs;
         PortraitPrefab activePortrait;
 
+        // Lets you test the appearance of a character portrait.
+        [SerializeField] CharacterPortrait testPortrait;
+        [ContextMenu("Test Portrait")]
+        void TestPortrait()
+        {
+            if (testPortrait != null)
+                SetPortrait(testPortrait);
+        }
+
         public void SetPortrait(CharacterPortrait portrait)
         {
             if (portrait != null)

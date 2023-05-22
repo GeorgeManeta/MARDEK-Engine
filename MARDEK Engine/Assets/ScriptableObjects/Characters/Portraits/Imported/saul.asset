@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f7cb1b40972334ca24490674fdbca9, type: 3}
+  m_Name: saul
+  m_EditorClassIdentifier: 
+  <PortraitType>k__BackingField: {fileID: 11400000, guid: bba3c83117c53c84b90bdc6d9ef8b3de, type: 2}
+  <Face>k__BackingField: {fileID: 3286163911610860551, guid: 20f73518fea083a46936a235a557a7bd, type: 3}
+  <Hair>k__BackingField: {fileID: 3286163911610860551, guid: c39574fb456a5ad4f83c1b92fc13bf75, type: 3}
+  <Eye>k__BackingField: {fileID: 3286163911610860551, guid: 2336bfe8152c8ac4c90e8bc55a0f3323, type: 3}
+  <Eyebrow>k__BackingField: {fileID: 3286163911610860551, guid: 970a4e56355daf340aa6005ba1df3c09, type: 3}
+  <Neck>k__BackingField: {fileID: 3286163911610860551, guid: 9efbdf9c75bd0ad46b18cae4cc6c0810, type: 3}
+  <Torso>k__BackingField: {fileID: 3286163911610860551, guid: dc5952fc5432bd14087649bc353fb63d, type: 3}
+  <Mouth>k__BackingField: {fileID: 0}
+  <Hat>k__BackingField: {fileID: 0}
+  <Ethnicity>k__BackingField: pallid
+  <Facemask>k__BackingField: -1

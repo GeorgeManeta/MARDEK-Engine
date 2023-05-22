@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f7cb1b40972334ca24490674fdbca9, type: 3}
+  m_Name: bartholio_actor
+  m_EditorClassIdentifier: 
+  <PortraitType>k__BackingField: {fileID: 11400000, guid: bba3c83117c53c84b90bdc6d9ef8b3de, type: 2}
+  <Face>k__BackingField: {fileID: 3286163911610860551, guid: 21f8232705e3e26468ba0f52787d9b9c, type: 3}
+  <Hair>k__BackingField: {fileID: 3286163911610860551, guid: b6eba64e205bf3d49bf726ff2ee09bbd, type: 3}
+  <Eye>k__BackingField: {fileID: 3286163911610860551, guid: 4ee70bea8e40a864e9426a7b292b526a, type: 3}
+  <Eyebrow>k__BackingField: {fileID: 3286163911610860551, guid: 66dcfa47c6663a1438334168ea4def7f, type: 3}
+  <Neck>k__BackingField: {fileID: 3286163911610860551, guid: 9e31bb70d0e2d8b47a2e0c9c5c6456ac, type: 3}
+  <Torso>k__BackingField: {fileID: 3286163911610860551, guid: 8e43aaf488b4f4e439f92b46a78bf40c, type: 3}
+  <Mouth>k__BackingField: {fileID: 0}
+  <Hat>k__BackingField: {fileID: 0}
+  <Ethnicity>k__BackingField: 
+  <Facemask>k__BackingField: -1

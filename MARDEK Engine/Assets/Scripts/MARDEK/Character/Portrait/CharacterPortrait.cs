@@ -1,15 +1,11 @@
 ﻿using UnityEngine;
 using MARDEK.Core;
-using MARDEK.Animation;
-using MARDEK.Stats;
 
 namespace MARDEK.CharacterSystem
 {
     [CreateAssetMenu(menuName ="MARDEK/Character/CharacterPortrait")]
     public class CharacterPortrait : AddressableScriptableObject
     {
-        // [field: SerializeField] public SpriteAnimationClipList WalkSprites { get; private set; }
-        // [field: SerializeField] public PortraitType PortraitType { get; private set; }
         [field: SerializeField] public PortraitType PortraitType { get; private set; }
 
         [field: SerializeField] public Sprite Face { get; private set; }
@@ -23,6 +19,25 @@ namespace MARDEK.CharacterSystem
         // TODO implement
         [field: SerializeField] public Sprite Hat { get; private set; }
 
-        [field: SerializeField] public int Ethnicity { get; private set; }
+        [field: SerializeField] public string Ethnicity { get; private set; }
+        [field: SerializeField] public int Facemask { get; private set; }
+
+        // CharacterPortrait creator for use by PortraitImporter.cs
+        public CharacterPortrait(PortraitType portraitType, Sprite face,
+            Sprite hair, Sprite eye, Sprite eyebrow, Sprite neck, Sprite torso,
+            Sprite mouth, Sprite hat, string ethnicity, int facemask)
+        {
+            PortraitType = portraitType;
+            Face = face;
+            Hair = hair;
+            Eye = eye;
+            Eyebrow = eyebrow;
+            Neck = neck;
+            Torso = torso;
+            Mouth = mouth;
+            Hat = hat;
+            Ethnicity = ethnicity;
+            Facemask = facemask;
+        }
     }
 }

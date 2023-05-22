@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f7cb1b40972334ca24490674fdbca9, type: 3}
+  m_Name: shaman2
+  m_EditorClassIdentifier: 
+  <PortraitType>k__BackingField: {fileID: 11400000, guid: 93e2d2916c6997a4db530e0ed71c9f9a, type: 2}
+  <Face>k__BackingField: {fileID: 3286163911610860551, guid: a09e7d027230c7344a541ed13ac77c6c, type: 3}
+  <Hair>k__BackingField: {fileID: 3286163911610860551, guid: f981e8981b26ba747bea19242a855c9b, type: 3}
+  <Eye>k__BackingField: {fileID: 3286163911610860551, guid: 58a3ad6de8190d241a62043c37665457, type: 3}
+  <Eyebrow>k__BackingField: {fileID: 3286163911610860551, guid: f898bca99bd8bfc4296e3604d7b2e425, type: 3}
+  <Neck>k__BackingField: {fileID: 3286163911610860551, guid: 70e0a4c5dc747c44d8d7e833d4a08d5e, type: 3}
+  <Torso>k__BackingField: {fileID: 3286163911610860551, guid: e2ca5fd478a5baa4c81536138bf46a60, type: 3}
+  <Mouth>k__BackingField: {fileID: 0}
+  <Hat>k__BackingField: {fileID: 0}
+  <Ethnicity>k__BackingField: zombie
+  <Facemask>k__BackingField: -1

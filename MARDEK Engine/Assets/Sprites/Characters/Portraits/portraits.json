@@ -1,43 +1,50 @@
-{
-    "s_mardek": {
+[
+    {
+        "displayName": "s_mardek",
         "t": "huM",
         "face": "mardek",
         "eyes": "blue",
         "armour": "PlateMail",
         "eyebrows": "brown"
     },
-    "s_mardek_dream": {
+    {
+        "displayName": "s_mardek_dream",
         "t": "Anu",
         "robe": "platemail",
         "face": "void",
         "eye": "L",
         "elembg": "LIGHT"
     },
-    "s_mardek_hero": {
+    {
+        "displayName": "s_mardek_hero",
         "t": "huM",
         "face": "mardek_hero",
         "eyes": "brown",
         "armour": "mardek_hero"
     },
-    "s_deugan_hero": {
+    {
+        "displayName": "s_deugan_hero",
         "t": "huM",
         "face": "deugan_hero",
         "eyes": "green",
         "armour": "deugan_hero"
     },
-    "s_mardek_child": {
+    {
+        "displayName": "s_mardek_child",
         "t": "child",
         "face": 1,
         "eyes": "brown",
         "armour": "Tunic"
     },
-    "s_deugan_child": {
+    {
+        "displayName": "s_deugan_child",
         "t": "child",
         "face": "deugan",
         "eyes": "green",
         "armour": "Tunic2"
     },
-    "s_rm_mardek_child": {
+    {
+        "displayName": "s_rm_mardek_child",
         "t": "child",
         "face": 1,
         "eyes": "purelight",
@@ -45,7 +52,8 @@
         "elembg": "LIGHT",
         "voice": "GdM_LIGHT"
     },
-    "s_rm_mardek_soldier": {
+    {
+        "displayName": "s_rm_mardek_soldier",
         "t": "huM",
         "hair": "mardek_soldier",
         "face": 1,
@@ -54,7 +62,8 @@
         "elembg": "LIGHT",
         "voice": "GdM_LIGHT"
     },
-    "s_rm_mardek": {
+    {
+        "displayName": "s_rm_mardek",
         "t": "huM",
         "face": "mardek",
         "eyes": "purelight",
@@ -63,7 +72,8 @@
         "voice": "GdM_LIGHT",
         "eyebrows": "brown"
     },
-    "s_rm_mardek_dream": {
+    {
+        "displayName": "s_rm_mardek_dream",
         "t": "Anu",
         "robe": "platemail",
         "face": "void",
@@ -71,14 +81,16 @@
         "elembg": "LIGHT",
         "voice": "GdM_LIGHT"
     },
-    "s_mardek_soldier": {
+    {
+        "displayName": "s_mardek_soldier",
         "t": "huM",
         "hair": "mardek_soldier",
         "face": 1,
         "eyes": "brown",
         "armour": "Soldier"
     },
-    "s_deugan_soldier": {
+    {
+        "displayName": "s_deugan_soldier",
         "t": "huM",
         "hair": "deugan_soldier",
         "face": 1,
@@ -86,7 +98,8 @@
         "eyebrows": "blonde",
         "armour": "Soldier"
     },
-    "s_donovan": {
+    {
+        "displayName": "s_donovan",
         "t": "huM",
         "hair": "donovan_bearded",
         "face": 1,
@@ -94,7 +107,8 @@
         "eyebrows": "brown",
         "armour": "Pyromancer"
     },
-    "s_donovan_soldier": {
+    {
+        "displayName": "s_donovan_soldier",
         "t": "huM",
         "hair": "donovan",
         "face": 1,
@@ -102,7 +116,8 @@
         "eyebrows": "brown",
         "armour": "Soldier"
     },
-    "s_steele_soldier": {
+    {
+        "displayName": "s_steele_soldier",
         "t": "huM",
         "hair": "steele",
         "face": "manly2",
@@ -110,7 +125,8 @@
         "eyebrows": "black",
         "armour": "Soldier"
     },
-    "s_emela_soldier": {
+    {
+        "displayName": "s_emela_soldier",
         "t": "huF",
         "hair": "emela",
         "face": "emela",
@@ -119,7 +135,8 @@
         "armour": "Soldier",
         "facemask": 4
     },
-    "s_emela_guardian": {
+    {
+        "displayName": "s_emela_guardian",
         "t": "huF",
         "hair": "emelaG",
         "face": "emela",
@@ -128,7 +145,8 @@
         "armour": "none",
         "facemask": 4
     },
-    "s_sharla": {
+    {
+        "displayName": "s_sharla",
         "t": "huF",
         "hair": "sharla",
         "face": 1,
@@ -137,7 +155,8 @@
         "armour": "Aeromancer",
         "facemask": 4
     },
-    "s_sharla_soldier": {
+    {
+        "displayName": "s_sharla_soldier",
         "t": "huF",
         "hair": "sharla",
         "face": 1,
@@ -146,7 +165,8 @@
         "armour": "Soldier",
         "facemask": 4
     },
-    "s_muriance": {
+    {
+        "displayName": "s_muriance",
         "t": "huM",
         "hair": "muriance",
         "face": "arab",
@@ -156,7 +176,8 @@
         "ethnicity": 3,
         "facemask": 2
     },
-    "s_elwyen_child": {
+    {
+        "displayName": "s_elwyen_child",
         "t": "huF",
         "hair": "elwyen",
         "face": 1,
@@ -164,7 +185,8 @@
         "eyebrows": "blue",
         "armour": "babyblue"
     },
-    "s_elwyen": {
+    {
+        "displayName": "s_elwyen",
         "t": "huF",
         "hair": "elwyen2",
         "face": 1,
@@ -172,7 +194,8 @@
         "eyebrows": "blue",
         "armour": "babyblue"
     },
-    "s_vehrn": {
+    {
+        "displayName": "s_vehrn",
         "t": "huM",
         "hair": "vehrn",
         "face": "manly3",
@@ -181,7 +204,8 @@
         "armour": "vehrn",
         "facemask": 3
     },
-    "s_zach": {
+    {
+        "displayName": "s_zach",
         "t": "huM",
         "hair": "bald",
         "face": "neegruh",
@@ -190,7 +214,8 @@
         "armour": "hidearmour",
         "ethnicity": 2
     },
-    "s_bartholio": {
+    {
+        "displayName": "s_bartholio",
         "t": "huM",
         "hair": "bartholio",
         "face": "bartholio",
@@ -198,7 +223,8 @@
         "eyebrows": "bartholio",
         "armour": "bartholio"
     },
-    "s_vennie": {
+    {
+        "displayName": "s_vennie",
         "t": "huM",
         "hair": "vennie",
         "face": "vennie",
@@ -206,7 +232,8 @@
         "eyebrows": "brown",
         "armour": "vennie"
     },
-    "s_aalia": {
+    {
+        "displayName": "s_aalia",
         "t": "huF",
         "hair": "aalia_actor",
         "face": "aalia",
@@ -214,7 +241,8 @@
         "eyebrows": "blonde",
         "armour": "aalia"
     },
-    "s_bernard": {
+    {
+        "displayName": "s_bernard",
         "t": "huM",
         "hair": "bernard",
         "face": "ancient",
@@ -222,13 +250,15 @@
         "eyebrows": "bernard",
         "armour": "bernard"
     },
-    "s_sslenck": {
+    {
+        "displayName": "s_sslenck",
         "t": "Rep",
         "face": "sslenck",
         "eyes": "orange",
         "armour": "sslenck"
     },
-    "s_steele": {
+    {
+        "displayName": "s_steele",
         "t": "huM",
         "hair": "steele2",
         "face": "steele2",
@@ -236,13 +266,15 @@
         "eyebrows": "black",
         "armour": "steele2"
     },
-    "s_solaar": {
+    {
+        "displayName": "s_solaar",
         "t": "Wlf",
         "face": "solaar",
         "eyes": "solaar",
         "voice": "Aruan"
     },
-    "s_saul": {
+    {
+        "displayName": "s_saul",
         "t": "huM",
         "face": "saul",
         "eyes": "grey",
@@ -251,11 +283,13 @@
         "eyebrows": "black",
         "ethnicity": "pallid"
     },
-    "s_robot": {
+    {
+        "displayName": "s_robot",
         "t": "robot",
         "voice": "ROBO"
     },
-    "s_deugan_lw": {
+    {
+        "displayName": "s_deugan_lw",
         "t": "huM",
         "hair": "lonewolf",
         "face": 1,
@@ -264,7 +298,8 @@
         "eyebrows": "blonde",
         "armour": "lonewolf"
     },
-    "s_arab1": {
+    {
+        "displayName": "s_arab1",
         "t": "huM",
         "face": "arab",
         "hair": "arab1",
@@ -273,7 +308,8 @@
         "armour": "arab1",
         "ethnicity": 3
     },
-    "s_arab2": {
+    {
+        "displayName": "s_arab2",
         "t": "huM",
         "face": "arab",
         "hair": "arab2",
@@ -282,7 +318,8 @@
         "armour": "arab2",
         "ethnicity": 3
     },
-    "s_arabguard": {
+    {
+        "displayName": "s_arabguard",
         "t": "huM",
         "face": "arab",
         "hair": "arabguard",
@@ -291,7 +328,8 @@
         "armour": "arabguard",
         "ethnicity": 3
     },
-    "s_arabf1": {
+    {
+        "displayName": "s_arabf1",
         "t": "huF",
         "face": "arab",
         "hair": "arabf1",
@@ -300,7 +338,8 @@
         "armour": "none_arab",
         "ethnicity": 3
     },
-    "s_arabf2": {
+    {
+        "displayName": "s_arabf2",
         "t": "huF",
         "face": "arab",
         "hair": "arabf2",
@@ -309,7 +348,8 @@
         "armour": "arabf2",
         "ethnicity": 3
     },
-    "s_arabshaman": {
+    {
+        "displayName": "s_arabshaman",
         "t": "huM",
         "face": "arab",
         "hair": "arabShaman",
@@ -318,7 +358,8 @@
         "armour": "arabShaman",
         "ethnicity": 3
     },
-    "s_bandit": {
+    {
+        "displayName": "s_bandit",
         "t": "huM",
         "face": 1,
         "hair": "bandit",
@@ -326,14 +367,16 @@
         "eyebrows": "brown",
         "armour": "LeatherArmour"
     },
-    "s_boy": {
+    {
+        "displayName": "s_boy",
         "t": "child",
         "face": 3,
         "eyes": "brown",
         "eyebrows": "blonde",
         "armour": "Tunic_brown"
     },
-    "s_captain": {
+    {
+        "displayName": "s_captain",
         "t": "huM",
         "face": "1",
         "hair": "jacques",
@@ -341,7 +384,8 @@
         "eyebrows": "blonde",
         "armour": "Soldier"
     },
-    "s_captain2": {
+    {
+        "displayName": "s_captain2",
         "t": "huM",
         "face": "middleaged",
         "hair": "bigbeard",
@@ -349,7 +393,8 @@
         "eyebrows": "brown",
         "armour": "Soldier"
     },
-    "s_clave": {
+    {
+        "displayName": "s_clave",
         "t": "huM",
         "face": "clave",
         "hair": "bald",
@@ -358,13 +403,15 @@
         "armour": "clave",
         "ethnicity": "clave"
     },
-    "s_common": {
+    {
+        "displayName": "s_common",
         "t": "huM",
         "face": 1,
         "eyes": "brown",
         "armour": "Tunic"
     },
-    "s_cultling": {
+    {
+        "displayName": "s_cultling",
         "t": "huM",
         "face": 1,
         "hair": 4,
@@ -372,7 +419,8 @@
         "eyebrows": "brown",
         "armour": "YalortianRobe"
     },
-    "s_curator": {
+    {
+        "displayName": "s_curator",
         "t": "huM",
         "face": "curator",
         "hair": "curator",
@@ -381,7 +429,8 @@
         "armour": "bernard",
         "ethnicity": 3
     },
-    "s_derek": {
+    {
+        "displayName": "s_derek",
         "t": "huM",
         "face": "middleaged",
         "hair": "derek",
@@ -389,7 +438,8 @@
         "eyebrows": "brown",
         "armour": "Blacksmith"
     },
-    "s_enki": {
+    {
+        "displayName": "s_enki",
         "t": "huM",
         "face": 1,
         "hair": "enki",
@@ -397,7 +447,8 @@
         "eyebrows": "brown",
         "armour": "NinevehnGi"
     },
-    "s_gloria": {
+    {
+        "displayName": "s_gloria",
         "t": "huF",
         "hair": "gloria",
         "face": 1,
@@ -405,7 +456,8 @@
         "eyebrows": "orange",
         "armour": "orangedress"
     },
-    "s_gloria17": {
+    {
+        "displayName": "s_gloria17",
         "t": "huF",
         "hair": "gloria",
         "face": 1,
@@ -413,7 +465,8 @@
         "eyebrows": "orange",
         "armour": "orangedress"
     },
-    "s_gope": {
+    {
+        "displayName": "s_gope",
         "t": "huM",
         "face": 1,
         "hair": "gope",
@@ -422,7 +475,8 @@
         "armour": "gope",
         "neck": "gope"
     },
-    "s_hermit": {
+    {
+        "displayName": "s_hermit",
         "t": "huM",
         "face": "oldaged_arab",
         "hair": "hermit",
@@ -431,7 +485,8 @@
         "armour": "none_arab",
         "ethnicity": 3
     },
-    "s_inventor": {
+    {
+        "displayName": "s_inventor",
         "t": "huM",
         "face": 1,
         "hair": "inventor",
@@ -439,7 +494,8 @@
         "eyebrows": "brown",
         "armour": "inventor"
     },
-    "s_lilanea": {
+    {
+        "displayName": "s_lilanea",
         "t": "huF",
         "face": 1,
         "eyes": "brown",
@@ -447,16 +503,18 @@
         "hair": "lilanea",
         "armour": "Tunic"
     },
-    "s_king": {
+    {
+        "displayName": "s_king",
         "t": "huM",
         "face": "middleaged",
         "hair": "king",
-        "eyes": "Check_original_code_for_extra_logic",
+        "eyes": "MISSING DATA - Check_original_code_for_extra_logic",
         "eyebrows": "white",
         "armour": "King",
-        "voice": "Check_original_code_for_extra_logic"
+        "voice": "MISSING DATA - Check_original_code_for_extra_logic"
     },
-    "s_man1": {
+    {
+        "displayName": "s_man1",
         "t": "huM",
         "face": "middleaged",
         "hair": "man1",
@@ -464,13 +522,16 @@
         "eyebrows": "brown",
         "armour": "Tunic_Brown"
     },
-    "s_man2": {
+    {
+        "displayName": "s_man2",
         "t": "huM",
-        "face": 2,
+        "face (MISSING DATA - face 2 doesn't exist? use face 1 instead)": 2,
+        "face": 1,
         "eyes": "brown",
         "armour": "BlackShirt"
     },
-    "s_man3": {
+    {
+        "displayName": "s_man3",
         "t": "huM",
         "face": "oldaged",
         "hair": "man3",
@@ -478,7 +539,8 @@
         "eyebrows": "white",
         "armour": "Tunic_Cream"
     },
-    "s_miner": {
+    {
+        "displayName": "s_miner",
         "t": "huM",
         "face": "middleaged",
         "hair": "miner",
@@ -486,28 +548,32 @@
         "eyebrows": "black",
         "armour": "MinerClothes"
     },
-    "s_mugbert": {
+    {
+        "displayName": "s_mugbert",
         "t": "child",
         "face": "mugbert",
         "eyes": "brown",
         "eyebrows": "monobrow",
         "armour": "mugbert"
     },
-    "s_mugbert2": {
+    {
+        "displayName": "s_mugbert2",
         "t": "child",
         "face": "mugbert",
         "eyes": "brown",
         "eyebrows": "monobrow",
         "armour": "mugbert"
     },
-    "s_mugbert_adult": {
+    {
+        "displayName": "s_mugbert_adult",
         "t": "huM",
         "face": "mugbert",
         "eyes": "brown",
         "eyebrows": "monobrow",
         "armour": "mugbert2"
     },
-    "s_ncaptain": {
+    {
+        "displayName": "s_ncaptain",
         "t": "huM",
         "face": 1,
         "hair": "ncaptain",
@@ -516,7 +582,8 @@
         "armour": "SpaceUniformNC",
         "ethnicity": 3
     },
-    "s_ncrew": {
+    {
+        "displayName": "s_ncrew",
         "t": "huM",
         "face": 1,
         "hair": "ncrew",
@@ -525,7 +592,8 @@
         "armour": "SpaceUniformN",
         "ethnicity": 3
     },
-    "s_polly": {
+    {
+        "displayName": "s_polly",
         "t": "huF",
         "face": "fat",
         "hair": "polly",
@@ -533,7 +601,8 @@
         "eyebrows": "blonde",
         "armour": "polly"
     },
-    "s_priestess": {
+    {
+        "displayName": "s_priestess",
         "t": "huF",
         "face": "middleaged",
         "hair": "priestess",
@@ -541,31 +610,36 @@
         "armour": "aalia",
         "eyebrows": "blonde"
     },
-    "s_princess": {
+    {
+        "displayName": "s_princess",
         "t": "huF",
         "face": "princess",
         "eyes": "blue",
         "armour": "princess"
     },
-    "s_reptoid": {
+    {
+        "displayName": "s_reptoid",
         "t": "Rep",
         "face": 1,
         "eyes": 1,
         "armour": "none"
     },
-    "s_reptoid_smith": {
+    {
+        "displayName": "s_reptoid_smith",
         "t": "Rep",
         "face": 4,
         "eyes": 4,
         "armour": "leather2"
     },
-    "s_reptoid_warrior": {
+    {
+        "displayName": "s_reptoid_warrior",
         "t": "Rep",
         "face": 3,
         "eyes": 3,
         "armour": "leatherarmour"
     },
-    "s_royalknight": {
+    {
+        "displayName": "s_royalknight",
         "t": "huM",
         "face": 1,
         "hair": "goldknight",
@@ -573,7 +647,8 @@
         "eyebrows": "black",
         "armour": "platemail_gold"
     },
-    "s_saucerbrother": {
+    {
+        "displayName": "s_saucerbrother",
         "t": "huM",
         "face": "middleaged",
         "hair": "saucer",
@@ -581,7 +656,8 @@
         "eyebrows": "grey",
         "armour": "SaucerBrother"
     },
-    "s_shaman": {
+    {
+        "displayName": "s_shaman",
         "t": "huM",
         "face": "oldaged",
         "hair": "shaman",
@@ -589,7 +665,8 @@
         "eyebrows": "shaman",
         "armour": "shaman"
     },
-    "s_shaman2": {
+    {
+        "displayName": "s_shaman2",
         "t": "huF",
         "face": "zombie",
         "hair": "shaman2",
@@ -599,7 +676,8 @@
         "ethnicity": "zombie",
         "mouth": "zombie"
     },
-    "s_shaman3": {
+    {
+        "displayName": "s_shaman3",
         "t": "huF",
         "face": 1,
         "hair": "shaman3",
@@ -607,13 +685,15 @@
         "eyebrows": "brown",
         "armour": "shaman3"
     },
-    "s_snaketongue": {
+    {
+        "displayName": "s_snaketongue",
         "t": "Rep",
         "face": "evil",
         "eyes": "evil",
         "armour": "robe"
     },
-    "s_socialfox": {
+    {
+        "displayName": "s_socialfox",
         "t": "huM",
         "face": "manly",
         "hair": "socialfox",
@@ -621,7 +701,8 @@
         "eyebrows": "orange",
         "armour": "HempenRobe"
     },
-    "s_solakian": {
+    {
+        "displayName": "s_solakian",
         "t": "huM",
         "face": "arab",
         "hair": "solakian",
@@ -630,7 +711,8 @@
         "armour": "Tunic_cream",
         "ethnicity": 3
     },
-    "s_solhp": {
+    {
+        "displayName": "s_solhp",
         "t": "huM",
         "face": "middleagedarab",
         "hair": "solakianHP",
@@ -639,14 +721,16 @@
         "armour": "Tunic_cream",
         "ethnicity": 3
     },
-    "s_soldier": {
+    {
+        "displayName": "s_soldier",
         "t": "huM",
         "face": "soldier",
         "eyes": "blue",
         "eyebrows": "black",
         "armour": "Soldier"
     },
-    "s_warpgirl": {
+    {
+        "displayName": "s_warpgirl",
         "t": "huF",
         "face": 1,
         "hair": "luft",
@@ -654,7 +738,8 @@
         "armour": "luft",
         "eyebrows": "blonde"
     },
-    "s_warpman": {
+    {
+        "displayName": "s_warpman",
         "t": "huM",
         "face": 1,
         "eyes": "blue",
@@ -662,7 +747,8 @@
         "armour": "luft",
         "eyebrows": "blonde"
     },
-    "s_wobblescimitare": {
+    {
+        "displayName": "s_wobblescimitare",
         "t": "huM",
         "face": "wobblescimitare",
         "neck": "arab",
@@ -672,13 +758,15 @@
         "armour": "wobblescimitare",
         "ethnicity": 3
     },
-    "s_woman": {
+    {
+        "displayName": "s_woman",
         "t": "huF",
         "face": 1,
         "eyes": "blue",
         "armour": "Tunic"
     },
-    "s_woman2": {
+    {
+        "displayName": "s_woman2",
         "t": "huF",
         "face": "middleaged",
         "hair": "old1",
@@ -686,7 +774,8 @@
         "eyebrows": "mousy",
         "armour": "Tunic"
     },
-    "s_woman3": {
+    {
+        "displayName": "s_woman3",
         "t": "huF",
         "face": "oldaged",
         "hair": "old",
@@ -694,7 +783,8 @@
         "eyebrows": "grey",
         "armour": "HempenRobe2"
     },
-    "s_woman4": {
+    {
+        "displayName": "s_woman4",
         "t": "huF",
         "face": 1,
         "hair": 15,
@@ -702,7 +792,8 @@
         "eyebrows": "brown",
         "armour": "Tunic"
     },
-    "s_madeline": {
+    {
+        "displayName": "s_madeline",
         "t": "huF",
         "face": 1,
         "hair": 15,
@@ -710,15 +801,18 @@
         "eyebrows": "brown",
         "armour": "Tunic"
     },
-    "s_ypriest": {
+    {
+        "displayName": "s_ypriest",
         "t": "huM",
         "face": 1,
-        "hair": 31,
+        "hair (MISSING DATA - 31 doesn't exist, should be gallovar?)": 31,
+        "hair": "gallovar",
         "eyes": "yalort",
         "eyebrows": "black",
         "armour": "YalortianRobe"
     },
-    "s_yhighpriest": {
+    {
+        "displayName": "s_yhighpriest",
         "t": "huM",
         "face": "vudu",
         "hair": "vudu",
@@ -727,7 +821,8 @@
         "armour": "YalortianRobe",
         "ethnicity": 2
     },
-    "s_zombie": {
+    {
+        "displayName": "s_zombie",
         "t": "huM",
         "face": "zombie",
         "hair": "zombie",
@@ -737,17 +832,20 @@
         "ethnicity": "zombie",
         "mouth": "zombie"
     },
-    "s_locksmith": {
+    {
+        "displayName": "s_locksmith",
         "t": "huM",
         "face": "zombie",
-        "hair": "locksmith",
+        "hair (MISSING DATA - locksmith hair doesn't exist)": "locksmith",
+        "hair": "zombie",
         "eyes": "purelight",
         "eyebrows": "black",
         "armour": "suit",
         "ethnicity": "zombie",
         "mouth": "zombie"
     },
-    "s_zombie_warrior": {
+    {
+        "displayName": "s_zombie_warrior",
         "t": "huM",
         "face": "manly_zombie2",
         "hair": "bald",
@@ -757,7 +855,8 @@
         "ethnicity": "zombie",
         "mouth": "zombie"
     },
-    "s_z_socialfox": {
+    {
+        "displayName": "s_z_socialfox",
         "t": "huM",
         "face": "manly_zombie",
         "hair": "socialfox",
@@ -768,7 +867,8 @@
         "mouth": "zombie",
         "voice": "GdM_EARTH"
     },
-    "s_zombiefox": {
+    {
+        "displayName": "s_zombiefox",
         "t": "huM",
         "face": "manly_zombie",
         "hair": "socialfox",
@@ -779,7 +879,8 @@
         "mouth": "zombie",
         "voice": "GdM_EARTH"
     },
-    "s_bartholio_actor": {
+    {
+        "displayName": "s_bartholio_actor",
         "t": "huM",
         "hair": "bartholio",
         "face": "bartholio",
@@ -787,7 +888,8 @@
         "eyebrows": "bartholio",
         "armour": "wideshoulders"
     },
-    "s_vennie_actor": {
+    {
+        "displayName": "s_vennie_actor",
         "t": "huM",
         "hair": "dougal",
         "face": "vennie",
@@ -795,7 +897,8 @@
         "eyebrows": "brown",
         "armour": "Soldier"
     },
-    "s_aalia_actor": {
+    {
+        "displayName": "s_aalia_actor",
         "t": "huF",
         "hair": "aalia_actor",
         "face": "aalia",
@@ -803,7 +906,8 @@
         "eyebrows": "blonde",
         "armour": "aalia_actor"
     },
-    "s_arabshaman_galaris": {
+    {
+        "displayName": "s_arabshaman_galaris",
         "t": "huM",
         "face": "arab",
         "hair": "arabShaman_galaris",
@@ -812,7 +916,8 @@
         "armour": "arabShaman_galaris",
         "ethnicity": 3
     },
-    "s_witch": {
+    {
+        "displayName": "s_witch",
         "t": "huF",
         "face": "arab",
         "hair": "witch",
@@ -821,67 +926,76 @@
         "armour": "shaman2",
         "ethnicity": 3
     },
-    "s_rohoph": {
+    {
+        "displayName": "s_rohoph",
         "t": "Anu",
         "robe": "L",
         "eye": "L",
         "elembg": "LIGHT",
         "voice": "GdM_LIGHT"
     },
-    "s_moric": {
+    {
+        "displayName": "s_moric",
         "t": "Anu",
         "robe": "black",
         "eye": "green",
         "elembg": "EARTH",
         "voice": "GdM_EARTH"
     },
-    "s_moric2": {
+    {
+        "displayName": "s_moric2",
         "t": "Anu",
         "robe": "black",
         "eye": "green",
         "elembg": "EARTH",
         "voice": "GdM_EARTH"
     },
-    "s_qualna": {
+    {
+        "displayName": "s_qualna",
         "t": "Anu",
         "robe": "red",
         "eye": "red",
         "elembg": "ETHER",
         "voice": "GdM_ETHER"
     },
-    "s_qualna2": {
+    {
+        "displayName": "s_qualna2",
         "t": "Anu",
         "robe": "red",
         "eye": "red",
         "elembg": "ETHER",
         "voice": "GdM_ETHER"
     },
-    "s_balthazar": {
+    {
+        "displayName": "s_balthazar",
         "t": "Anu",
         "robe": "blue",
         "eye": "blue",
         "elembg": "WATER",
         "voice": "GdM_WATER"
     },
-    "s_gaspar": {
+    {
+        "displayName": "s_gaspar",
         "t": "Anu",
         "robe": "orange",
         "eye": "orange",
         "elembg": "FIRE",
         "voice": "GdM_FIRE"
     },
-    "s_melchior": {
+    {
+        "displayName": "s_melchior",
         "t": "Anu",
         "robe": "yellow",
         "eye": "yellow",
         "elembg": "AIR",
         "voice": "GdM_AIR"
     },
-    "s_anu": {
+    {
+        "displayName": "s_anu",
         "t": "Anu",
         "robe": "purple",
         "eye": "purple",
         "elembg": "DARK",
         "voice": "GdM_DARK"
     }
-}
+]

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f7cb1b40972334ca24490674fdbca9, type: 3}
+  m_Name: enki
+  m_EditorClassIdentifier: 
+  <PortraitType>k__BackingField: {fileID: 11400000, guid: bba3c83117c53c84b90bdc6d9ef8b3de, type: 2}
+  <Face>k__BackingField: {fileID: 3286163911610860551, guid: 95fb899139ac3544dbd41944b47562f4, type: 3}
+  <Hair>k__BackingField: {fileID: 3286163911610860551, guid: c46628c04d221b64593a44472d481cab, type: 3}
+  <Eye>k__BackingField: {fileID: 3286163911610860551, guid: 69e54f1b36313a448bbdfb1dd5260276, type: 3}
+  <Eyebrow>k__BackingField: {fileID: 3286163911610860551, guid: 46b24ffe8d3ec154abcb84907dee9407, type: 3}
+  <Neck>k__BackingField: {fileID: 3286163911610860551, guid: 8e071b14b49d75b4e814ed74820b2f37, type: 3}
+  <Torso>k__BackingField: {fileID: 3286163911610860551, guid: 5e57924b9584b624aa497f87ec4a69aa, type: 3}
+  <Mouth>k__BackingField: {fileID: 0}
+  <Hat>k__BackingField: {fileID: 0}
+  <Ethnicity>k__BackingField: 
+  <Facemask>k__BackingField: -1

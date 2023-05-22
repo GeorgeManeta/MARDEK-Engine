@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f7cb1b40972334ca24490674fdbca9, type: 3}
+  m_Name: arabguard
+  m_EditorClassIdentifier: 
+  <PortraitType>k__BackingField: {fileID: 11400000, guid: bba3c83117c53c84b90bdc6d9ef8b3de, type: 2}
+  <Face>k__BackingField: {fileID: 3286163911610860551, guid: ac7942123251c5e47bc93382bc2ac58d, type: 3}
+  <Hair>k__BackingField: {fileID: 3286163911610860551, guid: 5aa347e97d2f80748a353b0e947fe810, type: 3}
+  <Eye>k__BackingField: {fileID: 3286163911610860551, guid: 43143fe752e9e9540a5c5d6435669ce4, type: 3}
+  <Eyebrow>k__BackingField: {fileID: 3286163911610860551, guid: 970a4e56355daf340aa6005ba1df3c09, type: 3}
+  <Neck>k__BackingField: {fileID: 3286163911610860551, guid: ac64ae0359fc1e349918e5431ead1eb5, type: 3}
+  <Torso>k__BackingField: {fileID: 3286163911610860551, guid: 9236b25f4459fb043952362d30f08a81, type: 3}
+  <Mouth>k__BackingField: {fileID: 0}
+  <Hat>k__BackingField: {fileID: 0}
+  <Ethnicity>k__BackingField: 3
+  <Facemask>k__BackingField: -1
