@@ -175,6 +175,7 @@ def svg_import_settings(folderName = "", scaleFactor = 3):
 Renames and reformats the files in every folder of this program's current working directory.
 
 Does not change the SVG import settings.
+You will need to run svg_import_settings() seperately.
 """
 def run_all():
     files = [f for f in sorted(os.listdir()) if os.path.isdir(f)]
@@ -191,6 +192,4 @@ def run_all():
         reformatSVGs(folderName)
 
 if __name__ == "__main__":
-    # run_all()
-    
-    svg_import_settings("huM_mouth_1059_raw")
+    run_all()
