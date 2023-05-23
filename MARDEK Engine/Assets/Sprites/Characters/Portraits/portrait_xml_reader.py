@@ -172,6 +172,61 @@ def svg_import_settings(folderName = "", scaleFactor = 3):
             f.write(file_text)
 
 """
+Increases the stroke-width of all .svg files in folderName.
+
+Needed because Flash displays SVGs with larger stroke-width than they actually
+have, so we increase it to make the Unity SVGs look like the Flash versions.
+
+All stroke-widths are multiplied by scaleFactor, then set to 1 px if they're less.
+scaleFactor was determined by trial and error.
+"""
+def increase_stroke_width(folderName = ""):
+    scaleFactor = 1.5
+
+    if folderName == "":
+        folderName = input("Enter name of folder containing SVGs: ")
+        print("Folder name:", folderName)
+
+    for svg in [f for f in sorted(os.listdir(folderName)) if f.endswith(".svg")]:
+        print("SVG", svg)
+
+        svg = os.path.join(folderName, svg)
+        DOMTree = ET.parse(svg)
+        SVGRoot = DOMTree.getroot()
+        shapes = []
+
+        whiteMouth = False
+
+        # Find definition of each shape in <defs> section
+        for node in SVGRoot.iter():
+
+            # white mouth sprites need to have stroke-width scaled up more for some reason
+            if "mouth" in svg and "line" in svg and node.get("fill") == "#ffffff":
+                whiteMouth = True
+
+            #print("node tag:", node.tag)
+            width = node.get("stroke-width")
+            if width is not None:
+                width = float(width)
+
+                if not whiteMouth:
+                    new_width = width * scaleFactor
+                else:
+                    new_width = width * scaleFactor * 20
+
+                if (new_width < 1):
+                    new_width = 1
+
+                new_width = str(new_width)
+
+                node.set("stroke-width", new_width)
+                print("stroke-width changed:", width, new_width)
+
+            DOMTree.write(svg)
+
+        whiteMouth = False
+
+"""
 Renames and reformats the files in every folder of this program's current working directory.
 
 Does not change the SVG import settings.
@@ -191,5 +246,10 @@ def run_all():
 
         reformatSVGs(folderName)
 
+def increase_stroke_width_all():
+    files = [f for f in sorted(os.listdir()) if os.path.isdir(f)]
+    for folderName in files:
+        increase_stroke_width(folderName)
+
 if __name__ == "__main__":
-    run_all()
+    increase_stroke_width_all()
