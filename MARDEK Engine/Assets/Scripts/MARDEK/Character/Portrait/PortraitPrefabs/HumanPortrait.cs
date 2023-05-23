@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Linq;
 
 namespace MARDEK.CharacterSystem
 {
@@ -17,6 +18,9 @@ namespace MARDEK.CharacterSystem
         [SerializeField] SpriteRenderer hair;
         [SerializeField] SpriteRenderer torso;
 
+        [SerializeField] SpriteRenderer browShadow;
+
+        [SerializeField] GameObject HuMMouthExpressions;
         public override void SetPortrait(CharacterPortrait portrait)
         {
             neck.sprite = portrait.Neck;
@@ -28,6 +32,50 @@ namespace MARDEK.CharacterSystem
             rightEye.sprite = portrait.Eye;
             leftBrow.sprite = portrait.Eyebrow;
             rightBrow.sprite = portrait.Eyebrow;
+
+            SetSkinColor(GetSkinColor(portrait));
+        }
+
+        private Color GetSkinColor(CharacterPortrait portrait)
+        {
+            switch (portrait.Ethnicity)
+            {
+                case "zombie":
+                    // hex #8C9BA6 (grey zombie skin color)
+                    return new Color((float)0.5490196, (float)0.6078432, (float)0.6509804);
+
+                case "clave":
+                    // hex #C29C58 (light peach/brown, used by Clavis)
+                    return new Color((float)0.7607844, (float)0.6117647, (float)0.345098);
+
+                case "2":
+                    // hex #5F330E (dark brown; used by Zach)
+                    return new Color((float)0.372549, (float)0.2, (float)0.05490196);
+
+                case "3":
+                    // hex #E1B67F (light peach; used by "arabs", Muriance, others)
+                    return new Color((float)0.882353, (float)0.7137255, (float)0.4980392);
+
+                default:
+                    return Color.white;
+            }
+        }
+
+        private void SetSkinColor(Color skinColor) {
+            browShadow.color = skinColor;
+
+            // set lip color for male and child mouth
+            // TODO find better way to do this
+            if (HuMMouthExpressions != null)
+            {
+                SpriteRenderer[] LipArray = HuMMouthExpressions.GetComponentsInChildren<SpriteRenderer>()
+                    .Where((e, i) => e.name == "Lips").ToArray();
+
+                foreach (SpriteRenderer lip in LipArray)
+                {
+                    lip.color = skinColor;
+                }
+            }
         }
     }
 }

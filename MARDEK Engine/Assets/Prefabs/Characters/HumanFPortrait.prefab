@@ -1809,7 +1809,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4211829406599989536}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44.5, y: 0, z: 0}
+  m_LocalPosition: {x: 39, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4001,6 +4001,8 @@ MonoBehaviour:
   rightBrow: {fileID: 6446500368100637171}
   hair: {fileID: 663723208505115328}
   torso: {fileID: 7482113950057012081}
+  browShadow: {fileID: 1100267840198831845}
+  HuMMouthExpressions: {fileID: 0}
 --- !u!95 &4983367660269190533
 Animator:
   serializedVersion: 4
