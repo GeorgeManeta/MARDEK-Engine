@@ -181,7 +181,7 @@ All stroke-widths are multiplied by scaleFactor, then set to 1 px if they're les
 scaleFactor was determined by trial and error.
 """
 def increase_stroke_width(folderName = ""):
-    scaleFactor = 1.5
+    scaleFactor = 2
 
     if folderName == "":
         folderName = input("Enter name of folder containing SVGs: ")
@@ -204,8 +204,8 @@ def increase_stroke_width(folderName = ""):
                 width = float(width)
 
                 new_width = width * scaleFactor
-                if (new_width < 1):
-                    new_width = 1
+                if (new_width < 1.5):
+                    new_width = 1.5
 
                 new_width = str(new_width)
 
