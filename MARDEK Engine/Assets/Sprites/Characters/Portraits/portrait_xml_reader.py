@@ -195,25 +195,15 @@ def increase_stroke_width(folderName = ""):
         SVGRoot = DOMTree.getroot()
         shapes = []
 
-        whiteMouth = False
-
         # Find definition of each shape in <defs> section
         for node in SVGRoot.iter():
-
-            # white mouth sprites need to have stroke-width scaled up more for some reason
-            if "mouth" in svg and "line" in svg and node.get("fill") == "#ffffff":
-                whiteMouth = True
 
             #print("node tag:", node.tag)
             width = node.get("stroke-width")
             if width is not None:
                 width = float(width)
 
-                if not whiteMouth:
-                    new_width = width * scaleFactor
-                else:
-                    new_width = width * scaleFactor * 20
-
+                new_width = width * scaleFactor
                 if (new_width < 1):
                     new_width = 1
 
@@ -223,8 +213,6 @@ def increase_stroke_width(folderName = ""):
                 print("stroke-width changed:", width, new_width)
 
             DOMTree.write(svg)
-
-        whiteMouth = False
 
 """
 Renames and reformats the files in every folder of this program's current working directory.
