@@ -11,8 +11,7 @@ namespace MARDEK.UI
         [SerializeField] Image elementImage;
 
         [SerializeField] TextMeshProUGUI nameText;
-        [SerializeField] TextMeshProUGUI levelText;
-        [SerializeField] TextMeshProUGUI classText;
+        [SerializeField] TextMeshProUGUI levelAndClassText;
 
         [SerializeField] ConditionBar hpBar;
         [SerializeField] ConditionBar mpBar;
@@ -32,8 +31,7 @@ namespace MARDEK.UI
 
             elementImage.sprite = character.Profile.element.thickSprite;
             nameText.text = character.Profile.displayName;
-            levelText.text = "Lv " + character.GetStat(levelStat);
-            classText.text = character.Profile.displayClass;
+            levelAndClassText.text = "Lv " + character.GetStat(levelStat) + " " + character.Profile.displayClass;
             hpBar.SetValues(character.GetStat(currentHpStat), character.GetStat(maxHpStat));
             mpBar.SetValues(character.GetStat(currentMpStat), character.GetStat(maxMpStat));
             // TODO Update XP bar
