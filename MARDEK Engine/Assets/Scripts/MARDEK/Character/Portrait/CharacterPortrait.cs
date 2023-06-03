@@ -4,7 +4,7 @@ using MARDEK.Core;
 namespace MARDEK.CharacterSystem
 {
     [CreateAssetMenu(menuName ="MARDEK/Character/CharacterPortrait")]
-    public class CharacterPortrait : AddressableScriptableObject
+    public class CharacterPortrait : ScriptableObject
     {
         [field: SerializeField] public PortraitType PortraitType { get; private set; }
 
