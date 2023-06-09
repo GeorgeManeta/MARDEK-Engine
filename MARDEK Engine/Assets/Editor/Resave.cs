@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ResaveAll : Editor
 {
-    [MenuItem("Edit/Re-save All")]
+    [MenuItem("Custom/Re-save All Assets")]
     private static void Resave()
     {
         string[] assets = AssetDatabase.FindAssets("");

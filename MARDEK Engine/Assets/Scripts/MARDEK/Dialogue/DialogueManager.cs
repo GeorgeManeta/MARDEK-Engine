@@ -52,7 +52,7 @@ namespace MARDEK.DialogueSystem
             {
                 if (letterIndex >= 0)
                     letterIndex += Time.deltaTime * dialogueSpeed;
-                UpdateUI();
+                UpdateText();
                 if (isSkipping)
                     OnGoToNextLine();
             }
@@ -94,7 +94,7 @@ namespace MARDEK.DialogueSystem
             {
                 isOngoing = true;
                 canvas.SetActive(true);
-                UpdateUI();
+                UpdateText();
             }
         }
 
@@ -137,65 +137,58 @@ namespace MARDEK.DialogueSystem
                 return false;
             }
             lineIndex = -1;
-            UpdateCharacterName();
+            OnUpdateLineEntry();
             return AdvanceLine();
         }
 
-        private void UpdateCharacterName()
+        private void OnUpdateLineEntry()
         {
-            if (dialogue != null)
+            CharacterProfile profile = dialogue?.CharacterLines[dialogueIndex].Character;
+            characterNameText.text = profile != null ? profile.displayName : string.Empty;
+            SetElementIcon(profile);
+            SetPortrait(profile);
+        }
+
+        private void SetPortrait(CharacterProfile profile)
+        {
+            if (profile?.portrait != null)
             {
-                CharacterSystem.CharacterProfile characterBio = dialogue.CharacterLines[dialogueIndex].Character;
-                if (characterBio != null)
-                {
-                    characterNameText.text = characterBio.displayName;
+                characterPortrait.gameObject.SetActive(true);
+                characterPortrait.SetPortrait(profile.portrait);
+                characterNameText.rectTransform.anchoredPosition = new Vector2(400, -435);
 
-                    if (characterBio.element != null)
-                    {
-                        characterElementImage.enabled = true;
-                        characterElementImage.sprite = characterBio.element.thinSprite;
-                    }
-                    else
-                    {
-                        characterElementImage.enabled = false;
-                    }
-
-                    if (characterBio.portrait != null)
-                    {
-                        characterPortrait.gameObject.SetActive(true);
-                        characterPortrait.SetPortrait(characterBio.portrait);
-                        characterNameText.rectTransform.anchoredPosition = new Vector2(400, -435);
-
-                        if (dialogue.CharacterLines[dialogueIndex].Expression != null)
-                        {
-                            characterPortrait.SetExpression(dialogue.CharacterLines[dialogueIndex].Expression);
-                        }
-                        else
-                        {
-                            characterPortrait.SetExpression(null);
-                        }
-                    }
-                    else
-                    {
-                        characterPortrait.gameObject.SetActive(false);
-                        characterNameText.rectTransform.anchoredPosition = new Vector2(50, -435);
-                    }
-
-                    return;
-                }
+                if (dialogue.CharacterLines[dialogueIndex].Expression != null)
+                    characterPortrait.SetExpression(dialogue.CharacterLines[dialogueIndex].Expression);
+                else
+                    characterPortrait.SetExpression(null);
             }
-            characterNameText.text = "";
+            else
+            {
+                characterPortrait.gameObject.SetActive(false);
+                characterNameText.rectTransform.anchoredPosition = new Vector2(50, -435);
+            }
+        }
+
+        void SetElementIcon(CharacterProfile profile)
+        {
+            if (profile?.element != null)
+            {
+                characterElementImage.enabled = true;
+                characterElementImage.sprite = profile.element.thinSprite;
+            }
+            else
+                characterElementImage.enabled = false;
         }
 
         void EndDialogue()
         {
             ResetManager();
-            UpdateCharacterName();
-            UpdateUI();
+            OnUpdateLineEntry();
+            UpdateText();
             canvas.SetActive(false);
         }
 
-        void UpdateUI()
+        void UpdateText()
         {
             dialogueText.text = CurrentLine();
         }

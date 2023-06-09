@@ -13,15 +13,14 @@ namespace MARDEK.CharacterSystem
         [ContextMenu("Test Portrait")]
         void TestPortrait()
         {
-            if (testPortrait != null)
-                SetPortrait(testPortrait);
+            SetPortrait(testPortrait);
         }
 
         public void SetPortrait(CharacterPortrait portrait)
         {
             if (portrait != null)
             {
-                this.gameObject.SetActive(true);
+                gameObject.SetActive(true);
 
                 foreach (var portraitPrefab in portraitPrefabs) {
                     if ( ((PortraitPrefab) portraitPrefab).PortraitType == portrait.PortraitType )
@@ -38,7 +37,7 @@ namespace MARDEK.CharacterSystem
             }
             else
             {
-                this.gameObject.SetActive(false);
+                gameObject.SetActive(false);
             }
         }
 

@@ -13,8 +13,9 @@ namespace MARDEK.CharacterSystem
 
         public void SetExpression(PortraitExpressionEnum expression)
         {
+            
             PortraitExpression currentExpression = null;
-            foreach(var expr in Expressions)
+            foreach (var expr in Expressions)
             {
                 if (expr.Expression == expression)
                 {
@@ -26,24 +27,23 @@ namespace MARDEK.CharacterSystem
                     expr.HideSprites();
                 }
             }
+
             if (currentExpression == null)
             {
-                if (DefaultExpression != null)
-                {
-                    Debug.Log("Expression " + expression.name + " not available for " + this.name + ". Using default expression: " + DefaultExpression.name);
-                    DefaultExpression.gameObject.SetActive(true);
-                    DefaultExpression.ApplyTransforms();
-                }
-                else
-                {
-                    Debug.Log("Expression " + expression.name + " not available for " + this.name + ". No default expression found.");
-                }
+                Debug.LogWarning($"Expression {expression} not found for this portrait, setting to default instead");
+                SetToDefaultExpression();
             }
             else
             {
                 currentExpression.gameObject.SetActive(true);
                 currentExpression.ApplyTransforms();
             }
+        }
+
+        void SetToDefaultExpression()
+        {
+            DefaultExpression.gameObject.SetActive(true);
+            DefaultExpression.ApplyTransforms();
         }
     }
 }

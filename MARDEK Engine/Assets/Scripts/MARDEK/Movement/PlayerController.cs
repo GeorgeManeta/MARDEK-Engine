@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using MARDEK.Core;
 using MARDEK.Event;
+using MARDEK.Animation;
 
 namespace MARDEK.Movement
 {
@@ -14,7 +15,10 @@ namespace MARDEK.Movement
         private void Awake()
         {
             if (instance == null)
+            {
                 instance = this;
+                GetComponentInChildren<SpriteAnimator>().SetAsPlayerAnimator();
+            }
             else
                 Debug.LogError("there was already a PlayerController instance when a new PlayerController awoke");
         }

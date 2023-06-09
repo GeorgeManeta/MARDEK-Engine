@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using MARDEK.Event;
 
 namespace MARDEK.Animation
 {
+    using Event;
     public class StopSpriteAnimationCommand : CommandBase
     {
         [SerializeField] SpriteAnimator targetAnimator;
@@ -13,7 +13,9 @@ namespace MARDEK.Animation
 
         public override void Trigger()
         {
-            if(sendStopRate)
+            if (targetAnimator == null)
+                targetAnimator = SpriteAnimator.PlayerSpriteAnimator;
+            if (sendStopRate)
                 targetAnimator.StopCurrentAnimation(animationStopRate);
             else
                 targetAnimator.StopCurrentAnimation();

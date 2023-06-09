@@ -6,6 +6,7 @@ namespace MARDEK.Animation
     [RequireComponent(typeof(SpriteRenderer))]
     public class SpriteAnimator : MonoBehaviour
     {
+        public static SpriteAnimator PlayerSpriteAnimator { get; private set; }
         [SerializeField] float animationSpeed = 1f;
         [SerializeField] bool _isAnimating = false;
         [SerializeField] SpriteAnimationClipList clipList = null;
@@ -24,6 +25,11 @@ namespace MARDEK.Animation
         SpriteAnimationClip currentClip = null;
         [HideInInspector] [SerializeField] SpriteRenderer spriteRenderer = null;
         float animationRatio = 0f;
+
+        public void SetAsPlayerAnimator()
+        {
+            PlayerSpriteAnimator = this;
+        }
 
         private void OnValidate()
         {

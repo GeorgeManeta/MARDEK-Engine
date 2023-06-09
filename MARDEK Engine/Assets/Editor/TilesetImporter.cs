@@ -5,7 +5,6 @@ using UnityEditor;
 using UnityEngine.Tilemaps;
 using System.IO;
 
-[CreateAssetMenu(menuName = "MARDEK/TilesetImporter")]
 public class TilesetImporter : ScriptableObject
 {
     public Texture2D texture = null;
@@ -255,7 +254,7 @@ public class TilesetImporter : ScriptableObject
         return null;
     }
 
-    [MenuItem("Flash Importer/Import Tileset")]
+    [MenuItem("Custom/Import Tileset From Selected Files")]
     static void GenerateImporters()
     {
         var selectedTextures = Selection.GetFiltered(typeof(Texture2D), SelectionMode.Assets);

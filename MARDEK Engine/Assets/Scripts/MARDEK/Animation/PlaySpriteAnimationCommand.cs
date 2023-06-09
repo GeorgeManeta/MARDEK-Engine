@@ -1,9 +1,9 @@
 using UnityEngine;
 using MARDEK.Core;
 
-namespace MARDEK.Event
+namespace MARDEK.Animation
 {
-    using Animation;
+    using Event;
     public class PlaySpriteAnimationCommand : OngoingCommand
     {
         [SerializeField] SpriteAnimator targetAnimator;
@@ -16,6 +16,8 @@ namespace MARDEK.Event
         }
         public override void Trigger()
         {
+            if (targetAnimator == null)
+                targetAnimator = SpriteAnimator.PlayerSpriteAnimator;
             targetAnimator.PlayClipByMoveDirectionReference(animationDirection);   
         }
     }

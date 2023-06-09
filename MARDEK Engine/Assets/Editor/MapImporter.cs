@@ -24,7 +24,7 @@ public class MapImporter : MonoBehaviour
                 tilesetImporter = ti;
     }
 
-    [MenuItem("Flash Importer/Create Map From File")]
+    [MenuItem("Custom/Create Map From Selected Files")]
     static void CreateMapScene()
     {
         var selectedTextFiles = Selection.GetFiltered(typeof(TextAsset), SelectionMode.Assets);
