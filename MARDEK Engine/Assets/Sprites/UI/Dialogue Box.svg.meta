@@ -12,7 +12,7 @@ ScriptedImporter:
   texturedSpriteMeshType: 0
   svgPixelsPerUnit: 1
   gradientResolution: 64
-  alignment: 0
+  alignment: 6
   customPivot: {x: 0, y: 0}
   generatePhysicsShape: 0
   viewportOptions: 0
@@ -39,16 +39,16 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: Dialogue Box (SVG)
+      name: Dialogue Box
       originalName: 
-      pivot: {x: 0.5, y: 0.5}
-      alignment: 0
+      pivot: {x: 0, y: 0}
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 73
+        width: 1920
+        height: 547
       spriteID: aa5879d312b762d41acd54518303dda2
     PhysicsOutlines: []

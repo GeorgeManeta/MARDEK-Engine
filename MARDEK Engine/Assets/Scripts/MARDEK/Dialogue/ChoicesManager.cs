@@ -29,9 +29,9 @@ namespace MARDEK.DialogueSystem
 
         IEnumerator SetupChoices(Dialogue dialogue)
         {
-            for(int i = 0; i < dialogue.CharacterLines[0].Lines.Count; i++)
+            for(int i = 0; i < dialogue.CharacterLines[0].WrappedLines.Count; i++)
             {
-                var text = dialogue.CharacterLines[0].Lines[i];
+                var text = dialogue.CharacterLines[0].WrappedLines[i].line;
                 choicesUIObjects[i].GetComponent<Text>().text = text;
                 choicesUIObjects[i].SetActive(true);
             }

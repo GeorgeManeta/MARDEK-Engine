@@ -6,7 +6,7 @@ namespace MARDEK.DialogueSystem
 {
     [CreateAssetMenu(menuName = "MARDEK/Dialogue/Dialogue")]
     public class Dialogue : ScriptableObject
-    {        
+    {
         //[TextArea(0, 10)]
         //[SerializeField] string transcript = default;
         //[SerializeField] List<string> characterNames = new List<string>();
@@ -41,6 +41,7 @@ namespace MARDEK.DialogueSystem
         //    }
         //    CharacterLines.Add(new CharacterLines(character, lines));
         //}
+
         [field:SerializeField] public List<CharacterLines> CharacterLines { get; private set; }
     }
 }

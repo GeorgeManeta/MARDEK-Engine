@@ -9,15 +9,14 @@ namespace MARDEK.DialogueSystem
     public class CharacterLines
     {
         [field: SerializeField] public CharacterProfile Character { get; private set; }
-        [field: SerializeField] public PortraitExpressionEnum Expression { get; private set; }
-        [field: TextArea(0,5)]
-        [field: SerializeField] public List<string> Lines { get; private set; }
+        [field: SerializeField] public List<LineWrapper> WrappedLines { get; private set; }
 
-        public CharacterLines(CharacterProfile info, List<string> lines, PortraitExpressionEnum expression)
+        [System.Serializable]
+        public struct LineWrapper
         {
-            Character = info;
-            Lines = lines;
-            Expression = expression;
+            public PortraitExpressionEnum expression;
+            [TextArea(0, 5)]  
+            public string line;
         }
     }
 }

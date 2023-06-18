@@ -63,7 +63,7 @@ namespace MARDEK.DialogueSystem
             isOngoing = false;
             isSkipping = false;
             dialogueIndex = 0;
-            lineIndex = -1;
+            lineIndex = 0;
             dialogue = null;
         }
 
@@ -104,7 +104,7 @@ namespace MARDEK.DialogueSystem
                 return string.Empty;
 
             var characterDialogueLines = dialogue.CharacterLines[dialogueIndex];
-            string line = characterDialogueLines.Lines[lineIndex];
+            string line = characterDialogueLines.WrappedLines[lineIndex].line;
 
             int lengthToShow = line.Length;
             if (letterIndex >= line.Length || letterIndex < 0)
@@ -121,11 +121,12 @@ namespace MARDEK.DialogueSystem
         {
             lineIndex++;
             var characterDialogueLines = dialogue.CharacterLines[dialogueIndex];
-            if (lineIndex >= characterDialogueLines.Lines.Count)
+            if (lineIndex >= characterDialogueLines.WrappedLines.Count)
             {
                 return AdvanceDialogueList();
             }
             letterIndex = 0;
+            UpdatePortrait();
             return true;
         }
 
@@ -136,9 +137,14 @@ namespace MARDEK.DialogueSystem
             {
                 return false;
             }
+
             lineIndex = -1;
-            OnUpdateLineEntry();
-            return AdvanceLine();
+            if (AdvanceLine())
+            {
+                OnUpdateLineEntry();
+                return true;
+            }
+            return false;
         }
 
         private void OnUpdateLineEntry()
@@ -146,26 +152,31 @@ namespace MARDEK.DialogueSystem
             CharacterProfile profile = dialogue?.CharacterLines[dialogueIndex].Character;
             characterNameText.text = profile != null ? profile.displayName : string.Empty;
             SetElementIcon(profile);
-            SetPortrait(profile);
         }
 
-        private void SetPortrait(CharacterProfile profile)
+        private void UpdatePortrait()
         {
+            var profile = dialogue?.CharacterLines[dialogueIndex].Character;
             if (profile?.portrait != null)
             {
                 characterPortrait.gameObject.SetActive(true);
                 characterPortrait.SetPortrait(profile.portrait);
-                characterNameText.rectTransform.anchoredPosition = new Vector2(400, -435);
 
-                if (dialogue.CharacterLines[dialogueIndex].Expression != null)
-                    characterPortrait.SetExpression(dialogue.CharacterLines[dialogueIndex].Expression);
-                else
-                    characterPortrait.SetExpression(null);
+                var portraitSize = characterPortrait.GetComponent<RectTransform>().rect.width;
+                var nameTextPosition = characterNameText.rectTransform.position;
+                nameTextPosition.x = portraitSize;
+                characterNameText.rectTransform.position = nameTextPosition;
+
+                var currentExpression = dialogue.CharacterLines[dialogueIndex].WrappedLines[lineIndex].expression;
+                characterPortrait.SetExpression(currentExpression);
             }
             else
             {
                 characterPortrait.gameObject.SetActive(false);
-                characterNameText.rectTransform.anchoredPosition = new Vector2(50, -435);
+
+                var nameTextPosition = characterNameText.rectTransform.position;
+                nameTextPosition.x = 0;
+                characterNameText.rectTransform.position = nameTextPosition;
             }
         }
 
