@@ -3,24 +3,25 @@ using System.Linq;
 
 namespace MARDEK.CharacterSystem
 {
+    using UnityEngine.UI;
     public class HumanPortrait : PortraitPrefab
     {
         [field:SerializeField] public override PortraitType PortraitType { get; protected set; }
 
-        [SerializeField] SpriteRenderer neck;
-        [SerializeField] SpriteRenderer face;
+        [SerializeField] Image neck;
+        [SerializeField] Image face;
 
-        [SerializeField] SpriteRenderer leftEye;
-        [SerializeField] SpriteRenderer rightEye;
-        [SerializeField] SpriteRenderer leftBrow;
-        [SerializeField] SpriteRenderer rightBrow;
+        [SerializeField] Image leftEye;
+        [SerializeField] Image rightEye;
+        [SerializeField] Image leftBrow;
+        [SerializeField] Image rightBrow;
 
-        [SerializeField] SpriteRenderer hair;
-        [SerializeField] SpriteRenderer torso;
+        [SerializeField] Image hair;
+        [SerializeField] Image torso;
 
-        [SerializeField] SpriteRenderer browShadow;
+        [SerializeField] Image browShadow;
 
-        [SerializeField] GameObject HuMMouthExpressions;
+        [SerializeField] GameObject MouthExpressions;
         public override void SetPortrait(CharacterPortrait portrait)
         {
             neck.sprite = portrait.Neck;
@@ -66,9 +67,9 @@ namespace MARDEK.CharacterSystem
 
             // set lip color for male and child mouth
             // TODO find better way to do this
-            if (HuMMouthExpressions != null)
+            if (MouthExpressions != null)
             {
-                SpriteRenderer[] LipArray = HuMMouthExpressions.GetComponentsInChildren<SpriteRenderer>()
+                SpriteRenderer[] LipArray = MouthExpressions.GetComponentsInChildren<SpriteRenderer>()
                     .Where((e, i) => e.name == "Lips").ToArray();
 
                 foreach (SpriteRenderer lip in LipArray)

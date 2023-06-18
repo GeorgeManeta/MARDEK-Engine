@@ -30,6 +30,10 @@ namespace MARDEK
                 var renderer = obj.GetComponent<SpriteRenderer>();
                 if (renderer != null)
                 {
+                    var prevImage = obj.GetComponent<Image>();
+                    if(prevImage)
+                        UnityEngine.Object.DestroyImmediate(prevImage);
+
                     var image = obj.AddComponent<Image>();
                     image.sprite = renderer.sprite;
 
@@ -40,8 +44,10 @@ namespace MARDEK
                         scale.x *= -1;
                         transform.localScale = scale;
                     }
+                    UnityEngine.Object.DestroyImmediate(renderer);
                 }
             }
+
         }
     }
 }

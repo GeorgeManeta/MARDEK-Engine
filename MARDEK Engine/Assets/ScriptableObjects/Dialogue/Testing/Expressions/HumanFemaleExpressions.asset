@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91ca26e8c41c6bf45bc17b3afd5463ed, type: 3}
+  m_Name: HumanFemaleExpressions
+  m_EditorClassIdentifier: 
+  <CharacterLines>k__BackingField:
+  - <Character>k__BackingField: {fileID: 11400000, guid: 4f5e79f5ba9e48748a7130744061d59a, type: 2}
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: none
+    - expression: {fileID: 11400000, guid: 16e9e7725dff17f43b9c205efb49c161, type: 2}
+      line: "norm\t"
+    - expression: {fileID: 11400000, guid: 0cbb44f1f6e43304a81228458ebd9a9c, type: 2}
+      line: susp
+    - expression: {fileID: 11400000, guid: a3bd3d6c1dfbaf24fac3a0a3c45eec26, type: 2}
+      line: grin
+    - expression: {fileID: 11400000, guid: bd33668e8da28f249b1db14e8f2c6794, type: 2}
+      line: angr
+    - expression: {fileID: 11400000, guid: 614595baeb3664f4691e8a63232d8c29, type: 2}
+      line: blah
+    - expression: {fileID: 11400000, guid: cdd499fbd996c014889b15d5c80e3e38, type: 2}
+      line: hurt
+    - expression: {fileID: 11400000, guid: 2e5394b8dc30afc488ee89cd155ca1f4, type: 2}
+      line: sad
+    - expression: {fileID: 11400000, guid: 28be3191effa1374b9a71515a92eaeec, type: 2}
+      line: mad
+    - expression: {fileID: 11400000, guid: 1d6045925f6c36147bcab061bb6dc29b, type: 2}
+      line: shok
+    - expression: {fileID: 11400000, guid: e2b199eb1bbcb6a47bbf8baea917a8d9, type: 2}
+      line: zzz
+    - expression: {fileID: 11400000, guid: 1831a52b5c7950f458bd28aecda467dd, type: 2}
+      line: psn
+    - expression: {fileID: 11400000, guid: e14473d42a126084faa983e5223f8c3f, type: 2}
+      line: smile
+    - expression: {fileID: 11400000, guid: 80a7e46817a190c49aafdd600ea17bc0, type: 2}
+      line: evil
+    - expression: {fileID: 11400000, guid: 9e40f1ba530960a43974080470733746, type: 2}
+      line: egrin
+    - expression: {fileID: 11400000, guid: e73f15fc036a39041a0707b85ad2b8c9, type: 2}
+      line: cdgr
+    - expression: {fileID: 11400000, guid: 0b59481f4b9d25b448b27892f5ce249b, type: 2}
+      line: o_O
+    - expression: {fileID: 11400000, guid: 6688a9441c8af5a44a2ee5c944b1bb98, type: 2}
+      line: T_

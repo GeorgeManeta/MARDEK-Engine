@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b47544976d9994d818ec74436e5528, type: 3}
   m_Name: TestingAnunnaki
   m_EditorClassIdentifier: 
-  <displayName>k__BackingField: Test
+  <displayName>k__BackingField: Test Anunnaki
   <displayClass>k__BackingField: 
   <WalkSprites>k__BackingField: {fileID: 0}
   <ActionSkillset>k__BackingField: {fileID: 0}
   <StartingStats>k__BackingField:
     intStats: []
-  <element>k__BackingField: {fileID: 0}
+  <element>k__BackingField: {fileID: 11400000, guid: b58053569349d314892770b43156bfd2, type: 2}
   <portrait>k__BackingField: {fileID: 11400000, guid: a3272e1d81af68842929cd04ed56d223, type: 2}
   MaxHPExpressionOveride: {fileID: 0}
   MaxMPExpressionOveride: {fileID: 0}
