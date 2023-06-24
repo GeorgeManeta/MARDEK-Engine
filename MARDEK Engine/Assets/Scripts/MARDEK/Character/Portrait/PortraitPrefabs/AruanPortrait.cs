@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace MARDEK.CharacterSystem
 {
@@ -7,15 +8,15 @@ namespace MARDEK.CharacterSystem
     {
         [field: SerializeField] public override PortraitType PortraitType { get; protected set; }
 
-        [SerializeField] SpriteRenderer face;
-        [SerializeField] SpriteRenderer leftEye;
-        [SerializeField] SpriteRenderer leftBrow;
-        [SerializeField] SpriteRenderer rightEye;
-        [SerializeField] SpriteRenderer rightBrow;
+        [SerializeField] Image face;
+        [SerializeField] Image leftEye;
+        [SerializeField] Image leftBrow;
+        [SerializeField] Image rightEye;
+        [SerializeField] Image rightBrow;
 
-        [SerializeField] SpriteRenderer mouth;
+        [SerializeField] Image mouth;
 
-        [SerializeField] SpriteRenderer torso;
+        [SerializeField] Image torso;
 
         public override void SetPortrait(CharacterPortrait portrait)
         {

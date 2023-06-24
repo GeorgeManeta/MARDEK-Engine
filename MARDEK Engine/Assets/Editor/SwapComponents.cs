@@ -16,7 +16,6 @@ namespace MARDEK
             var selectedObjects = Selection.gameObjects;
             foreach(var obj in selectedObjects)
             {
-                Debug.Log("has transform");
                 obj.AddComponent<RectTransform>();
             }
         }

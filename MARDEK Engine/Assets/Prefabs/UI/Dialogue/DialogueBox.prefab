@@ -108,7 +108,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5288402575316067886}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -296,7 +296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_AnchorMax.x
@@ -316,7 +316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_SizeDelta.y
@@ -356,7 +356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -866,7 +866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5662666610635626073, guid: 9026b0db81c3ece4fad0edcf4fa3bdea, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5662666610635626073, guid: 9026b0db81c3ece4fad0edcf4fa3bdea, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1209,7 +1209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1308,6 +1308,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 5288402575316067886}
     m_Modifications:
     - target: {fileID: 3338939999481485540, guid: 06edf4f702630404da735584c188f8fb, type: 3}
+      propertyPath: m_text
+      value: Character Name
+      objectReference: {fileID: 0}
+    - target: {fileID: 3338939999481485540, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_fontSize
       value: 70
       objectReference: {fileID: 0}
@@ -1335,6 +1339,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2100000, guid: c5dfa332ce6299e4da40873115ab39d7, type: 2}
+    - target: {fileID: 3338939999481485540, guid: 06edf4f702630404da735584c188f8fb, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4288472565
+      objectReference: {fileID: 0}
     - target: {fileID: 3338939999481485540, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901

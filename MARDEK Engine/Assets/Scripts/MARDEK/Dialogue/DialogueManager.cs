@@ -162,9 +162,8 @@ namespace MARDEK.DialogueSystem
                 characterPortrait.gameObject.SetActive(true);
                 characterPortrait.SetPortrait(profile.portrait);
 
-                var portraitSize = characterPortrait.GetComponent<RectTransform>().rect.width;
                 var nameTextPosition = characterNameText.rectTransform.position;
-                nameTextPosition.x = portraitSize;
+                nameTextPosition.x = 450;
                 characterNameText.rectTransform.position = nameTextPosition;
 
                 var currentExpression = dialogue.CharacterLines[dialogueIndex].WrappedLines[lineIndex].expression;
@@ -175,7 +174,7 @@ namespace MARDEK.DialogueSystem
                 characterPortrait.gameObject.SetActive(false);
 
                 var nameTextPosition = characterNameText.rectTransform.position;
-                nameTextPosition.x = 0;
+                nameTextPosition.x = 50;
                 characterNameText.rectTransform.position = nameTextPosition;
             }
         }
