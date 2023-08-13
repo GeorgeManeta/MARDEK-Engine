@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <CharacterLines>k__BackingField:
   - <Character>k__BackingField: {fileID: 0}
-    <Lines>k__BackingField:
-    - Save
-    - Load
-    - Party selection
-    - Cancel
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: Save
+    - expression: {fileID: 0}
+      line: Load
+    - expression: {fileID: 0}
+      line: Party selection
+    - expression: {fileID: 0}
+      line: Cancel

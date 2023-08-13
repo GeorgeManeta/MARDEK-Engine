@@ -156,7 +156,6 @@ GameObject:
   - component: {fileID: 577972584761569139}
   - component: {fileID: 577972584761569138}
   - component: {fileID: 577972584761569137}
-  - component: {fileID: 577972584761569140}
   m_Layer: 0
   m_Name: Closed
   m_TagString: Untagged
@@ -274,19 +273,3 @@ MonoBehaviour:
   onStart: 0
   onInteractionKey: 1
   onTriggerEnter: 0
---- !u!114 &577972584761569140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577972584761569151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d69c1ab381aedc944b5e64ff16845290, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chest: {fileID: 0}
-  item: {fileID: 0}
-  amount: 1
-  openSound: {fileID: 11400000, guid: 4941fd1d96ec4b54da8c49428e3cbeab, type: 2}

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <CharacterLines>k__BackingField:
   - <Character>k__BackingField: {fileID: 11400000, guid: 7eab045d48c94d144b1f9bc5ae459733, type: 2}
-    <Lines>k__BackingField:
-    - A soothing light washes over you... Your wounds are healed. Would you like
-      to save?
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: A soothing light washes over you... Your wounds are healed. Would you
+        like to save?

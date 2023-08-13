@@ -1243,7 +1243,7 @@ MonoBehaviour:
   hair: {fileID: 2010564694140282445}
   torso: {fileID: 8432215889082433532}
   browShadow: {fileID: 2131362159368292968}
-  HuMMouthExpressions: {fileID: 8676250846567687821}
+  MouthExpressions: {fileID: 0}
 --- !u!95 &6338969487618775304
 Animator:
   serializedVersion: 4
@@ -1990,11 +1990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0a865800d01ea448b76c672fffce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &8676250846567687821 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4095167681778146550, guid: 4805134ad2eb3cf4c981624d4bb9a6b7, type: 3}
-  m_PrefabInstance: {fileID: 4664824737393982075}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8782036845598602626 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4133396920491659257, guid: 4805134ad2eb3cf4c981624d4bb9a6b7, type: 3}

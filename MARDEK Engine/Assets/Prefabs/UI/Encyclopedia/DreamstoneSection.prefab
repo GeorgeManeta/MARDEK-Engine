@@ -296,8 +296,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9e5b830b45a5941abb99866fcde26c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalConstraint: 4
-  verticalConstraint: 8
+  resetIndexOnEnable: 0
+  startAxis: 0
+  constraintCount: 8
   scrollRect: {fileID: 5852689072013085950}
   numFittingEntries: 3
   invertHorizontalInput: 0

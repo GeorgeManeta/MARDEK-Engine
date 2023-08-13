@@ -245,6 +245,8 @@ MonoBehaviour:
         m_CallState: 2
   deselectOnDisable: 1
   selectionSFX: {fileID: 11400000, guid: 0da28b87b9cd6e945acf7875aaef8844, type: 2}
+  characterNameText: {fileID: 0}
+  wrapper: {fileID: 0}
 --- !u!114 &5612383284102457474
 MonoBehaviour:
   m_ObjectHideFlags: 0

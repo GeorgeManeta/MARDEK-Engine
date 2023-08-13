@@ -54,6 +54,8 @@ MonoBehaviour:
   canvas: {fileID: 437987761534143219}
   dialogueText: {fileID: 9211802705947436672}
   characterNameText: {fileID: 5548690474841669294}
+  characterNameTextXPositionWithPortrait: 525
+  characterNameTextXPositionWithoutPortrait: 50
   characterElementImage: {fileID: 7626087073760524477}
   characterPortrait: {fileID: 444661825048036020}
   dialogueSpeed: 30
@@ -110,11 +112,11 @@ RectTransform:
   m_Father: {fileID: 5288402575316067886}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -60, y: 50}
-  m_SizeDelta: {x: 275, y: 275}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 1, y: 0.35}
+  m_AnchorMax: {x: 1, y: 0.35}
+  m_AnchoredPosition: {x: -25, y: 0}
+  m_SizeDelta: {x: 300, y: 300}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!222 &4880349824804420535
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -194,11 +196,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6511164897813689033, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6511164897813689033, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 6511164897813689033, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}
       propertyPath: m_AnchorMin.x
@@ -210,11 +212,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6511164897813689033, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6511164897813689033, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 547
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6511164897813689033, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}
       propertyPath: m_LocalPosition.x
@@ -250,7 +252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6511164897813689033, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6511164897813689033, guid: c6b6f84c8b260544e8a652d456f45492, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -304,7 +306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.71
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_AnchorMin.x
@@ -312,7 +314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.71
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_SizeDelta.x
@@ -356,7 +358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -100
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 2470571533479616055, guid: ddde431880f6ff3459b02491e709c483, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -501,10 +503,6 @@ PrefabInstance:
     - target: {fileID: 4948326371249647573, guid: df1bcd03d4d40b1498eec39ab94ab726, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5984537798622053493, guid: df1bcd03d4d40b1498eec39ab94ab726, type: 3}
-      propertyPath: m_RenderMode
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5984537798622053493, guid: df1bcd03d4d40b1498eec39ab94ab726, type: 3}
       propertyPath: m_SortingOrder
@@ -1445,11 +1443,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.88
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1457,15 +1455,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.71
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -50
+      value: 718
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1497,7 +1495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 50
+      value: 525
       objectReference: {fileID: 0}
     - target: {fileID: 6759414318624094659, guid: 06edf4f702630404da735584c188f8fb, type: 3}
       propertyPath: m_AnchoredPosition.y

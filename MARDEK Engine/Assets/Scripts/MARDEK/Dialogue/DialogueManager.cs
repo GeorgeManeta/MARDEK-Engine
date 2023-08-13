@@ -27,6 +27,8 @@ namespace MARDEK.DialogueSystem
         [SerializeField] GameObject canvas = null;
         [SerializeField] TextMeshProUGUI dialogueText = null;
         [SerializeField] TextMeshProUGUI characterNameText = null;
+        [SerializeField] float characterNameTextXPositionWithPortrait = 450;
+        [SerializeField] float characterNameTextXPositionWithoutPortrait = 50;
         [SerializeField] Image characterElementImage = null;
         [SerializeField] PortraitDisplay characterPortrait = null;
         [SerializeField] float dialogueSpeed = 5;
@@ -162,9 +164,9 @@ namespace MARDEK.DialogueSystem
                 characterPortrait.gameObject.SetActive(true);
                 characterPortrait.SetPortrait(profile.portrait);
 
-                var nameTextPosition = characterNameText.rectTransform.position;
-                nameTextPosition.x = 450;
-                characterNameText.rectTransform.position = nameTextPosition;
+                var nameTextPosition = characterNameText.rectTransform.localPosition;
+                nameTextPosition.x = characterNameTextXPositionWithPortrait;
+                characterNameText.rectTransform.SetLocalPositionAndRotation(nameTextPosition, Quaternion.identity);
 
                 var currentExpression = dialogue.CharacterLines[dialogueIndex].WrappedLines[lineIndex].expression;
                 characterPortrait.SetExpression(currentExpression);
@@ -173,9 +175,9 @@ namespace MARDEK.DialogueSystem
             {
                 characterPortrait.gameObject.SetActive(false);
 
-                var nameTextPosition = characterNameText.rectTransform.position;
-                nameTextPosition.x = 50;
-                characterNameText.rectTransform.position = nameTextPosition;
+                var nameTextPosition = characterNameText.rectTransform.localPosition;
+                nameTextPosition.x = characterNameTextXPositionWithoutPortrait;
+                characterNameText.rectTransform.SetLocalPositionAndRotation(nameTextPosition, Quaternion.identity);
             }
         }
 

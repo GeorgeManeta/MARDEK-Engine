@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <CharacterLines>k__BackingField:
   - <Character>k__BackingField: {fileID: 0}
-    <Lines>k__BackingField:
-    - This is the end of the current build.
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: This is the end of the current build.

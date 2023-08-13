@@ -14,34 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <CharacterLines>k__BackingField:
   - <Character>k__BackingField: {fileID: 11400000, guid: e333cc4476c16844a9f1d2a98f28a46f, type: 2}
-    <Lines>k__BackingField:
-    - OH DEAR!! I HAVE BEEN SLAIN!!!
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: OH DEAR!! I HAVE BEEN SLAIN!!!
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
-    <Lines>k__BackingField:
-    - "Well, we beated the dragon!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "Well, we beated the dragon!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: e651f62533624154586a9e67498a36ea, type: 2}
-    <Lines>k__BackingField:
-    - "Oh thank you so much for saving me, mighty heroes!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "Oh thank you so much for saving me, mighty heroes!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
-    <Lines>k__BackingField:
-    - "Well it was really all my fault.\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "Well it was really all my fault.\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
-    <Lines>k__BackingField:
-    - "All your *fault*? Do you mean all your *doing* or something? Because that's
-      not fair! We beat the dragon together...\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "All your *fault*? Do you mean all your *doing* or something? Because
+        that's not fair! We beat the dragon together...\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
-    <Lines>k__BackingField:
-    - "Well I still get the princess.\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "Well I still get the princess.\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
-    <Lines>k__BackingField:
-    - "You can have her! She's a *giiirl*! Girls are headlice, I heard! They suck
-      on your wallet and drain out all your money, that's what my dad says!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "You can have her! She's a *giiirl*! Girls are headlice, I heard! They
+        suck on your wallet and drain out all your money, that's what my dad says!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
-    <Lines>k__BackingField:
-    - "Really?!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "Really?!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
-    <Lines>k__BackingField:
-    - "Yeh, really! My dad told me so it must be true!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "Yeh, really! My dad told me so it must be true!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
-    <Lines>k__BackingField:
-    - Now that we've beatened the dragon though, now what do we do
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: Now that we've beatened the dragon though, now what do we do

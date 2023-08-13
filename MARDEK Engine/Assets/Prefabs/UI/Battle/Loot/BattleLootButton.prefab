@@ -91,9 +91,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac998037ed8379749837916ffa01d6ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnSelected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeselected:
+    m_PersistentCalls:
+      m_Calls: []
+  deselectOnDisable: 0
+  selectionSFX: {fileID: 0}
   buttonImage: {fileID: 6588896743821104931}
   text: {fileID: 2143973540853115298}
   crystalPointer: {fileID: 1258573176135142028}
+  getAll: 0
 --- !u!1 &4375173998466791087
 GameObject:
   m_ObjectHideFlags: 0

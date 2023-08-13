@@ -29,6 +29,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -94,9 +95,12 @@ MonoBehaviour:
   OnDeselected:
     m_PersistentCalls:
       m_Calls: []
+  deselectOnDisable: 0
   selectionSFX: {fileID: 11400000, guid: 0da28b87b9cd6e945acf7875aaef8844, type: 2}
   category: {fileID: 0}
   categoryIcon: {fileID: 1026290940268096405}
   skillEntriesLayout: {fileID: 0}
   skillEntryPrefab: {fileID: 1067493313925099172, guid: 766b4dc37fca2a54b85f4cc9bcce03e4, type: 3}
   skillCategoryLabel: {fileID: 0}
+  skillCategoryName: {fileID: 0}
+  skillSetDescription: {fileID: 0}

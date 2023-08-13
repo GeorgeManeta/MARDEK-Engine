@@ -28,6 +28,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3506067765977366233}
   - {fileID: 5317004973417001194}
@@ -91,8 +92,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  deselectOnDisable: 0
   selectionSFX: {fileID: 0}
-  character: {fileID: 0}
+  characterNameText: {fileID: 0}
+  wrapper: {fileID: 0}
 --- !u!1 &1191998445704554949
 GameObject:
   m_ObjectHideFlags: 0
@@ -120,6 +123,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8877386185751290694}
   m_RootOrder: 3
@@ -142,6 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 0}
+  textMeshProText: {fileID: 0}
   textColor: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 7444236206552032933}
   imageColor: {r: 0, g: 0, b: 0, a: 0}
@@ -173,6 +178,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8877386185751290694}
   m_RootOrder: 0
@@ -249,6 +255,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8877386185751290694}
   m_RootOrder: 1
@@ -311,6 +318,7 @@ MonoBehaviour:
   characterSelectable: {fileID: 3895709001674175548}
   characterImage: {fileID: 7302407299084019423}
   movementSpriteAnimationDirection: {fileID: 11400000, guid: ea6556b4aef89a245b8056a40173133b, type: 2}
+  disabledSprite: {fileID: 0}
 --- !u!1 &8197633908481093767
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +346,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8877386185751290694}
   m_RootOrder: 2
@@ -360,6 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 0}
+  textMeshProText: {fileID: 0}
   textColor: {r: 0, g: 0, b: 0, a: 0}
   image: {fileID: 7444236206552032933}
   imageColor: {r: 0.64705884, g: 0.8039216, b: 0.003921569, a: 0.29411766}

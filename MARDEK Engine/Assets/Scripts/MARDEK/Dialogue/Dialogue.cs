@@ -1,3 +1,4 @@
+using MARDEK.CharacterSystem;
 using System.Collections.Generic;
 using UnityEngine;
 using CharacterInfo = MARDEK.CharacterSystem.CharacterProfile;
@@ -7,6 +8,8 @@ namespace MARDEK.DialogueSystem
     [CreateAssetMenu(menuName = "MARDEK/Dialogue/Dialogue")]
     public class Dialogue : ScriptableObject
     {
+        [field:SerializeField] public List<CharacterLines> CharacterLines { get; private set; }
+        
         //[TextArea(0, 10)]
         //[SerializeField] string transcript = default;
         //[SerializeField] List<string> characterNames = new List<string>();
@@ -42,6 +45,13 @@ namespace MARDEK.DialogueSystem
         //    CharacterLines.Add(new CharacterLines(character, lines));
         //}
 
-        [field:SerializeField] public List<CharacterLines> CharacterLines { get; private set; }
+        //[ContextMenu("ConvertLinesIntoWrappedLines")]
+        //public void ConvertLines()
+        //{
+        //    foreach(var line in CharacterLines)
+        //    {
+                
+        //    }
+        //}
     }
 }

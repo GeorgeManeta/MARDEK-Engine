@@ -14,32 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <CharacterLines>k__BackingField:
   - <Character>k__BackingField: {fileID: 11400000, guid: e333cc4476c16844a9f1d2a98f28a46f, type: 2}
-    <Lines>k__BackingField:
-    - "HAHAHAH! HEROES! YOU ARE... (Uh... What would a dragon say...?)... YOU ARE
-      PATHETIC MORTALS! I HAVE A PRINCESS! YOU CAN'T HAVE THIS PRINCESS! THIS PRINCESS
-      IS MINE!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "HAHAHAH! HEROES! YOU ARE... (Uh... What would a dragon say...?)... YOU
+        ARE PATHETIC MORTALS! I HAVE A PRINCESS! YOU CAN'T HAVE THIS PRINCESS! THIS
+        PRINCESS IS MINE!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
-    <Lines>k__BackingField:
-    - "We will slay you, mighty The Dragon! For we are great and Mighty Heroes, even
-      mightier than you! Tally-ho forsooth!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "We will slay you, mighty The Dragon! For we are great and Mighty Heroes,
+        even mightier than you! Tally-ho forsooth!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
-    <Lines>k__BackingField:
-    - "We'll kick your arse dragon!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "We'll kick your arse dragon!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
-    <Lines>k__BackingField:
-    - "Do dragons have arses?\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "Do dragons have arses?\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
-    <Lines>k__BackingField:
-    - "I bet they do!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "I bet they do!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
-    <Lines>k__BackingField:
-    - "If they do, then we'll kick it like it's never been kicked before!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "If they do, then we'll kick it like it's never been kicked before!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
-    <Lines>k__BackingField:
-    - "Yeh! With our big swords!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "Yeh! With our big swords!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
-    <Lines>k__BackingField:
-    - "So bring it on, dragon!\r"
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: "So bring it on, dragon!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: e333cc4476c16844a9f1d2a98f28a46f, type: 2}
-    <Lines>k__BackingField:
-    - HAHAHAH! YOU WILL NEVER DEFEAT ME!!!
+    <WrappedLines>k__BackingField:
+    - expression: {fileID: 0}
+      line: HAHAHAH! YOU WILL NEVER DEFEAT ME!!!
