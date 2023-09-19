@@ -1,0 +1,162 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2673
+      },
+      {
+        "depth": 2,
+        "id": 1717,
+        "scaleX": 0.1872711181640625,
+        "scaleY": 0.1872711181640625,
+        "translateX": -0.6,
+        "translateY": -0.25
+      },
+      {
+        "depth": 4,
+        "id": 2674
+      },
+      {
+        "depth": 5,
+        "id": 2679,
+        "rotateSkew0": 1.0,
+        "rotateSkew1": -1.0,
+        "translateX": -0.7,
+        "translateY": -18.25
+      },
+      {
+        "depth": 11,
+        "id": 2680
+      },
+      {
+        "depth": 12,
+        "id": 1717,
+        "scaleX": 0.130157470703125,
+        "scaleY": 0.130157470703125,
+        "translateX": -0.7,
+        "translateY": 13.3
+      },
+      {
+        "depth": 14,
+        "id": 2681
+      }
+    ],
+    "removeObjects": [],
+    "label": "drill-o-matic"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 3,
+        "id": 2682
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 1
+      },
+      {
+        "depth": 2
+      },
+      {
+        "depth": 4
+      },
+      {
+        "depth": 5
+      },
+      {
+        "depth": 11
+      },
+      {
+        "depth": 12
+      },
+      {
+        "depth": 14
+      }
+    ],
+    "label": "Potion Spray"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 3,
+        "id": 2683
+      }
+    ],
+    "removeObjects": [],
+    "label": "Gas-O-Matic"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 3,
+        "id": 2684
+      }
+    ],
+    "removeObjects": [],
+    "label": "Sleep-O-Matic"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 3,
+        "id": 2685
+      }
+    ],
+    "removeObjects": [],
+    "label": "Flamethrower"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2686
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 3
+      }
+    ],
+    "label": "Golden Mirror"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2687
+      }
+    ],
+    "removeObjects": [],
+    "label": "Silver Mirror"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2688
+      }
+    ],
+    "removeObjects": [],
+    "label": "Thermal Spanner"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2689
+      }
+    ],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": [
+      {
+        "depth": 1
+      }
+    ],
+    "label": "none"
+  }
+]

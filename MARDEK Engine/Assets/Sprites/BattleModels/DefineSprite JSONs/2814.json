@@ -1,0 +1,50 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2810
+      }
+    ],
+    "removeObjects": [],
+    "label": "Silver Harp"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2811
+      }
+    ],
+    "removeObjects": [],
+    "label": "Wave Harp"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 2,
+        "id": 2812
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 1
+      }
+    ],
+    "label": "Fairy Harp"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2813
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 2
+      }
+    ],
+    "label": "Astral Harp"
+  }
+]

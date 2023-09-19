@@ -1,0 +1,109 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 4162
+      },
+      {
+        "depth": 2,
+        "id": 2193,
+        "translateX": 25.05,
+        "translateY": -16.6
+      },
+      {
+        "depth": 4,
+        "id": 2193,
+        "translateX": 10.45,
+        "translateY": -0.8
+      },
+      {
+        "depth": 6,
+        "id": 2193,
+        "translateX": -23.05,
+        "translateY": -6.2
+      },
+      {
+        "depth": 8,
+        "id": 2193,
+        "translateX": -21.4,
+        "translateY": -30.9
+      },
+      {
+        "depth": 10,
+        "id": 2193,
+        "translateX": 3.75,
+        "translateY": -46.95
+      },
+      {
+        "depth": 12,
+        "id": 2193,
+        "translateX": -5.3,
+        "translateY": -40.1
+      }
+    ],
+    "removeObjects": [],
+    "label": "fury"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 4163
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 2
+      },
+      {
+        "depth": 4
+      },
+      {
+        "depth": 6
+      },
+      {
+        "depth": 8
+      },
+      {
+        "depth": 10
+      },
+      {
+        "depth": 12
+      }
+    ]
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 4164
+      }
+    ],
+    "removeObjects": [],
+    "label": "dark"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 12,
+        "id": 4165
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 1
+      }
+    ],
+    "label": "water"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": [
+      {
+        "depth": 12
+      }
+    ],
+    "label": "iorb"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 3464
+      }
+    ],
+    "removeObjects": [],
+    "label": "d"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 3465
+      }
+    ],
+    "removeObjects": [],
+    "label": "griil"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 2,
+        "id": 3466
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 1
+      }
+    ],
+    "label": "posh"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 3467
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 2
+      }
+    ],
+    "label": "crow"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 3468
+      }
+    ],
+    "removeObjects": []
+  }
+]

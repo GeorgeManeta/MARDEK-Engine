@@ -1,0 +1,39 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 4451
+      }
+    ],
+    "removeObjects": [],
+    "label": "myth"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 2,
+        "id": 4452
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 1
+      }
+    ],
+    "label": "stone"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 4453
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 2
+      }
+    ]
+  }
+]

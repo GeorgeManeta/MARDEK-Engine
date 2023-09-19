@@ -1,0 +1,76 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 2,
+        "id": 2340
+      }
+    ],
+    "removeObjects": [],
+    "label": "soldier"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2341
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 2
+      }
+    ],
+    "label": "hero"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2342
+      }
+    ],
+    "removeObjects": [],
+    "label": "knight"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2343
+      }
+    ],
+    "removeObjects": [],
+    "label": "dream"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2344
+      }
+    ],
+    "removeObjects": [],
+    "label": "hero_LL"
+  }
+]
