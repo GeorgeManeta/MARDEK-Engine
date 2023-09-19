@@ -63,8 +63,13 @@ public class DefineSpriteImporter : MonoBehaviour
         {
             var gameObject = new GameObject(placeObject.id.ToString());
             gameObject.transform.parent = transform;
+
             var position = new Vector3(placeObject.translateX, -placeObject.translateY, 0);
             gameObject.transform.localPosition = position;
+
+            var scale = new Vector3(placeObject.scaleX, placeObject.scaleY, 1);
+            gameObject.transform.localScale = scale;
+
             var defineSprite = gameObject.AddComponent<DefineSpriteImporter>();
             defineSprite.spriteID = placeObject.id;
             defineSprite.Import();
