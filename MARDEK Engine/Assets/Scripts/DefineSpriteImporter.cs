@@ -3,12 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using FullSerializer;
-using UnityEngine.UIElements;
+using SkewMatrixDecompositor;
 
 public class DefineSpriteImporter : MonoBehaviour
 {
     public int spriteID = 0;
     [SerializeField] List<Frame> frames = new List<Frame>();
+    [SerializeField] List<DefineSpriteImporter> placedObjects = new List<DefineSpriteImporter>();
+    public int depth = 0;
+
+    private void OnValidate()
+    {
+        ListMatrices();
+    }
 
     [ContextMenu("Import")]
     public void Import()
@@ -58,10 +65,11 @@ public class DefineSpriteImporter : MonoBehaviour
     {
         for (int i = gameObject.transform.childCount-1; i >= 0; i--)
             DestroyImmediate(transform.GetChild(i).gameObject);
+        placedObjects = new List<DefineSpriteImporter>();
 
         foreach (var placeObject in frames[0].placeObjects)
         {
-            var gameObject = new GameObject(placeObject.id.ToString());
+            var gameObject = new GameObject($"{placeObject.depth} : {placeObject.id}");
             gameObject.transform.parent = transform;
 
             var position = new Vector3(placeObject.translateX, -placeObject.translateY, 0);
@@ -72,8 +80,65 @@ public class DefineSpriteImporter : MonoBehaviour
 
             var defineSprite = gameObject.AddComponent<DefineSpriteImporter>();
             defineSprite.spriteID = placeObject.id;
+            defineSprite.depth = placeObject.depth;
+            placedObjects.Add(defineSprite);
             defineSprite.Import();
         }
+    }
+
+    [SerializeField] int frame = 0;
+    [ContextMenu("List Matrices")]
+    public void ListMatrices()
+    {
+        foreach(var po in frames[frame].placeObjects)
+        {
+            var matrix = new System.Numerics.Matrix3x2(po.scaleX, po.rotateSkew0, po.rotateSkew1, po.scaleY, po.translateX, -po.translateY);
+            var result = MatrixDecompositor.Decompose(matrix);
+
+            foreach(var i in placedObjects)
+                if (i.depth == po.depth)
+                {
+                    if (result.Scale2 != null)
+                        i.transform.localScale = result.Scale2.Value;
+                    else
+                        i.transform.localScale = Vector3.one;
+
+                    if (result.Rotate2 != null)
+                        i.transform.localRotation = Quaternion.Euler(0f, 0f, -result.Rotate2.Value * Mathf.Rad2Deg);
+                    else
+                        i.transform.localRotation = Quaternion.Euler(0f, 0f, 0);
+
+                    if (result.Translate != null)
+                        i.transform.position = result.Translate.Value;
+                    else
+                        i.transform.position = Vector3.zero;
+
+                    if (i.transform.childCount == 0)
+                        continue;
+                    var child = i.transform.GetChild(0);
+                    if (child)
+                    {
+                        child.transform.localPosition = Vector3.zero;
+
+                        if (result.Scale1 != null)
+                            child.transform.localScale = result.Scale1.Value;
+                        else
+                            child.transform.localScale = Vector3.one;
+
+                        if (result.Rotate1 != null)
+                            child.transform.localRotation = Quaternion.Euler(0f, 0f, -result.Rotate1.Value * Mathf.Rad2Deg);
+                        else
+                            child.transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
+
+                    }
+                }
+        }
+    }
+
+    [ContextMenu("Apply")]
+    public void ApplyResult()
+    {
+
     }
 
     [System.Serializable]
