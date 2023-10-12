@@ -10,11 +10,15 @@ public class SWFShape : MonoBehaviour
 
         var sr = gameObject.AddComponent<SpriteRenderer>();
         sr.sprite = sprite;
-
+    }
+    [ContextMenu("CalculateSortingOrder")]
+    public void CalculateSortingOrder()
+    {
         int order = 0;
         var upperObject = GetComponentInParent<SWFPlacedObject>(includeInactive: true);
         while (upperObject != null)
         {
+            //print($"{upperObject.name}: {upperObject.Depth}");
             order += upperObject.Depth;
             var parent = upperObject.transform.parent;
             if (parent == null)
@@ -22,6 +26,6 @@ public class SWFShape : MonoBehaviour
             else
                 upperObject = parent.GetComponentInParent<SWFPlacedObject>(includeInactive: true);
         }
-        sr.sortingOrder = order;
+        gameObject.GetComponent<SpriteRenderer>().sortingOrder = order;
     }
 }

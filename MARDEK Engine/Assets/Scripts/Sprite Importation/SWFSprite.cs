@@ -40,7 +40,6 @@ public class SWFSprite : MonoBehaviour
         SetFrame(frames.Count);
         SetFrame(0);
     }
-
     [ContextMenu("Import Animations")] void ImportAnimations()
     {
         var localPositionX = new Dictionary<string, AnimationCurve>();

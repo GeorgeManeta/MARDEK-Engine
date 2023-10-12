@@ -8,7 +8,7 @@ public class SWFPlacedObject : MonoBehaviour
 {
     [SerializeField, HideInInspector] GameObject innerTransform;
     [SerializeField] List<GameObject> innerSprites = new();
-    public int Depth { get; private set; }
+    [field: SerializeField] public int Depth { get; private set; }
     public void Create(int depth)
     {
         Depth = depth;
