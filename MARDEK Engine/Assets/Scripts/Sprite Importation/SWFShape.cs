@@ -6,6 +6,8 @@ public class SWFShape : MonoBehaviour
 {
     public void Create(Sprite sprite)
     {
+        gameObject.name = sprite.name;
+
         var sr = gameObject.AddComponent<SpriteRenderer>();
         sr.sprite = sprite;
 

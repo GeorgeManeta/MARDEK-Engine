@@ -6,12 +6,15 @@ using FullSerializer;
 
 public class SWFSprite : MonoBehaviour
 {
-    public int spriteID = 0;
+    public string id = "";
     [SerializeField] List<FrameJSON> frames = new List<FrameJSON>();
     [SerializeField] List<SWFPlacedObject> placedObjects = new List<SWFPlacedObject>();
     
     public void Create(TextAsset json)
     {
+        id = json.name;
+        gameObject.name = id;
+
         fsJsonParser.Parse(json.text, out fsData data);
         fsSerializer serializer = new fsSerializer();
         serializer.TryDeserialize(data, ref frames);
@@ -182,9 +185,9 @@ public class SWFSprite : MonoBehaviour
 
             clip.EnsureQuaternionContinuity();
 
-            var dir = $"Assets/Animations/BattleModelAnimations/{spriteID}";
+            var dir = $"Assets/Animations/BattleModelAnimations/{id}";
             System.IO.Directory.CreateDirectory(dir);
-            var path = $"{dir}/{spriteID}_{currentLabel}.anim";
+            var path = $"{dir}/{id}_{currentLabel}.anim";
             AssetDatabase.DeleteAsset(path);
             AssetDatabase.CreateAsset(clip, path);
         }

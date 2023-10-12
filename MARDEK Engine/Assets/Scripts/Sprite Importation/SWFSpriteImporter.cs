@@ -55,6 +55,8 @@ public class SWFSpriteImporter : MonoBehaviour
         }
 
         Debug.LogError($"Failed to create or instantiate swf object of id: {id}");
-        return null;
+        var failed = new GameObject($"{id} (failed to import)");
+        failed.transform.parent = parent;
+        return failed;
     }
 }
