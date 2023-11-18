@@ -7625,6 +7625,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 209171732400969639, guid: b113440698ed91445a4aad7285fdf655, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/DragonLair/DL_Area2.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 209171732400969639, guid: b113440698ed91445a4aad7285fdf655, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: a837e96160bdf1143be4673903b63b55, type: 3}
     - target: {fileID: 3265152173036777289, guid: b113440698ed91445a4aad7285fdf655, type: 3}
       propertyPath: m_Name
       value: Door (TransitionEvent)
