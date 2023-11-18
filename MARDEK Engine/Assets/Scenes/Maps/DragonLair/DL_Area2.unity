@@ -16308,6 +16308,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5776490856487226698, guid: 51a1a5b6894933746b65f674bac4ad69, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/DragonLair/DL_Area1.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -5776490856487226698, guid: 51a1a5b6894933746b65f674bac4ad69, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729, type: 3}
     - target: {fileID: 3265152173036777289, guid: 51a1a5b6894933746b65f674bac4ad69, type: 3}
       propertyPath: m_Name
       value: Door DOWN (TransitionEvent)

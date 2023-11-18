@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 456518216473489393}
   - component: {fileID: 9058375522306014262}
   - component: {fileID: 18948105369555438}
+  - component: {fileID: 209171732400969639}
   - component: {fileID: 5677862630884637018}
   - component: {fileID: 722377953957177653}
   - component: {fileID: 1895420968590908282}
@@ -94,6 +95,22 @@ MonoBehaviour:
   onStart: 0
   onInteractionKey: 1
   onTriggerEnter: 0
+--- !u!114 &209171732400969639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265152173036777289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427f0ec8505da7049900c02142169afa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    sceneAsset: {fileID: 0}
+    scenePath: 
+  state: 0
 --- !u!114 &5677862630884637018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,9 +181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59d350eb06de3fd4b99e34a9eb6e543f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene:
-    sceneAsset: {fileID: 0}
-    scenePath: 
   waypoint: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
   overrideFacingDirection: {fileID: 0}
 --- !u!1 &4070754224476650423

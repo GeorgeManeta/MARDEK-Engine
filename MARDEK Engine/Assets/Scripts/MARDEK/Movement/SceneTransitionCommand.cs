@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 using MARDEK.Core;
 using MARDEK.Event;
-using MARDEK.Save;
 
 namespace MARDEK.Movement
 {
@@ -11,9 +9,10 @@ namespace MARDEK.Movement
         public static WaypointEnum usedWaypoint { get; private set; }
         public static MoveDirection transitionFacingDirection { get; private set; }
 
-        [SerializeField] SceneReference scene = null;
         [SerializeField] WaypointEnum waypoint = null;
         [SerializeField] MoveDirection overrideFacingDirection = null;
+
+        bool didTrigger = false;
 
         public override void Trigger()
         {
@@ -22,7 +21,14 @@ namespace MARDEK.Movement
 
             //Command queue won't have the oportunity to reset the lockValue itself cause the scene reload will destroy the object
             PlayerLocks.EventSystemLock = 0;
-            SceneManager.LoadScene(scene);
+            didTrigger = true;
+        }
+
+        void Update() {
+            if (didTrigger && SceneTransitionOverlayCommand.instance.state == 2) {
+                SceneTransitionOverlayCommand.instance.state = 1;
+                didTrigger = false;
+            }
         }
 
         void SetupFacingDirection()
