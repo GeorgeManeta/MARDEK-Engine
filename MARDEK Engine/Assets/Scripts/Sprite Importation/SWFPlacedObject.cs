@@ -9,6 +9,7 @@ public class SWFPlacedObject : MonoBehaviour
     [SerializeField, HideInInspector] GameObject innerTransform;
     [SerializeField] List<GameObject> innerSprites = new();
     [field: SerializeField] public int Depth { get; private set; }
+    [SerializeField] Color32 color = Color.white;
     public void Create(int depth)
     {
         Depth = depth;
@@ -73,5 +74,19 @@ public class SWFPlacedObject : MonoBehaviour
         var obj = SWFSpriteImporter.CreateOrInstantiateByID(id, innerTransform.transform);
         innerSprites.Add(obj);
         return obj;
+    }
+
+    public void SetColor(int[] add, int[] mult)
+    {
+        color = new Color32(
+            (byte)(mult[0] + add[0]),
+            (byte)(mult[1] + add[1]), 
+            (byte)(mult[2] + add[2]), 
+            (byte)(mult[3] + add[3] - 1));
+    }
+
+    public Color GetColor()
+    {
+        return color;
     }
 }

@@ -12,13 +12,14 @@ public class SWFShape : MonoBehaviour
         sr.sprite = sprite;
     }
     [ContextMenu("CalculateSortingOrder")]
-    public void CalculateSortingOrder()
+    public void CalculateSortingOrderAndColor()
     {
         int order = 0;
         var upperObject = GetComponentInParent<SWFPlacedObject>(includeInactive: true);
+        Color color = Color.white;
         while (upperObject != null)
         {
-            //print($"{upperObject.name}: {upperObject.Depth}");
+            color = upperObject.GetColor();
             order += upperObject.Depth;
             var parent = upperObject.transform.parent;
             if (parent == null)
@@ -26,6 +27,8 @@ public class SWFShape : MonoBehaviour
             else
                 upperObject = parent.GetComponentInParent<SWFPlacedObject>(includeInactive: true);
         }
-        gameObject.GetComponent<SpriteRenderer>().sortingOrder = order;
+        var r = gameObject.GetComponent<SpriteRenderer>();
+        r.sortingOrder = order;
+        r.color = color;
     }
 }

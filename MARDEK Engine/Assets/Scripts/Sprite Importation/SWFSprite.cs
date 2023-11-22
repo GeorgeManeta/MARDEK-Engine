@@ -42,6 +42,11 @@ public class SWFSprite : MonoBehaviour
     }
     [ContextMenu("Import Animations")] void ImportAnimations()
     {
+        var animator = GetComponent<Animation>();
+        if (animator)
+            DestroyImmediate(animator);
+        animator = gameObject.AddComponent<Animation>();
+
         var localPositionX = new Dictionary<string, AnimationCurve>();
         var localPositionY = new Dictionary<string, AnimationCurve>();
 
@@ -62,6 +67,12 @@ public class SWFSprite : MonoBehaviour
 
         for(int i = 0; i < frames.Count; i++)
         {
+            bool skipFrame = frames[i].label == ""
+                && frames[i].placeObjects.Count == 0 
+                && frames[i].removeObjects.Count == 0;
+            if (skipFrame)
+                continue;
+
             SetFrame(i);
 
             if (frames[i].label != "")
@@ -83,6 +94,7 @@ public class SWFSprite : MonoBehaviour
                 localScaleY.Clear();
                 isActive.Clear();
             }
+            
             foreach (var po in placedObjects)
             {
                 var path = po.name;
@@ -184,11 +196,14 @@ public class SWFSprite : MonoBehaviour
 
             clip.EnsureQuaternionContinuity();
 
-            var dir = $"Assets/Animations/BattleModelAnimations/{id}";
+            var dir = $"Assets/Animations/Battle Model Animations/{id}";
             System.IO.Directory.CreateDirectory(dir);
             var path = $"{dir}/{id}_{currentLabel}.anim";
+            print($"Creating animation: {path}");
             AssetDatabase.DeleteAsset(path);
             AssetDatabase.CreateAsset(clip, path);
+
+            animator.AddClip(clip, clip.name);
         }
     }
     SWFPlacedObject GetObjectByDepth(int depth)
@@ -219,6 +234,10 @@ public class SWFSprite : MonoBehaviour
                 var placedObject = GetObjectByDepth(obj.depth);
                 placedObject.SetObjectByID(obj.id);
                 placedObject.SetMatrix(obj.scaleX, obj.rotateSkew0, obj.rotateSkew1, obj.scaleY, obj.translateX, -obj.translateY);
+                if (obj.rgbaAdd != null && obj.rgbaAdd.Length > 0)
+                {
+                    placedObject.SetColor(obj.rgbaAdd, obj.rgbaMult);
+                }
             }
         }
     }
@@ -241,6 +260,13 @@ public class SWFSprite : MonoBehaviour
         public float scaleY = 1;
         public float rotateSkew0 = 0;
         public float rotateSkew1 = 0;
+
+        public int[] rgbaAdd;
+        public int[] rgbaMult;
+
+        public float glowBlurXandY = 0;
+        public float glowStrengh = 0;
+        public int[] glowColorRGBA;
     }
     [System.Serializable]
     class RemoveObjectJSON

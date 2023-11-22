@@ -51,7 +51,7 @@ public class SWFSpriteImporter : MonoBehaviour
                 var json = AssetDatabase.LoadAssetAtPath<TextAsset>(path);
                 spriteComponent.Create(json);
 
-                var prefabPath = $"Assets/Prefabs/{id}.prefab";
+                var prefabPath = $"Assets/Prefabs/Battle Models/{id}.prefab";
                 PrefabUtility.SaveAsPrefabAsset(spriteObject, prefabPath);
                 DestroyImmediate(spriteObject);
             }
@@ -69,7 +69,7 @@ public class SWFSpriteImporter : MonoBehaviour
             obj.transform.localScale = Vector3.one;
 
             foreach(var shape in obj.GetComponentsInChildren<SWFShape>())
-                shape.CalculateSortingOrder();
+                shape.CalculateSortingOrderAndColor();
 
             return obj;
         }
