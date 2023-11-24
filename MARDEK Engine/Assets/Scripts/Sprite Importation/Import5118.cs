@@ -1,8 +1,10 @@
 using FullSerializer;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
 
 public class Import5118 : MonoBehaviour
 {
@@ -34,3 +36,4 @@ public class Import5118 : MonoBehaviour
         }
     }
 }
+#endif

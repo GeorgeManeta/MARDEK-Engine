@@ -1,14 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
 
 public class SWFSpriteImporter : MonoBehaviour
 {
     [SerializeField] int ID = 0;
 
-    [ContextMenu("Import One")]
+    [ContextMenu("Import This ID")]
     void ImportOne()
     {
         CreateOrInstantiateByID(ID, transform);
@@ -51,7 +53,7 @@ public class SWFSpriteImporter : MonoBehaviour
                 var json = AssetDatabase.LoadAssetAtPath<TextAsset>(path);
                 spriteComponent.Create(json);
 
-                var prefabPath = $"Assets/Prefabs/Battle Models/{id}.prefab";
+                var prefabPath = $"Assets/Prefabs/Battle Models/Inner Parts/{id}.prefab";
                 PrefabUtility.SaveAsPrefabAsset(spriteObject, prefabPath);
                 DestroyImmediate(spriteObject);
             }
@@ -81,3 +83,4 @@ public class SWFSpriteImporter : MonoBehaviour
         return failed;
     }
 }
+#endif
