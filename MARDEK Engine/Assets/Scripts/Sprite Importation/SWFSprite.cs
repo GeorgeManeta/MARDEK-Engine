@@ -7,7 +7,7 @@ using FullSerializer;
 public class SWFSprite : MonoBehaviour
 {
     public string id = "";
-    [SerializeField] List<FrameJSON> frames = new List<FrameJSON>();
+    [SerializeField] List<SWFFrame> frames = new List<SWFFrame>();
     [SerializeField] List<SWFPlacedObject> placedObjects = new List<SWFPlacedObject>();
     
     public void Create(TextAsset json)
@@ -40,7 +40,9 @@ public class SWFSprite : MonoBehaviour
         SetFrame(frames.Count);
         SetFrame(0);
     }
-    [ContextMenu("Import Animations")] void ImportAnimations()
+
+    [ContextMenu("Import Animations")]
+    void ImportAnimations()
     {
         var animator = GetComponent<Animation>();
         if (animator)
@@ -240,37 +242,5 @@ public class SWFSprite : MonoBehaviour
                 }
             }
         }
-    }
-
-    [System.Serializable]
-    class FrameJSON
-    {
-        public List<PlaceObjectJSON> placeObjects = new List<PlaceObjectJSON>();
-        public List<RemoveObjectJSON> removeObjects = new List<RemoveObjectJSON>();
-        public string label = "";
-    }
-    [System.Serializable]
-    class PlaceObjectJSON
-    {
-        public int depth;
-        public int id;
-        public float translateX = 0;
-        public float translateY = 0;
-        public float scaleX = 1;
-        public float scaleY = 1;
-        public float rotateSkew0 = 0;
-        public float rotateSkew1 = 0;
-
-        public int[] rgbaAdd;
-        public int[] rgbaMult;
-
-        public float glowBlurXandY = 0;
-        public float glowStrengh = 0;
-        public int[] glowColorRGBA;
-    }
-    [System.Serializable]
-    class RemoveObjectJSON
-    {
-        public int depth;
     }
 }
