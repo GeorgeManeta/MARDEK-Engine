@@ -7,7 +7,12 @@ namespace MARDEK.UI {
 
         [SerializeField] Image overlayImage;
 
-        void Update()
+        void Start()
+        {
+            overlayImage.color = new Color(0f, 0f, 0f, SceneTransitionOverlayCommand.DetermineAlpha());
+        }
+
+        void FixedUpdate()
         {
             overlayImage.color = new Color(0f, 0f, 0f, SceneTransitionOverlayCommand.DetermineAlpha());
         }
