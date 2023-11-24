@@ -12,8 +12,8 @@ namespace MARDEK.Movement {
 
         public static float DetermineAlpha() {
             if (instance == null) return 0f;
-            if (instance.state > 0) return (MAX_STATE - instance.state) / (float) MAX_STATE;
-            if (instance.state < 0) return (-MIN_STATE + instance.state) / (float) -MIN_STATE;
+            if (instance.state > 0) return (MAX_STATE - instance.state) / (MAX_STATE * 0.8f);
+            if (instance.state < 0) return (-MIN_STATE + instance.state) / -(MIN_STATE * 0.8f);
             return 0f;
         }
 
