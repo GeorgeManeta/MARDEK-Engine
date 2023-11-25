@@ -9,7 +9,7 @@ public class SWFSprite : MonoBehaviour
     public string id = "";
     [SerializeField] List<SWFFrame> frames = new List<SWFFrame>();
     [SerializeField] List<SWFPlacedObject> placedObjects = new List<SWFPlacedObject>();
-    
+    [SerializeField] List<LabelAnimationClipPair> animations = new List<LabelAnimationClipPair>();
     public void Create(TextAsset json)
     {
         id = json.name;
@@ -39,6 +39,8 @@ public class SWFSprite : MonoBehaviour
         }
         SetFrame(frames.Count);
         SetFrame(0);
+
+        ImportAnimations();
     }
 
     [ContextMenu("Import Animations")]
@@ -48,6 +50,7 @@ public class SWFSprite : MonoBehaviour
         if (animator)
             DestroyImmediate(animator);
         animator = gameObject.AddComponent<Animation>();
+        animations = new List<LabelAnimationClipPair>();
 
         var localPositionX = new Dictionary<string, AnimationCurve>();
         var localPositionY = new Dictionary<string, AnimationCurve>();
@@ -206,6 +209,7 @@ public class SWFSprite : MonoBehaviour
             AssetDatabase.CreateAsset(clip, path);
 
             animator.AddClip(clip, clip.name);
+            animations.Add(new LabelAnimationClipPair() { label = currentLabel, clip = clip });
         }
     }
     SWFPlacedObject GetObjectByDepth(int depth)
@@ -236,11 +240,37 @@ public class SWFSprite : MonoBehaviour
                 var placedObject = GetObjectByDepth(obj.depth);
                 placedObject.SetObjectByID(obj.id);
                 placedObject.SetMatrix(obj.scaleX, obj.rotateSkew0, obj.rotateSkew1, obj.scaleY, obj.translateX, -obj.translateY);
-                if (obj.rgbaAdd != null && obj.rgbaAdd.Length > 0)
-                {
+                
+                // Set color of objects based on the first frame
+                if (f == 0 && obj.rgbaAdd.Length > 0)
                     placedObject.SetColor(obj.rgbaAdd, obj.rgbaMult);
-                }
             }
         }
+    }
+
+    [System.Serializable]
+    struct LabelAnimationClipPair
+    {
+        public string label;
+        public AnimationClip clip;
+    }
+
+    public void PlayAnimationByLabel(string label)
+    {
+        AnimationClip clip = null;
+        foreach(var pair in animations)
+        {
+            if (pair.label == label)
+            {
+                clip = pair.clip;
+            }
+        }
+        if (clip != null)
+        {
+            var animator = GetComponent<Animation>();
+            animator.Play(clip.name);
+        }
+        else
+            Debug.LogWarning($"No animation found for label {label}");
     }
 }

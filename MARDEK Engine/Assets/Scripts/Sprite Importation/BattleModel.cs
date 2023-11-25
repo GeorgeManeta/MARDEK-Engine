@@ -20,6 +20,15 @@ public class BattleModel : MonoBehaviour
     [ContextMenu("Import")]
     public void Import()
     {
-        SWFSpriteImporter.CreateOrInstantiateByID(spriteID, transform);
+        var obj = SWFSpriteImporter.CreateOrInstantiateByID(spriteID, transform);
+        foreach (var shape in obj.GetComponentsInChildren<SWFShape>())
+            shape.CalculateSortingOrderAndColor();
+    }
+
+    [ContextMenu("Skin")]
+    public void Skin()
+    {
+        foreach (var sprite in GetComponentsInChildren<SWFSprite>())
+            sprite.PlayAnimationByLabel(skin);
     }
 }
