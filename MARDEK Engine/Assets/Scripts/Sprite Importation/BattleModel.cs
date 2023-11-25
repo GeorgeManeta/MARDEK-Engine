@@ -10,6 +10,11 @@ public class BattleModel : MonoBehaviour
     [SerializeField] int spriteID;
     [SerializeField] string skin;
 
+    private void Awake()
+    {
+        ApplySkin();
+    }
+
     public void Create(string name, int spriteID, string skin)
     {
         nameFrom5118 = name;
@@ -25,8 +30,8 @@ public class BattleModel : MonoBehaviour
             shape.CalculateSortingOrderAndColor();
     }
 
-    [ContextMenu("Skin")]
-    public void Skin()
+    [ContextMenu("Apply Skin")]
+    public void ApplySkin()
     {
         foreach (var sprite in GetComponentsInChildren<SWFSprite>())
             sprite.PlayAnimationByLabel(skin);

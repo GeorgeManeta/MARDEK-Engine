@@ -70,7 +70,7 @@ public class SWFSpriteImporter : MonoBehaviour
             obj.transform.localRotation = Quaternion.identity;
             obj.transform.localScale = Vector3.one;
 
-            foreach(var shape in obj.GetComponentsInChildren<SWFShape>())
+            foreach(var shape in obj.GetComponentsInChildren<SWFShape>(true))
                 shape.CalculateSortingOrderAndColor();
 
             return obj;

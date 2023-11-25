@@ -209,6 +209,8 @@ public class SWFSprite : MonoBehaviour
             AssetDatabase.CreateAsset(clip, path);
 
             animator.AddClip(clip, clip.name);
+            if (animator.clip == null)
+                animator.clip = clip;
             animations.Add(new LabelAnimationClipPair() { label = currentLabel, clip = clip });
         }
     }
@@ -242,7 +244,7 @@ public class SWFSprite : MonoBehaviour
                 placedObject.SetMatrix(obj.scaleX, obj.rotateSkew0, obj.rotateSkew1, obj.scaleY, obj.translateX, -obj.translateY);
                 
                 // Set color of objects based on the first frame
-                if (f == 0 && obj.rgbaAdd.Length > 0)
+                if (f == 0 && obj.rgbaAdd?.Length > 0)
                     placedObject.SetColor(obj.rgbaAdd, obj.rgbaMult);
             }
         }
@@ -269,6 +271,9 @@ public class SWFSprite : MonoBehaviour
         {
             var animator = GetComponent<Animation>();
             animator.Play(clip.name);
+#if UNITY_EDITOR
+            animator.clip = clip;
+#endif
         }
         else
             Debug.LogWarning($"No animation found for label {label}");
