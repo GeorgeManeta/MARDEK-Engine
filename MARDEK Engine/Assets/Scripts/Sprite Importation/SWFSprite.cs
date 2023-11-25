@@ -275,7 +275,5 @@ public class SWFSprite : MonoBehaviour
             animator.clip = clip;
 #endif
         }
-        else
-            Debug.LogWarning($"No animation found for label {label}");
     }
 }
