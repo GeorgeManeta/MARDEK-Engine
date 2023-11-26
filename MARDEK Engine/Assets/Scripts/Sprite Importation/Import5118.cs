@@ -26,13 +26,23 @@ public class Import5118 : MonoBehaviour
             if (frame.placeObjects.Count == 0)
                 continue;
 
+            var placedObject = frame.placeObjects[0];
+            foreach (var po in frame.placeObjects)
+                if (po.id != 0)
+                {
+                    placedObject = po;
+                    break;
+                }
+
+            if (placedObject.id == 0)
+                Debug.LogError($"{frame.label} has ID 0");
+
             var go = new GameObject(frame.label);
             go.transform.parent = transform;
             var bm = go.AddComponent<BattleModel>();
-            var placedObject = frame.placeObjects[0];
             bm.Create(frame.label, placedObject.id, placedObject.skin);
             var prefabPath = $"Assets/Prefabs/Battle Models/{frame.label}.prefab";
-            PrefabUtility.SaveAsPrefabAsset(go, prefabPath);
+            //PrefabUtility.SaveAsPrefabAsset(go, prefabPath);
         }
     }
 }
