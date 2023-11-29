@@ -17,7 +17,7 @@ namespace MARDEK.Stats.ExpressionParser
         {
             IStats statHolderToGetFrom = _getFromTarget ? target : user;
             var value = statHolderToGetFrom.GetStat(_targetStat);
-            Debug.Log($"Parsed {_targetStat.name} with value {value}");
+            //Debug.Log($"Parsed {_targetStat.name} with value {value}");
             return value;
         }
     }

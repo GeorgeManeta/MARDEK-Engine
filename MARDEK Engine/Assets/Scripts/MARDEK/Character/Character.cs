@@ -116,7 +116,7 @@ namespace MARDEK.CharacterSystem
         }
         public void ModifyStat(IntegerStat stat, int delta)
         {
-            Debug.Log($"Modify stat {stat.name} by {delta}");
+            //Debug.Log($"Modify stat {stat.name} by {delta}");
             LastStatModificationFrame = Time.frameCount;
             if (stat == StatsGlobals.Instance.Level)
                 _level += delta;

@@ -7,6 +7,13 @@ namespace MARDEK.Movement
     {
         [SerializeField] Movable followedMovement;
         bool shouldFollow = false;
+        bool followingAFollower = false;
+
+        private void Awake()
+        {
+            if (followedMovement.GetComponent<FollowMovementController>())
+                followingAFollower = true;
+        }
 
         private void OnEnable()
         {
@@ -24,7 +31,7 @@ namespace MARDEK.Movement
         {
             shouldFollow = true;
             //assures that follower-follower movement will happen in the same frame.
-            if (followedMovement.CompareTag("Player") == false)
+            if (followingAFollower)
                 MoveToFollowed();
         }
 

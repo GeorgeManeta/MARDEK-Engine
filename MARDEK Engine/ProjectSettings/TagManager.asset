@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Impassable
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -12,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Tilemap
-  - MapCharacter
   - Player
   - PartyFollower
+  - 
+  - 
   - 
   - 
   - 
@@ -41,10 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Objects
-    uniqueID: 1419247961
-    locked: 0
-  - name: Lights
-    uniqueID: 1529360275
     locked: 0
