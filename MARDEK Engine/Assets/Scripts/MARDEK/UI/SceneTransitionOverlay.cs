@@ -9,12 +9,12 @@ namespace MARDEK.UI {
 
         void Start()
         {
-            overlayImage.color = new Color(0f, 0f, 0f, SceneTransitionOverlayCommand.DetermineAlpha());
+            overlayImage.color = new Color(0f, 0f, 0f, SceneTransitionCommand.DetermineAlpha());
         }
 
         void FixedUpdate()
         {
-            overlayImage.color = new Color(0f, 0f, 0f, SceneTransitionOverlayCommand.DetermineAlpha());
+            overlayImage.color = new Color(0f, 0f, 0f, SceneTransitionCommand.DetermineAlpha());
         }
     }
 }

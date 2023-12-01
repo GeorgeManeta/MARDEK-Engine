@@ -30,6 +30,10 @@ namespace MARDEK.Event
                 if (commandQueue.Count > 0)
                 {
                     isOngoing = true;
+                    foreach (var command in commandQueue)
+                    {
+                        command.Prepare();
+                    }
                     GetAndTriggerNextCommand();
                 }
                 else

@@ -5,5 +5,7 @@ namespace MARDEK.Event
     public abstract class CommandBase : MonoBehaviour
     {
         public abstract void Trigger();
+
+        public virtual void Prepare() {}
     }
 }
