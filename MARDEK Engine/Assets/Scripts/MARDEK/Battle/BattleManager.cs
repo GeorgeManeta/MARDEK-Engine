@@ -6,7 +6,8 @@ using MARDEK.Stats;
 
 namespace MARDEK.Battle
 {
-    using Progress;
+     using MARDEK.Skill;
+     using Progress;
     using UnityEngine.Events;
 
     public class BattleManager : MonoBehaviour
@@ -23,7 +24,7 @@ namespace MARDEK.Battle
         public List<Character> PlayableCharacters { get { return playerParty.Characters; } }
         public static Character characterActing { get; private set; }
         public static Stats.IActionSlot selectedAction { get; set; }
-
+        public bool PlayerTurn {  get; private set; }
         private void Awake()
         {
             if (encounter)
@@ -52,33 +53,42 @@ namespace MARDEK.Battle
 
             if (characterActing == null)
             {
-                characterActing = StepActCycleTryGetNextCharacter();
-                if (characterActing != null)
-                {
-                    characterActionUI.SetActive(true);
-                }
+                    WaitForNextCharacterTurn();
+                    return;
             }
-            else
-            {
-                if (selectedAction != null)
-                {
-                    Character target;
-                    if (EnemyCharacters.Contains(characterActing))
-                    {
-                        target = PlayableCharacters[Random.Range(0, PlayableCharacters.Count-1)];
-                    }
-                    else
-                    {
-                        target = EnemyCharacters[Random.Range(0, EnemyCharacters.Count-1)];
-                    }
 
-                    Debug.Log($"{characterActing.Profile.displayName} targets {target.Profile.displayName}");
-                    selectedAction.ApplyAction(characterActing, target);
-                    selectedAction = null;
-                    characterActing = null;
-                    characterActionUI.SetActive(false);
-                }
+               /// I'm slightly confused as to what IActionSlot is meant to represent. It seems to be items
+               /// used in battle as well as spells, which makes sense, but it also seems to represent equipment slots?
+               /// And as a result selected actions can't be skills but they can be a helmet?
+
+               // This is stupid, but gets the combat system working for the time being.
+               if (!PlayerTurn)
+            {
+                 SkillSlot skill = new SkillSlot();
+                 //Gonna want more complex logic here in the future
+                 skill.Skill = characterActing.Profile.ActionSkillset.Skills[0];
+                 selectedAction = skill;
             }
+
+            if (selectedAction != null)
+            {
+                Character target;
+                if (!PlayerTurn)
+                {
+                    target = PlayableCharacters[Random.Range(0, PlayableCharacters.Count-1)];
+                }
+                else
+                {
+                    target = EnemyCharacters[Random.Range(0, EnemyCharacters.Count-1)];
+                }
+            
+                Debug.Log($"{characterActing.Profile.displayName} targets {target.Profile.displayName}");
+                selectedAction.ApplyAction(characterActing, target);
+                selectedAction = null;
+                characterActing = null;
+                characterActionUI.SetActive(false);
+            }
+            
         }
         Character StepActCycleTryGetNextCharacter()
         {
@@ -132,5 +142,19 @@ namespace MARDEK.Battle
             characterActing = null;
             characterActionUI.SetActive(false);
         }
+
+        void WaitForNextCharacterTurn()
+        {
+               characterActing = StepActCycleTryGetNextCharacter();
+
+               if (characterActing is null)
+                    return;
+
+               PlayerTurn = PlayableCharacters.Contains(characterActing);
+               if (PlayerTurn)
+               {
+                    characterActionUI.SetActive(true);
+               }
+          }
     }
 }
