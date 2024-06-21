@@ -10,25 +10,14 @@ namespace MARDEK.UI
 {
     public class ListCharacterSkillset : ListActions
     {
-        Skillset skillsetToShow;
+        ActionSkillset skillsetToShow;
         [SerializeField] TextMeshProUGUI skillsetNameLabel = null;
         [SerializeField] Image skillsetIcon = null; 
-        [SerializeField] List<Skillset> possibleSkillsets;
 
         private void OnEnable()
         {
-            var character = Battle.BattleManager.characterActing;
             skillsetToShow = null;
-            foreach (var slot in character.SkillSlots)
-            {
-                foreach (var set in possibleSkillsets)
-                {
-                    if (set.Skills.Contains(slot.Skill))
-                        skillsetToShow = set;
-                }
-                if (skillsetToShow)
-                    break;
-            }
+            
             if (skillsetToShow)
             {
                 skillsetNameLabel.text = skillsetToShow.name;
@@ -36,7 +25,8 @@ namespace MARDEK.UI
             }
             else
             {
-                skillsetNameLabel.text = " - ";
+                Debug.LogWarning("No skillset to show");
+                skillsetNameLabel.text = "-";
                 skillsetIcon.sprite = null;
             }
         }
