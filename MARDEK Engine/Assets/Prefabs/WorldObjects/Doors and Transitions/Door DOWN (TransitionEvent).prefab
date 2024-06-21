@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5677862630884637018}
   - component: {fileID: 722377953957177653}
   - component: {fileID: 1895420968590908282}
+  - component: {fileID: 5960133987480585342}
   - component: {fileID: 8727420034804483783}
   m_Layer: 0
   m_Name: Door DOWN (TransitionEvent)
@@ -152,6 +153,20 @@ MonoBehaviour:
   target: {fileID: 0}
   moves:
   - {fileID: 11400000, guid: ea6556b4aef89a245b8056a40173133b, type: 2}
+--- !u!114 &5960133987480585342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265152173036777289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2c0d1f513548141bd524af5880add3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _waitExcecutionEnd: 1
+  type: 1
 --- !u!114 &8727420034804483783
 MonoBehaviour:
   m_ObjectHideFlags: 0

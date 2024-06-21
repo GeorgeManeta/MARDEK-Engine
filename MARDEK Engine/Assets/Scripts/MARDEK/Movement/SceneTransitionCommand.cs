@@ -2,7 +2,6 @@
 using UnityEngine.SceneManagement;
 using MARDEK.Core;
 using MARDEK.Event;
-using MARDEK.Save;
 
 namespace MARDEK.Movement
 {
@@ -22,6 +21,7 @@ namespace MARDEK.Movement
 
             //Command queue won't have the oportunity to reset the lockValue itself cause the scene reload will destroy the object
             PlayerLocks.EventSystemLock = 0;
+
             SceneManager.LoadScene(scene);
         }
 
