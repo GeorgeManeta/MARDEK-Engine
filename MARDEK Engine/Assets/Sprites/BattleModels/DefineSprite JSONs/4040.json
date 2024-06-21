@@ -1,0 +1,59 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 4036
+      }
+    ],
+    "removeObjects": [],
+    "label": "spirit"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 4039,
+        "scaleX": 0.9486236572265625,
+        "scaleY": 1.011810302734375,
+        "translateX": 0.0,
+        "translateY": -58.0
+      },
+      {
+        "depth": 3,
+        "id": 4039,
+        "rotateSkew0": 0.9486236572265625,
+        "rotateSkew1": -1.011810302734375,
+        "translateX": 14.0,
+        "translateY": -44.0
+      },
+      {
+        "depth": 5,
+        "id": 4039,
+        "scaleX": -0.9486236572265625,
+        "scaleY": -1.011810302734375,
+        "translateX": 0.0,
+        "translateY": -30.0
+      },
+      {
+        "depth": 7,
+        "id": 4039,
+        "rotateSkew0": -0.9486236572265625,
+        "rotateSkew1": 1.011810302734375,
+        "translateX": -14.0,
+        "translateY": -44.0
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 1
+      }
+    ],
+    "label": "d"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": [],
+    "label": "v2"
+  }
+]

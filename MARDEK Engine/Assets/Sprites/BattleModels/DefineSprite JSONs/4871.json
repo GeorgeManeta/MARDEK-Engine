@@ -1,0 +1,26 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 4,
+        "id": 4869
+      }
+    ],
+    "removeObjects": [],
+    "label": "earth"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 3,
+        "id": 4870
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 4
+      }
+    ],
+    "label": "dark"
+  }
+]

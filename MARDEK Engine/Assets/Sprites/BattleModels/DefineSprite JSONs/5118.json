@@ -1,0 +1,5895 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2233,
+        "scaleX": 1.3350372314453125,
+        "scaleY": 1.335723876953125,
+        "translateX": 0.85,
+        "translateY": 42.3
+      },
+      {
+        "depth": 5,
+        "id": 2293,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": 0.0,
+        "translateY": -0.05
+      },
+      {
+        "depth": 40,
+        "id": 1885,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15,
+        "rgbaAdd": [
+          173,
+          102,
+          0,
+          0
+        ],
+        "rgbaMult": [
+          256,
+          159,
+          128,
+          256
+        ]
+      },
+      {
+        "depth": 42,
+        "id": 2294,
+        "translateX": -2.35,
+        "translateY": -19.9
+      },
+      {
+        "depth": 44,
+        "id": 2304,
+        "scaleX": -0.34716796875,
+        "scaleY": -0.34716796875,
+        "rotateSkew0": -0.9365997314453125,
+        "rotateSkew1": 0.9365997314453125,
+        "translateX": -57.65,
+        "translateY": 21.75
+      },
+      {
+        "depth": 93,
+        "id": 1885,
+        "scaleX": 1.0808563232421875,
+        "scaleY": 1.0779266357421875
+      },
+      {
+        "depth": 95,
+        "id": 2306
+      },
+      {
+        "depth": 97,
+        "id": 2304,
+        "scaleX": -0.34716796875,
+        "scaleY": -0.34716796875,
+        "rotateSkew0": -0.9365997314453125,
+        "rotateSkew1": 0.9365997314453125,
+        "translateX": -57.65,
+        "translateY": 21.75
+      }
+    ],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": [
+      {
+        "depth": 5
+      },
+      {
+        "depth": 40
+      },
+      {
+        "depth": 42
+      },
+      {
+        "depth": 44
+      }
+    ],
+    "label": "null"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2293,
+        "scaleX": 0.6963348388671875,
+        "scaleY": 0.6963348388671875,
+        "translateX": -0.15,
+        "translateY": 0.35
+      }
+    ],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ]
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2293,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05
+      },
+      {
+        "depth": 84,
+        "id": 2311,
+        "translateX": -1.4,
+        "translateY": -41.65
+      },
+      {
+        "depth": 89,
+        "id": 1885,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15,
+        "rgbaAdd": [
+          173,
+          102,
+          0,
+          0
+        ],
+        "rgbaMult": [
+          256,
+          159,
+          128,
+          256
+        ]
+      },
+      {
+        "depth": 91,
+        "id": 2294,
+        "translateX": -2.55,
+        "translateY": -18.75
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 97
+      }
+    ],
+    "label": "dummy"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2364,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "knight"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "mardek"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2364,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "knight\u0000\u001d\n\u0000\u0000dreamy\u0000\u0005"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "mardek_dream"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2364,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "hero"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "mardek_hero"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2427,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "hero"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "deugan_hero"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2466,
+        "scaleX": 0.9656219482421875,
+        "scaleY": 0.966094970703125,
+        "translateX": -0.05,
+        "translateY": 3.6
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "mardek_child"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2501,
+        "scaleX": 0.9656219482421875,
+        "scaleY": 0.966094970703125,
+        "translateX": -0.05,
+        "translateY": 3.6
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "deugan_child"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2364,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "soldier"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "mardek_soldier"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2427,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "soldier"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "deugan_soldier"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2551,
+        "scaleX": 1.0119171142578125,
+        "scaleY": 1.012420654296875,
+        "translateX": -0.05,
+        "translateY": 1.75,
+        "skin": "soldier"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "emela_soldier"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2589,
+        "scaleX": 1.1352386474609375,
+        "scaleY": 1.1351318359375,
+        "translateX": -0.05,
+        "translateY": -0.3,
+        "skin": "soldier"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "steele_soldier"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2619,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -0.05
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "zach"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2651,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "d"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "vehrn"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2696,
+        "scaleX": 1.0482025146484375,
+        "scaleY": 1.048370361328125,
+        "translateX": -0.1,
+        "translateY": 0.0,
+        "skin": "d"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "inventor"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2758,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "pyro"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "donovan"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2801,
+        "scaleX": 1.0119171142578125,
+        "scaleY": 1.012420654296875,
+        "translateX": -0.05,
+        "translateY": 1.75,
+        "skin": "aero"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "sharla"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2839,
+        "scaleX": 1.0119171142578125,
+        "scaleY": 1.012420654296875,
+        "translateX": -0.05,
+        "translateY": 1.75
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "elwyen"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2881,
+        "scaleX": 1.0119171142578125,
+        "scaleY": 1.012420654296875,
+        "translateX": -0.05,
+        "translateY": 1.75
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "gloria17"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2922,
+        "scaleX": 1.1352386474609375,
+        "scaleY": 1.1351318359375,
+        "translateX": -0.05,
+        "translateY": -0.3,
+        "skin": "_root\u0000\u001c\u0006\u0000\u0000area\u0000N\u0015\u0000\u0000aeropolis_W_theatre\u0000I\u0002\u0000\u000b\u0000\u0003\u0000\u0000d\u0000\u0002\u0000\n\u0000\u0007\u0000\u0000actor"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "bartholio"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2963,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "d"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "vennie"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2993,
+        "scaleX": 1.0119171142578125,
+        "scaleY": 1.012420654296875,
+        "translateX": -0.05,
+        "translateY": 1.75,
+        "skin": "_root\u0000\u001c\u0006\u0000\u0000area\u0000N\u0015\u0000\u0000aeropolis_W_theatre\u0000I\u0002\u0000\u000b\u0000\u0003\u0000\u0000d\u0000\u0002\u0000\n\u0000\u0007\u0000\u0000actor"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "aalia"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3022,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "d"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "bernard"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3074,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "sslenck"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -5.4,
+        "translateY": -53.65
+      },
+      {
+        "depth": 87,
+        "id": 2294,
+        "translateX": -9.7,
+        "translateY": -29.65
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -5.2,
+        "translateY": -45.25
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      },
+      {
+        "depth": 91
+      }
+    ],
+    "label": "sslenck"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3104,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "solaar"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -33.4,
+        "translateY": -18.45
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -34.55,
+        "translateY": 13.6
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -33.8,
+        "translateY": -10.4
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "solaar"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3123,
+        "scaleX": 1.0119171142578125,
+        "scaleY": 1.012420654296875,
+        "translateX": -0.05,
+        "translateY": 1.75
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.0,
+        "translateY": -54.35
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -0.85,
+        "translateY": -35.75
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -2.6,
+        "translateY": -45.85
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "robot"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3173,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.9,
+        "translateY": -75.4
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 16.15,
+        "translateY": -59.8
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -1.6,
+        "translateY": -67.35
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "monster"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3173,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "zombie"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "zombie monster"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3173,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "punk"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "punkmonster"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3173,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "rex"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "rexaurus"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3214,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -3.05,
+        "translateY": -28.85
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 6.05,
+        "translateY": -18.85
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -2.85,
+        "translateY": -20.45
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Forest Fish"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3214,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "t2"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Brinary"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3214,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "coel"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Coelacanth"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3214,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "bone"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Sekil"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3214,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "blind"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Cavefish"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3214,
+        "scaleX": 1.3600006103515625,
+        "scaleY": 1.3606719970703125,
+        "translateX": 1.1,
+        "translateY": -28.35,
+        "skin": "cod"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Killer Cod"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3261,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.4,
+        "translateY": -6.5
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 10.55,
+        "translateY": 9.1
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -1.3,
+        "translateY": 1.55
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Fungoblin"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3261,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "posh"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Poshgoblin"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3261,
+        "scaleX": 1.3873748779296875,
+        "scaleY": 1.3880615234375,
+        "translateX": 0.3,
+        "translateY": -29.8,
+        "skin": "hob"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Hobgoblin"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3261,
+        "scaleX": 1.3873748779296875,
+        "scaleY": 1.3880615234375,
+        "translateX": 0.3,
+        "translateY": -29.8,
+        "skin": "poor"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "PoorGoblin"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3261,
+        "scaleX": 1.3873748779296875,
+        "scaleY": 1.3880615234375,
+        "translateX": 0.3,
+        "translateY": -29.8,
+        "skin": "elf"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "LovelyElf"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3284,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -4.15,
+        "translateY": -33.65
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 13.9,
+        "translateY": -18.05
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -4.1,
+        "translateY": -25.6
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Fumerat"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3284,
+        "scaleX": 1.4940643310546875,
+        "scaleY": 1.4947967529296875,
+        "translateX": 3.6,
+        "translateY": -35.6,
+        "skin": "black"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Miasmurine"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3284,
+        "scaleX": 1.4940643310546875,
+        "scaleY": 1.4947967529296875,
+        "translateX": 3.6,
+        "translateY": -35.6,
+        "skin": "rot"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Rotrat"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3327,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "bandit"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.9,
+        "translateY": -39.9
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 16.15,
+        "translateY": -24.3
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Bandit"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": [],
+    "label": "Bandit2"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3327,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "arab"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Bandit3"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3327,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "arab2"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "AeropolisThug"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3349,
+        "scaleX": 1.0119171142578125,
+        "scaleY": 1.012420654296875,
+        "translateX": -0.05,
+        "translateY": 1.75,
+        "skin": "woman4"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Adventuress"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3390,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -6.2,
+        "translateY": -39.1
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 1.75,
+        "translateY": -32.9
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -5.25,
+        "translateY": -32.5
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Wasp"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3390,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "blade"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "BladeBee"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3390,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "psn"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "PoisonBee"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3390,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "leaf"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "LeafStinger"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3438,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.9,
+        "translateY": -39.9
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 16.15,
+        "translateY": -24.3
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "DrownedCorpse"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3438,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "spectre"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Spectre"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3438,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "phantom"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Phantom"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3438,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "figment"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Forgotten Face"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3438,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "apparition"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Apparition"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3472,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -12.45,
+        "translateY": -7.55
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -4.5,
+        "translateY": -1.35
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -9.25,
+        "translateY": -1.6
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Gruul"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3472,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "griil"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Griil"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3472,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "posh"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "PoshGruul"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3472,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "crow"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Dankrodo"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3472,
+        "scaleX": 1.2073974609375,
+        "scaleY": 1.2079925537109375,
+        "translateX": 0.1,
+        "translateY": -20.5,
+        "skin": "05"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "FurryBiter"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3498,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 0.0,
+        "translateY": -14.7,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -3.05,
+        "translateY": -28.85
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 6.05,
+        "translateY": -18.85
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -22.55
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "LeechBat"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3498,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 0.0,
+        "translateY": -14.7,
+        "skin": "u"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "CorpseDrinker"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3498,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 0.0,
+        "translateY": -14.7,
+        "skin": "albino"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "AlbinoBat"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3498,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 0.0,
+        "translateY": -14.7,
+        "skin": "rat"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Ratbat"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3536,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 0.0,
+        "translateY": -14.7,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -3.05,
+        "translateY": -22.65
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 6.05,
+        "translateY": -12.65
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -2.85,
+        "translateY": -14.6
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Drillhound"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3536,
+        "scaleX": 1.1192626953125,
+        "scaleY": 1.1198272705078125,
+        "translateX": -1.5,
+        "translateY": -23.6,
+        "skin": "grn"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Tibore"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3536,
+        "scaleX": 1.1192626953125,
+        "scaleY": 1.1198272705078125,
+        "translateX": -1.5,
+        "translateY": -23.6,
+        "skin": "pirate"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Sand Marauder"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3570,
+        "scaleX": 1.43023681640625,
+        "scaleY": 1.4309539794921875,
+        "translateX": -2.1,
+        "translateY": -34.55,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -3.05,
+        "translateY": -48.9
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 12.85,
+        "translateY": -33.6
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.6,
+        "translateY": -40.85
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "BrownMantid"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3570,
+        "scaleX": 1.43023681640625,
+        "scaleY": 1.4309539794921875,
+        "translateX": -2.1,
+        "translateY": -34.55,
+        "skin": "green"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "GreenMantid"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3570,
+        "scaleX": 1.43023681640625,
+        "scaleY": 1.4309539794921875,
+        "translateX": -2.1,
+        "translateY": -34.55,
+        "skin": "antlion"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Antlion"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3570,
+        "scaleX": 1.43023681640625,
+        "scaleY": 1.4309539794921875,
+        "translateX": -2.1,
+        "translateY": -34.55,
+        "skin": "purple"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "PurpleMantid"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3570,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 0.0,
+        "translateY": -14.7,
+        "skin": "t2"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ]
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3598,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 2.6,
+        "translateY": -12.05,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -2.2,
+        "translateY": -38.7
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 6.9,
+        "translateY": -28.7
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Phage"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3598,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 2.6,
+        "translateY": -12.05,
+        "skin": "gem"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Chrysophage"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3598,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 2.6,
+        "translateY": -12.05,
+        "skin": "amber"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Amberystal"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3598,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 2.6,
+        "translateY": -12.05,
+        "skin": "dark"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Obsidian Phage"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3660,
+        "scaleX": 1.22265625,
+        "scaleY": 1.2232666015625,
+        "translateX": 0.1,
+        "translateY": -24.2,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -3.95,
+        "translateY": -60.95
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 5.15,
+        "translateY": -50.95
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.5,
+        "translateY": -52.9
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Balloon"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "zombie"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.9,
+        "translateY": -39.9
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 16.15,
+        "translateY": -24.3
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Zombie"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "psn"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Pestilent"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "ghoul"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Ghoul"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "ghast"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Ghast"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "key"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "ZombieLocksmith"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "sk"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Skeleton"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "abo"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Abomination"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "dsk"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "BlackBones"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "soldier"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "FallenSoldier"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "zombie2"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "BloodZombie"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "cult"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "FallenCultling"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "actor"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "ZombieActor"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3804,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "zombie"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Zombie2"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3804,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "psn"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Pestilent2"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3804,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "sk"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Skeleton2"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3804,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "dsk"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "BlackBones2"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3798,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "burnt"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "CharredBones"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3804,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "posh"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Posh Zombie"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3807,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "war"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Zombie_Warrior"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3807,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "holy"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Revenant"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3807,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "holy2"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "FallenPaladin"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3846,
+        "scaleX": 1.9477996826171875,
+        "scaleY": 1.94921875,
+        "translateX": 4.25,
+        "translateY": -62.05,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": 2.95,
+        "translateY": -6.7
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 12.05,
+        "translateY": 3.3
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": 3.1,
+        "translateY": 1.35
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Ooze"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3846,
+        "scaleX": 1.9477996826171875,
+        "scaleY": 1.94921875,
+        "translateX": 4.25,
+        "translateY": -62.05,
+        "skin": "blood"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "BloodClot"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3846,
+        "scaleX": 1.9477996826171875,
+        "scaleY": 1.94921875,
+        "translateX": 4.25,
+        "translateY": -62.05,
+        "skin": "lava"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "LavaBlob"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3846,
+        "scaleX": 1.9477996826171875,
+        "scaleY": 1.94921875,
+        "translateX": 4.25,
+        "translateY": -62.05,
+        "skin": "water"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Waterdrop"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3875,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -0.65,
+        "translateY": -24.25
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 17.4,
+        "translateY": -8.65
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -1.75,
+        "translateY": -17.5
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Trilobite"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3875,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "red"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Trilobite Warrior"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3918,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -2.2,
+        "translateY": -21.8
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 6.7,
+        "translateY": -12.65
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -1.9,
+        "translateY": -13.75
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "SecurityOrb"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3953,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "e"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -4.75,
+        "translateY": -30.85
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 13.3,
+        "translateY": -15.25
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -4.75,
+        "translateY": -22.8
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Droma_Moric"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4035,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "red"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -0.95,
+        "translateY": -38.85
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 7.95,
+        "translateY": -29.7
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Ruby"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4035,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "orange"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "FireOpal"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4035,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "yellow"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Topaz"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4035,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "white"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Moonstone"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4035,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "black"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Onyx"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4035,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "emerald"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Emerald"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4035,
+        "scaleX": 1.65460205078125,
+        "scaleY": 1.6554412841796875,
+        "translateX": -0.8,
+        "translateY": -23.4,
+        "skin": "turquoise"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -3.3,
+        "translateY": -76.1
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 5.6,
+        "translateY": -66.95
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -5.35,
+        "translateY": -70.4
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Turquoise"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4035,
+        "scaleX": 2.2212066650390625,
+        "scaleY": 2.222320556640625,
+        "translateX": -1.35,
+        "translateY": -45.85,
+        "skin": "cyan"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -2.5,
+        "translateY": -108.25
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 6.4,
+        "translateY": -99.1
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -4.55,
+        "translateY": -102.55
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "MasterStone"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4051,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -0.95,
+        "translateY": -50.85
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 7.95,
+        "translateY": -41.7
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -0.5,
+        "translateY": -42.8
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Vega"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4051,
+        "scaleX": 1.2813720703125,
+        "scaleY": 1.2820281982421875,
+        "translateX": -0.1,
+        "translateY": 0.15,
+        "skin": "v2"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Antares"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4051,
+        "scaleX": 1.2813720703125,
+        "scaleY": 1.2820281982421875,
+        "translateX": -0.1,
+        "translateY": 0.15,
+        "skin": "spirit"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "SOLAK Spirit"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4067,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -0.95,
+        "translateY": -98.35
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 7.95,
+        "translateY": -89.2
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -0.95,
+        "translateY": -89.95
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Temperance"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4128,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 0.0,
+        "translateY": -14.7,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -32.05,
+        "translateY": -22.05
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -22.95,
+        "translateY": -12.05
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -32.5,
+        "translateY": -14.0
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Lupaazr"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4128,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 0.0,
+        "translateY": -14.7,
+        "skin": "blood"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "BloodLizard"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4128,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 0.0,
+        "translateY": -14.7,
+        "skin": "lava"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Magmazard"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4128,
+        "scaleX": 0.947418212890625,
+        "scaleY": 0.9478912353515625,
+        "translateX": 0.0,
+        "translateY": -14.7,
+        "skin": "bone"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Skelizard"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4131,
+        "scaleX": 1.0287628173828125,
+        "scaleY": 1.0292816162109375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "war"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -16.15,
+        "translateY": -46.65
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 1.9,
+        "translateY": -31.05
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -16.6,
+        "translateY": -38.6
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Reptoid_Warrior"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4151,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "dark"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -0.95,
+        "translateY": -50.85
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 7.95,
+        "translateY": -41.7
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -1.1,
+        "translateY": -42.45
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Dark Elemental"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4151,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "fire"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Fire Elemental"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4151,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "water"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Water Elemental"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4151,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "earth"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Earth Elemental"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4235,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "dark"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -0.95,
+        "translateY": -54.85
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 7.95,
+        "translateY": -45.7
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -0.7,
+        "translateY": -46.8
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Eyestalk"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4235,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "water"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Tweed"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4235,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "iorb"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "IorbSpawn"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4235,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "fury"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Furious Eye"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4269,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "glowBlurXandY": 20.0,
+        "glowStrengh": 1.0,
+        "glowColorRGBA": [
+          0,
+          255,
+          102,
+          255
+        ],
+        "skin": "green"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -5.85,
+        "translateY": -50.2
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 12.2,
+        "translateY": -34.6
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -5.55,
+        "translateY": -42.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "GreenSoul"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4269,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "glowBlurXandY": 20.0,
+        "glowStrengh": 2.0,
+        "glowColorRGBA": [
+          255,
+          153,
+          0,
+          255
+        ],
+        "skin": "fire"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "FlameSoul"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4269,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "glowBlurXandY": 20.0,
+        "glowStrengh": 2.0,
+        "glowColorRGBA": [
+          153,
+          0,
+          0,
+          255
+        ],
+        "skin": "wretch"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Wretched Soul"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4269,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "glowBlurXandY": 20.0,
+        "glowStrengh": 2.0,
+        "glowColorRGBA": [
+          153,
+          0,
+          255,
+          255
+        ],
+        "skin": "fig"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Whim"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4269,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "glowBlurXandY": 20.0,
+        "glowStrengh": 1.0,
+        "glowColorRGBA": [
+          102,
+          51,
+          255,
+          255
+        ],
+        "skin": "chaos"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Chaosoul"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4269,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "glowBlurXandY": 20.0,
+        "glowStrengh": 1.0,
+        "glowColorRGBA": [
+          51,
+          102,
+          255,
+          255
+        ],
+        "skin": "blue"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Blue Soul"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4269,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "glowBlurXandY": 20.0,
+        "glowStrengh": 1.0,
+        "glowColorRGBA": [
+          255,
+          255,
+          0,
+          255
+        ],
+        "skin": "yellow"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Yellow Soul"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4308,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "skin": "01"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -22.55,
+        "translateY": -24.4
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -4.5,
+        "translateY": -8.8
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -22.25,
+        "translateY": -16.35
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Axolotl"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4308,
+        "scaleX": 1.154937744140625,
+        "scaleY": 1.155517578125,
+        "translateX": 0.0,
+        "translateY": -3.75,
+        "skin": "02"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "AxolotlChief"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4308,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "skin": "03"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "RoamingAxolotl"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4370,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "skin": "01"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -5.5,
+        "translateY": -85.1
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 12.55,
+        "translateY": -69.5
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -5.2,
+        "translateY": -77.05
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Iorb"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4370,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "skin": "02"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Black Eye"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4395,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "skin": "01"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": 4.2,
+        "translateY": -23.1
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 22.25,
+        "translateY": -7.5
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": 4.5,
+        "translateY": -15.05
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "HappyJohnny"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4395,
+        "scaleX": 1.387054443359375,
+        "scaleY": 1.38775634765625,
+        "translateX": 0.3,
+        "translateY": -13.6,
+        "skin": "02"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": 4.2,
+        "translateY": -40.1
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 22.25,
+        "translateY": -24.5
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": 4.5,
+        "translateY": -32.05
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "KingCuthbert"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4431,
+        "scaleX": 1.1128997802734375,
+        "scaleY": 1.1127777099609375,
+        "translateX": -0.2,
+        "translateY": -2.4,
+        "skin": "m"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -15.75,
+        "translateY": -45.3
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 2.3,
+        "translateY": -29.7
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -15.45,
+        "translateY": -37.25
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Centaur"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4431,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "f"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "CentaurMage"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4446,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "f"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": 0.5,
+        "translateY": -24.95
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 18.55,
+        "translateY": -9.35
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": 0.8,
+        "translateY": -16.9
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "RogueFairy"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4446,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "p"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Pixie"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4475,
+        "scaleX": 1.1128997802734375,
+        "scaleY": 1.1127777099609375,
+        "translateX": -0.2,
+        "translateY": -2.4,
+        "skin": "stone"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -43.85,
+        "translateY": -100.4
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -25.8,
+        "translateY": -84.8
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -43.55,
+        "translateY": -92.35
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Golem"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4475,
+        "scaleX": 1.1128997802734375,
+        "scaleY": 1.1127777099609375,
+        "translateX": -0.2,
+        "translateY": -2.4,
+        "skin": "myth"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Mythril Golem"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4501,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "skin": "01"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -22.55,
+        "translateY": -24.4
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -4.5,
+        "translateY": -8.8
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -22.25,
+        "translateY": -16.35
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Dreamfish"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4501,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "skin": "02"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Carpioneiros"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4529,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -26.65,
+        "translateY": -32.65
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -8.6,
+        "translateY": -17.05
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -26.35,
+        "translateY": -24.6
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Witchdoctor"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4529,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "skin": "dream"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Oneironaut"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 1.889404296875,
+        "scaleY": 1.8903656005859375,
+        "translateX": 0.6,
+        "translateY": 38.4
+      },
+      {
+        "depth": 5,
+        "id": 4571,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "glowBlurXandY": 12.0,
+        "glowStrengh": 1.0,
+        "glowColorRGBA": [
+          102,
+          0,
+          204,
+          255
+        ],
+        "skin": "dark"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -7.75,
+        "translateY": -63.65
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 1.15,
+        "translateY": -54.5
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -7.85,
+        "translateY": -55.6
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Molestor"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4571,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "bone"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Bone Demon"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4571,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "warp"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "WarportDemon"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 2.52178955078125,
+        "scaleY": 2.5230712890625,
+        "translateX": 0.4,
+        "translateY": 38.0
+      },
+      {
+        "depth": 5,
+        "id": 4592,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "skin": "green"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -31.25,
+        "translateY": -62.9
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -13.2,
+        "translateY": -47.3
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -30.95,
+        "translateY": -54.85
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Griffin"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 3.8007354736328125,
+        "scaleY": 3.8026885986328125,
+        "translateX": -0.65,
+        "translateY": 38.8
+      },
+      {
+        "depth": 5,
+        "id": 4691,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "dark"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -92.9,
+        "translateY": -134.7
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -72.85,
+        "translateY": -129.4
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -92.55,
+        "translateY": -126.65
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "MightyDragon"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 1.5240020751953125,
+        "scaleY": 1.5247802734375,
+        "translateX": 0.7,
+        "translateY": 38.65
+      },
+      {
+        "depth": 5,
+        "id": 4718,
+        "scaleX": 0.9656219482421875,
+        "scaleY": 0.966094970703125,
+        "translateX": -0.05,
+        "translateY": 3.6
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.9,
+        "translateY": -39.9
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 16.15,
+        "translateY": -24.3
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "mugbert"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4746,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "D"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Muriance"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 2.108978271484375,
+        "scaleY": 2.1100616455078125,
+        "translateX": -4.8,
+        "translateY": 29.75
+      },
+      {
+        "depth": 5,
+        "id": 4768,
+        "scaleX": 1.1790313720703125,
+        "scaleY": 1.17962646484375,
+        "translateX": -0.1,
+        "translateY": -18.5,
+        "skin": "dark"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -9.7,
+        "translateY": -81.2
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 10.35,
+        "translateY": -75.9
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -9.7,
+        "translateY": -73.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "LakeHag"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 1.5240020751953125,
+        "scaleY": 1.5247802734375,
+        "translateX": 0.7,
+        "translateY": 38.65
+      },
+      {
+        "depth": 5,
+        "id": 2922,
+        "scaleX": 1.1352386474609375,
+        "scaleY": 1.1351318359375,
+        "translateX": -0.05,
+        "translateY": -0.3,
+        "skin": "d"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.9,
+        "translateY": -39.9
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 16.15,
+        "translateY": -24.3
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "bartholio_e"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2963,
+        "scaleX": 1.0459442138671875,
+        "scaleY": 1.04583740234375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "d"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "vennie_e"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2993,
+        "scaleX": 1.0119171142578125,
+        "scaleY": 1.012420654296875,
+        "translateX": -0.05,
+        "translateY": 1.75,
+        "skin": "d"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "aalia_e"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 3022,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -0.05,
+        "skin": "d"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "bernard_e"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 2.108978271484375,
+        "scaleY": 2.1100616455078125,
+        "translateX": -0.25,
+        "translateY": 40.25
+      },
+      {
+        "depth": 5,
+        "id": 4790,
+        "scaleX": 1.130767822265625,
+        "scaleY": 1.1313323974609375,
+        "translateX": -0.05,
+        "translateY": 1.75,
+        "skin": "d"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "CanoniaShaman"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 1.5240020751953125,
+        "scaleY": 1.5247802734375,
+        "translateX": 0.7,
+        "translateY": 38.65
+      },
+      {
+        "depth": 5,
+        "id": 4826,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "e"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -11.9,
+        "translateY": -76.4
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 6.15,
+        "translateY": -60.8
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -11.9,
+        "translateY": -68.0
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Moric"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4853,
+        "scaleX": 1.1352386474609375,
+        "scaleY": 1.1351318359375,
+        "translateX": -0.05,
+        "translateY": -0.3,
+        "skin": "zombie"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.9,
+        "translateY": -39.9
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 16.15,
+        "translateY": -24.3
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Z_SocialFox"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 3.8007354736328125,
+        "scaleY": 3.8026885986328125,
+        "translateX": -0.65,
+        "translateY": 38.8
+      },
+      {
+        "depth": 5,
+        "id": 4964,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "earth"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -74.65,
+        "translateY": -66.8
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -54.6,
+        "translateY": -61.5
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -74.4,
+        "translateY": -58.75
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Dracelon"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4691,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "zombie"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -92.9,
+        "translateY": -134.7
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -72.85,
+        "translateY": -129.4
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -93.2,
+        "translateY": -126.65
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "ZombieDragon"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 1.3350372314453125,
+        "scaleY": 1.335723876953125,
+        "translateX": 0.85,
+        "translateY": 42.3
+      },
+      {
+        "depth": 5,
+        "id": 3074,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "sslenck"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -14.4,
+        "translateY": -49.65
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 3.65,
+        "translateY": -34.05
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -14.4,
+        "translateY": -41.6
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "sslenck1"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 2589,
+        "scaleX": 1.1352386474609375,
+        "scaleY": 1.1351318359375,
+        "translateX": -0.05,
+        "translateY": -0.3,
+        "skin": "evil"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.4,
+        "translateY": -41.65
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 12.65,
+        "translateY": -26.05
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "steeleBoss1"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 3.8007354736328125,
+        "scaleY": 3.8026885986328125,
+        "translateX": -0.65,
+        "translateY": 38.8
+      },
+      {
+        "depth": 5,
+        "id": 4964,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "dark"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -74.65,
+        "translateY": -66.8
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -54.6,
+        "translateY": -61.5
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -74.4,
+        "translateY": -58.75
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "BoneDracelon"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 4994,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -99.3,
+        "translateY": -69.35
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -79.25,
+        "translateY": -64.05
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -99.05,
+        "translateY": -61.3
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Fire Guardian"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 5,
+        "id": 5009,
+        "scaleX": 1.0119171142578125,
+        "scaleY": 1.012420654296875,
+        "translateX": -0.05,
+        "translateY": 1.75,
+        "skin": "guardian"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -43.8,
+        "translateY": -123.0
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -29.75,
+        "translateY": -107.4
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -45.4,
+        "translateY": -114.5
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Water Guardian"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 3.8007354736328125,
+        "scaleY": 3.8026885986328125,
+        "translateX": 26.3,
+        "translateY": 38.8
+      },
+      {
+        "depth": 5,
+        "id": 5025,
+        "scaleX": 1.0119171142578125,
+        "scaleY": 1.012420654296875,
+        "translateX": 32.95,
+        "translateY": -12.05,
+        "skin": "guardian"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -62.6,
+        "translateY": -78.65
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -48.55,
+        "translateY": -63.05
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -64.2,
+        "translateY": -70.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Earth Guardian"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 3.8007354736328125,
+        "scaleY": 3.8026885986328125,
+        "translateX": -0.65,
+        "translateY": 38.8
+      },
+      {
+        "depth": 5,
+        "id": 5037,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -76.0,
+        "translateY": -107.45
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -55.95,
+        "translateY": -102.15
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -75.75,
+        "translateY": -99.4
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Serpent"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 1.3350372314453125,
+        "scaleY": 1.335723876953125,
+        "translateX": 0.85,
+        "translateY": 42.3
+      },
+      {
+        "depth": 5,
+        "id": 5055,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "glowBlurXandY": 16.0,
+        "glowStrengh": 1.0,
+        "glowColorRGBA": [
+          51,
+          255,
+          0,
+          255
+        ],
+        "skin": "zombie"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.9,
+        "translateY": -60.0
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 16.15,
+        "translateY": -44.4
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -53.25
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "FallenHPriest"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 1.5240020751953125,
+        "scaleY": 1.5247802734375,
+        "translateX": 0.7,
+        "translateY": 38.65
+      },
+      {
+        "depth": 5,
+        "id": 4746,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "D"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -1.9,
+        "translateY": -39.9
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 16.15,
+        "translateY": -24.3
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -3.0,
+        "translateY": -33.15
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Muriance2"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 1.3350372314453125,
+        "scaleY": 1.335723876953125,
+        "translateX": 0.85,
+        "translateY": 42.3
+      },
+      {
+        "depth": 5,
+        "id": 5059,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "king"
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "KingOfGoznor"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": [
+      {
+        "depth": 1
+      },
+      {
+        "depth": 5
+      },
+      {
+        "depth": 84
+      },
+      {
+        "depth": 87
+      },
+      {
+        "depth": 89
+      }
+    ],
+    "label": "Ether Clone"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2233,
+        "scaleX": 1.5240020751953125,
+        "scaleY": 1.5247802734375,
+        "translateX": 0.7,
+        "translateY": 38.65
+      },
+      {
+        "depth": 5,
+        "id": 5067,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": 0.05,
+        "skin": "s"
+      },
+      {
+        "depth": 84,
+        "id": 2311,
+        "translateX": -11.9,
+        "translateY": -76.4
+      },
+      {
+        "depth": 87,
+        "id": 2294,
+        "translateX": 6.15,
+        "translateY": -60.8
+      },
+      {
+        "depth": 89,
+        "id": 1885,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -11.9,
+        "translateY": -68.0,
+        "rgbaAdd": [
+          173,
+          102,
+          0,
+          0
+        ],
+        "rgbaMult": [
+          256,
+          159,
+          128,
+          256
+        ]
+      }
+    ],
+    "removeObjects": [],
+    "label": "Qualna"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 3.8007354736328125,
+        "scaleY": 3.8026885986328125,
+        "translateX": -0.65,
+        "translateY": 38.8
+      },
+      {
+        "depth": 5,
+        "id": 5104,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "01"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -104.4,
+        "translateY": -113.6
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -84.35,
+        "translateY": -108.3
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -104.15,
+        "translateY": -105.55
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Kdestralan"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 2.0004119873046875,
+        "scaleY": 2.0023651123046875,
+        "translateX": -0.7,
+        "translateY": 38.8
+      },
+      {
+        "depth": 5,
+        "id": 5117,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": 0.3,
+        "translateY": -3.1,
+        "glowBlurXandY": 24.0,
+        "glowStrengh": 1.5,
+        "glowColorRGBA": [
+          51,
+          255,
+          153,
+          255
+        ],
+        "skin": "01"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -2.85,
+        "translateY": -121.65
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": 15.2,
+        "translateY": -106.05
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -2.55,
+        "translateY": -113.6
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Kdestralan_Mind"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 0,
+        "scaleX": 3.8007354736328125,
+        "scaleY": 3.8026885986328125,
+        "translateX": -0.65,
+        "translateY": 38.8
+      },
+      {
+        "depth": 5,
+        "id": 4691,
+        "scaleX": 1.06121826171875,
+        "scaleY": 1.0617523193359375,
+        "translateX": -0.05,
+        "translateY": -14.65,
+        "skin": "red"
+      },
+      {
+        "depth": 84,
+        "id": 0,
+        "translateX": -92.9,
+        "translateY": -134.7
+      },
+      {
+        "depth": 87,
+        "id": 0,
+        "translateX": -72.85,
+        "translateY": -129.4
+      },
+      {
+        "depth": 89,
+        "id": 0,
+        "rotateSkew0": 0.649993896484375,
+        "rotateSkew1": -0.649993896484375,
+        "translateX": -92.55,
+        "translateY": -126.65
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 5
+      }
+    ],
+    "label": "Red Dragon"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": [
+      {
+        "depth": 1
+      },
+      {
+        "depth": 5
+      },
+      {
+        "depth": 84
+      },
+      {
+        "depth": 87
+      },
+      {
+        "depth": 89
+      }
+    ]
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  }
+]

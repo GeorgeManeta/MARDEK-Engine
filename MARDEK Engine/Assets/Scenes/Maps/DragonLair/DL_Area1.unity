@@ -524,6 +524,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch
       objectReference: {fileID: 0}
+    - target: {fileID: 3252713661955667701, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039141914015375883, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4703835174973606244, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -631,7 +639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 945251812}
   - component: {fileID: 945251811}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,6 +684,14 @@ PrefabInstance:
     - target: {fileID: 3252713661955667701, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
       propertyPath: m_Name
       value: Torch
+      objectReference: {fileID: 0}
+    - target: {fileID: 3252713661955667701, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039141914015375883, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4703835174973606244, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
       propertyPath: m_RootOrder
@@ -738,6 +754,14 @@ PrefabInstance:
     - target: {fileID: 3252713661955667701, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
       propertyPath: m_Name
       value: Torch
+      objectReference: {fileID: 0}
+    - target: {fileID: 3252713661955667701, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039141914015375883, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4703835174973606244, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
       propertyPath: m_RootOrder
@@ -1091,6 +1115,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch
       objectReference: {fileID: 0}
+    - target: {fileID: 3252713661955667701, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039141914015375883, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4703835174973606244, guid: 217ed5616bcd94a41b39231e7717a94d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1154,7 +1186,7 @@ GameObject:
   - component: {fileID: 1801120087}
   - component: {fileID: 1801120086}
   - component: {fileID: 1801120088}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1220,15 +1252,15 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1312247149
+  m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
-  m_Mode: 0
+  m_Mode: 1
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
 --- !u!1839735485 &1801120087
@@ -7480,6 +7512,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brazier
       objectReference: {fileID: 0}
+    - target: {fileID: 7175090213380926668, guid: 34e6dc5b1bafd1e46a833b0d52d5a377, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556018457338574898, guid: 34e6dc5b1bafd1e46a833b0d52d5a377, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34e6dc5b1bafd1e46a833b0d52d5a377, type: 3}
 --- !u!4 &2017149715 stripped
@@ -7545,6 +7585,14 @@ PrefabInstance:
     - target: {fileID: 7175090213380926668, guid: 34e6dc5b1bafd1e46a833b0d52d5a377, type: 3}
       propertyPath: m_Name
       value: Brazier
+      objectReference: {fileID: 0}
+    - target: {fileID: 7175090213380926668, guid: 34e6dc5b1bafd1e46a833b0d52d5a377, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556018457338574898, guid: 34e6dc5b1bafd1e46a833b0d52d5a377, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34e6dc5b1bafd1e46a833b0d52d5a377, type: 3}

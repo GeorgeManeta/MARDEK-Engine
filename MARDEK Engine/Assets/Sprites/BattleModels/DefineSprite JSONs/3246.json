@@ -1,0 +1,100 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 3239
+      }
+    ],
+    "removeObjects": [],
+    "label": "D"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 2,
+        "id": 3240
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 1
+      }
+    ],
+    "label": "posh"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 3241
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 2
+      }
+    ],
+    "label": "hob"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 3242
+      }
+    ],
+    "removeObjects": [],
+    "label": "poor"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 3243
+      }
+    ],
+    "removeObjects": [],
+    "label": "elf"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 3244
+      }
+    ],
+    "removeObjects": [],
+    "label": "D_LL"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 2,
+        "id": 3245
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 1
+      }
+    ],
+    "label": "posh_LL"
+  }
+]

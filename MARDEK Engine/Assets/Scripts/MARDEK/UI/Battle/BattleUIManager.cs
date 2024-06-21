@@ -8,23 +8,22 @@ namespace MARDEK.UI
 {
     public class BattleUIManager : MonoBehaviour
     {
-        [SerializeField] BattleManager battleManager;
-        [SerializeField] GameObject characterUIPrefab;
-        [SerializeField] RectTransform enemyUILayout;
-        [SerializeField] RectTransform partyUILayout;
+        public static BattleUIManager Instance { get; private set; }
 
-        private void Start()
+        [SerializeField] BattleManager battleManager;
+        [SerializeField] GameObject CharacterInspectionCard;
+        public Character characterBeingInspected { get; private set; }
+
+        private void Awake()
         {
-            foreach(var enemy in battleManager.EnemyCharacters)
-                CreateCharacterUI(enemyUILayout, enemy);
-            foreach(var playerCharacter in battleManager.PlayableCharacters)
-                CreateCharacterUI(partyUILayout, playerCharacter);
+            Instance = this;
         }
 
-        void CreateCharacterUI(RectTransform layout, Character character)
+        public void InspectCharacter(Character character)
         {
-            var ui = Instantiate(characterUIPrefab, layout).GetComponent<CharacterUI>();
-            ui.AssignCharacter(character);
+            CharacterInspectionCard.SetActive(false);
+            characterBeingInspected = character;
+            CharacterInspectionCard.SetActive(true);
         }
     }
 }

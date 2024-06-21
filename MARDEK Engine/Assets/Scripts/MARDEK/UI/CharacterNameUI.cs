@@ -10,9 +10,12 @@ namespace MARDEK.UI
         [SerializeField] CharacterUI characterUI;
         [SerializeField] TextMeshProUGUI characteName;
 
-        void Start()
+        void OnEnable()
         {
-            characteName.text = characterUI.character.Profile == null ? "Null" : characterUI.character.Profile.displayName;
+            if(characterUI.character?.Profile == null)
+                characteName.text = "Null";
+            else
+                characteName.text = characterUI.character.Profile.displayName;
         }
     }
 }

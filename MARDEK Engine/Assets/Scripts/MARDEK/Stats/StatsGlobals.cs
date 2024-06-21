@@ -18,6 +18,8 @@ namespace MARDEK.Stats
             }
         }
 
+        [field: SerializeField] public IntegerStat Level { get; private set; }
+        [field: SerializeField] public IntegerStat Experience { get; private set; }
         [field: SerializeField] public IntegerStat CurrentHP { get; private set; }
         [field: SerializeField] public IntegerStat MaxHP { get; private set; }
         [field: SerializeField] public IntegerStat CurrentMP { get; private set; }

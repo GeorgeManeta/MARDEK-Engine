@@ -1,0 +1,64 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 2,
+        "id": 2400
+      }
+    ],
+    "removeObjects": [],
+    "label": "soldier"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2401
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 2
+      }
+    ],
+    "label": "hero"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2402
+      }
+    ],
+    "removeObjects": [],
+    "label": "hero_LL"
+  }
+]

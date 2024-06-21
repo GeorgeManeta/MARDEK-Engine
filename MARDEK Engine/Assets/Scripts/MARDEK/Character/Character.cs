@@ -15,22 +15,23 @@ namespace MARDEK.CharacterSystem
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; } = new List<SkillSlot>();
         [Header("Stats")]
         [SerializeField] StatsSet volatileStats = new StatsSet(true);
-        int MaxHP
+        public int LastStatModificationFrame { get; private set; } = -1;
+
+        [SerializeField] int _level = 1;
+        [SerializeField] int _exp = 0;
+        int Exp
         {
             get
             {
-                return (int)Profile.MaxHPExpression.Evaluate(this, null);
+                return _exp;
             }
-        }
-        int MaxMP
-        {
-            get
+            set
             {
-                return (int)Profile.MaxMPExpression.Evaluate(this, null);
+                _exp = value;
             }
         }
+
         [SerializeField] int _currentHP = -1;
-        [SerializeField] int _currentMP = -1;
         int CurrentHP
         {
             get
@@ -47,6 +48,15 @@ namespace MARDEK.CharacterSystem
                 _currentHP = value;
             }
         }
+        int MaxHP
+        {
+            get
+            {
+                return (int)Profile.MaxHPExpression.Evaluate(this, null);
+            }
+        }
+        
+        [SerializeField] int _currentMP = -1;
         int CurrentMP
         {
             get
@@ -61,16 +71,28 @@ namespace MARDEK.CharacterSystem
                 _currentMP = value;
             }
         }
+        int MaxMP
+        {
+            get
+            {
+                return (int)Profile.MaxMPExpression.Evaluate(this, null);
+            }
+        }
 
-        public Character Clone()
+        public Character Clone(int level)
         {
             var clone = new Character();
             clone.Profile = Profile;
+            clone.ModifyStat(StatsGlobals.Instance.Level, level);
             return clone;
         }
 
         public int GetStat(IntegerStat desiredStat)
-        {            
+        {
+            if (desiredStat == StatsGlobals.Instance.Level)
+                return _level;
+            if (desiredStat == StatsGlobals.Instance.Experience)
+                return Exp;
             if (desiredStat == StatsGlobals.Instance.CurrentHP)
                 return CurrentHP;
             if (desiredStat == StatsGlobals.Instance.CurrentMP)
@@ -94,14 +116,16 @@ namespace MARDEK.CharacterSystem
         }
         public void ModifyStat(IntegerStat stat, int delta)
         {
-            if (stat == StatsGlobals.Instance.CurrentHP)
-            {
+            //Debug.Log($"Modify stat {stat.name} by {delta}");
+            LastStatModificationFrame = Time.frameCount;
+            if (stat == StatsGlobals.Instance.Level)
+                _level += delta;
+            else if (stat == StatsGlobals.Instance.Experience)
+                Exp += delta;
+            else if (stat == StatsGlobals.Instance.CurrentHP)
                 CurrentHP += delta;
-            }
             else if (stat == StatsGlobals.Instance.CurrentMP)
-            {
                 CurrentMP += delta;
-            }
             else
                 volatileStats.ModifyStat(stat, delta);
         }

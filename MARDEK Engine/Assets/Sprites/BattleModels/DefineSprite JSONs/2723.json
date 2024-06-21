@@ -1,0 +1,79 @@
+[
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2721
+      }
+    ],
+    "removeObjects": [],
+    "label": "pyro"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 2,
+        "id": 2722
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 1
+      }
+    ]
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2341
+      }
+    ],
+    "removeObjects": [
+      {
+        "depth": 2
+      }
+    ],
+    "label": "hero"
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2342
+      }
+    ],
+    "removeObjects": [],
+    "label": "knight"
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [],
+    "removeObjects": []
+  },
+  {
+    "placeObjects": [
+      {
+        "depth": 1,
+        "id": 2344
+      }
+    ],
+    "removeObjects": [],
+    "label": "hero_LL"
+  }
+]
