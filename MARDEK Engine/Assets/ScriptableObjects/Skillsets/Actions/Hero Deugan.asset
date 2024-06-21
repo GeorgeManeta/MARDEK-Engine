@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5f9b78a1b11dfe4e8985855911c0551, type: 3}
   m_Name: Hero Deugan
   m_EditorClassIdentifier: 
-  <Description>k__BackingField: 
-  <Sprite>k__BackingField: {fileID: 0}
-  <Skills>k__BackingField: []
+  <Description>k__BackingField: The mighty powers of a true hero!
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 4d6d85e164a7b2a4c8e6ceddc061c8ed, type: 3}
+  <Skills>k__BackingField:
+  - {fileID: 11400000, guid: fc162735c75ffb7409d7a57a0fbf4b93, type: 2}
+  - {fileID: 11400000, guid: aceb6579998cc054cae25a57414cbe84, type: 2}
+  - {fileID: 11400000, guid: aacac0dd56300a34fbf3060c733ebbf1, type: 2}
+  - {fileID: 11400000, guid: b4b5b21800ecd4d4dbeb75a10270c543, type: 2}
+  - {fileID: 11400000, guid: 16ebce88c9d14d342a129e17e0b3bef2, type: 2}

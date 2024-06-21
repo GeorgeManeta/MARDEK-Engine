@@ -15,7 +15,9 @@ MonoBehaviour:
   <displayName>k__BackingField: Mardek
   <displayClass>k__BackingField: Hero
   <WalkSprites>k__BackingField: {fileID: 11400000, guid: 2bfcf26a6a3c20846bbe75c6526f1515, type: 2}
-  <ActionSkillset>k__BackingField: {fileID: 11400000, guid: a1dc15fcd846cd642bc0676902ad6eeb, type: 2}
+  <ActionSkillset>k__BackingField: {fileID: 11400000, guid: 82036a20a19cf944c8872caa0fa212bc, type: 2}
+  <ReactionSkillset>k__BackingField: {fileID: 11400000, guid: 1768514a05f637f4ea33ddbbe251904e, type: 2}
+  <PassiveSkillset>k__BackingField: {fileID: 11400000, guid: 8c77e78e249bf3546abb15666353c260, type: 2}
   <StartingStats>k__BackingField:
     intStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}

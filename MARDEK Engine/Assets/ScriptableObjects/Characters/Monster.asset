@@ -15,7 +15,9 @@ MonoBehaviour:
   <displayName>k__BackingField: Monster
   <displayClass>k__BackingField: 
   <WalkSprites>k__BackingField: {fileID: 0}
-  <ActionSkillset>k__BackingField: {fileID: 11400000, guid: 6448aaadf02ae674b9b0d7e95c400212, type: 2}
+  <ActionSkillset>k__BackingField: {fileID: 11400000, guid: 1f7ffd77d450e6e4a9f531d7a66e6488, type: 2}
+  <ReactionSkillset>k__BackingField: {fileID: 0}
+  <PassiveSkillset>k__BackingField: {fileID: 0}
   <StartingStats>k__BackingField:
     intStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: b126ec105431be84db0d5e0d2a1d55cc, type: 2}

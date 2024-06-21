@@ -15,7 +15,9 @@ MonoBehaviour:
   <displayName>k__BackingField: Deugan
   <displayClass>k__BackingField: Hero
   <WalkSprites>k__BackingField: {fileID: 11400000, guid: a021fb592bdaa2c4a9a3a368a58456ae, type: 2}
-  <ActionSkillset>k__BackingField: {fileID: 11400000, guid: 97d3ee5c53530fc4082df7991eda06e4, type: 2}
+  <ActionSkillset>k__BackingField: {fileID: 11400000, guid: 3cd011733e0808b4cad3c982917658d4, type: 2}
+  <ReactionSkillset>k__BackingField: {fileID: 11400000, guid: da94b134f208e7047845c158a66dca0c, type: 2}
+  <PassiveSkillset>k__BackingField: {fileID: 11400000, guid: 22d980ed066d47847abc1984283e6f3b, type: 2}
   <StartingStats>k__BackingField:
     intStats:
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: d4f1cafaf7b523f429957c26727de920, type: 2}
