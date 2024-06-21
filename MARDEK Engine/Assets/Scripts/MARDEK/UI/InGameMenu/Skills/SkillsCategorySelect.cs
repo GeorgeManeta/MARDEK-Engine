@@ -17,14 +17,14 @@ namespace MARDEK.UI
         [SerializeField] Text skillCategoryName;
         [SerializeField] Text skillSetDescription;
 
-          Type category;
-          Type lastCategory = null;
+        Type skillType;
 
         private void Update()
         {
             CheckCategoryUpdate();
         }
 
+        // Not working properly, return to this when relevant.
         void CheckCategoryUpdate()
         {
             var character = CharacterSelectable.currentSelected.Character;
@@ -32,17 +32,14 @@ namespace MARDEK.UI
             {
                 return;
             }
-            CharacterProfile profile = character.Profile;
-               if (category == null)
-                    category = profile.ActionSkillset.GetType();
+               CharacterProfile profile = character.Profile;
 
-               if (category == lastCategory)
-                    return;
+               // This currently only displays the action skills, will need to fix this in the future.
+               if (skillType == null)
+                    skillType = profile.ActionSkillset.GetType();
 
-               lastCategory = category;
-               if (category == typeof(ActionSkill))
-
-                UpdateCategory(profile.ActionSkillset.Sprite, profile.ActionSkillset.Description);
+               if (skillType == typeof(ActionSkill))
+                    UpdateCategory(profile.ActionSkillset.Sprite, profile.ActionSkillset.Description);
             
         }
 

@@ -3,11 +3,10 @@ using UnityEngine;
 
 namespace MARDEK.Skill
 {
-    [CreateAssetMenu(menuName = "MARDEK/Skill/Skillset")]
-    public class Skillset<TSkill> : ScriptableObject where TSkill : Skill
+    public abstract class Skillset<TSkill> : ScriptableObject where TSkill : Skill
     {
-        public string Description { get; protected set; }
-        public Sprite Sprite { get; protected set; }
-        public List<TSkill> Skills { get; protected set; }
+        abstract public string Description { get; set; }
+        abstract public Sprite Sprite { get; set; }
+        abstract public List<TSkill> Skills { get; set; }
     }
 }
