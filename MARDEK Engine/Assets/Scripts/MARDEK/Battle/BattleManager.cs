@@ -66,7 +66,8 @@ namespace MARDEK.Battle
             {
                  SkillSlot skill = new SkillSlot();
                  //Gonna want more complex logic here in the future
-                 skill.Skill = characterActing.Profile.ActionSkillset.Skills[0];
+                 //skill.Skill = characterActing.Profile.ActionSkillset.Skills[0];
+                 skill.Skill = PlayableCharacters[0].Profile.ActionSkillset.Skills[0];
                  selectedAction = skill;
             }
 

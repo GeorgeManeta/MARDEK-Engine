@@ -10,7 +10,7 @@ namespace MARDEK.UI
 {
     public class ListCharacterSkillset : ListActions
     {
-        ActionSkillset skillsetToShow;
+        Skillset<Skill.Skill> skillsetToShow;
         [SerializeField] TextMeshProUGUI skillsetNameLabel = null;
         [SerializeField] Image skillsetIcon = null; 
 
