@@ -1,13 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace MARDEK.Skill
 {
      [CreateAssetMenu(menuName = "MARDEK/Skill/Skillset/Reaction Skill Set")]
-     public class ReactionSkillset : Skillset<PassiveSkill>
+     public class ReactionSkillset : ScriptableObject
      {
-          [field: SerializeField] public override string Description { get; set; }
-          [field: SerializeField]public override Sprite Sprite { get; set; }
-          [field: SerializeField]public override List<PassiveSkill> Skills { get; set; }
+          [field: SerializeField] public string Description { get; set; }
+          [field: SerializeField]public Sprite Sprite { get; set; }
+          [field: SerializeField]public List<PassiveSkill> Skills { get; set; }
      }
 }
