@@ -26,7 +26,7 @@ namespace MARDEK.UI
                
                if (characterSkillset)
                {
-                    skillsetNameLabel.text = characterSkillset.name;
+                    skillsetNameLabel.text = characterSkillset.SkillsetName;
                     skillsetIcon.sprite = characterSkillset.Sprite;
                }
                else

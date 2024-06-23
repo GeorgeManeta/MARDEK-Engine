@@ -9,5 +9,6 @@ namespace MARDEK.Skill
           [field: SerializeField] public override string Description { get; set; }
           [field: SerializeField] public override Sprite Sprite { get; set; }
           [field: SerializeField] public override List<ActionSkill> Skills { get; set; }
+          [field: SerializeField] public string SkillsetName { get; set; }
      }
 }
