@@ -4,16 +4,15 @@ using UnityEngine.UI;
 using UnityEngine;
 using MARDEK.CharacterSystem;
 using UnityEngine.EventSystems;
-using MARDEK.Battle;
-using Codice.Client.BaseCommands.BranchExplorer;
 
 namespace MARDEK.UI
 {
+    using Battle;
     public class CharacterUI : MonoBehaviour, IPointerClickHandler
     {
         [SerializeField] BattleManager battleManager;
         [SerializeField] bool playableOrEnemy;
-        public Character character { get; private set; }
+        public BattleCharacter character { get; private set; }
         [SerializeField] GameObject basePanel;
 
         private void Start()
@@ -25,9 +24,9 @@ namespace MARDEK.UI
         {
             basePanel.SetActive(false);
             var index = transform.GetSiblingIndex();
-            List<Character> list = battleManager.EnemyCharacters;
+            var list = battleManager.EnemyBattleParty;
             if (playableOrEnemy)
-                list = battleManager.PlayableCharacters;
+                list = battleManager.PlayerBattleParty;
             if (index < list.Count)
             {
                 character = list[index];
@@ -42,7 +41,7 @@ namespace MARDEK.UI
 
         public void OnPointerClick(PointerEventData eventData)
         {
-            BattleUIManager.Instance.InspectCharacter(character);
+            BattleUIManager.Instance.InspectCharacter(character.Character);
         }
     }
 }

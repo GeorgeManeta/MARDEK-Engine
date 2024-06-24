@@ -4,12 +4,13 @@ using UnityEngine;
 
 namespace MARDEK.UI
 {
+    using Battle;
     public class ListCharacterExpendableItems : ListActions
     {
         public void SetSlots()
         {
             ClearSlots();
-            foreach(var slot in Battle.BattleManager.characterActing.Inventory.Slots)
+            foreach (var slot in BattleManager.characterActing.Character.Inventory.Slots)
             {
                 if (slot.item is Inventory.ExpendableItem)
                 {

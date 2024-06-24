@@ -1,21 +1,21 @@
 using UnityEngine;
 using System.Collections.Generic;
-using MARDEK.Inventory;
-using MARDEK.Stats;
 
 namespace MARDEK.CharacterSystem
 {
+    using Core;
+    using Inventory;
+    using Stats;
     [System.Serializable]
-    public class Character : IStats
+    public class Character : IStats, IActor
     {
         [SerializeField] public bool isRequired;
         [field: SerializeField] public CharacterProfile Profile { get; private set; }
-        [field: SerializeField] public Inventory.Inventory EquippedItems { get; private set; } = new Inventory.Inventory();
-        [field: SerializeField] public Inventory.Inventory Inventory { get; private set; } = new Inventory.Inventory();
+        [field: SerializeField] public Inventory EquippedItems { get; private set; } = new Inventory();
+        [field: SerializeField] public Inventory Inventory { get; private set; } = new Inventory();
         [field: SerializeField] public List<SkillSlot> SkillSlots { get; private set; } = new List<SkillSlot>();
         [Header("Stats")]
         [SerializeField] StatsSet volatileStats = new StatsSet(true);
-        public int LastStatModificationFrame { get; private set; } = -1;
 
         [SerializeField] int _level = 1;
         [SerializeField] int _exp = 0;
@@ -117,7 +117,6 @@ namespace MARDEK.CharacterSystem
         public void ModifyStat(IntegerStat stat, int delta)
         {
             //Debug.Log($"Modify stat {stat.name} by {delta}");
-            LastStatModificationFrame = Time.frameCount;
             if (stat == StatsGlobals.Instance.Level)
                 _level += delta;
             else if (stat == StatsGlobals.Instance.Experience)

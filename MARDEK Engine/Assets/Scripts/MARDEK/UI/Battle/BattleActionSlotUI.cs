@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace MARDEK.UI
 {
-    using Stats;
+    using Core;
     public class BattleActionSlotUI : Selectable
     {
         public delegate void UpdateSelectedSlot(IActionSlot slot);

@@ -1,11 +1,11 @@
 using UnityEngine;
 using System.Collections.Generic;
-using MARDEK.Stats;
 
 namespace MARDEK.Inventory
 {
+    using Core;
     [System.Serializable]
-    public class Slot : Stats.IActionSlot
+    public class Slot : IActionSlot
     {
         public Item currentItem;
         public int currentAmount;
@@ -101,9 +101,9 @@ namespace MARDEK.Inventory
             return takenItem;
         }
 
-        public void ApplyAction(IStats user, IStats target)
+        public void ApplyAction(IActor user, IActor target)
         {
-            Debug.Log($"TODO: use item = {this.DisplayName}");
+            throw new System.NotImplementedException();
         }
     }
 }

@@ -10,7 +10,7 @@ namespace MARDEK.Stats.ExpressionParser
         {
             var leftValue = left == null ? 0 : left.Evaluate(user, target);
             var rightValue = right == null ? 0 : right.Evaluate(user, target);
-            Debug.Log($"Max between {leftValue} and {rightValue}");
+            //Debug.Log($"Max between {leftValue} and {rightValue}");
             return Mathf.Max(leftValue, rightValue);
         }
     }

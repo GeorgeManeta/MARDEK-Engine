@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <displayName>k__BackingField: Monster
   <displayClass>k__BackingField: 
+  <element>k__BackingField: {fileID: 11400000, guid: b58053569349d314892770b43156bfd2, type: 2}
+  <portrait>k__BackingField: {fileID: 0}
   <WalkSprites>k__BackingField: {fileID: 0}
+  <BattleModelPrefab>k__BackingField: {fileID: 541649454727450239, guid: 753b4f4c394586b409582fd403ce7a0b, type: 3}
   <ActionSkillset>k__BackingField: {fileID: 0}
   <StartingStats>k__BackingField:
     intStats:
@@ -28,7 +31,5 @@ MonoBehaviour:
       _value: 8
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 328a9b0db2868104aabffa0df1e57c22, type: 2}
       _value: 50
-  <element>k__BackingField: {fileID: 11400000, guid: b58053569349d314892770b43156bfd2, type: 2}
-  <portrait>k__BackingField: {fileID: 0}
   MaxHPExpressionOveride: {fileID: 11400000, guid: d52a272f46ff3924baa8d75b9c8a4798, type: 2}
   MaxMPExpressionOveride: {fileID: 11400000, guid: b7a7ee1b5d13f3e46beff693649086c7, type: 2}

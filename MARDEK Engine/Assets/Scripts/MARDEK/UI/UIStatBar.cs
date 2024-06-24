@@ -14,17 +14,6 @@ namespace MARDEK.UI
         [SerializeField] TMPro.TMP_Text statText;
         [SerializeField] TMPro.TMP_Text maxStatText;
 
-        int lastUpdatedFrame = -1;
-        bool needUpdate
-        {
-            get
-            {
-                if (characterUI.character == null)
-                    return false;
-                return characterUI.character.LastStatModificationFrame > lastUpdatedFrame;
-            }
-        }
-
         private void OnEnable()
         {
             UpdateBar();
@@ -32,8 +21,7 @@ namespace MARDEK.UI
 
         private void LateUpdate()
         {
-            if (needUpdate)
-                UpdateBar();
+            UpdateBar();
         }
 
         [ContextMenu("Update Bar")]
@@ -54,7 +42,6 @@ namespace MARDEK.UI
                 if(float.IsFinite(xScale))
                     barTransform.localScale = new Vector3(xScale, 1, 1);
             }
-            lastUpdatedFrame = Time.frameCount;
         }
     }
 }

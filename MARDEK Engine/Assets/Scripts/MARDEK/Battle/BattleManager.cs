@@ -6,32 +6,51 @@ using MARDEK.Stats;
 
 namespace MARDEK.Battle
 {
+    using Core;
     using Progress;
     using UnityEngine.Events;
 
     public class BattleManager : MonoBehaviour
     {
-        const float actResolution = 1000;
-
-        public static EncounterSet encounter { private get; set; }
         [SerializeField] IntegerStat ACTStat = null;
         [SerializeField] IntegerStat AGLStat = null;
         [SerializeField] Party playerParty;
         [SerializeField] List<Character> DummyEnemies;
         [SerializeField] GameObject characterActionUI = null;
+        [SerializeField] List<GameObject> enemyPartyPositions = new();
+        [SerializeField] List<GameObject> playerPartyPositions = new();
         [SerializeField] UnityEvent OnVictory;
-        public List<Character> EnemyCharacters { get; private set; } = new List<Character>();
-        public List<Character> PlayableCharacters { get { return playerParty.Characters; } }
-        public static Character characterActing { get; private set; }
-        public static Stats.IActionSlot selectedAction { get; set; }
+        public static EncounterSet encounter { private get; set; }
+        public static BattleCharacter characterActing { get; private set; }
+        public static IActionSlot selectedAction { get; set; }
+        const float actResolution = 1000;
+        public List<BattleCharacter> EnemyBattleParty { get; private set; } = new();
+        public List<BattleCharacter> PlayerBattleParty { get; private set; } = new();
 
         private void Awake()
         {
+            List<Character> enemyCharacters;
             if (encounter)
-                EnemyCharacters = encounter.InstantiateEncounter();
+                enemyCharacters = encounter.InstantiateEncounter();
             else
-                EnemyCharacters = DummyEnemies;
+                enemyCharacters = DummyEnemies;
+            foreach (var c in enemyCharacters)
+                SpawnEnemyBattleCharacter(c);
+            foreach (var c in playerParty.Characters)
+                SpawnPlayerBattleCharacter(c);
         }
+
+        void SpawnEnemyBattleCharacter(Character c)
+        {
+            var position = enemyPartyPositions[EnemyBattleParty.Count].transform.position;
+            EnemyBattleParty.Add(new BattleCharacter(c, position));
+        }
+        void SpawnPlayerBattleCharacter(Character c)
+        {
+            var position = playerPartyPositions[PlayerBattleParty.Count].transform.position;
+            PlayerBattleParty.Add(new BattleCharacter(c, position));
+        }
+
         private void Update()
         {
             CheckVictory();
@@ -47,17 +66,14 @@ namespace MARDEK.Battle
             {
                 if (selectedAction != null)
                 {
-                    Character target;
-                    if (EnemyCharacters.Contains(characterActing))
-                    {
-                        target = PlayableCharacters[Random.Range(0, PlayableCharacters.Count-1)];
-                    }
+                    // pick random target for now
+                    BattleCharacter target;
+                    if (EnemyBattleParty.Contains(characterActing))
+                        target = PlayerBattleParty[Random.Range(0, PlayerBattleParty.Count-1)];
                     else
-                    {
-                        target = EnemyCharacters[Random.Range(0, EnemyCharacters.Count-1)];
-                    }
+                        target = EnemyBattleParty[Random.Range(0, EnemyBattleParty.Count-1)];
 
-                    Debug.Log($"{characterActing.Profile.displayName} targets {target.Profile.displayName}");
+                    Debug.Log($"{characterActing.Name} targets {target.Name}");
                     selectedAction.ApplyAction(characterActing, target);
                     selectedAction = null;
                     characterActing = null;
@@ -65,7 +81,7 @@ namespace MARDEK.Battle
                 }
             }
         }
-        Character StepActCycleTryGetNextCharacter()
+        BattleCharacter StepActCycleTryGetNextCharacter()
         {
             var charactersInBattle = GetCharactersInOrder();
             AddTickRateToACT(ref charactersInBattle, Time.deltaTime);
@@ -74,20 +90,21 @@ namespace MARDEK.Battle
                 readyToAct.ModifyStat(ACTStat, -(int)actResolution); // "reset" charact ACT
             return readyToAct;
         }
-        List<Character> GetCharactersInOrder()
+        List<BattleCharacter> GetCharactersInOrder()
         {
             // order by Position (p1 e1 p2 e2 p3 e3 p4 e4)
-            List<Character> returnList = new List<Character>();
+            List<BattleCharacter> returnList = new List<BattleCharacter>();
             for (int i = 0; i < 4; i++)
             {
-                if (PlayableCharacters.Count > i)
-                    returnList.Add(PlayableCharacters[i]);
-                if (EnemyCharacters.Count > i)
-                    returnList.Add(EnemyCharacters[i]);
+                if (PlayerBattleParty.Count > i)
+                    returnList.Add(PlayerBattleParty[i]);
+                if (EnemyBattleParty.Count > i)
+                    returnList.Add(EnemyBattleParty[i]);
             }
             return returnList;
         }
-        void AddTickRateToACT(ref List<Character> characters, float deltatime)
+        
+        void AddTickRateToACT(ref List<BattleCharacter> characters, float deltatime)
         {
             foreach(var c in characters)
             {
@@ -96,7 +113,7 @@ namespace MARDEK.Battle
                 c.ModifyStat(ACTStat, (int)tickRate);
             }
         }
-        Character GetNextCharacterReadyToAct(List<Character> characters)
+        BattleCharacter GetNextCharacterReadyToAct(List<BattleCharacter> characters)
         {
             float maxAct = 0;
             foreach(var c in characters)
@@ -120,15 +137,15 @@ namespace MARDEK.Battle
     
         void CheckVictory()
         {
-            for (int i = EnemyCharacters.Count - 1; i >= 0; i--)
+            for (int i = EnemyBattleParty.Count - 1; i >= 0; i--)
             {
-                var enemy = EnemyCharacters[i];
+                var enemy = EnemyBattleParty[i];
                 var health = enemy.GetStat(StatsGlobals.Instance.CurrentHP);
                 if (health <= 0)
-                    EnemyCharacters.Remove(enemy);
+                    EnemyBattleParty.Remove(enemy);
             }
 
-            var victory = EnemyCharacters.Count == 0;
+            var victory = EnemyBattleParty.Count == 0;
             if (victory)
             {
                 print("victory!!");

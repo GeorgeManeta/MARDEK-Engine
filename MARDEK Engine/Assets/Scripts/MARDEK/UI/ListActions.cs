@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace MARDEK.UI
 {
-    using Stats;
+    using Core;
     public abstract class ListActions : MonoBehaviour
     {
         [SerializeField] SelectableLayout listUI;

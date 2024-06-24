@@ -19,7 +19,7 @@ namespace MARDEK.UI
         {
             var character = Battle.BattleManager.characterActing;
             skillsetToShow = null;
-            foreach (var slot in character.SkillSlots)
+            foreach (var slot in character.Character.SkillSlots)
             {
                 foreach (var set in possibleSkillsets)
                 {
@@ -49,7 +49,7 @@ namespace MARDEK.UI
                 var character = Battle.BattleManager.characterActing;
                 foreach (var skill in skillsetToShow.Skills)
                 {
-                    foreach (var skillSlot in character.SkillSlots)
+                    foreach (var skillSlot in character.Character.SkillSlots)
                     {
                         if (skill == skillSlot.Skill)
                         {

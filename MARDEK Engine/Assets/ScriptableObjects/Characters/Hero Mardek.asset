@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <displayName>k__BackingField: Mardek
   <displayClass>k__BackingField: 
+  <element>k__BackingField: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
+  <portrait>k__BackingField: {fileID: 11400000, guid: 4ad3a9aab74c9d046ab7ea6201b62db6, type: 2}
   <WalkSprites>k__BackingField: {fileID: 11400000, guid: 2bfcf26a6a3c20846bbe75c6526f1515, type: 2}
+  <BattleModelPrefab>k__BackingField: {fileID: 6477166618577748535, guid: 3ffacb44af2dcaa479644d3d3b5edb3b, type: 3}
   <ActionSkillset>k__BackingField: {fileID: 11400000, guid: 97d3ee5c53530fc4082df7991eda06e4, type: 2}
   <StartingStats>k__BackingField:
     intStats:
@@ -26,7 +29,5 @@ MonoBehaviour:
       _value: 10
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
       _value: 12
-  <element>k__BackingField: {fileID: 11400000, guid: 57ae7927a13bd1b479f4301ce3b69221, type: 2}
-  <portrait>k__BackingField: {fileID: 11400000, guid: 4ad3a9aab74c9d046ab7ea6201b62db6, type: 2}
   MaxHPExpressionOveride: {fileID: 0}
   MaxMPExpressionOveride: {fileID: 0}

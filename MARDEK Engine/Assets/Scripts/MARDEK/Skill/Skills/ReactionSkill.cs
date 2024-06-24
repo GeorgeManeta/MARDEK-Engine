@@ -5,10 +5,11 @@ using UnityEngine;
 
 namespace MARDEK.Skill
 {
+    using Core;
     [CreateAssetMenu(menuName = "MARDEK/Skill/ReactionSkill")]
     public class ReactionSkill : Skill
     {
-        public override void Apply(IStats user, IStats target)
+        public override void Apply(IActor user, IActor target)
         {
             throw new System.NotImplementedException();
         }

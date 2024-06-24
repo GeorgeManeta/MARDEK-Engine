@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace MARDEK.UI
 {
-    using Stats;
+    using Core;
     public class BattleActionDescription : MonoBehaviour
     {
         [SerializeField] Text nameLabel;

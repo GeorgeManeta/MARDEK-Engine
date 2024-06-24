@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <displayName>k__BackingField: Deugan
   <displayClass>k__BackingField: Hero
+  <element>k__BackingField: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
+  <portrait>k__BackingField: {fileID: 11400000, guid: 3352fe56a7f1ff54f8a6c2ff8c4680db, type: 2}
   <WalkSprites>k__BackingField: {fileID: 11400000, guid: a021fb592bdaa2c4a9a3a368a58456ae, type: 2}
+  <BattleModelPrefab>k__BackingField: {fileID: 6298310975210123530, guid: 4f019a7cdf452bd4299de7b40cecc970, type: 3}
   <ActionSkillset>k__BackingField: {fileID: 11400000, guid: 97d3ee5c53530fc4082df7991eda06e4, type: 2}
   <StartingStats>k__BackingField:
     intStats:
@@ -28,7 +31,5 @@ MonoBehaviour:
       _value: 12
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 608b897aad047cc4fa85eaa65f2cc2ec, type: 2}
       _value: 15
-  <element>k__BackingField: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
-  <portrait>k__BackingField: {fileID: 11400000, guid: 3352fe56a7f1ff54f8a6c2ff8c4680db, type: 2}
   MaxHPExpressionOveride: {fileID: 0}
   MaxMPExpressionOveride: {fileID: 0}

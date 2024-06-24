@@ -15,6 +15,11 @@ public class BattleModel : MonoBehaviour
         ApplySkin();
     }
 
+    public void SetPosition(Vector3 position)
+    {
+        gameObject.transform.position = position;
+    }
+
     public void Create(string name, int spriteID, string skin)
     {
         nameFrom5118 = name;

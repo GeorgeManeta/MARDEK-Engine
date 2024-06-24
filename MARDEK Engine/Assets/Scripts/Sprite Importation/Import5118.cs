@@ -10,7 +10,9 @@ public class Import5118 : MonoBehaviour
 {
     [SerializeField] TextAsset json5118;
     [SerializeField] List<SWFFrame> frames = new List<SWFFrame>();
-    [ContextMenu("Import")] void Import()
+
+    [ContextMenu("Import")] 
+    void Import()
     {
         for (int i = gameObject.transform.childCount - 1; i >= 0; i--)
             DestroyImmediate(transform.GetChild(i).gameObject);

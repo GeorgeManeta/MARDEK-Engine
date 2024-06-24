@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MARDEK.Stats;
-using MARDEK.Core;
 
 namespace MARDEK.Skill
 {
+    using Core;
     public abstract class Skill : AddressableScriptableObject
     {
         [field: SerializeField] public string DisplayName { get; private set; }
@@ -14,6 +14,6 @@ namespace MARDEK.Skill
         [field: SerializeField] public int PointsRequiredToMaster { get; private set; }
         [field: SerializeField] public Element Element { get; private set; }
 
-        public abstract void Apply(IStats user, IStats target);
+        public abstract void Apply(IActor user, IActor target);
     }
 }

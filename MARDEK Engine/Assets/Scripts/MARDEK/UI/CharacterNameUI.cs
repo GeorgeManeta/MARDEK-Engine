@@ -12,10 +12,11 @@ namespace MARDEK.UI
 
         void OnEnable()
         {
-            if(characterUI.character?.Profile == null)
+            var profile = characterUI.character?.Character?.Profile;
+            if (profile == null)
                 characteName.text = "Null";
             else
-                characteName.text = characterUI.character.Profile.displayName;
+                characteName.text = profile.displayName;
         }
     }
 }
