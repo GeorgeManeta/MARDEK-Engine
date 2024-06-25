@@ -17,7 +17,7 @@ namespace MARDEK.Battle
         {
             Character = character_;
             battleModel = Object.Instantiate(Character.Profile.BattleModelPrefab).GetComponent<BattleModel>();
-            battleModel.SetPosition(position);
+            battleModel.SetBattlePosition(position);
         }
 
         public int GetStat(IntegerStat stat)

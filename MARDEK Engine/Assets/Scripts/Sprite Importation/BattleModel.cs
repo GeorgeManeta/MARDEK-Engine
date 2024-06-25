@@ -15,9 +15,14 @@ public class BattleModel : MonoBehaviour
         ApplySkin();
     }
 
-    public void SetPosition(Vector3 position)
+    public void SetBattlePosition(Vector3 position)
     {
         gameObject.transform.position = position;
+        if (position.x < 0)
+            gameObject.transform.localScale = new Vector3(-1, 1, 1);
+        var layer = SortingLayer.NameToID($"BattleModel {(int)position.z}");
+        foreach (var r in GetComponentsInChildren<SpriteRenderer>(includeInactive:true))
+            r.sortingLayerID = layer;
     }
 
     public void Create(string name, int spriteID, string skin)
